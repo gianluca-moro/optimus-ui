@@ -1,4 +1,4 @@
-import { deepMerge } from '@primeuix/utils/object';
+import { deepMerge } from '@openng/optimus-ui-utils/object';
 import Theme from '../config/index';
 
 export default function usePreset<T extends Record<string, unknown>>(...presets: T[]): T {

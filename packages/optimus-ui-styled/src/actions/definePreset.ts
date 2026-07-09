@@ -1,4 +1,4 @@
-import { deepMerge } from '@primeuix/utils/object';
+import { deepMerge } from '@openng/optimus-ui-utils/object';
 
 export default function definePreset<T extends Record<string, unknown>>(...presets: T[]): T {
     return deepMerge(...presets) as T;

@@ -1,5 +1,5 @@
 import { computed, Directive, signal } from '@angular/core';
-import { isNotEmpty } from '@primeuix/utils';
+import { isNotEmpty } from '@openng/optimus-ui-utils';
 import { BaseComponent } from 'primeng/basecomponent';
 
 @Directive({ standalone: true })

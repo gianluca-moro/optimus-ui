@@ -1,5 +1,5 @@
 import { AfterViewInit, booleanAttribute, Directive, ElementRef, EventEmitter, HostListener, Input, NgModule, NgZone, OnDestroy, Output, Renderer2 } from '@angular/core';
-import { addClass, removeClass } from '@primeuix/utils';
+import { addClass, removeClass } from '@openng/optimus-ui-utils';
 import { DomHandler } from 'primeng/dom';
 import { VoidListener } from 'primeng/ts-helpers';
 

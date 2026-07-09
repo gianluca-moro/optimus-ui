@@ -24,7 +24,7 @@ import {
 } from '@angular/core';
 
 import { MotionOptions } from '@primeuix/motion';
-import { find, findIndexInList, uuid } from '@primeuix/utils';
+import { find, findIndexInList, uuid } from '@openng/optimus-ui-utils';
 import { PrimeTemplate, SharedModule } from 'primeng/api';
 import { BaseComponent, PARENT_INSTANCE } from 'primeng/basecomponent';
 import { Bind, BindModule } from 'primeng/bind';

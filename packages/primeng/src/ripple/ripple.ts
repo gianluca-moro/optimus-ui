@@ -1,6 +1,6 @@
 import { isPlatformBrowser } from '@angular/common';
 import { Directive, effect, inject, NgModule, NgZone } from '@angular/core';
-import { addClass, getHeight, getOffset, getOuterHeight, getOuterWidth, getWidth, removeClass, remove as utils_remove } from '@primeuix/utils';
+import { addClass, getHeight, getOffset, getOuterHeight, getOuterWidth, getWidth, removeClass, remove as utils_remove } from '@openng/optimus-ui-utils';
 import { BaseComponent } from 'primeng/basecomponent';
 import { VoidListener } from 'primeng/ts-helpers';
 import { RippleStyle } from './style/ripplestyle';

@@ -1,4 +1,4 @@
-import { resolve } from '@primeuix/utils';
+import { resolve } from '@openng/optimus-ui-utils';
 import { evaluateDtExpressions, type StyleType } from '..';
 import { dt } from './dt';
 

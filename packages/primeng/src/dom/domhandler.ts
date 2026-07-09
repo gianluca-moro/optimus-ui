@@ -1,4 +1,4 @@
-import { getCSSVariableByRegex } from '@primeuix/utils';
+import { getCSSVariableByRegex } from '@openng/optimus-ui-utils';
 /**
  * @dynamic is for runtime initializing DomHandler.browser
  *
@@ -854,7 +854,7 @@ export class DomHandler {
 }
 
 import { $dt } from '@primeuix/styled';
-import * as utils from '@primeuix/utils';
+import * as utils from '@openng/optimus-ui-utils';
 
 // @todo: update this when we remove the old domhandler
 export function blockBodyScroll() {

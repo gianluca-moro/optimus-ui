@@ -36,7 +36,7 @@
         "dev:link": "pnpm link --global && npm link"
     },
     "dependencies": {
-        "@primeuix/utils": "workspace:@openng/optimus-ui-utils@*"
+        "@openng/optimus-ui-utils": "workspace:*"
     },
     "engines": {
         "node": ">=12.11.0"

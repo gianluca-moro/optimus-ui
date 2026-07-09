@@ -4,10 +4,10 @@
         "target": "es2016",
         "baseUrl": ".",
         "paths": {
-            "@primeuix/utils": [
+            "@openng/optimus-ui-utils": [
                 "../optimus-ui-utils/src"
             ],
-            "@primeuix/utils/*": [
+            "@openng/optimus-ui-utils/*": [
                 "../optimus-ui-utils/src/*"
             ],
             "@primeuix/styled": [
