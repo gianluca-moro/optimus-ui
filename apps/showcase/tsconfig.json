@@ -16,7 +16,7 @@
             "@openng/optimus-ui-themes": ["../../packages/optimus-ui-themes/src/index"],
             "@openng/optimus-ui-themes/types": ["../../packages/optimus-ui-themes/types/index"],
             "@openng/optimus-ui-themes/types/*": ["../../packages/optimus-ui-themes/types/*/index"],
-            "@openng/optimus-ui-themes/tokens": ["../../packages/optimus-ui-themes/tokens/index"],
+            "@openng/optimus-ui-themes/tokens": ["../../packages/optimus-ui-themes/tokens"],
             "@openng/optimus-ui-themes/*": ["../../packages/optimus-ui-themes/src/presets/*/index", "../../packages/optimus-ui-themes/src/presets/*"],
             "@/*": ["./*"]
         }
