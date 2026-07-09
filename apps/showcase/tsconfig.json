@@ -16,6 +16,7 @@
             "@openng/optimus-ui-themes": ["../../packages/optimus-ui-themes/src/index"],
             "@openng/optimus-ui-themes/types": ["../../packages/optimus-ui-themes/types/index"],
             "@openng/optimus-ui-themes/types/*": ["../../packages/optimus-ui-themes/types/*/index"],
+            // extension-less on purpose: resolves the tracked tokens.ts source before the generated tokens/ dir
             "@openng/optimus-ui-themes/tokens": ["../../packages/optimus-ui-themes/tokens"],
             "@openng/optimus-ui-themes/*": ["../../packages/optimus-ui-themes/src/presets/*/index", "../../packages/optimus-ui-themes/src/presets/*"],
             "@/*": ["./*"]
