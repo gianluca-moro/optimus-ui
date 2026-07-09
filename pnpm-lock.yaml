@@ -67,9 +67,6 @@ catalogs:
     '@primeuix/mcp':
       specifier: ^1.0.0
       version: 1.0.1
-    '@primeuix/motion':
-      specifier: ^0.0.10
-      version: 0.0.10
     primeicons:
       specifier: ^7.0.0
       version: 7.0.0
@@ -138,6 +135,9 @@ importers:
       '@commitlint/config-conventional':
         specifier: ^19.6.0
         version: 19.8.1
+      '@primeuix/motion':
+        specifier: workspace:@openng/optimus-ui-motion@*
+        version: link:packages/optimus-ui-motion
       '@primeuix/styled':
         specifier: workspace:@openng/optimus-ui-styled@*
         version: link:packages/optimus-ui-styled
@@ -315,6 +315,12 @@ importers:
         specifier: ^8.1.0
         version: 8.5.1(jiti@2.7.0)(postcss@8.5.14)(typescript@5.9.3)(yaml@2.9.0)
 
+  packages/optimus-ui-motion:
+    dependencies:
+      '@primeuix/utils':
+        specifier: workspace:@openng/optimus-ui-utils@*
+        version: link:../optimus-ui-utils
+
   packages/optimus-ui-styled:
     dependencies:
       '@primeuix/utils':
@@ -367,8 +373,8 @@ importers:
         specifier: catalog:angular21
         version: 21.2.13(@angular/common@21.2.13(@angular/core@21.2.13(@angular/compiler@21.2.13)(rxjs@7.8.2))(rxjs@7.8.2))(@angular/core@21.2.13(@angular/compiler@21.2.13)(rxjs@7.8.2))(@angular/platform-browser@21.2.13(@angular/animations@21.0.0(@angular/core@21.2.13(@angular/compiler@21.2.13)(rxjs@7.8.2)))(@angular/common@21.2.13(@angular/core@21.2.13(@angular/compiler@21.2.13)(rxjs@7.8.2))(rxjs@7.8.2))(@angular/core@21.2.13(@angular/compiler@21.2.13)(rxjs@7.8.2)))(rxjs@7.8.2)
       '@primeuix/motion':
-        specifier: 'catalog:'
-        version: 0.0.10
+        specifier: workspace:@openng/optimus-ui-motion@*
+        version: link:../optimus-ui-motion
       '@primeuix/styled':
         specifier: workspace:@openng/optimus-ui-styled@*
         version: link:../optimus-ui-styled
@@ -2702,14 +2708,6 @@ packages:
 
   '@primeuix/mcp@1.0.1':
     resolution: {integrity: sha512-TSaakkktu2Yt5HnD2q9HucxpXt6LawodBntjsXlhgZlMSLK1vo647A7lgW1hztsZuzQl1zlk8A+6OMmGY8Xnfg==}
-    engines: {node: '>=12.11.0'}
-
-  '@primeuix/motion@0.0.10':
-    resolution: {integrity: sha512-PsZwOPq79Scp7/ionshRcQ5xKVf9+zuLcyY5mf6onK8chHT5C9JGphmcIZ4CzcqxuGEpsm8AIbTGy+zS3RtzLA==}
-    engines: {node: '>=12.11.0'}
-
-  '@primeuix/utils@0.6.4':
-    resolution: {integrity: sha512-pZ5f+vj7wSzRhC7KoEQRU5fvYAe+RP9+m39CTscZ3UywCD1Y2o6Fe1rRgklMPSkzUcty2jzkA0zMYkiJBD1hgg==}
     engines: {node: '>=12.11.0'}
 
   '@rolldown/binding-android-arm64@1.0.0-rc.4':
@@ -9892,12 +9890,6 @@ snapshots:
     transitivePeerDependencies:
       - '@cfworker/json-schema'
       - supports-color
-
-  '@primeuix/motion@0.0.10':
-    dependencies:
-      '@primeuix/utils': 0.6.4
-
-  '@primeuix/utils@0.6.4': {}
 
   '@rolldown/binding-android-arm64@1.0.0-rc.4':
     optional: true
