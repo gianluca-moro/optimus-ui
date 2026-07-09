@@ -119,12 +119,6 @@ const GUIDE_PAGES = [
         description: 'LLM-optimized documentation endpoints for PrimeNG components.'
     },
     {
-        route: 'mcp',
-        docPath: 'mcp',
-        title: 'MCP Server',
-        description: 'Model Context Protocol (MCP) server for PrimeNG component library.'
-    },
-    {
         route: 'guides/accessibility',
         docPath: 'guides/accessibility',
         title: 'Accessibility',
@@ -878,7 +872,7 @@ function generateThemingSection(apiDocs, componentName) {
 }
 
 /**
- * Generate JSON output for MCP server
+ * Generate JSON output with full API data
  */
 function generateJsonOutput(components, apiDocs, guidePages = []) {
     const output = {
@@ -1275,7 +1269,7 @@ function main() {
 
     console.log('\n✅ LLM documentation generation complete!');
     console.log(`\nOutput directory: ${OUTPUT_DIR}`);
-    console.log('   - components.json (for MCP server with full API data)');
+    console.log('   - components.json (full API data)');
     console.log('   - llms-full.txt (full documentation with Props, Templates, Emits, PT, Theming)');
     console.log('   - llms.txt (index file)');
     console.log('   - components/*.md (individual component files with complete API)');

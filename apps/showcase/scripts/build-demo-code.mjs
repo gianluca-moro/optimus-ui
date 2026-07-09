@@ -11,7 +11,7 @@ const DOCS_DIR = path.resolve(__dirname, '../doc');
 const OUTPUT_PATH = path.resolve(__dirname, '../public/demos.json');
 
 // Directories to skip (not component demos)
-const SKIP_DIRS = ['apidoc', 'theming', 'icons', 'installation', 'configuration', 'customicons', 'playground', 'uikit', 'templates', 'primeflex', 'csslayer', 'migration', 'llms', 'mcp'];
+const SKIP_DIRS = ['apidoc', 'theming', 'icons', 'installation', 'configuration', 'customicons', 'playground', 'uikit', 'templates', 'primeflex', 'csslayer', 'migration', 'llms'];
 
 // Known services that exist in StackBlitz templates
 const KNOWN_SERVICES = ['CarService', 'CountryService', 'CustomerService', 'EventService', 'NodeService', 'PhotoService', 'ProductService', 'TicketService'];
