@@ -16,10 +16,10 @@
             "@openng/optimus-ui-styled/*": [
                 "../optimus-ui-styled/src/*"
             ],
-            "@primeuix/styles": [
+            "@openng/optimus-ui-styles": [
                 "../optimus-ui-styles/src"
             ],
-            "@primeuix/styles/*": [
+            "@openng/optimus-ui-styles/*": [
                 "../optimus-ui-styles/src/*"
             ],
             "@openng/optimus-ui-motion": [

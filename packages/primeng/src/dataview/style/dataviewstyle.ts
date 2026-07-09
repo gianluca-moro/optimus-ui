@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { style } from '@primeuix/styles/dataview';
+import { style } from '@openng/optimus-ui-styles/dataview';
 import { BaseStyle } from 'primeng/base';
 
 const classes = {

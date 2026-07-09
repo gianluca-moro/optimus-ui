@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { style } from '@primeuix/styles/dialog';
+import { style } from '@openng/optimus-ui-styles/dialog';
 import { BaseStyle } from 'primeng/base';
 
 /* Position */

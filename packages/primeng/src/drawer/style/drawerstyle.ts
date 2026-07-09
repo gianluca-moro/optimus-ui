@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { style as drawer_style } from '@primeuix/styles/drawer';
+import { style as drawer_style } from '@openng/optimus-ui-styles/drawer';
 import { BaseStyle } from 'primeng/base';
 
 const style = /*css*/ `

@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { style } from '@primeuix/styles/toast';
+import { style } from '@openng/optimus-ui-styles/toast';
 import { BaseStyle } from 'primeng/base';
 
 // Position

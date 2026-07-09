@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { style } from '@primeuix/styles/confirmdialog';
+import { style } from '@openng/optimus-ui-styles/confirmdialog';
 import { BaseStyle } from 'primeng/base';
 
 const classes = {

@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { style as checkbox_style } from '@primeuix/styles/checkbox';
+import { style as checkbox_style } from '@openng/optimus-ui-styles/checkbox';
 import { BaseStyle } from 'primeng/base';
 
 const style = /*css*/ `

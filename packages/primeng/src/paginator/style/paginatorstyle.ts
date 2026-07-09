@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { style } from '@primeuix/styles/paginator';
+import { style } from '@openng/optimus-ui-styles/paginator';
 import { BaseStyle } from 'primeng/base';
 
 const classes = {

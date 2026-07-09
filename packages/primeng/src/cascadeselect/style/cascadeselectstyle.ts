@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { style as cascadeselect_style } from '@primeuix/styles/cascadeselect';
+import { style as cascadeselect_style } from '@openng/optimus-ui-styles/cascadeselect';
 import { BaseStyle } from 'primeng/base';
 
 const style = /*css*/ `

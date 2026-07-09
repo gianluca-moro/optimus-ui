@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { style as datatable_style } from '@primeuix/styles/datatable';
+import { style as datatable_style } from '@openng/optimus-ui-styles/datatable';
 import { BaseStyle } from 'primeng/base';
 
 const style = /*css*/ `

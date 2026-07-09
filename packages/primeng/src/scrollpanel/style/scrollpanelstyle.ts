@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { style as scrollpanel_style } from '@primeuix/styles/scrollpanel';
+import { style as scrollpanel_style } from '@openng/optimus-ui-styles/scrollpanel';
 import { BaseStyle } from 'primeng/base';
 
 const style = /*css*/ `

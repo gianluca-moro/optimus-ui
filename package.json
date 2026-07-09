@@ -59,7 +59,7 @@
         "@commitlint/config-conventional": "^19.6.0",
         "@openng/optimus-ui-motion": "workspace:*",
         "@openng/optimus-ui-styled": "workspace:*",
-        "@primeuix/styles": "workspace:@openng/optimus-ui-styles@*",
+        "@openng/optimus-ui-styles": "workspace:*",
         "@primeuix/themes": "workspace:@openng/optimus-ui-themes@*",
         "@openng/optimus-ui-utils": "workspace:*",
         "@typescript-eslint/eslint-plugin": "^8.13.0",

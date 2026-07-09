@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { style as toggleswitch_style } from '@primeuix/styles/toggleswitch';
+import { style as toggleswitch_style } from '@openng/optimus-ui-styles/toggleswitch';
 import { BaseStyle } from 'primeng/base';
 
 const style = /*css*/ `

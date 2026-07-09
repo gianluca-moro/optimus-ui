@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { style as textarea_style } from '@primeuix/styles/textarea';
+import { style as textarea_style } from '@openng/optimus-ui-styles/textarea';
 import { BaseStyle } from 'primeng/base';
 
 const style = /*css*/ `

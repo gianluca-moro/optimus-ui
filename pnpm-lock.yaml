@@ -138,12 +138,12 @@ importers:
       '@openng/optimus-ui-styled':
         specifier: workspace:*
         version: link:packages/optimus-ui-styled
+      '@openng/optimus-ui-styles':
+        specifier: workspace:*
+        version: link:packages/optimus-ui-styles
       '@openng/optimus-ui-utils':
         specifier: workspace:*
         version: link:packages/optimus-ui-utils
-      '@primeuix/styles':
-        specifier: workspace:@openng/optimus-ui-styles@*
-        version: link:packages/optimus-ui-styles
       '@primeuix/themes':
         specifier: workspace:@openng/optimus-ui-themes@*
         version: link:packages/optimus-ui-themes
@@ -365,12 +365,12 @@ importers:
       '@openng/optimus-ui-styled':
         specifier: workspace:*
         version: link:../optimus-ui-styled
+      '@openng/optimus-ui-styles':
+        specifier: workspace:*
+        version: link:../optimus-ui-styles
       '@openng/optimus-ui-utils':
         specifier: workspace:*
         version: link:../optimus-ui-utils
-      '@primeuix/styles':
-        specifier: workspace:@openng/optimus-ui-styles@*
-        version: link:../optimus-ui-styles
       rxjs:
         specifier: ^6.0.0 || ^7.8.1
         version: 7.8.2

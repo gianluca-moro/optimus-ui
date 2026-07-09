@@ -45264,7 +45264,7 @@
         {
           "id": "whatsnew",
           "label": "Whatsnew",
-          "description": "PrimeNG v21 represents a major advancement in PrimeTek's product vision. Key highlights of this release include: PassThrough attributes for enhanced customization. Unstyled Mode for complete styling flexibility. Modern CSS-based animations . The deprecated provideAnimationsAsync is safe to remove. Initial zoneless support for improved performance. AI-enhanced documentation for better developer experience. Notes The internal packages @primeuix/styles and @primeuix/themes should be version 2.0.2 or higher. These packages are updated automatically with a fresh install. If you encounter any issues with visuals or animations, please verify that you are using the correct versions of these packages.",
+          "description": "PrimeNG v21 represents a major advancement in PrimeTek's product vision. Key highlights of this release include: PassThrough attributes for enhanced customization. Unstyled Mode for complete styling flexibility. Modern CSS-based animations . The deprecated provideAnimationsAsync is safe to remove. Initial zoneless support for improved performance. AI-enhanced documentation for better developer experience. Notes The internal packages @openng/optimus-ui-styles and @primeuix/themes should be version 2.0.2 or higher. These packages are updated automatically with a fresh install. If you encounter any issues with visuals or animations, please verify that you are using the correct versions of these packages.",
           "examples": null
         }
       ]

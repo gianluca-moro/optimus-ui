@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { style as radiobutton_style } from '@primeuix/styles/radiobutton';
+import { style as radiobutton_style } from '@openng/optimus-ui-styles/radiobutton';
 import { BaseStyle } from 'primeng/base';
 
 const style = /*css*/ `

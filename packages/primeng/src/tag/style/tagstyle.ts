@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { style } from '@primeuix/styles/tag';
+import { style } from '@openng/optimus-ui-styles/tag';
 import { BaseStyle } from 'primeng/base';
 
 const classes = {

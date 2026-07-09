@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { style as datepicker_style } from '@primeuix/styles/datepicker';
+import { style as datepicker_style } from '@openng/optimus-ui-styles/datepicker';
 import { BaseStyle } from 'primeng/base';
 
 const style = /*css*/ `

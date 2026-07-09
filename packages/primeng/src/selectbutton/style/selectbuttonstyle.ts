@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { style as selectbutton_style } from '@primeuix/styles/selectbutton';
+import { style as selectbutton_style } from '@openng/optimus-ui-styles/selectbutton';
 import { BaseStyle } from 'primeng/base';
 
 const style = /*css*/ `

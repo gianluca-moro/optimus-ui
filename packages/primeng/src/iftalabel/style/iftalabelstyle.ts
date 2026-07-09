@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { style as iftalabel_style } from '@primeuix/styles/iftalabel';
+import { style as iftalabel_style } from '@openng/optimus-ui-styles/iftalabel';
 import { BaseStyle } from 'primeng/base';
 
 const style = /*css*/ `

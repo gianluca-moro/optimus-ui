@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { style } from '@primeuix/styles/menubar';
+import { style } from '@openng/optimus-ui-styles/menubar';
 import { BaseStyle } from 'primeng/base';
 
 const inlineStyles = {

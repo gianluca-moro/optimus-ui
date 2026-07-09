@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { style } from '@primeuix/styles/carousel';
+import { style } from '@openng/optimus-ui-styles/carousel';
 import { BaseStyle } from 'primeng/base';
 
 const classes = {

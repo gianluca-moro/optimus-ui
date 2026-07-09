@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { style as accordion_style } from '@primeuix/styles/accordion';
+import { style as accordion_style } from '@openng/optimus-ui-styles/accordion';
 import { BaseStyle } from 'primeng/base';
 
 const style = /*css*/ `

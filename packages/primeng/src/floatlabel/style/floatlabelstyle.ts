@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { style as floatlabel_style } from '@primeuix/styles/floatlabel';
+import { style as floatlabel_style } from '@openng/optimus-ui-styles/floatlabel';
 import { BaseStyle } from 'primeng/base';
 
 const style = /*css*/ `

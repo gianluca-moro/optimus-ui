@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { style } from '@primeuix/styles/scrolltop';
+import { style } from '@openng/optimus-ui-styles/scrolltop';
 import { BaseStyle } from 'primeng/base';
 
 const classes = {

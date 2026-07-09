@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { style } from '@primeuix/styles/divider';
+import { style } from '@openng/optimus-ui-styles/divider';
 import { BaseStyle } from 'primeng/base';
 
 /* Position */
