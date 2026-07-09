@@ -11,7 +11,6 @@ const PAGES_DIR = path.resolve(__dirname, '../pages');
 const API_DOC_PATH = path.resolve(__dirname, '../doc/apidoc/index.json');
 const DEMOS_JSON_PATH = path.resolve(__dirname, '../public/demos.json');
 const OUTPUT_DIR = path.resolve(__dirname, '../public/llms');
-const MCP_DATA_DIR = path.resolve(__dirname, '../../../packages/mcp/data');
 
 // Global demos data loaded from demos.json
 let demosData = null;
@@ -926,14 +925,6 @@ function generateJsonOutput(components, apiDocs, guidePages = []) {
     const outputPath = path.join(OUTPUT_DIR, 'components.json');
     fs.writeFileSync(outputPath, JSON.stringify(output, null, 2), 'utf-8');
     console.log(`✓ Generated JSON output: ${outputPath}`);
-
-    // Also write to MCP package data directory
-    if (!fs.existsSync(MCP_DATA_DIR)) {
-        fs.mkdirSync(MCP_DATA_DIR, { recursive: true });
-    }
-    const mcpOutputPath = path.join(MCP_DATA_DIR, 'components.json');
-    fs.writeFileSync(mcpOutputPath, JSON.stringify(output, null, 2), 'utf-8');
-    console.log(`✓ Generated MCP JSON output: ${mcpOutputPath}`);
 
     return output;
 }
