@@ -3,7 +3,6 @@ packages:
     - 'apps/*'
 
 catalog:
-    '@primeuix/styles': ^2.0.3
     '@primeuix/themes': ^2.0.3
     '@primeuix/motion': ^0.0.10
     '@primeuix/mcp': ^1.0.0

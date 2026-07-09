@@ -59,6 +59,7 @@
         "@commitlint/cli": "^19.6.1",
         "@commitlint/config-conventional": "^19.6.0",
         "@primeuix/styled": "workspace:@openng/optimus-ui-styled@*",
+        "@primeuix/styles": "workspace:@openng/optimus-ui-styles@*",
         "@primeuix/utils": "workspace:@openng/optimus-ui-utils@*",
         "@typescript-eslint/eslint-plugin": "^8.13.0",
         "cross-env": "^7.0.3",

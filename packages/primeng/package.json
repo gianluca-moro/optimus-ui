@@ -59,7 +59,7 @@
     "dependencies": {
         "@primeuix/styled": "workspace:@openng/optimus-ui-styled@*",
         "@primeuix/utils": "workspace:@openng/optimus-ui-utils@*",
-        "@primeuix/styles": "catalog:",
+        "@primeuix/styles": "workspace:@openng/optimus-ui-styles@*",
         "@primeuix/motion": "catalog:"
     }
 }
