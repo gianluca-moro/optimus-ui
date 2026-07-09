@@ -29,9 +29,6 @@
                 "../optimus-ui-motion/src/*",
                 "../optimus-ui-motion/types/*"
             ],
-            "@primeuix/mcp/*": [
-                "../optimus-ui-mcp/src/*"
-            ],
             "@primeuix/themes": [
                 "../optimus-ui-themes/src"
             ],

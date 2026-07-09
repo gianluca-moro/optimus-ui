@@ -11,7 +11,6 @@ const PAGES_DIR = path.resolve(__dirname, '../pages');
 const API_DOC_PATH = path.resolve(__dirname, '../doc/apidoc/index.json');
 const DEMOS_JSON_PATH = path.resolve(__dirname, '../public/demos.json');
 const OUTPUT_DIR = path.resolve(__dirname, '../public/llms');
-const MCP_DATA_DIR = path.resolve(__dirname, '../../../packages/mcp/data');
 
 // Global demos data loaded from demos.json
 let demosData = null;
@@ -118,12 +117,6 @@ const GUIDE_PAGES = [
         docPath: 'llms',
         title: 'LLMs.txt',
         description: 'LLM-optimized documentation endpoints for PrimeNG components.'
-    },
-    {
-        route: 'mcp',
-        docPath: 'mcp',
-        title: 'MCP Server',
-        description: 'Model Context Protocol (MCP) server for PrimeNG component library.'
     },
     {
         route: 'guides/accessibility',
@@ -879,7 +872,7 @@ function generateThemingSection(apiDocs, componentName) {
 }
 
 /**
- * Generate JSON output for MCP server
+ * Generate JSON output with full API data
  */
 function generateJsonOutput(components, apiDocs, guidePages = []) {
     const output = {
@@ -926,14 +919,6 @@ function generateJsonOutput(components, apiDocs, guidePages = []) {
     const outputPath = path.join(OUTPUT_DIR, 'components.json');
     fs.writeFileSync(outputPath, JSON.stringify(output, null, 2), 'utf-8');
     console.log(`✓ Generated JSON output: ${outputPath}`);
-
-    // Also write to MCP package data directory
-    if (!fs.existsSync(MCP_DATA_DIR)) {
-        fs.mkdirSync(MCP_DATA_DIR, { recursive: true });
-    }
-    const mcpOutputPath = path.join(MCP_DATA_DIR, 'components.json');
-    fs.writeFileSync(mcpOutputPath, JSON.stringify(output, null, 2), 'utf-8');
-    console.log(`✓ Generated MCP JSON output: ${mcpOutputPath}`);
 
     return output;
 }
@@ -1284,7 +1269,7 @@ function main() {
 
     console.log('\n✅ LLM documentation generation complete!');
     console.log(`\nOutput directory: ${OUTPUT_DIR}`);
-    console.log('   - components.json (for MCP server with full API data)');
+    console.log('   - components.json (full API data)');
     console.log('   - llms-full.txt (full documentation with Props, Templates, Emits, PT, Theming)');
     console.log('   - llms.txt (index file)');
     console.log('   - components/*.md (individual component files with complete API)');
