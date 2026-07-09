@@ -1,2 +1,2 @@
-export * from '@primeuix/themes/nora/fieldset';
-export { default } from '@primeuix/themes/nora/fieldset';
+export * from '@openng/optimus-ui-themes/nora/fieldset';
+export { default } from '@openng/optimus-ui-themes/nora/fieldset';

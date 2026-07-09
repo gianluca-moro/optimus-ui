@@ -1,6 +1,6 @@
-import type { TieredMenuTokenSections } from '@primeuix/themes/types/tieredmenu';
+import type { TieredMenuTokenSections } from '@openng/optimus-ui-themes/types/tieredmenu';
 
-export * from '@primeuix/themes/types/tieredmenu';
+export * from '@openng/optimus-ui-themes/types/tieredmenu';
 
 declare const root: TieredMenuTokenSections.Root;
 declare const list: TieredMenuTokenSections.List;

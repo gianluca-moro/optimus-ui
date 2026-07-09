@@ -1,2 +1,2 @@
-export * from '@primeuix/themes/aura/terminal';
-export { default } from '@primeuix/themes/aura/terminal';
+export * from '@openng/optimus-ui-themes/aura/terminal';
+export { default } from '@openng/optimus-ui-themes/aura/terminal';

@@ -1,4 +1,4 @@
-import type { DataTableDesignTokens, DataTableTokenSections } from '@primeuix/themes/types/datatable';
+import type { DataTableDesignTokens, DataTableTokenSections } from '@openng/optimus-ui-themes/types/datatable';
 
 export const root: DataTableTokenSections.Root = {
     transitionDuration: '{transition.duration}'

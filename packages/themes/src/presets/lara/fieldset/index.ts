@@ -1,2 +1,2 @@
-export * from '@primeuix/themes/lara/fieldset';
-export { default } from '@primeuix/themes/lara/fieldset';
+export * from '@openng/optimus-ui-themes/lara/fieldset';
+export { default } from '@openng/optimus-ui-themes/lara/fieldset';

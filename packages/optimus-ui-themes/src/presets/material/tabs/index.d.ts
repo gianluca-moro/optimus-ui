@@ -1,7 +1,7 @@
 import type { StyleOptions } from '@openng/optimus-ui-styled';
-import type { TabsTokenSections } from '@primeuix/themes/types/tabs';
+import type { TabsTokenSections } from '@openng/optimus-ui-themes/types/tabs';
 
-export * from '@primeuix/themes/types/tabs';
+export * from '@openng/optimus-ui-themes/types/tabs';
 
 declare const root: TabsTokenSections.Root;
 declare const tablist: TabsTokenSections.Tablist;

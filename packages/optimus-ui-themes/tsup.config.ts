@@ -23,7 +23,7 @@ export default defineConfig([
         dts: {
             entry: ['src/index.ts']
         },
-        external: [/^@primeuix\/(.*)$/, /^@openng\/optimus-ui-(.*)$/],
+        external: [/^@openng\/optimus-ui-(.*)$/],
         minify: isProduction ? 'terser' : false,
         sourcemap: isProduction,
         splitting: false,

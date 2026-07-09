@@ -1,2 +1,2 @@
-export * from '@primeuix/themes/aura/progressbar';
-export { default } from '@primeuix/themes/aura/progressbar';
+export * from '@openng/optimus-ui-themes/aura/progressbar';
+export { default } from '@openng/optimus-ui-themes/aura/progressbar';

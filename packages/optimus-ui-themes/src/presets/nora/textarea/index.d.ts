@@ -1,6 +1,6 @@
-import type { TextareaTokenSections } from '@primeuix/themes/types/textarea';
+import type { TextareaTokenSections } from '@openng/optimus-ui-themes/types/textarea';
 
-export * from '@primeuix/themes/types/textarea';
+export * from '@openng/optimus-ui-themes/types/textarea';
 
 declare const root: TextareaTokenSections.Root;
 declare const _default: {

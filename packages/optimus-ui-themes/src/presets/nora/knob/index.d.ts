@@ -1,6 +1,6 @@
-import type { KnobTokenSections } from '@primeuix/themes/types/knob';
+import type { KnobTokenSections } from '@openng/optimus-ui-themes/types/knob';
 
-export * from '@primeuix/themes/types/knob';
+export * from '@openng/optimus-ui-themes/types/knob';
 
 declare const root: KnobTokenSections.Root;
 declare const value: KnobTokenSections.Value;

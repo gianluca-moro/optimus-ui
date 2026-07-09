@@ -1,2 +1,2 @@
-export * from '@primeuix/themes/aura/confirmdialog';
-export { default } from '@primeuix/themes/aura/confirmdialog';
+export * from '@openng/optimus-ui-themes/aura/confirmdialog';
+export { default } from '@openng/optimus-ui-themes/aura/confirmdialog';

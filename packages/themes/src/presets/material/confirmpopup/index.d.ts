@@ -1,2 +1,2 @@
-export * from '@primeuix/themes/material/confirmpopup';
-export { default } from '@primeuix/themes/material/confirmpopup';
+export * from '@openng/optimus-ui-themes/material/confirmpopup';
+export { default } from '@openng/optimus-ui-themes/material/confirmpopup';

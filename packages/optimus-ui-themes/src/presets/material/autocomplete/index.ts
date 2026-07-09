@@ -1,4 +1,4 @@
-import type { AutoCompleteDesignTokens, AutoCompleteTokenSections } from '@primeuix/themes/types/autocomplete';
+import type { AutoCompleteDesignTokens, AutoCompleteTokenSections } from '@openng/optimus-ui-themes/types/autocomplete';
 
 export const root: AutoCompleteTokenSections.Root = {
     background: '{form.field.background}',

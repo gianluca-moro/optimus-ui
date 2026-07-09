@@ -1,2 +1,2 @@
-export * from '@primeuix/themes/nora/orderlist';
-export { default } from '@primeuix/themes/nora/orderlist';
+export * from '@openng/optimus-ui-themes/nora/orderlist';
+export { default } from '@openng/optimus-ui-themes/nora/orderlist';

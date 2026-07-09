@@ -1,2 +1,2 @@
-export * from '@primeuix/themes/material/paginator';
-export { default } from '@primeuix/themes/material/paginator';
+export * from '@openng/optimus-ui-themes/material/paginator';
+export { default } from '@openng/optimus-ui-themes/material/paginator';

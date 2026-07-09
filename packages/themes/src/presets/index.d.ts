@@ -1,1 +1,1 @@
-export * from '@primeuix/themes/types';
+export * from '@openng/optimus-ui-themes/types';

@@ -1,2 +1,2 @@
-export * from '@primeuix/themes/aura/speeddial';
-export { default } from '@primeuix/themes/aura/speeddial';
+export * from '@openng/optimus-ui-themes/aura/speeddial';
+export { default } from '@openng/optimus-ui-themes/aura/speeddial';

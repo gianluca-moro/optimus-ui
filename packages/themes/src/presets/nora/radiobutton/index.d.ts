@@ -1,2 +1,2 @@
-export * from '@primeuix/themes/nora/radiobutton';
-export { default } from '@primeuix/themes/nora/radiobutton';
+export * from '@openng/optimus-ui-themes/nora/radiobutton';
+export { default } from '@openng/optimus-ui-themes/nora/radiobutton';

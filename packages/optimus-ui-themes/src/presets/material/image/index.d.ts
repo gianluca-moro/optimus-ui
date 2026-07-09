@@ -1,6 +1,6 @@
-import type { ImageTokenSections } from '@primeuix/themes/types/image';
+import type { ImageTokenSections } from '@openng/optimus-ui-themes/types/image';
 
-export * from '@primeuix/themes/types/image';
+export * from '@openng/optimus-ui-themes/types/image';
 
 declare const root: ImageTokenSections.Root;
 declare const preview: ImageTokenSections.Preview;

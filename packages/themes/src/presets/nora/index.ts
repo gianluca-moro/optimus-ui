@@ -87,8 +87,8 @@ import tree from '@primeng/themes/nora/tree';
 import treeselect from '@primeng/themes/nora/treeselect';
 import treetable from '@primeng/themes/nora/treetable';
 import virtualscroller from '@primeng/themes/nora/virtualscroller';
-import type { NoraBaseDesignTokens } from '@primeuix/themes/nora/base';
-import type { Preset } from '@primeuix/themes/types';
+import type { NoraBaseDesignTokens } from '@openng/optimus-ui-themes/nora/base';
+import type { Preset } from '@openng/optimus-ui-themes/types';
 
 export default {
     ...base,

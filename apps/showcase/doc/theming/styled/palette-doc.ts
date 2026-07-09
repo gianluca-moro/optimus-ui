@@ -16,7 +16,7 @@ import { AppDocSectionText } from '@/components/doc/app.docsectiontext';
 })
 export class PaletteDoc {
     code1 = {
-        typescript: `import { palette } from '@primeuix/themes';`
+        typescript: `import { palette } from '@openng/optimus-ui-themes';`
     };
 
     code2 = {

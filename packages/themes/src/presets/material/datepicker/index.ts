@@ -1,2 +1,2 @@
-export * from '@primeuix/themes/material/datepicker';
-export { default } from '@primeuix/themes/material/datepicker';
+export * from '@openng/optimus-ui-themes/material/datepicker';
+export { default } from '@openng/optimus-ui-themes/material/datepicker';

@@ -1,2 +1,2 @@
-export * from '@primeuix/themes/material/cascadeselect';
-export { default } from '@primeuix/themes/material/cascadeselect';
+export * from '@openng/optimus-ui-themes/material/cascadeselect';
+export { default } from '@openng/optimus-ui-themes/material/cascadeselect';

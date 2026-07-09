@@ -1,2 +1,2 @@
-export * from '@primeuix/themes/material/inputchips';
-export { default } from '@primeuix/themes/material/inputchips';
+export * from '@openng/optimus-ui-themes/material/inputchips';
+export { default } from '@openng/optimus-ui-themes/material/inputchips';

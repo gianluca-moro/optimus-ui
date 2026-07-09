@@ -1,2 +1,2 @@
-export * from '@primeuix/themes/nora/panelmenu';
-export { default } from '@primeuix/themes/nora/panelmenu';
+export * from '@openng/optimus-ui-themes/nora/panelmenu';
+export { default } from '@openng/optimus-ui-themes/nora/panelmenu';

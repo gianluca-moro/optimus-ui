@@ -1,6 +1,6 @@
-import type { TreeSelectTokenSections } from '@primeuix/themes/types/treeselect';
+import type { TreeSelectTokenSections } from '@openng/optimus-ui-themes/types/treeselect';
 
-export * from '@primeuix/themes/types/treeselect';
+export * from '@openng/optimus-ui-themes/types/treeselect';
 
 declare const root: TreeSelectTokenSections.Root;
 declare const dropdown: TreeSelectTokenSections.Dropdown;

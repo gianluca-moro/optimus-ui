@@ -1,6 +1,6 @@
-import type { ConfirmDialogTokenSections } from '@primeuix/themes/types/confirmdialog';
+import type { ConfirmDialogTokenSections } from '@openng/optimus-ui-themes/types/confirmdialog';
 
-export * from '@primeuix/themes/types/confirmdialog';
+export * from '@openng/optimus-ui-themes/types/confirmdialog';
 
 declare const icon: ConfirmDialogTokenSections.Icon;
 declare const content: ConfirmDialogTokenSections.Content;

@@ -1,2 +1,2 @@
-export * from '@primeuix/themes/lara/splitbutton';
-export { default } from '@primeuix/themes/lara/splitbutton';
+export * from '@openng/optimus-ui-themes/lara/splitbutton';
+export { default } from '@openng/optimus-ui-themes/lara/splitbutton';

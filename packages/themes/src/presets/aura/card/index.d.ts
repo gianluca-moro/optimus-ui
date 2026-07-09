@@ -1,2 +1,2 @@
-export * from '@primeuix/themes/aura/card';
-export { default } from '@primeuix/themes/aura/card';
+export * from '@openng/optimus-ui-themes/aura/card';
+export { default } from '@openng/optimus-ui-themes/aura/card';

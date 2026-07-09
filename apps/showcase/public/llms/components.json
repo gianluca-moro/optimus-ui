@@ -44454,7 +44454,7 @@
           "label": "Download-",
           "description": "PrimeNG is available for download on the npm registry .",
           "examples": {
-            "command": "# Using npm\nnpm install primeng @primeuix/themes\n\n# Using yarn\nyarn add primeng @primeuix/themes\n\n# Using pnpm\npnpm add primeng @primeuix/themes"
+            "command": "# Using npm\nnpm install primeng @openng/optimus-ui-themes\n\n# Using yarn\nyarn add primeng @openng/optimus-ui-themes\n\n# Using pnpm\npnpm add primeng @openng/optimus-ui-themes"
           }
         },
         {
@@ -44474,7 +44474,7 @@
           "label": "Provider-",
           "description": "Add providePrimeNG to the list of providers in your app.config.ts and use the theme property to configure a theme such as Aura.",
           "examples": {
-            "typescript": "import { ApplicationConfig } from '@angular/core';\nimport { providePrimeNG } from 'primeng/config';\nimport Aura from '@primeuix/themes/aura';\n\nexport const appConfig: ApplicationConfig = {\n    providers: [\n        providePrimeNG({\n            theme: {\n                preset: Aura\n            }\n        })\n    ]\n};"
+            "typescript": "import { ApplicationConfig } from '@angular/core';\nimport { providePrimeNG } from 'primeng/config';\nimport Aura from '@openng/optimus-ui-themes/aura';\n\nexport const appConfig: ApplicationConfig = {\n    providers: [\n        providePrimeNG({\n            theme: {\n                preset: Aura\n            }\n        })\n    ]\n};"
           }
         },
         {
@@ -44482,7 +44482,7 @@
           "label": "Theme-",
           "description": "Configure PrimeNG to use a theme like Aura.",
           "examples": {
-            "typescript": "import { ApplicationConfig } from '@angular/core';\nimport { provideAnimationsAsync } from '@angular/platform-browser/animations/async';\nimport { providePrimeNG } from 'primeng/config';\nimport Aura from '@primeuix/themes/aura';\n\nexport const appConfig: ApplicationConfig = {\n    providers: [\n        provideAnimationsAsync(),\n        providePrimeNG({\n            theme: Aura\n        })\n    ]\n};"
+            "typescript": "import { ApplicationConfig } from '@angular/core';\nimport { provideAnimationsAsync } from '@angular/platform-browser/animations/async';\nimport { providePrimeNG } from 'primeng/config';\nimport Aura from '@openng/optimus-ui-themes/aura';\n\nexport const appConfig: ApplicationConfig = {\n    providers: [\n        provideAnimationsAsync(),\n        providePrimeNG({\n            theme: Aura\n        })\n    ]\n};"
           }
         },
         {
@@ -44590,7 +44590,7 @@
           "label": "Theme-",
           "description": "PrimeNG provides 4 predefined themes out of the box; Aura, Material, Lara and Nora. See the theming documentation for details.",
           "examples": {
-            "typescript": "import { ApplicationConfig } from '@angular/core';\nimport { provideAnimationsAsync } from '@angular/platform-browser/animations/async';\nimport { providePrimeNG } from 'primeng/config';\n\nimport Aura from '@primeuix/themes/aura';\n\nexport const appConfig: ApplicationConfig = {\n    providers: [\n        provideAnimationsAsync(),\n        providePrimeNG({\n            theme: {\n                preset: Aura,\n                options: {\n                    prefix: 'p',\n                    darkModeSelector: 'system',\n                    cssLayer: false\n                }\n            }\n        })\n    ]\n};"
+            "typescript": "import { ApplicationConfig } from '@angular/core';\nimport { provideAnimationsAsync } from '@angular/platform-browser/animations/async';\nimport { providePrimeNG } from 'primeng/config';\n\nimport Aura from '@openng/optimus-ui-themes/aura';\n\nexport const appConfig: ApplicationConfig = {\n    providers: [\n        provideAnimationsAsync(),\n        providePrimeNG({\n            theme: {\n                preset: Aura,\n                options: {\n                    prefix: 'p',\n                    darkModeSelector: 'system',\n                    cssLayer: false\n                }\n            }\n        })\n    ]\n};"
           }
         },
         {
@@ -44752,7 +44752,7 @@
           "label": "Theme-",
           "description": "The theme property is used to customize the initial theme.",
           "examples": {
-            "typescript": "import { ApplicationConfig } from '@angular/core';\nimport { providePrimeNG } from 'primeng/config';\nimport Aura from '@primeuix/themes/aura';\n\nexport const appConfig: ApplicationConfig = {\n    providers: [\n        providePrimeNG({\n            theme: {\n                preset: Aura\n            }\n        })\n    ]\n};"
+            "typescript": "import { ApplicationConfig } from '@angular/core';\nimport { providePrimeNG } from 'primeng/config';\nimport Aura from '@openng/optimus-ui-themes/aura';\n\nexport const appConfig: ApplicationConfig = {\n    providers: [\n        providePrimeNG({\n            theme: {\n                preset: Aura\n            }\n        })\n    ]\n};"
           }
         },
         {
@@ -45220,7 +45220,7 @@
         {
           "id": "deprecations",
           "label": "Deprecations",
-          "description": "The following items are marked as deprecated. API Deprecated Since Replacement Removal Status @primeng/themes v20 @primeuix/themes v22 pTemplate v20 ng-template with a template reference variable v22 styleClass *(for host enabled components) v20 class v22 Global inputStyle config v20 inputVariant v22 CamelCase Selectors v20 Kebab case v22 pButton iconPos, loadingIcon, icon and label properties v20 pButtonIcon and pButtonLabel directives v22 pButton buttonProps property v20 Use button properties directly on the element v22 p-button badgeClass property v20 badgeSeverity property v22 AutoComplete minLength property v20 minQueryLength v22 OrganizationChart preserveSpace property v20 Obselete property, had no use v22 Paginator dropdownAppendTo property v20 appendTo v22 Message text and escape properties v20 Content projection v22 Password maxLength property v20 maxlength property v22 TreeSelect containerStyle/containerStyleClass properties v20 style and class v22 Table responsiveLayout property v20 Always defaults to scroll, stack mode needs custom implementation v22 TreeSelect default template v20 value template v22 pBadge directive v20 OverlayBadge component v22 clearFilterIcon template of Table v20 Obsolete, not utilized. v22 Inplace closable property. v20 Use templating with closeCallback . v22",
+          "description": "The following items are marked as deprecated. API Deprecated Since Replacement Removal Status @primeng/themes v20 @openng/optimus-ui-themes v22 pTemplate v20 ng-template with a template reference variable v22 styleClass *(for host enabled components) v20 class v22 Global inputStyle config v20 inputVariant v22 CamelCase Selectors v20 Kebab case v22 pButton iconPos, loadingIcon, icon and label properties v20 pButtonIcon and pButtonLabel directives v22 pButton buttonProps property v20 Use button properties directly on the element v22 p-button badgeClass property v20 badgeSeverity property v22 AutoComplete minLength property v20 minQueryLength v22 OrganizationChart preserveSpace property v20 Obselete property, had no use v22 Paginator dropdownAppendTo property v20 appendTo v22 Message text and escape properties v20 Content projection v22 Password maxLength property v20 maxlength property v22 TreeSelect containerStyle/containerStyleClass properties v20 style and class v22 Table responsiveLayout property v20 Always defaults to scroll, stack mode needs custom implementation v22 TreeSelect default template v20 value template v22 pBadge directive v20 OverlayBadge component v22 clearFilterIcon template of Table v20 Obsolete, not utilized. v22 Inplace closable property. v20 Use templating with closeCallback . v22",
           "examples": null
         },
         {
@@ -45264,7 +45264,7 @@
         {
           "id": "whatsnew",
           "label": "Whatsnew",
-          "description": "PrimeNG v21 represents a major advancement in PrimeTek's product vision. Key highlights of this release include: PassThrough attributes for enhanced customization. Unstyled Mode for complete styling flexibility. Modern CSS-based animations . The deprecated provideAnimationsAsync is safe to remove. Initial zoneless support for improved performance. AI-enhanced documentation for better developer experience. Notes The internal packages @openng/optimus-ui-styles and @primeuix/themes should be version 2.0.2 or higher. These packages are updated automatically with a fresh install. If you encounter any issues with visuals or animations, please verify that you are using the correct versions of these packages.",
+          "description": "PrimeNG v21 represents a major advancement in PrimeTek's product vision. Key highlights of this release include: PassThrough attributes for enhanced customization. Unstyled Mode for complete styling flexibility. Modern CSS-based animations . The deprecated provideAnimationsAsync is safe to remove. Initial zoneless support for improved performance. AI-enhanced documentation for better developer experience. Notes The internal packages @openng/optimus-ui-styles and @openng/optimus-ui-themes should be version 2.0.2 or higher. These packages are updated automatically with a fresh install. If you encounter any issues with visuals or animations, please verify that you are using the correct versions of these packages.",
           "examples": null
         }
       ]

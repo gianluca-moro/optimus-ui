@@ -1,4 +1,4 @@
-import type { EditorDesignTokens, EditorTokenSections } from '@primeuix/themes/types/editor';
+import type { EditorDesignTokens, EditorTokenSections } from '@openng/optimus-ui-themes/types/editor';
 
 export const toolbar: EditorTokenSections.Toolbar = {
     background: '{content.background}',

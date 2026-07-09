@@ -1,2 +1,2 @@
-export * from '@primeuix/themes/material/checkbox';
-export { default } from '@primeuix/themes/material/checkbox';
+export * from '@openng/optimus-ui-themes/material/checkbox';
+export { default } from '@openng/optimus-ui-themes/material/checkbox';

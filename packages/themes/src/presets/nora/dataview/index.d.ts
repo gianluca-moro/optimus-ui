@@ -1,2 +1,2 @@
-export * from '@primeuix/themes/nora/dataview';
-export { default } from '@primeuix/themes/nora/dataview';
+export * from '@openng/optimus-ui-themes/nora/dataview';
+export { default } from '@openng/optimus-ui-themes/nora/dataview';

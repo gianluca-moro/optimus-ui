@@ -1,2 +1,2 @@
-export * from '@primeuix/themes/aura/badge';
-export { default } from '@primeuix/themes/aura/badge';
+export * from '@openng/optimus-ui-themes/aura/badge';
+export { default } from '@openng/optimus-ui-themes/aura/badge';

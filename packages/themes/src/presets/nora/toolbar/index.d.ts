@@ -1,2 +1,2 @@
-export * from '@primeuix/themes/nora/toolbar';
-export { default } from '@primeuix/themes/nora/toolbar';
+export * from '@openng/optimus-ui-themes/nora/toolbar';
+export { default } from '@openng/optimus-ui-themes/nora/toolbar';

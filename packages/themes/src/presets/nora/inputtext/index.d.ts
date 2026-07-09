@@ -1,2 +1,2 @@
-export * from '@primeuix/themes/nora/inputtext';
-export { default } from '@primeuix/themes/nora/inputtext';
+export * from '@openng/optimus-ui-themes/nora/inputtext';
+export { default } from '@openng/optimus-ui-themes/nora/inputtext';

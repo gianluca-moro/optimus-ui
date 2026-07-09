@@ -1,6 +1,6 @@
-import type { InputChipsTokenSections } from '@primeuix/themes/types/inputchips';
+import type { InputChipsTokenSections } from '@openng/optimus-ui-themes/types/inputchips';
 
-export * from '@primeuix/themes/types/inputchips';
+export * from '@openng/optimus-ui-themes/types/inputchips';
 
 declare const root: InputChipsTokenSections.Root;
 declare const chip: InputChipsTokenSections.Chip;

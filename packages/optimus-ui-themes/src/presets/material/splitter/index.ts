@@ -1,4 +1,4 @@
-import type { SplitterDesignTokens, SplitterTokenSections } from '@primeuix/themes/types/splitter';
+import type { SplitterDesignTokens, SplitterTokenSections } from '@openng/optimus-ui-themes/types/splitter';
 
 export const root: SplitterTokenSections.Root = {
     background: '{content.background}',

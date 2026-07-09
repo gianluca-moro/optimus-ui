@@ -1,2 +1,2 @@
-export * from '@primeuix/themes/aura/inputnumber';
-export { default } from '@primeuix/themes/aura/inputnumber';
+export * from '@openng/optimus-ui-themes/aura/inputnumber';
+export { default } from '@openng/optimus-ui-themes/aura/inputnumber';

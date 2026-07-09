@@ -1,2 +1,2 @@
-export * from '@primeuix/themes/lara/drawer';
-export { default } from '@primeuix/themes/lara/drawer';
+export * from '@openng/optimus-ui-themes/lara/drawer';
+export { default } from '@openng/optimus-ui-themes/lara/drawer';

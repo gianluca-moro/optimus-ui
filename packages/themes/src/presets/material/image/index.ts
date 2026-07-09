@@ -1,2 +1,2 @@
-export * from '@primeuix/themes/material/image';
-export { default } from '@primeuix/themes/material/image';
+export * from '@openng/optimus-ui-themes/material/image';
+export { default } from '@openng/optimus-ui-themes/material/image';

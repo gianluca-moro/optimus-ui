@@ -1,2 +1,2 @@
-export * from '@primeuix/themes/material/dialog';
-export { default } from '@primeuix/themes/material/dialog';
+export * from '@openng/optimus-ui-themes/material/dialog';
+export { default } from '@openng/optimus-ui-themes/material/dialog';

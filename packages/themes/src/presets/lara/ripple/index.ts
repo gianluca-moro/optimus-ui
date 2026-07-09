@@ -1,2 +1,2 @@
-export * from '@primeuix/themes/lara/ripple';
-export { default } from '@primeuix/themes/lara/ripple';
+export * from '@openng/optimus-ui-themes/lara/ripple';
+export { default } from '@openng/optimus-ui-themes/lara/ripple';

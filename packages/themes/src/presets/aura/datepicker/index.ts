@@ -1,2 +1,2 @@
-export * from '@primeuix/themes/aura/datepicker';
-export { default } from '@primeuix/themes/aura/datepicker';
+export * from '@openng/optimus-ui-themes/aura/datepicker';
+export { default } from '@openng/optimus-ui-themes/aura/datepicker';

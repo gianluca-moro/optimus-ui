@@ -1,2 +1,2 @@
-export * from '@primeuix/themes/nora/organizationchart';
-export { default } from '@primeuix/themes/nora/organizationchart';
+export * from '@openng/optimus-ui-themes/nora/organizationchart';
+export { default } from '@openng/optimus-ui-themes/nora/organizationchart';

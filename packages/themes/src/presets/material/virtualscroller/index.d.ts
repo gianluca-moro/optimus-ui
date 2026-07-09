@@ -1,2 +1,2 @@
-export * from '@primeuix/themes/material/virtualscroller';
-export { default } from '@primeuix/themes/material/virtualscroller';
+export * from '@openng/optimus-ui-themes/material/virtualscroller';
+export { default } from '@openng/optimus-ui-themes/material/virtualscroller';

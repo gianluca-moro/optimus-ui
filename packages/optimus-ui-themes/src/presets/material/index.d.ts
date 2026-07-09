@@ -1,5 +1,5 @@
-import type { MaterialBaseDesignTokens } from '@primeuix/themes/material/base';
-import type { Preset } from '@primeuix/themes/types';
+import type { MaterialBaseDesignTokens } from '@openng/optimus-ui-themes/material/base';
+import type { Preset } from '@openng/optimus-ui-themes/types';
 
 /**
  *

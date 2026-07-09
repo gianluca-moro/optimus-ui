@@ -1,4 +1,4 @@
-import type { CascadeSelectDesignTokens, CascadeSelectTokenSections } from '@primeuix/themes/types/cascadeselect';
+import type { CascadeSelectDesignTokens, CascadeSelectTokenSections } from '@openng/optimus-ui-themes/types/cascadeselect';
 
 export const root: CascadeSelectTokenSections.Root = {
     background: '{form.field.background}',

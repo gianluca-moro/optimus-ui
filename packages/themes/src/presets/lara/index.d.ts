@@ -1,1 +1,1 @@
-export { default } from '@primeuix/themes/lara';
+export { default } from '@openng/optimus-ui-themes/lara';

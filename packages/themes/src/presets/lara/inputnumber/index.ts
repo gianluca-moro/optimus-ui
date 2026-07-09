@@ -1,2 +1,2 @@
-export * from '@primeuix/themes/lara/inputnumber';
-export { default } from '@primeuix/themes/lara/inputnumber';
+export * from '@openng/optimus-ui-themes/lara/inputnumber';
+export { default } from '@openng/optimus-ui-themes/lara/inputnumber';

@@ -1,2 +1,2 @@
-export * from '@primeuix/themes/aura/textarea';
-export { default } from '@primeuix/themes/aura/textarea';
+export * from '@openng/optimus-ui-themes/aura/textarea';
+export { default } from '@openng/optimus-ui-themes/aura/textarea';

@@ -1,2 +1,2 @@
-export * from '@primeuix/themes/material/tieredmenu';
-export { default } from '@primeuix/themes/material/tieredmenu';
+export * from '@openng/optimus-ui-themes/material/tieredmenu';
+export { default } from '@openng/optimus-ui-themes/material/tieredmenu';

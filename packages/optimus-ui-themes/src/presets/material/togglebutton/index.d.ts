@@ -1,7 +1,7 @@
 import type { StyleOptions } from '@openng/optimus-ui-styled';
-import type { ToggleButtonTokenSections } from '@primeuix/themes/types/togglebutton';
+import type { ToggleButtonTokenSections } from '@openng/optimus-ui-themes/types/togglebutton';
 
-export * from '@primeuix/themes/types/togglebutton';
+export * from '@openng/optimus-ui-themes/types/togglebutton';
 
 declare const root: ToggleButtonTokenSections.Root;
 declare const icon: ToggleButtonTokenSections.Icon;

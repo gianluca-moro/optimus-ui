@@ -1,2 +1,2 @@
-export * from '@primeuix/themes/nora/slider';
-export { default } from '@primeuix/themes/nora/slider';
+export * from '@openng/optimus-ui-themes/nora/slider';
+export { default } from '@openng/optimus-ui-themes/nora/slider';

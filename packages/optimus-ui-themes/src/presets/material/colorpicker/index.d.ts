@@ -1,6 +1,6 @@
-import type { ColorPickerTokenSections } from '@primeuix/themes/types/colorpicker';
+import type { ColorPickerTokenSections } from '@openng/optimus-ui-themes/types/colorpicker';
 
-export * from '@primeuix/themes/types/colorpicker';
+export * from '@openng/optimus-ui-themes/types/colorpicker';
 
 declare const root: ColorPickerTokenSections.Root;
 declare const preview: ColorPickerTokenSections.Preview;

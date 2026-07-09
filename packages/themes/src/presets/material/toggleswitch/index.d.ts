@@ -1,2 +1,2 @@
-export * from '@primeuix/themes/material/toggleswitch';
-export { default } from '@primeuix/themes/material/toggleswitch';
+export * from '@openng/optimus-ui-themes/material/toggleswitch';
+export { default } from '@openng/optimus-ui-themes/material/toggleswitch';

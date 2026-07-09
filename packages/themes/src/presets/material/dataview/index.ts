@@ -1,2 +1,2 @@
-export * from '@primeuix/themes/material/dataview';
-export { default } from '@primeuix/themes/material/dataview';
+export * from '@openng/optimus-ui-themes/material/dataview';
+export { default } from '@openng/optimus-ui-themes/material/dataview';

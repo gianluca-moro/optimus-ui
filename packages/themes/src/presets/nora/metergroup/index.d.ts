@@ -1,2 +1,2 @@
-export * from '@primeuix/themes/nora/metergroup';
-export { default } from '@primeuix/themes/nora/metergroup';
+export * from '@openng/optimus-ui-themes/nora/metergroup';
+export { default } from '@openng/optimus-ui-themes/nora/metergroup';

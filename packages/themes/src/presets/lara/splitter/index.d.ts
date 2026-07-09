@@ -1,2 +1,2 @@
-export * from '@primeuix/themes/lara/splitter';
-export { default } from '@primeuix/themes/lara/splitter';
+export * from '@openng/optimus-ui-themes/lara/splitter';
+export { default } from '@openng/optimus-ui-themes/lara/splitter';

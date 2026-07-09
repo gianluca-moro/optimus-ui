@@ -1,4 +1,4 @@
-import type { TextareaDesignTokens, TextareaTokenSections } from '@primeuix/themes/types/textarea';
+import type { TextareaDesignTokens, TextareaTokenSections } from '@openng/optimus-ui-themes/types/textarea';
 
 export const root: TextareaTokenSections.Root = {
     background: '{form.field.background}',

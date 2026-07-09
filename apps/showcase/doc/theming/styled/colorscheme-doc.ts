@@ -32,8 +32,8 @@ export class ColorSchemeDoc {
     code1 = {
         typescript: `import { bootstrapApplication } from '@angular/platform-browser';
 import { providePrimeNG } from 'primeng/config';
-import { definePreset } from '@primeuix/themes';
-import Aura from '@primeuix/themes/aura';
+import { definePreset } from '@openng/optimus-ui-themes';
+import Aura from '@openng/optimus-ui-themes/aura';
 import { AppComponent } from './app/app.component';
 
 const MyPreset = definePreset(Aura, {

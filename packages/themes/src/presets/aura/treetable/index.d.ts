@@ -1,2 +1,2 @@
-export * from '@primeuix/themes/aura/treetable';
-export { default } from '@primeuix/themes/aura/treetable';
+export * from '@openng/optimus-ui-themes/aura/treetable';
+export { default } from '@openng/optimus-ui-themes/aura/treetable';

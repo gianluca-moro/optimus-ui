@@ -1,6 +1,6 @@
-import type { TabmenuTokenSections } from '@primeuix/themes/types/tabmenu';
+import type { TabmenuTokenSections } from '@openng/optimus-ui-themes/types/tabmenu';
 
-export * from '@primeuix/themes/types/tabmenu';
+export * from '@openng/optimus-ui-themes/types/tabmenu';
 
 declare const root: TabmenuTokenSections.Root;
 declare const tablist: TabmenuTokenSections.Tablist;

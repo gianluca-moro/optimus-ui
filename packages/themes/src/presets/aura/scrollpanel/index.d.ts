@@ -1,2 +1,2 @@
-export * from '@primeuix/themes/aura/scrollpanel';
-export { default } from '@primeuix/themes/aura/scrollpanel';
+export * from '@openng/optimus-ui-themes/aura/scrollpanel';
+export { default } from '@openng/optimus-ui-themes/aura/scrollpanel';

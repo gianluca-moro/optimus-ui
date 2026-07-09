@@ -1,6 +1,6 @@
-import type { BlockUITokenSections } from '@primeuix/themes/types/blockui';
+import type { BlockUITokenSections } from '@openng/optimus-ui-themes/types/blockui';
 
-export * from '@primeuix/themes/types/blockui';
+export * from '@openng/optimus-ui-themes/types/blockui';
 
 declare const root: BlockUITokenSections.Root;
 declare const _default: {

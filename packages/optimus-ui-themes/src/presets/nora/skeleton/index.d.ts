@@ -1,6 +1,6 @@
-import type { SkeletonTokenSections } from '@primeuix/themes/types/skeleton';
+import type { SkeletonTokenSections } from '@openng/optimus-ui-themes/types/skeleton';
 
-export * from '@primeuix/themes/types/skeleton';
+export * from '@openng/optimus-ui-themes/types/skeleton';
 
 declare const root: SkeletonTokenSections.Root;
 declare const colorScheme: SkeletonTokenSections.ColorScheme;

@@ -1,2 +1,2 @@
-export * from '@primeuix/themes/lara/metergroup';
-export { default } from '@primeuix/themes/lara/metergroup';
+export * from '@openng/optimus-ui-themes/lara/metergroup';
+export { default } from '@openng/optimus-ui-themes/lara/metergroup';

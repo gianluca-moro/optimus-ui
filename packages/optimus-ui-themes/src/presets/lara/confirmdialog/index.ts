@@ -1,4 +1,4 @@
-import type { ConfirmDialogDesignTokens, ConfirmDialogTokenSections } from '@primeuix/themes/types/confirmdialog';
+import type { ConfirmDialogDesignTokens, ConfirmDialogTokenSections } from '@openng/optimus-ui-themes/types/confirmdialog';
 
 export const icon: ConfirmDialogTokenSections.Icon = {
     size: '2rem',

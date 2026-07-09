@@ -1,2 +1,2 @@
-export * from '@primeuix/themes/nora/divider';
-export { default } from '@primeuix/themes/nora/divider';
+export * from '@openng/optimus-ui-themes/nora/divider';
+export { default } from '@openng/optimus-ui-themes/nora/divider';

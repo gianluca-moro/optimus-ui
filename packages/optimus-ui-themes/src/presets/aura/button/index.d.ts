@@ -1,6 +1,6 @@
-import type { ButtonTokenSections } from '@primeuix/themes/types/button';
+import type { ButtonTokenSections } from '@openng/optimus-ui-themes/types/button';
 
-export * from '@primeuix/themes/types/button';
+export * from '@openng/optimus-ui-themes/types/button';
 
 declare const root: ButtonTokenSections.Root;
 declare const colorScheme: ButtonTokenSections.ColorScheme;

@@ -1,6 +1,6 @@
-import type { ImageCompareTokenSections } from '@primeuix/themes/types/imagecompare';
+import type { ImageCompareTokenSections } from '@openng/optimus-ui-themes/types/imagecompare';
 
-export * from '@primeuix/themes/types/imagecompare';
+export * from '@openng/optimus-ui-themes/types/imagecompare';
 
 declare const handle: ImageCompareTokenSections.Handle;
 declare const css: ImageCompareTokenSections.CSS;

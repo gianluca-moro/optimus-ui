@@ -1,4 +1,4 @@
-import type { BreadcrumbDesignTokens, BreadcrumbTokenSections } from '@primeuix/themes/types/breadcrumb';
+import type { BreadcrumbDesignTokens, BreadcrumbTokenSections } from '@openng/optimus-ui-themes/types/breadcrumb';
 
 export const root: BreadcrumbTokenSections.Root = {
     padding: '1rem',

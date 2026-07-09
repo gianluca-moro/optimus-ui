@@ -1,6 +1,6 @@
-import type { ToolbarTokenSections } from '@primeuix/themes/types/toolbar';
+import type { ToolbarTokenSections } from '@openng/optimus-ui-themes/types/toolbar';
 
-export * from '@primeuix/themes/types/toolbar';
+export * from '@openng/optimus-ui-themes/types/toolbar';
 
 declare const root: ToolbarTokenSections.Root;
 declare const colorScheme: ToolbarTokenSections.ColorScheme;

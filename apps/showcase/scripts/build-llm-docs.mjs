@@ -1,7 +1,7 @@
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
-import ComponentTokens from '@primeuix/themes/tokens';
+import ComponentTokens from '@openng/optimus-ui-themes/tokens';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -661,7 +661,7 @@ function getStyleClassesFromApi(apiDocs, componentName) {
 }
 
 /**
- * Get Design Tokens from @primeuix/themes
+ * Get Design Tokens from @openng/optimus-ui-themes
  */
 function getTokensFromApi(componentName) {
     const tokens = [];

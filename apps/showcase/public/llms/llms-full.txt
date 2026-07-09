@@ -29,7 +29,7 @@ Add providePrimeNG to the list of providers in your app.config.ts and use the th
 ```typescript
 import { ApplicationConfig } from '@angular/core';
 import { providePrimeNG } from 'primeng/config';
-import Aura from '@primeuix/themes/aura';
+import Aura from '@openng/optimus-ui-themes/aura';
 
 export const appConfig: ApplicationConfig = {
     providers: [
@@ -50,7 +50,7 @@ Configure PrimeNG to use a theme like Aura.
 import { ApplicationConfig } from '@angular/core';
 import { provideAnimationsAsync } from '@angular/platform-browser/animations/async';
 import { providePrimeNG } from 'primeng/config';
-import Aura from '@primeuix/themes/aura';
+import Aura from '@openng/optimus-ui-themes/aura';
 
 export const appConfig: ApplicationConfig = {
     providers: [
@@ -229,7 +229,7 @@ import { ApplicationConfig } from '@angular/core';
 import { provideAnimationsAsync } from '@angular/platform-browser/animations/async';
 import { providePrimeNG } from 'primeng/config';
 
-import Aura from '@primeuix/themes/aura';
+import Aura from '@openng/optimus-ui-themes/aura';
 
 export const appConfig: ApplicationConfig = {
     providers: [
@@ -379,7 +379,7 @@ The theme property is used to customize the initial theme.
 ```typescript
 import { ApplicationConfig } from '@angular/core';
 import { providePrimeNG } from 'primeng/config';
-import Aura from '@primeuix/themes/aura';
+import Aura from '@openng/optimus-ui-themes/aura';
 
 export const appConfig: ApplicationConfig = {
     providers: [
@@ -749,7 +749,7 @@ Our team has put in great deal of effort while updating PrimeNG, and there are n
 
 ## Deprecations
 
-The following items are marked as deprecated. API Deprecated Since Replacement Removal Status @primeng/themes v20 @primeuix/themes v22 pTemplate v20 ng-template with a template reference variable v22 styleClass *(for host enabled components) v20 class v22 Global inputStyle config v20 inputVariant v22 CamelCase Selectors v20 Kebab case v22 pButton iconPos, loadingIcon, icon and label properties v20 pButtonIcon and pButtonLabel directives v22 pButton buttonProps property v20 Use button properties directly on the element v22 p-button badgeClass property v20 badgeSeverity property v22 AutoComplete minLength property v20 minQueryLength v22 OrganizationChart preserveSpace property v20 Obselete property, had no use v22 Paginator dropdownAppendTo property v20 appendTo v22 Message text and escape properties v20 Content projection v22 Password maxLength property v20 maxlength property v22 TreeSelect containerStyle/containerStyleClass properties v20 style and class v22 Table responsiveLayout property v20 Always defaults to scroll, stack mode needs custom implementation v22 TreeSelect default template v20 value template v22 pBadge directive v20 OverlayBadge component v22 clearFilterIcon template of Table v20 Obsolete, not utilized. v22 Inplace closable property. v20 Use templating with closeCallback . v22
+The following items are marked as deprecated. API Deprecated Since Replacement Removal Status @primeng/themes v20 @openng/optimus-ui-themes v22 pTemplate v20 ng-template with a template reference variable v22 styleClass *(for host enabled components) v20 class v22 Global inputStyle config v20 inputVariant v22 CamelCase Selectors v20 Kebab case v22 pButton iconPos, loadingIcon, icon and label properties v20 pButtonIcon and pButtonLabel directives v22 pButton buttonProps property v20 Use button properties directly on the element v22 p-button badgeClass property v20 badgeSeverity property v22 AutoComplete minLength property v20 minQueryLength v22 OrganizationChart preserveSpace property v20 Obselete property, had no use v22 Paginator dropdownAppendTo property v20 appendTo v22 Message text and escape properties v20 Content projection v22 Password maxLength property v20 maxlength property v22 TreeSelect containerStyle/containerStyleClass properties v20 style and class v22 Table responsiveLayout property v20 Always defaults to scroll, stack mode needs custom implementation v22 TreeSelect default template v20 value template v22 pBadge directive v20 OverlayBadge component v22 clearFilterIcon template of Table v20 Obsolete, not utilized. v22 Inplace closable property. v20 Use templating with closeCallback . v22
 
 ## Overview
 
@@ -779,7 +779,7 @@ This version contains no API removals. For a list of APIs scheduled for removal 
 
 ## Whatsnew
 
-PrimeNG v21 represents a major advancement in PrimeTek's product vision. Key highlights of this release include: PassThrough attributes for enhanced customization. Unstyled Mode for complete styling flexibility. Modern CSS-based animations . The deprecated provideAnimationsAsync is safe to remove. Initial zoneless support for improved performance. AI-enhanced documentation for better developer experience. Notes The internal packages @openng/optimus-ui-styles and @primeuix/themes should be version 2.0.2 or higher. These packages are updated automatically with a fresh install. If you encounter any issues with visuals or animations, please verify that you are using the correct versions of these packages.
+PrimeNG v21 represents a major advancement in PrimeTek's product vision. Key highlights of this release include: PassThrough attributes for enhanced customization. Unstyled Mode for complete styling flexibility. Modern CSS-based animations . The deprecated provideAnimationsAsync is safe to remove. Initial zoneless support for improved performance. AI-enhanced documentation for better developer experience. Notes The internal packages @openng/optimus-ui-styles and @openng/optimus-ui-themes should be version 2.0.2 or higher. These packages are updated automatically with a fresh install. If you encounter any issues with visuals or animations, please verify that you are using the correct versions of these packages.
 
 ---
 

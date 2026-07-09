@@ -1,4 +1,4 @@
-import type { AccordionDesignTokens, AccordionTokenSections } from '@primeuix/themes/types/accordion';
+import type { AccordionDesignTokens, AccordionTokenSections } from '@openng/optimus-ui-themes/types/accordion';
 
 export const root: AccordionTokenSections.Root = {
     transitionDuration: '{transition.duration}'

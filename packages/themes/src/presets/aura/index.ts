@@ -87,8 +87,8 @@ import tree from '@primeng/themes/aura/tree';
 import treeselect from '@primeng/themes/aura/treeselect';
 import treetable from '@primeng/themes/aura/treetable';
 import virtualscroller from '@primeng/themes/aura/virtualscroller';
-import type { AuraBaseDesignTokens } from '@primeuix/themes/aura/base';
-import type { Preset } from '@primeuix/themes/types';
+import type { AuraBaseDesignTokens } from '@openng/optimus-ui-themes/aura/base';
+import type { Preset } from '@openng/optimus-ui-themes/types';
 
 export default {
     ...base,

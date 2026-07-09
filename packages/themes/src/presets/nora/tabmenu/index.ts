@@ -1,2 +1,2 @@
-export * from '@primeuix/themes/nora/tabmenu';
-export { default } from '@primeuix/themes/nora/tabmenu';
+export * from '@openng/optimus-ui-themes/nora/tabmenu';
+export { default } from '@openng/optimus-ui-themes/nora/tabmenu';

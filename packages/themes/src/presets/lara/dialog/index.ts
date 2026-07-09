@@ -1,2 +1,2 @@
-export * from '@primeuix/themes/lara/dialog';
-export { default } from '@primeuix/themes/lara/dialog';
+export * from '@openng/optimus-ui-themes/lara/dialog';
+export { default } from '@openng/optimus-ui-themes/lara/dialog';

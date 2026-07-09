@@ -1,2 +1,2 @@
-export * from '@primeuix/themes/aura/tag';
-export { default } from '@primeuix/themes/aura/tag';
+export * from '@openng/optimus-ui-themes/aura/tag';
+export { default } from '@openng/optimus-ui-themes/aura/tag';

@@ -1,4 +1,4 @@
-import type { RippleDesignTokens, RippleTokenSections } from '@primeuix/themes/types/ripple';
+import type { RippleDesignTokens, RippleTokenSections } from '@openng/optimus-ui-themes/types/ripple';
 
 export const colorScheme: RippleTokenSections.ColorScheme = {
     light: {

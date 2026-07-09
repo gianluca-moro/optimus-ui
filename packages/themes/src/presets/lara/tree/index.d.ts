@@ -1,2 +1,2 @@
-export * from '@primeuix/themes/lara/tree';
-export { default } from '@primeuix/themes/lara/tree';
+export * from '@openng/optimus-ui-themes/lara/tree';
+export { default } from '@openng/optimus-ui-themes/lara/tree';

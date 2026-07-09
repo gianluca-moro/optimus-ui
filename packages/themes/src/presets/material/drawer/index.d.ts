@@ -1,2 +1,2 @@
-export * from '@primeuix/themes/material/drawer';
-export { default } from '@primeuix/themes/material/drawer';
+export * from '@openng/optimus-ui-themes/material/drawer';
+export { default } from '@openng/optimus-ui-themes/material/drawer';

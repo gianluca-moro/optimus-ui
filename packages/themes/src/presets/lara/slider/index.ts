@@ -1,2 +1,2 @@
-export * from '@primeuix/themes/lara/slider';
-export { default } from '@primeuix/themes/lara/slider';
+export * from '@openng/optimus-ui-themes/lara/slider';
+export { default } from '@openng/optimus-ui-themes/lara/slider';

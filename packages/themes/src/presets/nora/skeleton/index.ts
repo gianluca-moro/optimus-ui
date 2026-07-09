@@ -1,2 +1,2 @@
-export * from '@primeuix/themes/nora/skeleton';
-export { default } from '@primeuix/themes/nora/skeleton';
+export * from '@openng/optimus-ui-themes/nora/skeleton';
+export { default } from '@openng/optimus-ui-themes/nora/skeleton';

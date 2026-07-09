@@ -1,2 +1,2 @@
-export * from '@primeuix/themes/material/tooltip';
-export { default } from '@primeuix/themes/material/tooltip';
+export * from '@openng/optimus-ui-themes/material/tooltip';
+export { default } from '@openng/optimus-ui-themes/material/tooltip';

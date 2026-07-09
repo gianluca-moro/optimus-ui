@@ -1,2 +1,2 @@
-export * from '@primeuix/themes/aura/treeselect';
-export { default } from '@primeuix/themes/aura/treeselect';
+export * from '@openng/optimus-ui-themes/aura/treeselect';
+export { default } from '@openng/optimus-ui-themes/aura/treeselect';

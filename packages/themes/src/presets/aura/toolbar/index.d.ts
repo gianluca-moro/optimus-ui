@@ -1,2 +1,2 @@
-export * from '@primeuix/themes/aura/toolbar';
-export { default } from '@primeuix/themes/aura/toolbar';
+export * from '@openng/optimus-ui-themes/aura/toolbar';
+export { default } from '@openng/optimus-ui-themes/aura/toolbar';

@@ -1,6 +1,6 @@
-import type { StepsTokenSections } from '@primeuix/themes/types/steps';
+import type { StepsTokenSections } from '@openng/optimus-ui-themes/types/steps';
 
-export * from '@primeuix/themes/types/steps';
+export * from '@openng/optimus-ui-themes/types/steps';
 
 declare const root: StepsTokenSections.Root;
 declare const separator: StepsTokenSections.Separator;

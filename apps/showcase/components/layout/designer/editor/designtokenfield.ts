@@ -2,7 +2,7 @@ import { DesignerService } from '@/service/designerservice';
 import { CommonModule } from '@angular/common';
 import { ChangeDetectionStrategy, Component, computed, EventEmitter, inject, input, Input, model, OnInit, Output } from '@angular/core';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
-import { $dt } from '@primeuix/themes';
+import { $dt } from '@openng/optimus-ui-themes';
 import { AutoCompleteModule } from 'primeng/autocomplete';
 import { TooltipModule } from 'primeng/tooltip';
 import { UniqueComponentId } from 'primeng/utils';

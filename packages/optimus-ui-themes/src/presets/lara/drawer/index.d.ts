@@ -1,6 +1,6 @@
-import type { DrawerTokenSections } from '@primeuix/themes/types/drawer';
+import type { DrawerTokenSections } from '@openng/optimus-ui-themes/types/drawer';
 
-export * from '@primeuix/themes/types/drawer';
+export * from '@openng/optimus-ui-themes/types/drawer';
 
 declare const root: DrawerTokenSections.Root;
 declare const header: DrawerTokenSections.Header;

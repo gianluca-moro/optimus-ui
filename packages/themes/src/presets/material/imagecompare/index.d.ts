@@ -1,2 +1,2 @@
-export * from '@primeuix/themes/material/imagecompare';
-export { default } from '@primeuix/themes/material/imagecompare';
+export * from '@openng/optimus-ui-themes/material/imagecompare';
+export { default } from '@openng/optimus-ui-themes/material/imagecompare';

@@ -1,2 +1,2 @@
-export * from '@primeuix/themes/lara/dataview';
-export { default } from '@primeuix/themes/lara/dataview';
+export * from '@openng/optimus-ui-themes/lara/dataview';
+export { default } from '@openng/optimus-ui-themes/lara/dataview';

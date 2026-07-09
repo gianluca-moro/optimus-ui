@@ -275,7 +275,7 @@ function testStackBlitzProjectStructure(demos) {
     allPassed &= logTest(`No separate ${selector}.html file`, true, 'Using inline template');
 
     // Test: package.json would have correct dependencies
-    const requiredDeps = ['primeng', '@angular/core', '@primeuix/themes', 'tailwindcss'];
+    const requiredDeps = ['primeng', '@angular/core', '@openng/optimus-ui-themes', 'tailwindcss'];
     allPassed &= logTest('Required dependencies present', true, requiredDeps.join(', '));
 
     return allPassed;

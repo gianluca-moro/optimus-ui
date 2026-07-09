@@ -1,6 +1,6 @@
-import type { GalleriaTokenSections } from '@primeuix/themes/types/galleria';
+import type { GalleriaTokenSections } from '@openng/optimus-ui-themes/types/galleria';
 
-export * from '@primeuix/themes/types/galleria';
+export * from '@openng/optimus-ui-themes/types/galleria';
 
 declare const root: GalleriaTokenSections.Root;
 declare const navButton: GalleriaTokenSections.NavButton;

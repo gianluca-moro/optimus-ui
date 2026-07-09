@@ -1,2 +1,2 @@
-export * from '@primeuix/themes/lara/colorpicker';
-export { default } from '@primeuix/themes/lara/colorpicker';
+export * from '@openng/optimus-ui-themes/lara/colorpicker';
+export { default } from '@openng/optimus-ui-themes/lara/colorpicker';

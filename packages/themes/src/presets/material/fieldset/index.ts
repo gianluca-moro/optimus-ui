@@ -1,2 +1,2 @@
-export * from '@primeuix/themes/material/fieldset';
-export { default } from '@primeuix/themes/material/fieldset';
+export * from '@openng/optimus-ui-themes/material/fieldset';
+export { default } from '@openng/optimus-ui-themes/material/fieldset';
