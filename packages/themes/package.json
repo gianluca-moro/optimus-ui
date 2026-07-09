@@ -49,7 +49,7 @@
         "dev:link": "pnpm link --global && npm link"
     },
     "dependencies": {
-        "@primeuix/styled": "catalog:",
+        "@primeuix/styled": "workspace:@openng/optimus-ui-styled@*",
         "@primeuix/themes": "catalog:"
     }
 }
