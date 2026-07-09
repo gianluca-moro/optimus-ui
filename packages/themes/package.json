@@ -50,6 +50,6 @@
     },
     "dependencies": {
         "@primeuix/styled": "workspace:@openng/optimus-ui-styled@*",
-        "@primeuix/themes": "catalog:"
+        "@primeuix/themes": "workspace:@openng/optimus-ui-themes@*"
     }
 }
