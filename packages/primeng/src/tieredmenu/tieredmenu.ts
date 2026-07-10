@@ -27,7 +27,7 @@ import {
     ViewRef
 } from '@angular/core';
 import { RouterModule } from '@angular/router';
-import { MotionEvent, MotionOptions } from '@primeuix/motion';
+import { MotionEvent, MotionOptions } from '@openng/optimus-ui-motion';
 import { absolutePosition, addStyle, appendChild, findLastIndex, findSingle, focus, getOuterWidth, isEmpty, isNotEmpty, isPrintableCharacter, isTouchDevice, nestedPosition, relativePosition, resolve, uuid } from '@openng/optimus-ui-utils';
 import { MenuItem, OverlayService, PrimeTemplate, SharedModule } from 'primeng/api';
 import { BaseComponent, PARENT_INSTANCE } from 'primeng/basecomponent';

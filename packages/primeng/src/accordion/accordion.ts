@@ -19,7 +19,7 @@ import {
     TemplateRef,
     ViewEncapsulation
 } from '@angular/core';
-import { MotionOptions } from '@primeuix/motion';
+import { MotionOptions } from '@openng/optimus-ui-motion';
 import { findSingle, focus, getAttribute, uuid } from '@openng/optimus-ui-utils';
 import { BlockableUI, SharedModule } from 'primeng/api';
 import { BaseComponent, PARENT_INSTANCE } from 'primeng/basecomponent';

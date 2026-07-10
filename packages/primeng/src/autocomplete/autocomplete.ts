@@ -25,7 +25,7 @@ import {
     ViewEncapsulation
 } from '@angular/core';
 import { NG_VALUE_ACCESSOR } from '@angular/forms';
-import { MotionOptions } from '@primeuix/motion';
+import { MotionOptions } from '@openng/optimus-ui-motion';
 import { equals, findLastIndex, findSingle, focus, isEmpty, isNotEmpty, resolveFieldData, uuid } from '@openng/optimus-ui-utils';
 import { OverlayOptions, OverlayService, PrimeTemplate, ScrollerOptions, SharedModule, TranslationKeys } from 'primeng/api';
 import { AutoFocus } from 'primeng/autofocus';

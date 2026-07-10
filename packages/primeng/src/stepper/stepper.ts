@@ -23,7 +23,7 @@ import {
     ViewEncapsulation
 } from '@angular/core';
 
-import { MotionOptions } from '@primeuix/motion';
+import { MotionOptions } from '@openng/optimus-ui-motion';
 import { find, findIndexInList, uuid } from '@openng/optimus-ui-utils';
 import { PrimeTemplate, SharedModule } from 'primeng/api';
 import { BaseComponent, PARENT_INSTANCE } from 'primeng/basecomponent';

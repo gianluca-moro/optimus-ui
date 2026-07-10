@@ -21,7 +21,7 @@ import {
     ViewChild,
     ViewEncapsulation
 } from '@angular/core';
-import { MotionOptions } from '@primeuix/motion';
+import { MotionOptions } from '@openng/optimus-ui-motion';
 import { uuid } from '@openng/optimus-ui-utils';
 import { MenuItem, PrimeTemplate, SharedModule, TooltipOptions } from 'primeng/api';
 import { AutoFocus } from 'primeng/autofocus';

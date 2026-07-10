@@ -22,7 +22,7 @@ import {
     ViewEncapsulation,
     ViewRef
 } from '@angular/core';
-import { MotionEvent, MotionOptions } from '@primeuix/motion';
+import { MotionEvent, MotionOptions } from '@openng/optimus-ui-motion';
 import { $dt } from '@openng/optimus-ui-styled';
 import { absolutePosition, addClass, appendChild, findSingle, getOffset, isIOS, isTouchDevice } from '@openng/optimus-ui-utils';
 import { OverlayService, PrimeTemplate, SharedModule } from 'primeng/api';

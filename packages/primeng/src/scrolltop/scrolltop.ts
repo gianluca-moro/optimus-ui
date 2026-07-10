@@ -1,6 +1,6 @@
 import { CommonModule, isPlatformBrowser } from '@angular/common';
 import { ChangeDetectionStrategy, Component, computed, ContentChild, ContentChildren, inject, InjectionToken, input, Input, NgModule, numberAttribute, QueryList, signal, TemplateRef, ViewEncapsulation } from '@angular/core';
-import { MotionEvent, MotionOptions } from '@primeuix/motion';
+import { MotionEvent, MotionOptions } from '@openng/optimus-ui-motion';
 import { getWindowScrollTop } from '@openng/optimus-ui-utils';
 import { PrimeTemplate, SharedModule } from 'primeng/api';
 import { BaseComponent, PARENT_INSTANCE } from 'primeng/basecomponent';

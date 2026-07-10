@@ -29,7 +29,7 @@ import {
     ViewEncapsulation
 } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { MotionEvent, MotionOptions } from '@primeuix/motion';
+import { MotionEvent, MotionOptions } from '@openng/optimus-ui-motion';
 import { absolutePosition, addStyle, appendChild, find, findSingle, getAttribute, isClickable, setAttribute } from '@openng/optimus-ui-utils';
 import { BlockableUI, FilterMatchMode, FilterMetadata, FilterOperator, FilterService, LazyLoadMeta, OverlayService, PrimeTemplate, ScrollerOptions, SelectItem, SharedModule, SortMeta, TableState, TranslationKeys } from 'primeng/api';
 import { BadgeModule } from 'primeng/badge';

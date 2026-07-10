@@ -23,7 +23,7 @@ import {
     ViewEncapsulation
 } from '@angular/core';
 import { NG_VALUE_ACCESSOR } from '@angular/forms';
-import { MotionEvent, MotionOptions } from '@primeuix/motion';
+import { MotionEvent, MotionOptions } from '@openng/optimus-ui-motion';
 import { absolutePosition, addClass, addStyle, appendChild, find, findSingle, getFocusableElements, getIndex, getOuterWidth, hasClass, isDate, isNotEmpty, isTouchDevice, relativePosition, setAttribute, uuid } from '@openng/optimus-ui-utils';
 import { OverlayService, PrimeTemplate, SharedModule, TranslationKeys } from 'primeng/api';
 import { AutoFocus } from 'primeng/autofocus';

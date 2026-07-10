@@ -26,7 +26,7 @@ import {
     ViewEncapsulation,
     ViewRef
 } from '@angular/core';
-import { MotionEvent, MotionOptions } from '@primeuix/motion';
+import { MotionEvent, MotionOptions } from '@openng/optimus-ui-motion';
 import { addStyle, appendChild, getOuterHeight, getOuterWidth, getViewport, hasClass, removeClass, setAttribute, uuid } from '@openng/optimus-ui-utils';
 import { OverlayService, PrimeTemplate, SharedModule, TranslationKeys } from 'primeng/api';
 import { BaseComponent, PARENT_INSTANCE } from 'primeng/basecomponent';

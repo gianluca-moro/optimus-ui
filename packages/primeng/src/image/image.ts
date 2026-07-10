@@ -22,7 +22,7 @@ import {
     ViewEncapsulation
 } from '@angular/core';
 import { SafeUrl } from '@angular/platform-browser';
-import { MotionEvent, MotionOptions } from '@primeuix/motion';
+import { MotionEvent, MotionOptions } from '@openng/optimus-ui-motion';
 import { appendChild, focus } from '@openng/optimus-ui-utils';
 import { PrimeTemplate, SharedModule } from 'primeng/api';
 import { BaseComponent, PARENT_INSTANCE } from 'primeng/basecomponent';

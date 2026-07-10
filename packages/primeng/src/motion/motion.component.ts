@@ -1,6 +1,6 @@
 import { CommonModule } from '@angular/common';
 import { afterRenderEffect, Component, computed, effect, inject, InjectionToken, input, output, signal, untracked } from '@angular/core';
-import { type ClassNameOptions, createMotion, resolveDuration, type MotionEvent, type MotionInstance, type MotionOptions, type MotionPhase } from '@primeuix/motion';
+import { type ClassNameOptions, createMotion, resolveDuration, type MotionEvent, type MotionInstance, type MotionOptions, type MotionPhase } from '@openng/optimus-ui-motion';
 import { nextFrame } from '@openng/optimus-ui-utils';
 import { BaseComponent, PARENT_INSTANCE } from 'primeng/basecomponent';
 import { Bind, BindModule } from 'primeng/bind';

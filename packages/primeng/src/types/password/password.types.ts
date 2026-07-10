@@ -1,5 +1,5 @@
 import { TemplateRef } from '@angular/core';
-import type { MotionOptions } from '@primeuix/motion';
+import type { MotionOptions } from '@openng/optimus-ui-motion';
 import type { PassThrough, PassThroughOption } from 'primeng/api';
 import type { InputTextPassThrough } from 'primeng/types/inputtext';
 import type { OverlayPassThrough } from 'primeng/types/overlay';

@@ -29,7 +29,7 @@ import {
 } from '@angular/core';
 import { DomSanitizer, SafeHtml } from '@angular/platform-browser';
 import { RouterModule } from '@angular/router';
-import { MotionEvent, MotionOptions } from '@primeuix/motion';
+import { MotionEvent, MotionOptions } from '@openng/optimus-ui-motion';
 import { absolutePosition, addStyle, appendChild, find, findSingle, focus, isTouchDevice, uuid } from '@openng/optimus-ui-utils';
 import { MenuItem, OverlayService, PrimeTemplate, SharedModule } from 'primeng/api';
 import { BadgeModule } from 'primeng/badge';

@@ -9,7 +9,6 @@
             "primeng/*": ["../../packages/primeng/src/*/public_api"],
             "@primeuix/styles/*": ["../../../../packages/styles/dist/*"],
             "@primeuix/themes/*": ["../../../../packages/themes/dist/*"],
-            "@primeuix/motion/*": ["../../../../packages/motion/dist/*"],
 
             "@/*": ["./*"]
         }

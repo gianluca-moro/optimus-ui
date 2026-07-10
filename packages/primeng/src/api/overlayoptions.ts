@@ -1,4 +1,4 @@
-import { MotionOptions } from '@primeuix/motion';
+import { MotionOptions } from '@openng/optimus-ui-motion';
 
 /**
  * Represents the type of overlay mode, which can be 'modal', 'overlay', or undefined.

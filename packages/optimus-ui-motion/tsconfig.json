@@ -22,10 +22,10 @@
             "@primeuix/styles/*": [
                 "../optimus-ui-styles/src/*"
             ],
-            "@primeuix/motion": [
+            "@openng/optimus-ui-motion": [
                 "../optimus-ui-motion/src"
             ],
-            "@primeuix/motion/*": [
+            "@openng/optimus-ui-motion/*": [
                 "../optimus-ui-motion/src/*",
                 "../optimus-ui-motion/types/*"
             ],

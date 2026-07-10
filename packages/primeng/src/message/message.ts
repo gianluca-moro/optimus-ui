@@ -1,6 +1,6 @@
 import { CommonModule } from '@angular/common';
 import { booleanAttribute, ChangeDetectionStrategy, Component, computed, ContentChild, ContentChildren, EventEmitter, inject, InjectionToken, input, Input, NgModule, Output, QueryList, signal, TemplateRef, ViewEncapsulation } from '@angular/core';
-import { MotionOptions } from '@primeuix/motion';
+import { MotionOptions } from '@openng/optimus-ui-motion';
 import { PrimeTemplate, SharedModule } from 'primeng/api';
 import { BaseComponent, PARENT_INSTANCE } from 'primeng/basecomponent';
 import { Bind } from 'primeng/bind';

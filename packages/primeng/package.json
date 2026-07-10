@@ -60,6 +60,6 @@
         "@openng/optimus-ui-styled": "workspace:*",
         "@openng/optimus-ui-utils": "workspace:*",
         "@primeuix/styles": "workspace:@openng/optimus-ui-styles@*",
-        "@primeuix/motion": "workspace:@openng/optimus-ui-motion@*"
+        "@openng/optimus-ui-motion": "workspace:*"
     }
 }

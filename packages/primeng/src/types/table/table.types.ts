@@ -8,7 +8,7 @@ import type { InputTextPassThrough } from 'primeng/types/inputtext';
 import type { SelectPassThrough } from 'primeng/types/select';
 import type { InputNumberPassThrough } from 'primeng/types/inputnumber';
 import type { DatePickerPassThrough } from 'primeng/types/datepicker';
-import type { MotionOptions } from '@primeuix/motion';
+import type { MotionOptions } from '@openng/optimus-ui-motion';
 
 /**
  * Custom pass-through(pt) options for ColumnFilter.

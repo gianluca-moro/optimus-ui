@@ -22,7 +22,7 @@ import {
     TemplateRef,
     ViewEncapsulation
 } from '@angular/core';
-import { MotionEvent, MotionOptions } from '@primeuix/motion';
+import { MotionEvent, MotionOptions } from '@openng/optimus-ui-motion';
 import { isEmpty, setAttribute, uuid } from '@openng/optimus-ui-utils';
 import { MessageService, PrimeTemplate, SharedModule, ToastMessageOptions } from 'primeng/api';
 import { BaseComponent, PARENT_INSTANCE } from 'primeng/basecomponent';

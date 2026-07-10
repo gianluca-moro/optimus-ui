@@ -57,7 +57,7 @@
         "@angular/router": "catalog:angular21",
         "@commitlint/cli": "^19.6.1",
         "@commitlint/config-conventional": "^19.6.0",
-        "@primeuix/motion": "workspace:@openng/optimus-ui-motion@*",
+        "@openng/optimus-ui-motion": "workspace:*",
         "@openng/optimus-ui-styled": "workspace:*",
         "@primeuix/styles": "workspace:@openng/optimus-ui-styles@*",
         "@primeuix/themes": "workspace:@openng/optimus-ui-themes@*",
