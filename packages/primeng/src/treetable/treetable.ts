@@ -47,7 +47,7 @@ import {
     removeClass,
     reorderArray,
     resolveFieldData
-} from '@primeuix/utils';
+} from '@openng/optimus-ui-utils';
 import { BlockableUI, FilterMetadata, FilterService, PrimeTemplate, ScrollerOptions, SharedModule, SortMeta, TreeNode, TreeTableNode } from 'primeng/api';
 import { BadgeModule } from 'primeng/badge';
 import { BaseComponent, PARENT_INSTANCE } from 'primeng/basecomponent';

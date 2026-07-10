@@ -1,4 +1,4 @@
-import { resolve } from '@primeuix/utils/object';
+import { resolve } from '@openng/optimus-ui-utils/object';
 import isElement from './isElement';
 
 /**

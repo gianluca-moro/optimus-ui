@@ -1,4 +1,4 @@
-import { EventBus } from '@primeuix/utils/eventbus';
+import { EventBus } from '@openng/optimus-ui-utils/eventbus';
 
 const ThemeService = EventBus();
 

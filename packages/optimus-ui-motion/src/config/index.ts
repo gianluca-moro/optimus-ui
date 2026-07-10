@@ -1,4 +1,4 @@
-import { addClass, removeClass } from '@primeuix/utils';
+import { addClass, removeClass } from '@openng/optimus-ui-utils';
 import type { MotionClassNamesWithPhase, MotionHooksWithPhase, MotionInstance, MotionOptions, MotionPhase, MotionType } from '../../types';
 import { getMotionHooks, getMotionMetadata, mergeOptions, resolveClassNames, resolveDuration, setAutoDimensionVariables, shouldSkipMotion } from '../utils';
 

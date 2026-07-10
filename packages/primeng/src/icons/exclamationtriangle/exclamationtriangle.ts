@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { uuid } from '@primeuix/utils';
+import { uuid } from '@openng/optimus-ui-utils';
 import { BaseIcon } from 'primeng/icons/baseicon';
 
 @Component({

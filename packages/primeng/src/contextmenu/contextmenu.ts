@@ -47,7 +47,7 @@ import {
     isPrintableCharacter,
     resolve,
     uuid
-} from '@primeuix/utils';
+} from '@openng/optimus-ui-utils';
 import { MenuItem, OverlayService, PrimeTemplate, SharedModule } from 'primeng/api';
 import { BadgeModule } from 'primeng/badge';
 import { BaseComponent, PARENT_INSTANCE } from 'primeng/basecomponent';

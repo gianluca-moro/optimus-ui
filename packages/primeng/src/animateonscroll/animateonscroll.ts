@@ -1,6 +1,6 @@
 import { isPlatformBrowser } from '@angular/common';
 import { booleanAttribute, Directive, Input, NgModule, numberAttribute } from '@angular/core';
-import { addClass, removeClass } from '@primeuix/utils';
+import { addClass, removeClass } from '@openng/optimus-ui-utils';
 import { BaseComponent } from 'primeng/basecomponent';
 
 interface AnimateOnScrollOptions {

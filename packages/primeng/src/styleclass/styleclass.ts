@@ -1,5 +1,5 @@
 import { booleanAttribute, Directive, ElementRef, HostListener, Input, NgModule, NgZone, OnDestroy, Renderer2 } from '@angular/core';
-import { addClass, getTargetElement, hasClass, isElement, removeClass } from '@primeuix/utils';
+import { addClass, getTargetElement, hasClass, isElement, removeClass } from '@openng/optimus-ui-utils';
 import { VoidListener } from 'primeng/ts-helpers';
 
 /**

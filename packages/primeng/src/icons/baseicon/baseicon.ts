@@ -1,5 +1,5 @@
 import { booleanAttribute, ChangeDetectionStrategy, Component, inject, Input, ViewEncapsulation } from '@angular/core';
-import { cn } from '@primeuix/utils';
+import { cn } from '@openng/optimus-ui-utils';
 import { BaseComponent } from 'primeng/basecomponent';
 import { BaseIconStyle } from './style/baseiconstyle';
 

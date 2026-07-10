@@ -1,5 +1,5 @@
 import { Directive, NgModule, computed, input } from '@angular/core';
-import { cn } from '@primeuix/utils';
+import { cn } from '@openng/optimus-ui-utils';
 /**
  * Represents the suitable value types of pClass directive.
  * @group Types

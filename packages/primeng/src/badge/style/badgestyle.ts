@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { style as badge_style } from '@primeuix/styles/badge';
-import { isEmpty, isNotEmpty } from '@primeuix/utils';
+import { isEmpty, isNotEmpty } from '@openng/optimus-ui-utils';
 import { BaseStyle } from 'primeng/base';
 
 const style = /*css*/ `

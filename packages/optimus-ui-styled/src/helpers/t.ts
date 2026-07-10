@@ -1,4 +1,4 @@
-import { mergeKeys } from '@primeuix/utils/object';
+import { mergeKeys } from '@openng/optimus-ui-utils/object';
 import Theme from '../config/index';
 
 export const $t = (theme: any = {}) => {

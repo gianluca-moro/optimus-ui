@@ -16,7 +16,7 @@ export default defineConfig([
         entry,
         format: ['esm'],
         outDir: 'dist',
-        external: [/^@primeuix\/(.*)$/],
+        external: [/^@primeuix\/(.*)$/, /^@openng\/optimus-ui-(.*)$/],
         minify: isProduction ? 'terser' : false,
         sourcemap: isProduction,
         splitting: false,
@@ -35,7 +35,7 @@ export default defineConfig([
         format: ['esm'],
         outDir: 'dist',
         dts: true,
-        external: [/^@primeuix\/(.*)$/],
+        external: [/^@primeuix\/(.*)$/, /^@openng\/optimus-ui-(.*)$/],
         minify: isProduction,
         sourcemap: isProduction,
         splitting: false

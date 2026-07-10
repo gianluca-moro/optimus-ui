@@ -1,4 +1,4 @@
-import { matchRegex } from '@primeuix/utils';
+import { matchRegex } from '@openng/optimus-ui-utils';
 import type { ColorScale } from '../..';
 import { EXPR_REGEX } from '../../utils/index';
 import shade from './shade';

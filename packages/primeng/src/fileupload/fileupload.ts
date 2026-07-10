@@ -23,7 +23,7 @@ import {
     ViewEncapsulation
 } from '@angular/core';
 import { DomSanitizer } from '@angular/platform-browser';
-import { addClass, removeClass } from '@primeuix/utils';
+import { addClass, removeClass } from '@openng/optimus-ui-utils';
 import { BlockableUI, PrimeTemplate, SharedModule, TranslationKeys } from 'primeng/api';
 import { Badge } from 'primeng/badge';
 import { BaseComponent, PARENT_INSTANCE } from 'primeng/basecomponent';

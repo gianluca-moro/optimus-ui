@@ -2,7 +2,7 @@ import APIDoc from '@/doc/apidoc/index.json';
 import { CommonModule } from '@angular/common';
 import { ChangeDetectorRef, Component, computed, ElementRef, inject, input, InputSignal, viewChild } from '@angular/core';
 import { RouterModule } from '@angular/router';
-import { addClass, find, removeClass } from '@primeuix/utils/dom';
+import { addClass, find, removeClass } from '@openng/optimus-ui-utils/dom';
 import { PrimeNG } from 'primeng/config';
 import { AppDocSectionText } from './app.docsectiontext';
 
