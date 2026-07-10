@@ -1,6 +1,6 @@
 import { DOCUMENT } from '@angular/common';
 import { effect, inject, Injectable, signal, untracked } from '@angular/core';
-import { Theme, ThemeService } from '@primeuix/styled';
+import { Theme, ThemeService } from '@openng/optimus-ui-styled';
 import { BaseStyle } from 'primeng/base';
 import type { ThemeConfigType } from './primeng.types';
 

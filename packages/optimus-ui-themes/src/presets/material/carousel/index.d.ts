@@ -1,4 +1,4 @@
-import type { StyleOptions } from '@primeuix/styled';
+import type { StyleOptions } from '@openng/optimus-ui-styled';
 import type { CarouselTokenSections } from '@primeuix/themes/types/carousel';
 
 export * from '@primeuix/themes/types/carousel';

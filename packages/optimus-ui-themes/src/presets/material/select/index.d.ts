@@ -1,4 +1,4 @@
-import type { StyleOptions } from '@primeuix/styled';
+import type { StyleOptions } from '@openng/optimus-ui-styled';
 import type { SelectTokenSections } from '@primeuix/themes/types/select';
 
 export * from '@primeuix/themes/types/select';

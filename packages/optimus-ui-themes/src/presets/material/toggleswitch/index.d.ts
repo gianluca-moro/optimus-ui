@@ -1,4 +1,4 @@
-import type { StyleOptions } from '@primeuix/styled';
+import type { StyleOptions } from '@openng/optimus-ui-styled';
 import type { ToggleSwitchTokenSections } from '@primeuix/themes/types/toggleswitch';
 
 export * from '@primeuix/themes/types/toggleswitch';

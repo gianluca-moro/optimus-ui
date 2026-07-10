@@ -5,5 +5,5 @@
     "lib": {
         "entryFile": "public_api.ts"
     },
-    "allowedNonPeerDependencies": ["@primeuix/styled", "@openng/optimus-ui-utils", "@primeuix/styles", "@primeuix/motion"]
+    "allowedNonPeerDependencies": ["@openng/optimus-ui-styled", "@openng/optimus-ui-utils", "@primeuix/styles", "@primeuix/motion"]
 }

@@ -1,4 +1,4 @@
-import type { StyleOptions } from '@primeuix/styled';
+import type { StyleOptions } from '@openng/optimus-ui-styled';
 import type { PanelMenuTokenSections } from '@primeuix/themes/types/panelmenu';
 
 export * from '@primeuix/themes/types/panelmenu';

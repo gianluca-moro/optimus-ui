@@ -1,4 +1,4 @@
-import type { StyleOptions } from '@primeuix/styled';
+import type { StyleOptions } from '@openng/optimus-ui-styled';
 import type { DatePickerTokenSections } from '@primeuix/themes/types/datepicker';
 
 export * from '@primeuix/themes/types/datepicker';

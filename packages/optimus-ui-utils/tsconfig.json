@@ -10,10 +10,10 @@
             "@openng/optimus-ui-utils/*": [
                 "../optimus-ui-utils/src/*"
             ],
-            "@primeuix/styled": [
+            "@openng/optimus-ui-styled": [
                 "../optimus-ui-styled/src"
             ],
-            "@primeuix/styled/*": [
+            "@openng/optimus-ui-styled/*": [
                 "../optimus-ui-styled/src/*"
             ],
             "@primeuix/styles": [

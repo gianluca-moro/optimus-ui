@@ -1,5 +1,5 @@
 import { inject, Injectable } from '@angular/core';
-import { css as Css, dt, Theme } from '@primeuix/styled';
+import { css as Css, dt, Theme } from '@openng/optimus-ui-styled';
 import { style as base_style } from '@primeuix/styles/base';
 import { minifyCSS, resolve } from '@openng/optimus-ui-utils';
 import { UseStyle } from 'primeng/usestyle';

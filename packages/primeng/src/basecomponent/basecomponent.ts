@@ -1,6 +1,6 @@
 import { DOCUMENT, isPlatformServer } from '@angular/common';
 import { ChangeDetectorRef, computed, Directive, effect, ElementRef, inject, InjectionToken, Injector, input, PLATFORM_ID, Renderer2, signal, SimpleChanges } from '@angular/core';
-import { Theme, ThemeService } from '@primeuix/styled';
+import { Theme, ThemeService } from '@openng/optimus-ui-styled';
 import { cn, getKeyValue, isArray, isFunction, isNotEmpty, isString, mergeProps, resolve, toFlatCase, uuid } from '@openng/optimus-ui-utils';
 import type { Lifecycle, PassThroughOptions } from 'primeng/api';
 import { Base, BaseStyle } from 'primeng/base';

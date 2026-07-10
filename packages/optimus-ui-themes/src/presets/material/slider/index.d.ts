@@ -1,4 +1,4 @@
-import type { StyleOptions } from '@primeuix/styled';
+import type { StyleOptions } from '@openng/optimus-ui-styled';
 import type { SliderTokenSections } from '@primeuix/themes/types/slider';
 
 export * from '@primeuix/themes/types/slider';

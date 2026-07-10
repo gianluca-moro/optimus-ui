@@ -1,4 +1,4 @@
-import type { StyleOptions } from '@primeuix/styled';
+import type { StyleOptions } from '@openng/optimus-ui-styled';
 import type { FieldsetTokenSections } from '@primeuix/themes/types/fieldset';
 
 export * from '@primeuix/themes/types/fieldset';

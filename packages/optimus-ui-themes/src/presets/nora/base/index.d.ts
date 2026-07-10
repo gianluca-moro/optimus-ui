@@ -5,7 +5,7 @@
  * @module base
  *
  */
-import type { ColorScale } from '@primeuix/styled';
+import type { ColorScale } from '@openng/optimus-ui-styled';
 
 /**
  * Design Token Sections

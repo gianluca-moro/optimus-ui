@@ -70,7 +70,7 @@
         "dev:link": "pnpm link --global && npm link"
     },
     "dependencies": {
-        "@primeuix/styled": "workspace:@openng/optimus-ui-styled@*"
+        "@openng/optimus-ui-styled": "workspace:*"
     },
     "devDependencies": {
         "typedoc": "0.27.6"

@@ -853,7 +853,7 @@ export class DomHandler {
     }
 }
 
-import { $dt } from '@primeuix/styled';
+import { $dt } from '@openng/optimus-ui-styled';
 import * as utils from '@openng/optimus-ui-utils';
 
 // @todo: update this when we remove the old domhandler

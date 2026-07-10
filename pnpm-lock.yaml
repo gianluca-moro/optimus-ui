@@ -132,15 +132,15 @@ importers:
       '@commitlint/config-conventional':
         specifier: ^19.6.0
         version: 19.8.1
+      '@openng/optimus-ui-styled':
+        specifier: workspace:*
+        version: link:packages/optimus-ui-styled
       '@openng/optimus-ui-utils':
         specifier: workspace:*
         version: link:packages/optimus-ui-utils
       '@primeuix/motion':
         specifier: workspace:@openng/optimus-ui-motion@*
         version: link:packages/optimus-ui-motion
-      '@primeuix/styled':
-        specifier: workspace:@openng/optimus-ui-styled@*
-        version: link:packages/optimus-ui-styled
       '@primeuix/styles':
         specifier: workspace:@openng/optimus-ui-styles@*
         version: link:packages/optimus-ui-styles
@@ -316,8 +316,8 @@ importers:
 
   packages/optimus-ui-styles:
     dependencies:
-      '@primeuix/styled':
-        specifier: workspace:@openng/optimus-ui-styled@*
+      '@openng/optimus-ui-styled':
+        specifier: workspace:*
         version: link:../optimus-ui-styled
     devDependencies:
       known-css-properties:
@@ -329,8 +329,8 @@ importers:
 
   packages/optimus-ui-themes:
     dependencies:
-      '@primeuix/styled':
-        specifier: workspace:@openng/optimus-ui-styled@*
+      '@openng/optimus-ui-styled':
+        specifier: workspace:*
         version: link:../optimus-ui-styled
     devDependencies:
       typedoc:
@@ -359,15 +359,15 @@ importers:
       '@angular/router':
         specifier: catalog:angular21
         version: 21.2.13(@angular/common@21.2.13(@angular/core@21.2.13(@angular/compiler@21.2.13)(rxjs@7.8.2))(rxjs@7.8.2))(@angular/core@21.2.13(@angular/compiler@21.2.13)(rxjs@7.8.2))(@angular/platform-browser@21.2.13(@angular/animations@21.0.0(@angular/core@21.2.13(@angular/compiler@21.2.13)(rxjs@7.8.2)))(@angular/common@21.2.13(@angular/core@21.2.13(@angular/compiler@21.2.13)(rxjs@7.8.2))(rxjs@7.8.2))(@angular/core@21.2.13(@angular/compiler@21.2.13)(rxjs@7.8.2)))(rxjs@7.8.2)
+      '@openng/optimus-ui-styled':
+        specifier: workspace:*
+        version: link:../optimus-ui-styled
       '@openng/optimus-ui-utils':
         specifier: workspace:*
         version: link:../optimus-ui-utils
       '@primeuix/motion':
         specifier: workspace:@openng/optimus-ui-motion@*
         version: link:../optimus-ui-motion
-      '@primeuix/styled':
-        specifier: workspace:@openng/optimus-ui-styled@*
-        version: link:../optimus-ui-styled
       '@primeuix/styles':
         specifier: workspace:@openng/optimus-ui-styles@*
         version: link:../optimus-ui-styles
@@ -397,8 +397,8 @@ importers:
 
   packages/themes:
     dependencies:
-      '@primeuix/styled':
-        specifier: workspace:@openng/optimus-ui-styled@*
+      '@openng/optimus-ui-styled':
+        specifier: workspace:*
         version: link:../optimus-ui-styled
       '@primeuix/themes':
         specifier: workspace:@openng/optimus-ui-themes@*

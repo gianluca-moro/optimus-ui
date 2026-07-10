@@ -1,1 +1,1 @@
-export * from '@primeuix/styled';
+export * from '@openng/optimus-ui-styled';
