@@ -3,8 +3,8 @@ import { AppCode } from '@/components/doc/app.code';
 import { AppDocSectionText } from '@/components/doc/app.docsectiontext';
 import { Product } from '@/domain/product';
 import { ChangeDetectionStrategy, ChangeDetectorRef, Component } from '@angular/core';
-import { SkeletonModule } from 'primeng/skeleton';
-import { TableModule } from 'primeng/table';
+import { SkeletonModule } from '@openng/optimus-ui/skeleton';
+import { TableModule } from '@openng/optimus-ui/table';
 
 @Component({
     selector: 'loadingskeleton-doc',

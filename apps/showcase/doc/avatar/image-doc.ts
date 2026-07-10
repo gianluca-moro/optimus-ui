@@ -1,8 +1,8 @@
 import { Component } from '@angular/core';
 import { AppDocSectionText } from '@/components/doc/app.docsectiontext';
 import { AppCode } from '@/components/doc/app.code';
-import { AvatarModule } from 'primeng/avatar';
-import { OverlayBadgeModule } from 'primeng/overlaybadge';
+import { AvatarModule } from '@openng/optimus-ui/avatar';
+import { OverlayBadgeModule } from '@openng/optimus-ui/overlaybadge';
 
 @Component({
     selector: 'image-doc',

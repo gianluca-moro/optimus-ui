@@ -2,7 +2,7 @@ import APIDoc from '@/doc/apidoc/index.json';
 import { Location } from '@angular/common';
 import { ChangeDetectionStrategy, Component, computed, input, Input } from '@angular/core';
 import { Router } from '@angular/router';
-import { ObjectUtils } from 'primeng/utils';
+import { ObjectUtils } from '@openng/optimus-ui/utils';
 import { AppDocApiTable } from './app.docapitable';
 import { AppDocSection } from './app.docsection';
 import { AppDocSectionNav } from './app.docsection-nav';

@@ -8,11 +8,11 @@ import Aura from '@openng/optimus-ui-themes/aura';
 import Lara from '@openng/optimus-ui-themes/lara';
 import Material from '@openng/optimus-ui-themes/material';
 import Nora from '@openng/optimus-ui-themes/nora';
-import { ButtonModule } from 'primeng/button';
-import { PrimeNG } from 'primeng/config';
-import { RadioButtonModule } from 'primeng/radiobutton';
-import { SelectButton } from 'primeng/selectbutton';
-import { ToggleSwitchModule } from 'primeng/toggleswitch';
+import { ButtonModule } from '@openng/optimus-ui/button';
+import { PrimeNG } from '@openng/optimus-ui/config';
+import { RadioButtonModule } from '@openng/optimus-ui/radiobutton';
+import { SelectButton } from '@openng/optimus-ui/selectbutton';
+import { ToggleSwitchModule } from '@openng/optimus-ui/toggleswitch';
 
 const presets = {
     Aura,

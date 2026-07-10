@@ -1,10 +1,10 @@
 import { AppCode } from '@/components/doc/app.code';
 import { AppDocSectionText } from '@/components/doc/app.docsectiontext';
 import { Component, OnDestroy } from '@angular/core';
-import { MessageService } from 'primeng/api';
-import { ButtonModule } from 'primeng/button';
-import { DialogService, DynamicDialogRef } from 'primeng/dynamicdialog';
-import { ToastModule } from 'primeng/toast';
+import { MessageService } from '@openng/optimus-ui/api';
+import { ButtonModule } from '@openng/optimus-ui/button';
+import { DialogService, DynamicDialogRef } from '@openng/optimus-ui/dynamicdialog';
+import { ToastModule } from '@openng/optimus-ui/toast';
 import { Footer } from './footer';
 import { ProductListDemo } from './productlistdemo';
 

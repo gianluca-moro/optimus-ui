@@ -5,8 +5,8 @@ import { ProductService } from '@/service/productservice';
 import { CommonModule } from '@angular/common';
 import { Component, OnInit, signal } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { AutoCompleteModule } from 'primeng/autocomplete';
-import { ChipModule } from 'primeng/chip';
+import { AutoCompleteModule } from '@openng/optimus-ui/autocomplete';
+import { ChipModule } from '@openng/optimus-ui/chip';
 
 @Component({
     selector: 'advanced-chips-doc',

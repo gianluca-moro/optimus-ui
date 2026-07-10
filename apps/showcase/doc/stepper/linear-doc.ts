@@ -1,8 +1,8 @@
 import { Component } from '@angular/core';
 import { AppDocSectionText } from '@/components/doc/app.docsectiontext';
 import { AppCode } from '@/components/doc/app.code';
-import { StepperModule } from 'primeng/stepper';
-import { ButtonModule } from 'primeng/button';
+import { StepperModule } from '@openng/optimus-ui/stepper';
+import { ButtonModule } from '@openng/optimus-ui/button';
 
 @Component({
     selector: 'linear-doc',

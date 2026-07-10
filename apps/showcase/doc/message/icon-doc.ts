@@ -1,8 +1,8 @@
 import { AppCodeModule } from '@/components/doc/app.code';
 import { AppDocSectionText } from '@/components/doc/app.docsectiontext';
 import { Component, OnInit } from '@angular/core';
-import { AvatarModule } from 'primeng/avatar';
-import { MessageModule } from 'primeng/message';
+import { AvatarModule } from '@openng/optimus-ui/avatar';
+import { MessageModule } from '@openng/optimus-ui/message';
 
 @Component({
     selector: 'icon-doc',

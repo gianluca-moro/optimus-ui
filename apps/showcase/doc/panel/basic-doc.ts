@@ -1,7 +1,7 @@
 import { AppCode } from '@/components/doc/app.code';
 import { AppDocSectionText } from '@/components/doc/app.docsectiontext';
 import { Component } from '@angular/core';
-import { PanelModule } from 'primeng/panel';
+import { PanelModule } from '@openng/optimus-ui/panel';
 
 @Component({
     selector: 'basic-doc',

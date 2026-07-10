@@ -1,11 +1,11 @@
 import { NodeService } from '@/service/nodeservice';
 import { Component, inject } from '@angular/core';
 import { FormBuilder, FormGroup, Validators, ReactiveFormsModule } from '@angular/forms';
-import { MessageService } from 'primeng/api';
-import { TreeSelectModule } from 'primeng/treeselect';
-import { ButtonModule } from 'primeng/button';
-import { ToastModule } from 'primeng/toast';
-import { MessageModule } from 'primeng/message';
+import { MessageService } from '@openng/optimus-ui/api';
+import { TreeSelectModule } from '@openng/optimus-ui/treeselect';
+import { ButtonModule } from '@openng/optimus-ui/button';
+import { ToastModule } from '@openng/optimus-ui/toast';
+import { MessageModule } from '@openng/optimus-ui/message';
 import { CommonModule } from '@angular/common';
 import { AppCode } from '@/components/doc/app.code';
 import { AppDocSectionText } from '@/components/doc/app.docsectiontext';

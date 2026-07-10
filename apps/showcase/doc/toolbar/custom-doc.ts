@@ -1,9 +1,9 @@
 import { Component } from '@angular/core';
 import { AppDocSectionText } from '@/components/doc/app.docsectiontext';
 import { AppCode } from '@/components/doc/app.code';
-import { ToolbarModule } from 'primeng/toolbar';
-import { ButtonModule } from 'primeng/button';
-import { AvatarModule } from 'primeng/avatar';
+import { ToolbarModule } from '@openng/optimus-ui/toolbar';
+import { ButtonModule } from '@openng/optimus-ui/button';
+import { AvatarModule } from '@openng/optimus-ui/avatar';
 
 @Component({
     selector: 'custom-doc',

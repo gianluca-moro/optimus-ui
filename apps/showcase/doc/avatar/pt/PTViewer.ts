@@ -1,8 +1,8 @@
 import { AppDocPtViewer, getPTOptions } from '@/components/doc/app.docptviewer';
 import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
-import { AvatarModule } from 'primeng/avatar';
-import { AvatarGroupModule } from 'primeng/avatargroup';
+import { AvatarModule } from '@openng/optimus-ui/avatar';
+import { AvatarGroupModule } from '@openng/optimus-ui/avatargroup';
 
 @Component({
     selector: 'avatar-pt-viewer',

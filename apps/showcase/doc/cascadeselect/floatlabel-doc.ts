@@ -1,8 +1,8 @@
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
-import { CascadeSelectModule } from 'primeng/cascadeselect';
-import { FloatLabelModule } from 'primeng/floatlabel';
+import { CascadeSelectModule } from '@openng/optimus-ui/cascadeselect';
+import { FloatLabelModule } from '@openng/optimus-ui/floatlabel';
 import { AppCode } from '@/components/doc/app.code';
 import { AppDocSectionText } from '@/components/doc/app.docsectiontext';
 

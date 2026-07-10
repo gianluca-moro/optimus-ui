@@ -20,7 +20,7 @@ import { AppCode } from '@/components/doc/app.code';
 })
 export class ZIndexDoc {
     code: Code = {
-        typescript: `import { PrimeNGConfig } from 'primeng/api';
+        typescript: `import { PrimeNGConfig } from '@openng/optimus-ui/api';
 
 @Component({
     selector: 'app-root',

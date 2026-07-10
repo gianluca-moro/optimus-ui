@@ -2,7 +2,7 @@ import { AppCodeModule } from '@/components/doc/app.code';
 import { AppDocSectionText } from '@/components/doc/app.docsectiontext';
 import { Component } from '@angular/core';
 import { RouterModule } from '@angular/router';
-import { ImageModule } from 'primeng/image';
+import { ImageModule } from '@openng/optimus-ui/image';
 
 @Component({
     selector: 'basic-doc',

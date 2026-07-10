@@ -1,16 +1,16 @@
 import { ChangeDetectionStrategy, Component, computed, inject, OnInit, PLATFORM_ID, ViewChild } from '@angular/core';
-import { Drawer, DrawerModule } from 'primeng/drawer';
+import { Drawer, DrawerModule } from '@openng/optimus-ui/drawer';
 import { CommonModule, isPlatformBrowser } from '@angular/common';
 import { DesignerService } from '@/service/designerservice';
 import { AppConfigService } from '@/service/appconfigservice';
-import { ToastModule } from 'primeng/toast';
-import { PrimeNG } from 'primeng/config';
-import { ConfirmDialogModule } from 'primeng/confirmdialog';
+import { ToastModule } from '@openng/optimus-ui/toast';
+import { PrimeNG } from '@openng/optimus-ui/config';
+import { ConfirmDialogModule } from '@openng/optimus-ui/confirmdialog';
 import { DesignDashboard } from '@/components/layout/designer/dashboard/designdashboard';
 import { DesignCreateTheme } from '@/components/layout/designer/create/designcreatetheme';
 import { DesignEditor } from '@/components/layout/designer/editor/designeditor';
 import { DesignEditorFooter } from '@/components/layout/designer/editor/designeditorfooter';
-import { ConfirmPopupModule } from 'primeng/confirmpopup';
+import { ConfirmPopupModule } from '@openng/optimus-ui/confirmpopup';
 
 @Component({
     selector: 'app-designer',

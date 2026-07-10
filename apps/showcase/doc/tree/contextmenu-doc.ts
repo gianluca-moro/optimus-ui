@@ -2,10 +2,10 @@ import { AppCode } from '@/components/doc/app.code';
 import { AppDocSectionText } from '@/components/doc/app.docsectiontext';
 import { NodeService } from '@/service/nodeservice';
 import { ChangeDetectionStrategy, Component, model, OnInit, signal } from '@angular/core';
-import { MenuItem, MessageService, TreeNode } from 'primeng/api';
-import { ContextMenuModule } from 'primeng/contextmenu';
-import { ToastModule } from 'primeng/toast';
-import { TreeModule } from 'primeng/tree';
+import { MenuItem, MessageService, TreeNode } from '@openng/optimus-ui/api';
+import { ContextMenuModule } from '@openng/optimus-ui/contextmenu';
+import { ToastModule } from '@openng/optimus-ui/toast';
+import { TreeModule } from '@openng/optimus-ui/tree';
 
 @Component({
     selector: 'contextmenu-doc',

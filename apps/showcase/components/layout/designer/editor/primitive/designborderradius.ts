@@ -1,6 +1,6 @@
 import { ChangeDetectionStrategy, Component, inject } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { FieldsetModule } from 'primeng/fieldset';
+import { FieldsetModule } from '@openng/optimus-ui/fieldset';
 import { FormsModule } from '@angular/forms';
 import { DesignerService } from '@/service/designerservice';
 import { DesignTokenField } from '@/components/layout/designer/editor/designtokenfield';

@@ -17,7 +17,7 @@ import { AppCode } from '@/components/doc/app.code';
 export class ProviderDoc {
     code: Code = {
         typescript: `import { ApplicationConfig } from '@angular/core';
-import { providePrimeNG } from 'primeng/config';
+import { providePrimeNG } from '@openng/optimus-ui/config';
 import Aura from '@openng/optimus-ui-themes/aura';
 
 export const appConfig: ApplicationConfig = {

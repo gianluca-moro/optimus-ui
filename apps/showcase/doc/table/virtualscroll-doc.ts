@@ -5,7 +5,7 @@ import { Car } from '@/domain/car';
 import { CarService } from '@/service/carservice';
 import { CommonModule } from '@angular/common';
 import { ChangeDetectionStrategy, Component } from '@angular/core';
-import { TableModule } from 'primeng/table';
+import { TableModule } from '@openng/optimus-ui/table';
 
 interface Column {
     field: string;

@@ -1,6 +1,6 @@
 import { Component, signal } from '@angular/core';
-import { MessageModule } from 'primeng/message';
-import { ButtonModule } from 'primeng/button';
+import { MessageModule } from '@openng/optimus-ui/message';
+import { ButtonModule } from '@openng/optimus-ui/button';
 import { AppCodeModule } from '@/components/doc/app.code';
 import { AppDocSectionText } from '@/components/doc/app.docsectiontext';
 import { CommonModule } from '@angular/common';

@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
-import { MenuItem, MessageService } from 'primeng/api';
-import { PanelMenu } from 'primeng/panelmenu';
+import { MenuItem, MessageService } from '@openng/optimus-ui/api';
+import { PanelMenu } from '@openng/optimus-ui/panelmenu';
 import { AppCode } from '@/components/doc/app.code';
 import { AppDocSectionText } from '@/components/doc/app.docsectiontext';
 

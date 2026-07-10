@@ -1,7 +1,7 @@
 import { AppDocPtViewer, getPTOptions } from '@/components/doc/app.docptviewer';
 import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
-import { TabsModule } from 'primeng/tabs';
+import { TabsModule } from '@openng/optimus-ui/tabs';
 
 @Component({
     selector: 'tabs-pt-viewer',

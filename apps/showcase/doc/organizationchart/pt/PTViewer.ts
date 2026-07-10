@@ -1,7 +1,7 @@
 import { AppDocPtViewer, getPTOptions } from '@/components/doc/app.docptviewer';
 import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
-import { OrganizationChartModule } from 'primeng/organizationchart';
+import { OrganizationChartModule } from '@openng/optimus-ui/organizationchart';
 
 @Component({
     selector: 'organizationchart-pt-viewer',

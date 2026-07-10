@@ -1,7 +1,7 @@
 import { AppDocPtViewer, getPTOptions } from '@/components/doc/app.docptviewer';
 import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
-import { TieredMenuModule } from 'primeng/tieredmenu';
+import { TieredMenuModule } from '@openng/optimus-ui/tieredmenu';
 
 @Component({
     selector: 'tieredmenu-pt-viewer',

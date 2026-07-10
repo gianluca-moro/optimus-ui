@@ -1,0 +1,24 @@
+{
+    "extends": "../../tsconfig.json",
+    "compilerOptions": {
+        "strictNullChecks": true
+    },
+    "exclude": [
+        "node_modules",
+        "../optimus-ui-*"
+    ],
+    "angularCompilerOptions": {
+        "disableTypeScriptVersionCheck": true,
+        "fullTemplateTypeCheck": false,
+        "annotateForClosureCompiler": false,
+        "strictTemplates": false,
+        "strictMetadataEmit": true,
+        "skipTemplateCodegen": true,
+        "enableI18nLegacyMessageIdFormat": false,
+        "strictInjectionParameters": true,
+        "strictInputAccessModifiers": true,
+        "flatModuleOutFile": "optimus-ui.js",
+        "flatModuleId": "@openng/optimus-ui",
+        "compilationMode": "partial"
+    }
+}

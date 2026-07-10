@@ -1,7 +1,7 @@
 import { Component, ViewChild } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { Popover, PopoverModule } from 'primeng/popover';
-import { ButtonModule } from 'primeng/button';
+import { Popover, PopoverModule } from '@openng/optimus-ui/popover';
+import { ButtonModule } from '@openng/optimus-ui/button';
 import { AppCode } from '@/components/doc/app.code';
 import { AppDocSectionText } from '@/components/doc/app.docsectiontext';
 

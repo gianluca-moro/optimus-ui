@@ -2,9 +2,9 @@ import { AppConfigService } from '@/service/appconfigservice';
 import { CommonModule } from '@angular/common';
 import { Component, computed, inject } from '@angular/core';
 import { RouterModule } from '@angular/router';
-import { BadgeModule } from 'primeng/badge';
-import { Ripple } from 'primeng/ripple';
-import { TooltipModule } from 'primeng/tooltip';
+import { BadgeModule } from '@openng/optimus-ui/badge';
+import { Ripple } from '@openng/optimus-ui/ripple';
+import { TooltipModule } from '@openng/optimus-ui/tooltip';
 
 @Component({
     selector: 'overview-doc',

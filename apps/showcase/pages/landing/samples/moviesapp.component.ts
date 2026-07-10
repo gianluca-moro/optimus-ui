@@ -2,17 +2,17 @@ import { CommonModule } from '@angular/common';
 import { ChangeDetectionStrategy, Component, ViewEncapsulation } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
-import { SelectButton } from 'primeng/selectbutton';
-import { Slider } from 'primeng/slider';
-import { AvatarModule } from 'primeng/avatar';
-import { TooltipModule } from 'primeng/tooltip';
-import { IconField } from 'primeng/iconfield';
-import { InputIcon } from 'primeng/inputicon';
-import { ButtonModule } from 'primeng/button';
-import { InputTextModule } from 'primeng/inputtext';
-import { ProgressBar } from 'primeng/progressbar';
-import { Carousel } from 'primeng/carousel';
-import { OverlayBadgeModule } from 'primeng/overlaybadge';
+import { SelectButton } from '@openng/optimus-ui/selectbutton';
+import { Slider } from '@openng/optimus-ui/slider';
+import { AvatarModule } from '@openng/optimus-ui/avatar';
+import { TooltipModule } from '@openng/optimus-ui/tooltip';
+import { IconField } from '@openng/optimus-ui/iconfield';
+import { InputIcon } from '@openng/optimus-ui/inputicon';
+import { ButtonModule } from '@openng/optimus-ui/button';
+import { InputTextModule } from '@openng/optimus-ui/inputtext';
+import { ProgressBar } from '@openng/optimus-ui/progressbar';
+import { Carousel } from '@openng/optimus-ui/carousel';
+import { OverlayBadgeModule } from '@openng/optimus-ui/overlaybadge';
 
 @Component({
     selector: 'movies-app',

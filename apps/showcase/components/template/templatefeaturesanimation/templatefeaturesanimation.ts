@@ -1,7 +1,7 @@
 import { CommonModule, isPlatformBrowser } from '@angular/common';
 import { ChangeDetectionStrategy, ChangeDetectorRef, Component, ElementRef, Inject, Input, PLATFORM_ID, ViewEncapsulation } from '@angular/core';
 import { TemplateFeaturesAnimationInline } from './templatefeaturesanimationinline';
-import { AnimateOnScrollModule } from 'primeng/animateonscroll';
+import { AnimateOnScrollModule } from '@openng/optimus-ui/animateonscroll';
 import { DomSanitizer, SafeHtml } from '@angular/platform-browser';
 @Component({
     selector: 'template-features-animation',

@@ -147,11 +147,11 @@ export const ROUTE_FILE_DEFINITIONS: Record<string, RouteFileDefinition> = {
         content: `import { Component, OnInit } from '@angular/core';
 import { Product } from '@/domain/product';
 import { ProductService } from '@/service/productservice';
-import { MessageService } from 'primeng/api';
-import { DialogService, DynamicDialogRef } from 'primeng/dynamicdialog';
+import { MessageService } from '@openng/optimus-ui/api';
+import { DialogService, DynamicDialogRef } from '@openng/optimus-ui/dynamicdialog';
 import { InfoDemo } from './infodemo';
-import { TableModule } from 'primeng/table'
-import { ButtonModule } from 'primeng/button';
+import { TableModule } from '@openng/optimus-ui/table'
+import { ButtonModule } from '@openng/optimus-ui/button';
 
 @Component({
     providers: [DialogService, MessageService, ProductService],
@@ -231,9 +231,9 @@ export class ProductListDemo implements OnInit {
         path: 'src/app/demo/infodemo.ts',
         name: 'InfoDemo',
         content: `import { Component} from '@angular/core';
-import { DialogService, DynamicDialog, DynamicDialogRef } from 'primeng/dynamicdialog';
-import { MessageService } from 'primeng/api';
-import { ButtonModule } from 'primeng/button';
+import { DialogService, DynamicDialog, DynamicDialogRef } from '@openng/optimus-ui/dynamicdialog';
+import { MessageService } from '@openng/optimus-ui/api';
+import { ButtonModule } from '@openng/optimus-ui/button';
 
 @Component({
     providers: [DialogService, MessageService],
@@ -278,8 +278,8 @@ export class InfoDemo {
         path: 'src/app/demo/footer.ts',
         name: 'Footer',
         content: `import { Component } from '@angular/core';
-import { DynamicDialogRef } from 'primeng/dynamicdialog';
-import { ButtonModule } from 'primeng/button';
+import { DynamicDialogRef } from '@openng/optimus-ui/dynamicdialog';
+import { ButtonModule } from '@openng/optimus-ui/button';
 
 @Component({
     selector: 'footer',

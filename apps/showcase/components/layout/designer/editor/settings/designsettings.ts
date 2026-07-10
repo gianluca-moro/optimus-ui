@@ -2,8 +2,8 @@ import { DesignerService } from '@/service/designerservice';
 import { CommonModule } from '@angular/common';
 import { ChangeDetectionStrategy, Component, computed, inject } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { ConfirmationService } from 'primeng/api';
-import { ConfirmPopupModule } from 'primeng/confirmpopup';
+import { ConfirmationService } from '@openng/optimus-ui/api';
+import { ConfirmPopupModule } from '@openng/optimus-ui/confirmpopup';
 
 @Component({
     selector: 'design-settings',

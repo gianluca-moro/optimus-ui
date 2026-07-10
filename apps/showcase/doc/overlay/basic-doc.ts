@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
-import { ButtonModule } from 'primeng/button';
-import { OverlayModule } from 'primeng/overlay';
+import { ButtonModule } from '@openng/optimus-ui/button';
+import { OverlayModule } from '@openng/optimus-ui/overlay';
 import { AppCode } from '@/components/doc/app.code';
 import { AppDocSectionText } from '@/components/doc/app.docsectiontext';
 

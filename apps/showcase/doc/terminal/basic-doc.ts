@@ -1,6 +1,6 @@
 import { Component, OnDestroy } from '@angular/core';
-import { TerminalService } from 'primeng/terminal';
-import { TerminalModule } from 'primeng/terminal';
+import { TerminalService } from '@openng/optimus-ui/terminal';
+import { TerminalModule } from '@openng/optimus-ui/terminal';
 import { Subscription } from 'rxjs';
 import { AppDocSectionText } from '@/components/doc/app.docsectiontext';
 import { AppCode } from '@/components/doc/app.code';

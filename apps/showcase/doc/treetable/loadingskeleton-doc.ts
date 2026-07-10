@@ -3,9 +3,9 @@ import { AppCode } from '@/components/doc/app.code';
 import { AppDocSectionText } from '@/components/doc/app.docsectiontext';
 import { NodeService } from '@/service/nodeservice';
 import { ChangeDetectionStrategy, Component, signal } from '@angular/core';
-import { TreeNode } from 'primeng/api';
-import { SkeletonModule } from 'primeng/skeleton';
-import { TreeTableModule } from 'primeng/treetable';
+import { TreeNode } from '@openng/optimus-ui/api';
+import { SkeletonModule } from '@openng/optimus-ui/skeleton';
+import { TreeTableModule } from '@openng/optimus-ui/treetable';
 
 @Component({
     selector: 'loadingskeleton-doc',

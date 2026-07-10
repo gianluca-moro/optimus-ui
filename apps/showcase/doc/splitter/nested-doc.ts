@@ -1,7 +1,7 @@
 import { AppCode } from '@/components/doc/app.code';
 import { AppDocSectionText } from '@/components/doc/app.docsectiontext';
 import { Component } from '@angular/core';
-import { SplitterModule } from 'primeng/splitter';
+import { SplitterModule } from '@openng/optimus-ui/splitter';
 
 @Component({
     selector: 'nested-doc',

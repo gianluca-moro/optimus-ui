@@ -6,9 +6,9 @@ import Aura from '@openng/optimus-ui-themes/aura';
 import Lara from '@openng/optimus-ui-themes/lara';
 import Material from '@openng/optimus-ui-themes/material';
 import Nora from '@openng/optimus-ui-themes/nora';
-import { MessageService } from 'primeng/api';
-import { DividerModule } from 'primeng/divider';
-import { FileUploadModule } from 'primeng/fileupload';
+import { MessageService } from '@openng/optimus-ui/api';
+import { DividerModule } from '@openng/optimus-ui/divider';
+import { FileUploadModule } from '@openng/optimus-ui/fileupload';
 
 const presets = {
     Aura,

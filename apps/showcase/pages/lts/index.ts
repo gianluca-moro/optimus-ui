@@ -4,8 +4,8 @@ import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
 import { Meta, Title } from '@angular/platform-browser';
 import { RouterModule } from '@angular/router';
-import { RippleModule } from 'primeng/ripple';
-import { TagModule } from 'primeng/tag';
+import { RippleModule } from '@openng/optimus-ui/ripple';
+import { TagModule } from '@openng/optimus-ui/tag';
 
 @Component({
     standalone: true,
@@ -326,7 +326,7 @@ import { TagModule } from 'primeng/tag';
 export class LTSDemo {
     code: Code = {
         typescript: `import { Component } from '@angular/core';
-import { LicenseManager } from 'primeng/api';
+import { LicenseManager } from '@openng/optimus-ui/api';
 
 @Component({
     selector: 'app-root',

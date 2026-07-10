@@ -10,6 +10,6 @@ import { AppCode } from '@/components/doc/app.code';
 })
 export class ImportDoc {
     code: Code = {
-        typescript: `import { TreeTableModule } from 'primeng/treetable';`
+        typescript: `import { TreeTableModule } from '@openng/optimus-ui/treetable';`
     };
 }

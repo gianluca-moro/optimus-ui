@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
-import { FieldsetModule } from 'primeng/fieldset';
-import { AvatarModule } from 'primeng/avatar';
+import { FieldsetModule } from '@openng/optimus-ui/fieldset';
+import { AvatarModule } from '@openng/optimus-ui/avatar';
 import { AppCode } from '@/components/doc/app.code';
 import { AppDocSectionText } from '@/components/doc/app.docsectiontext';
 

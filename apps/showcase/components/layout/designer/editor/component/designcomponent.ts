@@ -1,6 +1,6 @@
 import { Component, computed, inject, OnInit, signal } from '@angular/core';
-import { TabsModule } from 'primeng/tabs';
-import { FieldsetModule } from 'primeng/fieldset';
+import { TabsModule } from '@openng/optimus-ui/tabs';
+import { FieldsetModule } from '@openng/optimus-ui/fieldset';
 import { CommonModule } from '@angular/common';
 import { DesignerService } from '@/service/designerservice';
 import { NavigationEnd, Router } from '@angular/router';

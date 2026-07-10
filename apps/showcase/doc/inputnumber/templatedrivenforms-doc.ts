@@ -1,10 +1,10 @@
 import { Component, inject } from '@angular/core';
-import { MessageService } from 'primeng/api';
+import { MessageService } from '@openng/optimus-ui/api';
 import { FormsModule } from '@angular/forms';
-import { InputNumberModule } from 'primeng/inputnumber';
-import { ButtonModule } from 'primeng/button';
-import { ToastModule } from 'primeng/toast';
-import { MessageModule } from 'primeng/message';
+import { InputNumberModule } from '@openng/optimus-ui/inputnumber';
+import { ButtonModule } from '@openng/optimus-ui/button';
+import { ToastModule } from '@openng/optimus-ui/toast';
+import { MessageModule } from '@openng/optimus-ui/message';
 import { AppCodeModule } from '@/components/doc/app.code';
 import { AppDocSectionText } from '@/components/doc/app.docsectiontext';
 

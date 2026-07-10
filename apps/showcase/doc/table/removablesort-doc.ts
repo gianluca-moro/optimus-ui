@@ -4,8 +4,8 @@ import { AppDocSectionText } from '@/components/doc/app.docsectiontext';
 import { Product } from '@/domain/product';
 import { ProductService } from '@/service/productservice';
 import { ChangeDetectionStrategy, Component, ViewChild } from '@angular/core';
-import { SortEvent } from 'primeng/api';
-import { Table, TableModule } from 'primeng/table';
+import { SortEvent } from '@openng/optimus-ui/api';
+import { Table, TableModule } from '@openng/optimus-ui/table';
 
 @Component({
     selector: 'removablesort-doc',

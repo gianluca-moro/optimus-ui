@@ -229,6 +229,9 @@ importers:
       '@docsearch/js':
         specifier: ^3.3.4
         version: 3.9.0(@algolia/client-search@4.27.0)(@types/react@18.3.28)(search-insights@2.17.3)
+      '@openng/optimus-ui':
+        specifier: workspace:*
+        version: link:../../packages/optimus-ui
       '@openng/optimus-ui-themes':
         specifier: workspace:*
         version: link:../../packages/optimus-ui-themes
@@ -280,9 +283,6 @@ importers:
       primeicons:
         specifier: 'catalog:'
         version: 7.0.0
-      primeng:
-        specifier: workspace:*
-        version: link:../../packages/primeng
       prismjs:
         specifier: ^1.29.0
         version: 1.30.0
@@ -302,44 +302,7 @@ importers:
         specifier: 0.28.5
         version: 0.28.5(typescript@5.9.3)
 
-  packages/optimus-ui-motion:
-    dependencies:
-      '@openng/optimus-ui-utils':
-        specifier: workspace:*
-        version: link:../optimus-ui-utils
-
-  packages/optimus-ui-styled:
-    dependencies:
-      '@openng/optimus-ui-utils':
-        specifier: workspace:*
-        version: link:../optimus-ui-utils
-
-  packages/optimus-ui-styles:
-    dependencies:
-      '@openng/optimus-ui-styled':
-        specifier: workspace:*
-        version: link:../optimus-ui-styled
-    devDependencies:
-      known-css-properties:
-        specifier: ^0.37.0
-        version: 0.37.0
-      postcss:
-        specifier: ^8.4.31
-        version: 8.5.14
-
-  packages/optimus-ui-themes:
-    dependencies:
-      '@openng/optimus-ui-styled':
-        specifier: workspace:*
-        version: link:../optimus-ui-styled
-    devDependencies:
-      typedoc:
-        specifier: 0.27.6
-        version: 0.27.6(typescript@5.9.3)
-
-  packages/optimus-ui-utils: {}
-
-  packages/primeng:
+  packages/optimus-ui:
     dependencies:
       '@angular/cdk':
         specifier: catalog:angular21
@@ -394,6 +357,43 @@ importers:
         specifier: ^2.8.1
         version: 2.8.1
     publishDirectory: dist
+
+  packages/optimus-ui-motion:
+    dependencies:
+      '@openng/optimus-ui-utils':
+        specifier: workspace:*
+        version: link:../optimus-ui-utils
+
+  packages/optimus-ui-styled:
+    dependencies:
+      '@openng/optimus-ui-utils':
+        specifier: workspace:*
+        version: link:../optimus-ui-utils
+
+  packages/optimus-ui-styles:
+    dependencies:
+      '@openng/optimus-ui-styled':
+        specifier: workspace:*
+        version: link:../optimus-ui-styled
+    devDependencies:
+      known-css-properties:
+        specifier: ^0.37.0
+        version: 0.37.0
+      postcss:
+        specifier: ^8.4.31
+        version: 8.5.14
+
+  packages/optimus-ui-themes:
+    dependencies:
+      '@openng/optimus-ui-styled':
+        specifier: workspace:*
+        version: link:../optimus-ui-styled
+    devDependencies:
+      typedoc:
+        specifier: 0.27.6
+        version: 0.27.6(typescript@5.9.3)
+
+  packages/optimus-ui-utils: {}
 
   packages/themes:
     dependencies:

@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { ImageModule } from 'primeng/image';
+import { ImageModule } from '@openng/optimus-ui/image';
 import { AppCodeModule } from '@/components/doc/app.code';
 import { AppDocSectionText } from '@/components/doc/app.docsectiontext';
 

@@ -2,12 +2,12 @@ import { AppCodeModule } from '@/components/doc/app.code';
 import { AppDocSectionText } from '@/components/doc/app.docsectiontext';
 import { CommonModule } from '@angular/common';
 import { Component, OnInit } from '@angular/core';
-import { MenuItem } from 'primeng/api';
-import { AvatarModule } from 'primeng/avatar';
-import { BadgeModule } from 'primeng/badge';
-import { InputTextModule } from 'primeng/inputtext';
-import { MenubarModule } from 'primeng/menubar';
-import { Ripple } from 'primeng/ripple';
+import { MenuItem } from '@openng/optimus-ui/api';
+import { AvatarModule } from '@openng/optimus-ui/avatar';
+import { BadgeModule } from '@openng/optimus-ui/badge';
+import { InputTextModule } from '@openng/optimus-ui/inputtext';
+import { MenubarModule } from '@openng/optimus-ui/menubar';
+import { Ripple } from '@openng/optimus-ui/ripple';
 
 @Component({
     selector: 'template-doc',

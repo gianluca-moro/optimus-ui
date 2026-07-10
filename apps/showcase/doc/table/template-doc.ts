@@ -5,9 +5,9 @@ import { Product } from '@/domain/product';
 import { ProductService } from '@/service/productservice';
 import { CommonModule } from '@angular/common';
 import { ChangeDetectionStrategy, ChangeDetectorRef, Component } from '@angular/core';
-import { RatingModule } from 'primeng/rating';
-import { TableModule } from 'primeng/table';
-import { TagModule } from 'primeng/tag';
+import { RatingModule } from '@openng/optimus-ui/rating';
+import { TableModule } from '@openng/optimus-ui/table';
+import { TagModule } from '@openng/optimus-ui/tag';
 
 interface Column {
     field: string;

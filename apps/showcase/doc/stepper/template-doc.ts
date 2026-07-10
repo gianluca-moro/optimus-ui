@@ -3,11 +3,11 @@ import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { AppDocSectionText } from '@/components/doc/app.docsectiontext';
 import { AppCode } from '@/components/doc/app.code';
-import { StepperModule } from 'primeng/stepper';
-import { ButtonModule } from 'primeng/button';
-import { PasswordModule } from 'primeng/password';
-import { ToggleButtonModule } from 'primeng/togglebutton';
-import { InputTextModule } from 'primeng/inputtext';
+import { StepperModule } from '@openng/optimus-ui/stepper';
+import { ButtonModule } from '@openng/optimus-ui/button';
+import { PasswordModule } from '@openng/optimus-ui/password';
+import { ToggleButtonModule } from '@openng/optimus-ui/togglebutton';
+import { InputTextModule } from '@openng/optimus-ui/inputtext';
 
 @Component({
     selector: 'template-doc',

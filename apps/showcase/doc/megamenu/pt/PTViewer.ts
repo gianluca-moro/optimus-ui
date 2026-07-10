@@ -1,7 +1,7 @@
 import { AppDocPtViewer, getPTOptions } from '@/components/doc/app.docptviewer';
 import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
-import { MegaMenuModule } from 'primeng/megamenu';
+import { MegaMenuModule } from '@openng/optimus-ui/megamenu';
 
 @Component({
     selector: 'megamenu-pt-viewer',

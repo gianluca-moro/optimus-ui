@@ -18,7 +18,7 @@ export class ProviderDoc {
     code: Code = {
         typescript: `import { ApplicationConfig } from '@angular/core';
 import { provideAnimationsAsync } from '@angular/platform-browser/animations/async';
-import { providePrimeNG } from 'primeng/config';
+import { providePrimeNG } from '@openng/optimus-ui/config';
 
 export const appConfig: ApplicationConfig = {
     providers: [

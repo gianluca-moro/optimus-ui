@@ -2,7 +2,7 @@ import { AppCode } from '@/components/doc/app.code';
 import { AppDocSectionText } from '@/components/doc/app.docsectiontext';
 import { Component } from '@angular/core';
 import { RouterLink } from '@angular/router';
-import { Panel, PanelModule, PanelPassThrough } from 'primeng/panel';
+import { Panel, PanelModule, PanelPassThrough } from '@openng/optimus-ui/panel';
 
 @Component({
     selector: 'introduction-doc',

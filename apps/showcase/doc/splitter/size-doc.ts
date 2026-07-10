@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { AppDocSectionText } from '@/components/doc/app.docsectiontext';
 import { AppCode } from '@/components/doc/app.code';
-import { SplitterModule } from 'primeng/splitter';
+import { SplitterModule } from '@openng/optimus-ui/splitter';
 
 @Component({
     selector: 'size-doc',

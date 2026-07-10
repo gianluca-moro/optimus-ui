@@ -1,9 +1,9 @@
 import { AppDocPtViewer, getPTOptions } from '@/components/doc/app.docptviewer';
 import { CommonModule } from '@angular/common';
 import { Component, OnInit, signal } from '@angular/core';
-import { DataViewModule } from 'primeng/dataview';
-import { TagModule } from 'primeng/tag';
-import { ButtonModule } from 'primeng/button';
+import { DataViewModule } from '@openng/optimus-ui/dataview';
+import { TagModule } from '@openng/optimus-ui/tag';
+import { ButtonModule } from '@openng/optimus-ui/button';
 import { ProductService } from '@/service/productservice';
 
 interface Product {

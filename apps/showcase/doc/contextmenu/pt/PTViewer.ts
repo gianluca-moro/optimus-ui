@@ -1,7 +1,7 @@
 import { AppDocPtViewer, getPTOptions } from '@/components/doc/app.docptviewer';
 import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
-import { ContextMenuModule } from 'primeng/contextmenu';
+import { ContextMenuModule } from '@openng/optimus-ui/contextmenu';
 
 @Component({
     selector: 'contextmenu-pt-viewer',

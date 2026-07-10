@@ -30,7 +30,7 @@ export MyPreset;`
 
     code2: Code = {
         typescript: `import { ApplicationConfig } from '@angular/core';
-import { providePrimeNG } from 'primeng/config';
+import { providePrimeNG } from '@openng/optimus-ui/config';
 import MyPreset from './mypreset';
 
 export const appConfig: ApplicationConfig = {

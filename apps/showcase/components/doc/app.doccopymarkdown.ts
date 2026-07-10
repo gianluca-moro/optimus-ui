@@ -1,9 +1,9 @@
 import { CommonModule, DOCUMENT, isPlatformBrowser } from '@angular/common';
 import { Component, inject, input, OnInit, PLATFORM_ID } from '@angular/core';
 import { Router } from '@angular/router';
-import { MenuItem, MessageService } from 'primeng/api';
-import { SplitButtonModule } from 'primeng/splitbutton';
-import { ToastModule } from 'primeng/toast';
+import { MenuItem, MessageService } from '@openng/optimus-ui/api';
+import { SplitButtonModule } from '@openng/optimus-ui/splitbutton';
+import { ToastModule } from '@openng/optimus-ui/toast';
 
 @Component({
     selector: 'app-doccopymarkdown',

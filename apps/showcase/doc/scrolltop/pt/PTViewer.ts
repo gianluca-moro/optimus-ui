@@ -1,8 +1,8 @@
 import { AppDocPtViewer, getPTOptions } from '@/components/doc/app.docptviewer';
 import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
-import { ScrollPanelModule } from 'primeng/scrollpanel';
-import { ScrollTopModule } from 'primeng/scrolltop';
+import { ScrollPanelModule } from '@openng/optimus-ui/scrollpanel';
+import { ScrollTopModule } from '@openng/optimus-ui/scrolltop';
 
 @Component({
     selector: 'scrolltop-pt-viewer',

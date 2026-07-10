@@ -4,8 +4,8 @@ import { DemoCodeService } from '@/service/democodeservice';
 import { CommonModule, isPlatformBrowser } from '@angular/common';
 import { afterNextRender, Component, computed, effect, ElementRef, inject, input, NgModule, PLATFORM_ID, signal, ViewChild } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
-import { ButtonModule } from 'primeng/button';
-import { TooltipModule } from 'primeng/tooltip';
+import { ButtonModule } from '@openng/optimus-ui/button';
+import { TooltipModule } from '@openng/optimus-ui/tooltip';
 import { useCodeSandbox, useStackBlitz } from './codeeditor';
 
 @Component({

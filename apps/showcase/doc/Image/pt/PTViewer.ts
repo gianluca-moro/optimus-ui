@@ -1,7 +1,7 @@
 import { AppDocPtViewer, getPTOptions } from '@/components/doc/app.docptviewer';
 import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
-import { ImageModule } from 'primeng/image';
+import { ImageModule } from '@openng/optimus-ui/image';
 
 @Component({
     selector: 'image-pt-viewer',

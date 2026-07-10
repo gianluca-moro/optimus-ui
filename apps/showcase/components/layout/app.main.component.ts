@@ -3,8 +3,8 @@ import { CommonModule } from '@angular/common';
 import { Component, computed, inject } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 
-import { PrimeNG } from 'primeng/config';
-import { DomHandler } from 'primeng/dom';
+import { PrimeNG } from '@openng/optimus-ui/config';
+import { DomHandler } from '@openng/optimus-ui/dom';
 import { AppFooterComponent } from './footer/app.footer.component';
 import { AppMenuComponent } from './menu/app.menu.component';
 import { AppNewsComponent } from './news/app.news.component';

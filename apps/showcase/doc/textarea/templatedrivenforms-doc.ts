@@ -1,12 +1,12 @@
 import { Component, inject } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { MessageService } from 'primeng/api';
+import { MessageService } from '@openng/optimus-ui/api';
 import { AppCode } from '@/components/doc/app.code';
 import { AppDocSectionText } from '@/components/doc/app.docsectiontext';
-import { ButtonModule } from 'primeng/button';
-import { MessageModule } from 'primeng/message';
-import { TextareaModule } from 'primeng/textarea';
-import { ToastModule } from 'primeng/toast';
+import { ButtonModule } from '@openng/optimus-ui/button';
+import { MessageModule } from '@openng/optimus-ui/message';
+import { TextareaModule } from '@openng/optimus-ui/textarea';
+import { ToastModule } from '@openng/optimus-ui/toast';
 import { CommonModule } from '@angular/common';
 
 @Component({

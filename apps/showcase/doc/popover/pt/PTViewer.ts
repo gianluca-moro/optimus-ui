@@ -1,11 +1,11 @@
 import { AppDocPtViewer, getPTOptions } from '@/components/doc/app.docptviewer';
 import { CommonModule } from '@angular/common';
 import { Component, ViewChild } from '@angular/core';
-import { ButtonModule } from 'primeng/button';
-import { InputGroupModule } from 'primeng/inputgroup';
-import { InputGroupAddonModule } from 'primeng/inputgroupaddon';
-import { InputTextModule } from 'primeng/inputtext';
-import { Popover, PopoverModule } from 'primeng/popover';
+import { ButtonModule } from '@openng/optimus-ui/button';
+import { InputGroupModule } from '@openng/optimus-ui/inputgroup';
+import { InputGroupAddonModule } from '@openng/optimus-ui/inputgroupaddon';
+import { InputTextModule } from '@openng/optimus-ui/inputtext';
+import { Popover, PopoverModule } from '@openng/optimus-ui/popover';
 
 interface Member {
     name: string;

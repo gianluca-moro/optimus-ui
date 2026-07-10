@@ -1,12 +1,12 @@
 import { Component, inject } from '@angular/core';
-import { MessageService } from 'primeng/api';
-import { AutoCompleteCompleteEvent } from 'primeng/autocomplete';
+import { MessageService } from '@openng/optimus-ui/api';
+import { AutoCompleteCompleteEvent } from '@openng/optimus-ui/autocomplete';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
-import { AutoCompleteModule } from 'primeng/autocomplete';
-import { ToastModule } from 'primeng/toast';
-import { MessageModule } from 'primeng/message';
-import { ButtonModule } from 'primeng/button';
+import { AutoCompleteModule } from '@openng/optimus-ui/autocomplete';
+import { ToastModule } from '@openng/optimus-ui/toast';
+import { MessageModule } from '@openng/optimus-ui/message';
+import { ButtonModule } from '@openng/optimus-ui/button';
 import { AppDocSectionText } from '@/components/doc/app.docsectiontext';
 import { AppCode } from '@/components/doc/app.code';
 

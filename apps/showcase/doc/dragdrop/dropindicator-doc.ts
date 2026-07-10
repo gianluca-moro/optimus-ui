@@ -3,7 +3,7 @@ import { AppDocSectionText } from '@/components/doc/app.docsectiontext';
 import { Product } from '@/domain/product';
 import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
-import { DragDropModule } from 'primeng/dragdrop';
+import { DragDropModule } from '@openng/optimus-ui/dragdrop';
 
 @Component({
     selector: 'dropindicator-doc',

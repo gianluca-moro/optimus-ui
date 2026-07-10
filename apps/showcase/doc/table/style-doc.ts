@@ -5,8 +5,8 @@ import { Product } from '@/domain/product';
 import { ProductService } from '@/service/productservice';
 import { CommonModule } from '@angular/common';
 import { ChangeDetectionStrategy, ChangeDetectorRef, Component } from '@angular/core';
-import { BadgeModule } from 'primeng/badge';
-import { TableModule } from 'primeng/table';
+import { BadgeModule } from '@openng/optimus-ui/badge';
+import { TableModule } from '@openng/optimus-ui/table';
 
 @Component({
     selector: 'style-doc',

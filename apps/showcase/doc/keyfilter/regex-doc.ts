@@ -1,8 +1,8 @@
 import { AppCodeModule } from '@/components/doc/app.code';
 import { AppDocSectionText } from '@/components/doc/app.docsectiontext';
 import { Component } from '@angular/core';
-import { InputTextModule } from 'primeng/inputtext';
-import { KeyFilterModule } from 'primeng/keyfilter';
+import { InputTextModule } from '@openng/optimus-ui/inputtext';
+import { KeyFilterModule } from '@openng/optimus-ui/keyfilter';
 
 @Component({
     selector: 'regex-doc',

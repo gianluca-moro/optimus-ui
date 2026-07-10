@@ -1,7 +1,7 @@
 import { AppDocPtViewer, getPTOptions } from '@/components/doc/app.docptviewer';
 import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
-import { MenuModule } from 'primeng/menu';
+import { MenuModule } from '@openng/optimus-ui/menu';
 
 @Component({
     selector: 'menu-pt-viewer',

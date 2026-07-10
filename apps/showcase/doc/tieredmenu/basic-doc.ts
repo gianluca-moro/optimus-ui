@@ -1,8 +1,8 @@
 import { Component, OnInit } from '@angular/core';
-import { MenuItem } from 'primeng/api';
+import { MenuItem } from '@openng/optimus-ui/api';
 import { AppDocSectionText } from '@/components/doc/app.docsectiontext';
 import { AppCode } from '@/components/doc/app.code';
-import { TieredMenuModule } from 'primeng/tieredmenu';
+import { TieredMenuModule } from '@openng/optimus-ui/tieredmenu';
 
 @Component({
     selector: 'basic-doc',

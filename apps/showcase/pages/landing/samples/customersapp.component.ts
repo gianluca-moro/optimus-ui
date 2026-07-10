@@ -3,20 +3,20 @@ import { ChangeDetectionStrategy, Component, Inject, PLATFORM_ID } from '@angula
 import { FormsModule } from '@angular/forms';
 import { DomSanitizer } from '@angular/platform-browser';
 import { RouterModule } from '@angular/router';
-import { AvatarModule } from 'primeng/avatar';
-import { ButtonModule } from 'primeng/button';
-import { ChartModule } from 'primeng/chart';
-import { DividerModule } from 'primeng/divider';
-import { DrawerModule } from 'primeng/drawer';
-import { IconField } from 'primeng/iconfield';
-import { InputIcon } from 'primeng/inputicon';
-import { InputTextModule } from 'primeng/inputtext';
-import { OverlayBadgeModule } from 'primeng/overlaybadge';
-import { PopoverModule } from 'primeng/popover';
-import { TableModule } from 'primeng/table';
-import { Tag } from 'primeng/tag';
-import { ToggleSwitchModule } from 'primeng/toggleswitch';
-import { TooltipModule } from 'primeng/tooltip';
+import { AvatarModule } from '@openng/optimus-ui/avatar';
+import { ButtonModule } from '@openng/optimus-ui/button';
+import { ChartModule } from '@openng/optimus-ui/chart';
+import { DividerModule } from '@openng/optimus-ui/divider';
+import { DrawerModule } from '@openng/optimus-ui/drawer';
+import { IconField } from '@openng/optimus-ui/iconfield';
+import { InputIcon } from '@openng/optimus-ui/inputicon';
+import { InputTextModule } from '@openng/optimus-ui/inputtext';
+import { OverlayBadgeModule } from '@openng/optimus-ui/overlaybadge';
+import { PopoverModule } from '@openng/optimus-ui/popover';
+import { TableModule } from '@openng/optimus-ui/table';
+import { Tag } from '@openng/optimus-ui/tag';
+import { ToggleSwitchModule } from '@openng/optimus-ui/toggleswitch';
+import { TooltipModule } from '@openng/optimus-ui/tooltip';
 
 @Component({
     selector: 'customers-app',
