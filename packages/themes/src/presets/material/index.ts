@@ -87,8 +87,8 @@ import tree from '@primeng/themes/material/tree';
 import treeselect from '@primeng/themes/material/treeselect';
 import treetable from '@primeng/themes/material/treetable';
 import virtualscroller from '@primeng/themes/material/virtualscroller';
-import type { MaterialBaseDesignTokens } from '@primeuix/themes/material/base';
-import type { Preset } from '@primeuix/themes/types';
+import type { MaterialBaseDesignTokens } from '@openng/optimus-ui-themes/material/base';
+import type { Preset } from '@openng/optimus-ui-themes/types';
 
 export default {
     ...base,

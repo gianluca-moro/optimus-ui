@@ -1,2 +1,2 @@
-export * from '@primeuix/themes/nora/badge';
-export { default } from '@primeuix/themes/nora/badge';
+export * from '@openng/optimus-ui-themes/nora/badge';
+export { default } from '@openng/optimus-ui-themes/nora/badge';

@@ -1,6 +1,6 @@
-import type { SpeedDialTokenSections } from '@primeuix/themes/types/speeddial';
+import type { SpeedDialTokenSections } from '@openng/optimus-ui-themes/types/speeddial';
 
-export * from '@primeuix/themes/types/speeddial';
+export * from '@openng/optimus-ui-themes/types/speeddial';
 
 declare const root: SpeedDialTokenSections.Root;
 declare const css: SpeedDialTokenSections.CSS;

@@ -1,7 +1,7 @@
 import type { StyleOptions } from '@openng/optimus-ui-styled';
-import type { InputTextTokenSections } from '@primeuix/themes/types/inputtext';
+import type { InputTextTokenSections } from '@openng/optimus-ui-themes/types/inputtext';
 
-export * from '@primeuix/themes/types/inputtext';
+export * from '@openng/optimus-ui-themes/types/inputtext';
 
 declare const root: InputTextTokenSections.Root;
 declare const css: InputTextTokenSections.CSS;

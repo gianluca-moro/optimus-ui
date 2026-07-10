@@ -1,2 +1,2 @@
-export * from '@primeuix/themes/lara/tooltip';
-export { default } from '@primeuix/themes/lara/tooltip';
+export * from '@openng/optimus-ui-themes/lara/tooltip';
+export { default } from '@openng/optimus-ui-themes/lara/tooltip';

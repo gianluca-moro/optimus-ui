@@ -1,2 +1,2 @@
-export * from '@primeuix/themes/aura/base';
-export { default } from '@primeuix/themes/aura/base';
+export * from '@openng/optimus-ui-themes/aura/base';
+export { default } from '@openng/optimus-ui-themes/aura/base';

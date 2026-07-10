@@ -1,2 +1,2 @@
-export * from '@primeuix/themes/nora/blockui';
-export { default } from '@primeuix/themes/nora/blockui';
+export * from '@openng/optimus-ui-themes/nora/blockui';
+export { default } from '@openng/optimus-ui-themes/nora/blockui';

@@ -18,8 +18,8 @@ import { AppDocSectionText } from '@/components/doc/app.docsectiontext';
 export class DefinePresetDoc {
     code1: Code = {
         typescript: `//mypreset.ts
-import { definePreset } from '@primeuix/themes';
-import Aura from '@primeuix/themes/aura';
+import { definePreset } from '@openng/optimus-ui-themes';
+import Aura from '@openng/optimus-ui-themes/aura';
 
 const MyPreset = definePreset(Aura, {
     //Your customizations, see the following sections for examples

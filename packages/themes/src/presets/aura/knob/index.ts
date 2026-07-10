@@ -1,2 +1,2 @@
-export * from '@primeuix/themes/aura/knob';
-export { default } from '@primeuix/themes/aura/knob';
+export * from '@openng/optimus-ui-themes/aura/knob';
+export { default } from '@openng/optimus-ui-themes/aura/knob';

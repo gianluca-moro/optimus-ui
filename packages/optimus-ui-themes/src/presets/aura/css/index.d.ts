@@ -1,3 +1,3 @@
-import { ExtendedCSS } from '@primeuix/themes/types';
+import { ExtendedCSS } from '@openng/optimus-ui-themes/types';
 
 export const css: ExtendedCSS;

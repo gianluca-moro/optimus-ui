@@ -2,7 +2,7 @@ import { environment } from '@/environments/environment';
 import { HttpClient } from '@angular/common/http';
 import { computed, inject, Injectable, signal } from '@angular/core';
 import { $dt, usePreset } from '@openng/optimus-ui-styled';
-import Aura from '@primeuix/themes/aura';
+import Aura from '@openng/optimus-ui-themes/aura';
 import { MessageService } from 'primeng/api';
 
 export interface Theme {

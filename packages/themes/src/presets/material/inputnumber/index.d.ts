@@ -1,2 +1,2 @@
-export * from '@primeuix/themes/material/inputnumber';
-export { default } from '@primeuix/themes/material/inputnumber';
+export * from '@openng/optimus-ui-themes/material/inputnumber';
+export { default } from '@openng/optimus-ui-themes/material/inputnumber';

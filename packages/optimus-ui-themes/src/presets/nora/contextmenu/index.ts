@@ -1,4 +1,4 @@
-import type { ContextMenuDesignTokens, ContextMenuTokenSections } from '@primeuix/themes/types/contextmenu';
+import type { ContextMenuDesignTokens, ContextMenuTokenSections } from '@openng/optimus-ui-themes/types/contextmenu';
 
 export const root: ContextMenuTokenSections.Root = {
     background: '{content.background}',

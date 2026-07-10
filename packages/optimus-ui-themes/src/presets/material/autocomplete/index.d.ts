@@ -1,7 +1,7 @@
 import type { StyleOptions } from '@openng/optimus-ui-styled';
-import type { AutoCompleteTokenSections } from '@primeuix/themes/types/autocomplete';
+import type { AutoCompleteTokenSections } from '@openng/optimus-ui-themes/types/autocomplete';
 
-export * from '@primeuix/themes/types/autocomplete';
+export * from '@openng/optimus-ui-themes/types/autocomplete';
 
 declare const root: AutoCompleteTokenSections.Root;
 declare const overlay: AutoCompleteTokenSections.Overlay;

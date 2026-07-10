@@ -7,7 +7,7 @@ export default defineConfig({
     format: ['esm'],
     outDir: 'dist',
     dts: true,
-    external: [/^@primeuix\/(.*)$/, /^@openng\/optimus-ui-(.*)$/],
+    external: [/^@openng\/optimus-ui-(.*)$/],
     minify: isProduction,
     sourcemap: isProduction,
     splitting: false,

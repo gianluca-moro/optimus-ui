@@ -1,2 +1,2 @@
-export * from '@primeuix/themes/aura/autocomplete';
-export { default } from '@primeuix/themes/aura/autocomplete';
+export * from '@openng/optimus-ui-themes/aura/autocomplete';
+export { default } from '@openng/optimus-ui-themes/aura/autocomplete';

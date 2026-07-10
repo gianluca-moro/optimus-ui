@@ -1,6 +1,6 @@
-import type { ProgressBarTokenSections } from '@primeuix/themes/types/progressbar';
+import type { ProgressBarTokenSections } from '@openng/optimus-ui-themes/types/progressbar';
 
-export * from '@primeuix/themes/types/progressbar';
+export * from '@openng/optimus-ui-themes/types/progressbar';
 
 declare const root: ProgressBarTokenSections.Root;
 declare const value: ProgressBarTokenSections.Value;

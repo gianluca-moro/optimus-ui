@@ -1,2 +1,2 @@
-export * from '@primeuix/themes/aura/colorpicker';
-export { default } from '@primeuix/themes/aura/colorpicker';
+export * from '@openng/optimus-ui-themes/aura/colorpicker';
+export { default } from '@openng/optimus-ui-themes/aura/colorpicker';

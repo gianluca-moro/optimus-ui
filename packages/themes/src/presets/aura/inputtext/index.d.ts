@@ -1,2 +1,2 @@
-export * from '@primeuix/themes/aura/inputtext';
-export { default } from '@primeuix/themes/aura/inputtext';
+export * from '@openng/optimus-ui-themes/aura/inputtext';
+export { default } from '@openng/optimus-ui-themes/aura/inputtext';

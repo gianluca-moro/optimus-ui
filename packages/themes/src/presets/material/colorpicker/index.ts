@@ -1,2 +1,2 @@
-export * from '@primeuix/themes/material/colorpicker';
-export { default } from '@primeuix/themes/material/colorpicker';
+export * from '@openng/optimus-ui-themes/material/colorpicker';
+export { default } from '@openng/optimus-ui-themes/material/colorpicker';

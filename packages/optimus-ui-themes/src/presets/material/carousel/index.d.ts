@@ -1,7 +1,7 @@
 import type { StyleOptions } from '@openng/optimus-ui-styled';
-import type { CarouselTokenSections } from '@primeuix/themes/types/carousel';
+import type { CarouselTokenSections } from '@openng/optimus-ui-themes/types/carousel';
 
-export * from '@primeuix/themes/types/carousel';
+export * from '@openng/optimus-ui-themes/types/carousel';
 
 declare const root: CarouselTokenSections.Root;
 declare const content: CarouselTokenSections.Content;

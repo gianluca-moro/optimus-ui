@@ -1,4 +1,4 @@
-import type { IconFieldDesignTokens, IconFieldTokenSections } from '@primeuix/themes/types/iconfield';
+import type { IconFieldDesignTokens, IconFieldTokenSections } from '@openng/optimus-ui-themes/types/iconfield';
 
 export const icon: IconFieldTokenSections.Icon = {
     color: '{form.field.icon.color}'

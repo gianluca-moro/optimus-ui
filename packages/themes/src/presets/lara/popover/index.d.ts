@@ -1,2 +1,2 @@
-export * from '@primeuix/themes/lara/popover';
-export { default } from '@primeuix/themes/lara/popover';
+export * from '@openng/optimus-ui-themes/lara/popover';
+export { default } from '@openng/optimus-ui-themes/lara/popover';

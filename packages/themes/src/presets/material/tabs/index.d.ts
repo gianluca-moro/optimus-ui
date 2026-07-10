@@ -1,2 +1,2 @@
-export * from '@primeuix/themes/material/tabs';
-export { default } from '@primeuix/themes/material/tabs';
+export * from '@openng/optimus-ui-themes/material/tabs';
+export { default } from '@openng/optimus-ui-themes/material/tabs';

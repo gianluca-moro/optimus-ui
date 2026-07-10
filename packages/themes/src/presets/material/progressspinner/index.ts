@@ -1,2 +1,2 @@
-export * from '@primeuix/themes/material/progressspinner';
-export { default } from '@primeuix/themes/material/progressspinner';
+export * from '@openng/optimus-ui-themes/material/progressspinner';
+export { default } from '@openng/optimus-ui-themes/material/progressspinner';

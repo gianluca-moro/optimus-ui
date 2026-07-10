@@ -1,2 +1,2 @@
-export * from '@primeuix/themes/nora/contextmenu';
-export { default } from '@primeuix/themes/nora/contextmenu';
+export * from '@openng/optimus-ui-themes/nora/contextmenu';
+export { default } from '@openng/optimus-ui-themes/nora/contextmenu';

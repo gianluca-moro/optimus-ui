@@ -1,6 +1,6 @@
-import type { MultiSelectTokenSections } from '@primeuix/themes/types/multiselect';
+import type { MultiSelectTokenSections } from '@openng/optimus-ui-themes/types/multiselect';
 
-export * from '@primeuix/themes/types/multiselect';
+export * from '@openng/optimus-ui-themes/types/multiselect';
 
 declare const root: MultiSelectTokenSections.Root;
 declare const dropdown: MultiSelectTokenSections.Dropdown;

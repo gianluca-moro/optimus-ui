@@ -1,7 +1,7 @@
 import type { StyleOptions } from '@openng/optimus-ui-styled';
-import type { PanelMenuTokenSections } from '@primeuix/themes/types/panelmenu';
+import type { PanelMenuTokenSections } from '@openng/optimus-ui-themes/types/panelmenu';
 
-export * from '@primeuix/themes/types/panelmenu';
+export * from '@openng/optimus-ui-themes/types/panelmenu';
 
 declare const root: PanelMenuTokenSections.Root;
 declare const panel: PanelMenuTokenSections.Panel;

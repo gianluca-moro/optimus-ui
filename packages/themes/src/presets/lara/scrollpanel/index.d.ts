@@ -1,2 +1,2 @@
-export * from '@primeuix/themes/lara/scrollpanel';
-export { default } from '@primeuix/themes/lara/scrollpanel';
+export * from '@openng/optimus-ui-themes/lara/scrollpanel';
+export { default } from '@openng/optimus-ui-themes/lara/scrollpanel';

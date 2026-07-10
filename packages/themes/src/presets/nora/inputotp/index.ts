@@ -1,2 +1,2 @@
-export * from '@primeuix/themes/nora/inputotp';
-export { default } from '@primeuix/themes/nora/inputotp';
+export * from '@openng/optimus-ui-themes/nora/inputotp';
+export { default } from '@openng/optimus-ui-themes/nora/inputotp';

@@ -1,2 +1,2 @@
-export * from '@primeuix/themes/nora/togglebutton';
-export { default } from '@primeuix/themes/nora/togglebutton';
+export * from '@openng/optimus-ui-themes/nora/togglebutton';
+export { default } from '@openng/optimus-ui-themes/nora/togglebutton';

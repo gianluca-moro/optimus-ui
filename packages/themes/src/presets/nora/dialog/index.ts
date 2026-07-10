@@ -1,2 +1,2 @@
-export * from '@primeuix/themes/nora/dialog';
-export { default } from '@primeuix/themes/nora/dialog';
+export * from '@openng/optimus-ui-themes/nora/dialog';
+export { default } from '@openng/optimus-ui-themes/nora/dialog';

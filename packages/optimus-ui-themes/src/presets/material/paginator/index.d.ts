@@ -1,6 +1,6 @@
-import type { PaginatorTokenSections } from '@primeuix/themes/types/paginator';
+import type { PaginatorTokenSections } from '@openng/optimus-ui-themes/types/paginator';
 
-export * from '@primeuix/themes/types/paginator';
+export * from '@openng/optimus-ui-themes/types/paginator';
 
 declare const root: PaginatorTokenSections.Root;
 declare const navButton: PaginatorTokenSections.NavButton;

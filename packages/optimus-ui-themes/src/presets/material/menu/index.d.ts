@@ -1,6 +1,6 @@
-import type { MenuTokenSections } from '@primeuix/themes/types/menu';
+import type { MenuTokenSections } from '@openng/optimus-ui-themes/types/menu';
 
-export * from '@primeuix/themes/types/menu';
+export * from '@openng/optimus-ui-themes/types/menu';
 
 declare const root: MenuTokenSections.Root;
 declare const list: MenuTokenSections.List;

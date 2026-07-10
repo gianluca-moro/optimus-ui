@@ -1,2 +1,2 @@
-export * from '@primeuix/themes/nora/cascadeselect';
-export { default } from '@primeuix/themes/nora/cascadeselect';
+export * from '@openng/optimus-ui-themes/nora/cascadeselect';
+export { default } from '@openng/optimus-ui-themes/nora/cascadeselect';

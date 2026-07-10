@@ -1,2 +1,2 @@
-export * from '@primeuix/themes/nora/chip';
-export { default } from '@primeuix/themes/nora/chip';
+export * from '@openng/optimus-ui-themes/nora/chip';
+export { default } from '@openng/optimus-ui-themes/nora/chip';

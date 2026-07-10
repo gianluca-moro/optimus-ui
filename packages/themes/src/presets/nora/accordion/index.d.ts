@@ -1,2 +1,2 @@
-export * from '@primeuix/themes/nora/accordion';
-export { default } from '@primeuix/themes/nora/accordion';
+export * from '@openng/optimus-ui-themes/nora/accordion';
+export { default } from '@openng/optimus-ui-themes/nora/accordion';

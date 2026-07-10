@@ -1,2 +1,2 @@
-export * from '@primeuix/themes/nora/knob';
-export { default } from '@primeuix/themes/nora/knob';
+export * from '@openng/optimus-ui-themes/nora/knob';
+export { default } from '@openng/optimus-ui-themes/nora/knob';

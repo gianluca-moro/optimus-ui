@@ -1,4 +1,4 @@
-import type { DataViewDesignTokens, DataViewTokenSections } from '@primeuix/themes/types/dataview';
+import type { DataViewDesignTokens, DataViewTokenSections } from '@openng/optimus-ui-themes/types/dataview';
 
 export const root: DataViewTokenSections.Root = {
     borderColor: '{content.border.color}',

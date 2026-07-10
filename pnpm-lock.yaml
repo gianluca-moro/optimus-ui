@@ -141,12 +141,12 @@ importers:
       '@openng/optimus-ui-styles':
         specifier: workspace:*
         version: link:packages/optimus-ui-styles
+      '@openng/optimus-ui-themes':
+        specifier: workspace:*
+        version: link:packages/optimus-ui-themes
       '@openng/optimus-ui-utils':
         specifier: workspace:*
         version: link:packages/optimus-ui-utils
-      '@primeuix/themes':
-        specifier: workspace:@openng/optimus-ui-themes@*
-        version: link:packages/optimus-ui-themes
       '@typescript-eslint/eslint-plugin':
         specifier: ^8.13.0
         version: 8.59.3(@typescript-eslint/parser@8.59.3(eslint@9.39.4(jiti@2.7.0))(typescript@5.9.3))(eslint@9.39.4(jiti@2.7.0))(typescript@5.9.3)
@@ -229,8 +229,8 @@ importers:
       '@docsearch/js':
         specifier: ^3.3.4
         version: 3.9.0(@algolia/client-search@4.27.0)(@types/react@18.3.28)(search-insights@2.17.3)
-      '@primeuix/themes':
-        specifier: workspace:@openng/optimus-ui-themes@*
+      '@openng/optimus-ui-themes':
+        specifier: workspace:*
         version: link:../../packages/optimus-ui-themes
       '@stackblitz/sdk':
         specifier: 1.9.0
@@ -400,8 +400,8 @@ importers:
       '@openng/optimus-ui-styled':
         specifier: workspace:*
         version: link:../optimus-ui-styled
-      '@primeuix/themes':
-        specifier: workspace:@openng/optimus-ui-themes@*
+      '@openng/optimus-ui-themes':
+        specifier: workspace:*
         version: link:../optimus-ui-themes
     publishDirectory: dist
 

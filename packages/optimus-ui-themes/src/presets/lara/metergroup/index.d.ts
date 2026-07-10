@@ -1,6 +1,6 @@
-import type { MeterGroupTokenSections } from '@primeuix/themes/types/metergroup';
+import type { MeterGroupTokenSections } from '@openng/optimus-ui-themes/types/metergroup';
 
-export * from '@primeuix/themes/types/metergroup';
+export * from '@openng/optimus-ui-themes/types/metergroup';
 
 declare const root: MeterGroupTokenSections.Root;
 declare const meters: MeterGroupTokenSections.Meters;

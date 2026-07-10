@@ -1,2 +1,2 @@
-export * from '@primeuix/themes/nora/colorpicker';
-export { default } from '@primeuix/themes/nora/colorpicker';
+export * from '@openng/optimus-ui-themes/nora/colorpicker';
+export { default } from '@openng/optimus-ui-themes/nora/colorpicker';

@@ -1,5 +1,5 @@
-import type { LaraBaseDesignTokens } from '@primeuix/themes/lara/base';
-import type { Preset } from '@primeuix/themes/types';
+import type { LaraBaseDesignTokens } from '@openng/optimus-ui-themes/lara/base';
+import type { Preset } from '@openng/optimus-ui-themes/types';
 
 /**
  *

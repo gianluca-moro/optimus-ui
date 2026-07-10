@@ -105,7 +105,7 @@ function generateStackBlitzProject(demo, selector) {
             '@angular/platform-browser': '^21.0.0',
             '@angular/platform-browser-dynamic': '^21.0.0',
             '@angular/router': '^21.0.0',
-            '@primeuix/themes': '^2.0.2',
+            '@openng/optimus-ui-themes': '^2.0.2',
             primeicons: '^7.0.0',
             primeng: '21.0.0',
             rxjs: '~7.8.0',
@@ -128,7 +128,7 @@ import { ${componentName} } from './app/${selector}';
 import { provideHttpClient, withFetch } from '@angular/common/http';
 import { ApplicationConfig } from '@angular/core';
 import { providePrimeNG } from 'primeng/config';
-import Aura from '@primeuix/themes/aura';
+import Aura from '@openng/optimus-ui-themes/aura';
 
 export const appConfig: ApplicationConfig = {
     providers: [
@@ -221,7 +221,7 @@ function validateTypeScript(tsContent, filePath, selector) {
 // Validate package.json
 function validatePackageJson(packageJson) {
     const errors = [];
-    const requiredDeps = ['@angular/core', '@angular/common', 'primeng', '@primeuix/themes'];
+    const requiredDeps = ['@angular/core', '@angular/common', 'primeng', '@openng/optimus-ui-themes'];
 
     for (const dep of requiredDeps) {
         if (!packageJson.dependencies?.[dep]) {

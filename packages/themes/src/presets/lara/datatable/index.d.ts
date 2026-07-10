@@ -1,2 +1,2 @@
-export * from '@primeuix/themes/lara/datatable';
-export { default } from '@primeuix/themes/lara/datatable';
+export * from '@openng/optimus-ui-themes/lara/datatable';
+export { default } from '@openng/optimus-ui-themes/lara/datatable';

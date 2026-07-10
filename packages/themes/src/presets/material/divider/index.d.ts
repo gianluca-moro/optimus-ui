@@ -1,2 +1,2 @@
-export * from '@primeuix/themes/material/divider';
-export { default } from '@primeuix/themes/material/divider';
+export * from '@openng/optimus-ui-themes/material/divider';
+export { default } from '@openng/optimus-ui-themes/material/divider';

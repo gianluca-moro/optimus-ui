@@ -1,2 +1,2 @@
-export * from '@primeuix/themes/nora/treetable';
-export { default } from '@primeuix/themes/nora/treetable';
+export * from '@openng/optimus-ui-themes/nora/treetable';
+export { default } from '@openng/optimus-ui-themes/nora/treetable';

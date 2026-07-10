@@ -1,2 +1,2 @@
-export * from '@primeuix/themes/nora/timeline';
-export { default } from '@primeuix/themes/nora/timeline';
+export * from '@openng/optimus-ui-themes/nora/timeline';
+export { default } from '@openng/optimus-ui-themes/nora/timeline';

@@ -1,2 +1,2 @@
-export * from '@primeuix/themes/lara/timeline';
-export { default } from '@primeuix/themes/lara/timeline';
+export * from '@openng/optimus-ui-themes/lara/timeline';
+export { default } from '@openng/optimus-ui-themes/lara/timeline';

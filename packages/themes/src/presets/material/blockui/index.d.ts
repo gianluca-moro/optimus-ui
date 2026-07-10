@@ -1,2 +1,2 @@
-export * from '@primeuix/themes/material/blockui';
-export { default } from '@primeuix/themes/material/blockui';
+export * from '@openng/optimus-ui-themes/material/blockui';
+export { default } from '@openng/optimus-ui-themes/material/blockui';

@@ -1,2 +1,2 @@
-export * from '@primeuix/themes/aura/togglebutton';
-export { default } from '@primeuix/themes/aura/togglebutton';
+export * from '@openng/optimus-ui-themes/aura/togglebutton';
+export { default } from '@openng/optimus-ui-themes/aura/togglebutton';

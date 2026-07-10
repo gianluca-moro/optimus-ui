@@ -1,2 +1,2 @@
-export * from '@primeuix/themes/aura/selectbutton';
-export { default } from '@primeuix/themes/aura/selectbutton';
+export * from '@openng/optimus-ui-themes/aura/selectbutton';
+export { default } from '@openng/optimus-ui-themes/aura/selectbutton';

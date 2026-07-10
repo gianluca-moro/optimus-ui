@@ -1,2 +1,2 @@
-export * from '@primeuix/themes/aura/carousel';
-export { default } from '@primeuix/themes/aura/carousel';
+export * from '@openng/optimus-ui-themes/aura/carousel';
+export { default } from '@openng/optimus-ui-themes/aura/carousel';

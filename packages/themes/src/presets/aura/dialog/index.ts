@@ -1,2 +1,2 @@
-export * from '@primeuix/themes/aura/dialog';
-export { default } from '@primeuix/themes/aura/dialog';
+export * from '@openng/optimus-ui-themes/aura/dialog';
+export { default } from '@openng/optimus-ui-themes/aura/dialog';

@@ -1,2 +1,2 @@
-export * from '@primeuix/themes/material/panel';
-export { default } from '@primeuix/themes/material/panel';
+export * from '@openng/optimus-ui-themes/material/panel';
+export { default } from '@openng/optimus-ui-themes/material/panel';

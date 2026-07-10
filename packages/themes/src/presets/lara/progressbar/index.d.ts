@@ -1,2 +1,2 @@
-export * from '@primeuix/themes/lara/progressbar';
-export { default } from '@primeuix/themes/lara/progressbar';
+export * from '@openng/optimus-ui-themes/lara/progressbar';
+export { default } from '@openng/optimus-ui-themes/lara/progressbar';

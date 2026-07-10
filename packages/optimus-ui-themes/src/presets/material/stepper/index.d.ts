@@ -1,7 +1,7 @@
 import type { StyleOptions } from '@openng/optimus-ui-styled';
-import type { StepperTokenSections } from '@primeuix/themes/types/stepper';
+import type { StepperTokenSections } from '@openng/optimus-ui-themes/types/stepper';
 
-export * from '@primeuix/themes/types/stepper';
+export * from '@openng/optimus-ui-themes/types/stepper';
 
 declare const root: StepperTokenSections.Root;
 declare const separator: StepperTokenSections.Separator;

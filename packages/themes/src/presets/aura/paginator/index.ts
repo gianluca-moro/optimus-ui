@@ -1,2 +1,2 @@
-export * from '@primeuix/themes/aura/paginator';
-export { default } from '@primeuix/themes/aura/paginator';
+export * from '@openng/optimus-ui-themes/aura/paginator';
+export { default } from '@openng/optimus-ui-themes/aura/paginator';

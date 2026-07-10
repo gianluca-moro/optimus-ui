@@ -1,2 +1,2 @@
-export * from '@primeuix/themes/material/steps';
-export { default } from '@primeuix/themes/material/steps';
+export * from '@openng/optimus-ui-themes/material/steps';
+export { default } from '@openng/optimus-ui-themes/material/steps';

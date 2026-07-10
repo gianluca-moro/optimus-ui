@@ -1,2 +1,2 @@
-export * from '@primeuix/themes/nora/fileupload';
-export { default } from '@primeuix/themes/nora/fileupload';
+export * from '@openng/optimus-ui-themes/nora/fileupload';
+export { default } from '@openng/optimus-ui-themes/nora/fileupload';

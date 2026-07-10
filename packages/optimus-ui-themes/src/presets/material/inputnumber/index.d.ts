@@ -1,7 +1,7 @@
 import type { StyleOptions } from '@openng/optimus-ui-styled';
-import type { InputNumberTokenSections } from '@primeuix/themes/types/inputnumber';
+import type { InputNumberTokenSections } from '@openng/optimus-ui-themes/types/inputnumber';
 
-export * from '@primeuix/themes/types/inputnumber';
+export * from '@openng/optimus-ui-themes/types/inputnumber';
 
 declare const root: InputNumberTokenSections.Root;
 declare const button: InputNumberTokenSections.Button;

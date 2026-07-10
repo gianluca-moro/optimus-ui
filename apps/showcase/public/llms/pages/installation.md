@@ -8,13 +8,13 @@ PrimeNG is available for download on the npm registry .
 
 ```bash
 # Using npm
-npm install primeng @primeuix/themes
+npm install primeng @openng/optimus-ui-themes
 
 # Using yarn
-yarn add primeng @primeuix/themes
+yarn add primeng @openng/optimus-ui-themes
 
 # Using pnpm
-pnpm add primeng @primeuix/themes
+pnpm add primeng @openng/optimus-ui-themes
 ```
 
 ## Examples-
@@ -32,7 +32,7 @@ Add providePrimeNG to the list of providers in your app.config.ts and use the th
 ```typescript
 import { ApplicationConfig } from '@angular/core';
 import { providePrimeNG } from 'primeng/config';
-import Aura from '@primeuix/themes/aura';
+import Aura from '@openng/optimus-ui-themes/aura';
 
 export const appConfig: ApplicationConfig = {
     providers: [
@@ -53,7 +53,7 @@ Configure PrimeNG to use a theme like Aura.
 import { ApplicationConfig } from '@angular/core';
 import { provideAnimationsAsync } from '@angular/platform-browser/animations/async';
 import { providePrimeNG } from 'primeng/config';
-import Aura from '@primeuix/themes/aura';
+import Aura from '@openng/optimus-ui-themes/aura';
 
 export const appConfig: ApplicationConfig = {
     providers: [

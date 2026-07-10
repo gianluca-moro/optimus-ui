@@ -1,2 +1,2 @@
-export * from '@primeuix/themes/lara/overlaybadge';
-export { default } from '@primeuix/themes/lara/overlaybadge';
+export * from '@openng/optimus-ui-themes/lara/overlaybadge';
+export { default } from '@openng/optimus-ui-themes/lara/overlaybadge';

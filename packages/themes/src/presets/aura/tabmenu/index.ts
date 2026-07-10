@@ -1,2 +1,2 @@
-export * from '@primeuix/themes/aura/tabmenu';
-export { default } from '@primeuix/themes/aura/tabmenu';
+export * from '@openng/optimus-ui-themes/aura/tabmenu';
+export { default } from '@openng/optimus-ui-themes/aura/tabmenu';

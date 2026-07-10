@@ -19,7 +19,7 @@ export default defineConfig({
     dts: {
         entry: ['src/index.ts']
     },
-    external: [/^@primeuix\/(.*)$/, /^@openng\/optimus-ui-(.*)$/, /^@primeng\/themes\/(.*)$/],
+    external: [/^@openng\/optimus-ui-(.*)$/, /^@primeng\/themes\/(.*)$/],
     sourcemap: true,
     splitting: false,
     clean: true,

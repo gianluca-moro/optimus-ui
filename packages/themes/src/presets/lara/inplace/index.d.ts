@@ -1,2 +1,2 @@
-export * from '@primeuix/themes/lara/inplace';
-export { default } from '@primeuix/themes/lara/inplace';
+export * from '@openng/optimus-ui-themes/lara/inplace';
+export { default } from '@openng/optimus-ui-themes/lara/inplace';

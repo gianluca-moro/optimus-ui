@@ -1,4 +1,4 @@
-import type { ColorPickerDesignTokens, ColorPickerTokenSections } from '@primeuix/themes/types/colorpicker';
+import type { ColorPickerDesignTokens, ColorPickerTokenSections } from '@openng/optimus-ui-themes/types/colorpicker';
 
 export const root: ColorPickerTokenSections.Root = {
     transitionDuration: '{transition.duration}'

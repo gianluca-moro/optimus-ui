@@ -1,6 +1,6 @@
-import type { SplitterTokenSections } from '@primeuix/themes/types/splitter';
+import type { SplitterTokenSections } from '@openng/optimus-ui-themes/types/splitter';
 
-export * from '@primeuix/themes/types/splitter';
+export * from '@openng/optimus-ui-themes/types/splitter';
 
 declare const root: SplitterTokenSections.Root;
 declare const gutter: SplitterTokenSections.Gutter;

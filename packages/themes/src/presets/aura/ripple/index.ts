@@ -1,2 +1,2 @@
-export * from '@primeuix/themes/aura/ripple';
-export { default } from '@primeuix/themes/aura/ripple';
+export * from '@openng/optimus-ui-themes/aura/ripple';
+export { default } from '@openng/optimus-ui-themes/aura/ripple';

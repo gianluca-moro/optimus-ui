@@ -1,5 +1,5 @@
 import * as Styled from '@openng/optimus-ui-styled';
-import type { PaletteDesignToken, Preset, Theme } from '@primeuix/themes/types';
+import type { PaletteDesignToken, Preset, Theme } from '@openng/optimus-ui-themes/types';
 
 export const definePreset = (...presets: Preset[]) => Styled.definePreset(...presets);
 export const updatePreset = (...presets: Preset[]) => Styled.updatePreset(...presets);

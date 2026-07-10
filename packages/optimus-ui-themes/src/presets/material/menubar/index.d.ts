@@ -1,7 +1,7 @@
 import type { StyleOptions } from '@openng/optimus-ui-styled';
-import type { MenubarTokenSections } from '@primeuix/themes/types/menubar';
+import type { MenubarTokenSections } from '@openng/optimus-ui-themes/types/menubar';
 
-export * from '@primeuix/themes/types/menubar';
+export * from '@openng/optimus-ui-themes/types/menubar';
 
 declare const root: MenubarTokenSections.Root;
 declare const baseItem: MenubarTokenSections.BaseItem;

@@ -1,2 +1,2 @@
-export * from '@primeuix/themes/nora/autocomplete';
-export { default } from '@primeuix/themes/nora/autocomplete';
+export * from '@openng/optimus-ui-themes/nora/autocomplete';
+export { default } from '@openng/optimus-ui-themes/nora/autocomplete';

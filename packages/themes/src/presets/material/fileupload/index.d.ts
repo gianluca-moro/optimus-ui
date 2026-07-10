@@ -1,2 +1,2 @@
-export * from '@primeuix/themes/material/fileupload';
-export { default } from '@primeuix/themes/material/fileupload';
+export * from '@openng/optimus-ui-themes/material/fileupload';
+export { default } from '@openng/optimus-ui-themes/material/fileupload';

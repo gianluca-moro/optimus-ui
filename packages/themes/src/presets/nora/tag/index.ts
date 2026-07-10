@@ -1,2 +1,2 @@
-export * from '@primeuix/themes/nora/tag';
-export { default } from '@primeuix/themes/nora/tag';
+export * from '@openng/optimus-ui-themes/nora/tag';
+export { default } from '@openng/optimus-ui-themes/nora/tag';

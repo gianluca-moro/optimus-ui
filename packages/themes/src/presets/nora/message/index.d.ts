@@ -1,2 +1,2 @@
-export * from '@primeuix/themes/nora/message';
-export { default } from '@primeuix/themes/nora/message';
+export * from '@openng/optimus-ui-themes/nora/message';
+export { default } from '@openng/optimus-ui-themes/nora/message';

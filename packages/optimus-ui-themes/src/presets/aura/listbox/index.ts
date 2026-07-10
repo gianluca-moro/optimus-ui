@@ -1,4 +1,4 @@
-import type { ListboxDesignTokens, ListboxTokenSections } from '@primeuix/themes/types/listbox';
+import type { ListboxDesignTokens, ListboxTokenSections } from '@openng/optimus-ui-themes/types/listbox';
 
 export const root: ListboxTokenSections.Root = {
     background: '{form.field.background}',

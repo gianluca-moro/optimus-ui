@@ -1,6 +1,6 @@
-import type { VirtualScrollerTokenSections } from '@primeuix/themes/types/virtualscroller';
+import type { VirtualScrollerTokenSections } from '@openng/optimus-ui-themes/types/virtualscroller';
 
-export * from '@primeuix/themes/types/virtualscroller';
+export * from '@openng/optimus-ui-themes/types/virtualscroller';
 
 declare const loader: VirtualScrollerTokenSections.Loader;
 declare const css: VirtualScrollerTokenSections.CSS;

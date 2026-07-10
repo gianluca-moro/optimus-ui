@@ -1,2 +1,2 @@
-export * from '@primeuix/themes/material/togglebutton';
-export { default } from '@primeuix/themes/material/togglebutton';
+export * from '@openng/optimus-ui-themes/material/togglebutton';
+export { default } from '@openng/optimus-ui-themes/material/togglebutton';

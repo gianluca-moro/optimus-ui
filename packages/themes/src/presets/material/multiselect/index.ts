@@ -1,2 +1,2 @@
-export * from '@primeuix/themes/material/multiselect';
-export { default } from '@primeuix/themes/material/multiselect';
+export * from '@openng/optimus-ui-themes/material/multiselect';
+export { default } from '@openng/optimus-ui-themes/material/multiselect';

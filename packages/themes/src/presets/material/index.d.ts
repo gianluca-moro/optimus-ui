@@ -1,1 +1,1 @@
-export { default } from '@primeuix/themes/material';
+export { default } from '@openng/optimus-ui-themes/material';

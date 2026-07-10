@@ -1,7 +1,7 @@
 import type { StyleOptions } from '@openng/optimus-ui-styled';
-import type { CheckboxTokenSections } from '@primeuix/themes/types/checkbox';
+import type { CheckboxTokenSections } from '@openng/optimus-ui-themes/types/checkbox';
 
-export * from '@primeuix/themes/types/checkbox';
+export * from '@openng/optimus-ui-themes/types/checkbox';
 
 declare const root: CheckboxTokenSections.Root;
 declare const icon: CheckboxTokenSections.Icon;

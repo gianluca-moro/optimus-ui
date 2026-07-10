@@ -29,16 +29,16 @@
                 "../optimus-ui-motion/src/*",
                 "../optimus-ui-motion/types/*"
             ],
-            "@primeuix/themes": [
+            "@openng/optimus-ui-themes": [
                 "../optimus-ui-themes/src"
             ],
-            "@primeuix/themes/types": [
+            "@openng/optimus-ui-themes/types": [
                 "../optimus-ui-themes/types"
             ],
-            "@primeuix/themes/types/*": [
+            "@openng/optimus-ui-themes/types/*": [
                 "../optimus-ui-themes/types/*"
             ],
-            "@primeuix/themes/*": [
+            "@openng/optimus-ui-themes/*": [
                 "../optimus-ui-themes/src/*",
                 "../optimus-ui-themes/src/presets/*",
                 "../optimus-ui-themes/types/*"

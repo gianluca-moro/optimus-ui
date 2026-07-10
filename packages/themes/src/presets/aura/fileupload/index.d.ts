@@ -1,2 +1,2 @@
-export * from '@primeuix/themes/aura/fileupload';
-export { default } from '@primeuix/themes/aura/fileupload';
+export * from '@openng/optimus-ui-themes/aura/fileupload';
+export { default } from '@openng/optimus-ui-themes/aura/fileupload';

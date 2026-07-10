@@ -1,6 +1,6 @@
-import type { TagTokenSections } from '@primeuix/themes/types/tag';
+import type { TagTokenSections } from '@openng/optimus-ui-themes/types/tag';
 
-export * from '@primeuix/themes/types/tag';
+export * from '@openng/optimus-ui-themes/types/tag';
 
 declare const root: TagTokenSections.Root;
 declare const icon: TagTokenSections.Icon;

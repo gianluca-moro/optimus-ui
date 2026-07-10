@@ -1,2 +1,2 @@
-export * from '@primeuix/themes/lara/multiselect';
-export { default } from '@primeuix/themes/lara/multiselect';
+export * from '@openng/optimus-ui-themes/lara/multiselect';
+export { default } from '@openng/optimus-ui-themes/lara/multiselect';

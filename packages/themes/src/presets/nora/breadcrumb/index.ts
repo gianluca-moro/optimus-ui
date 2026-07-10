@@ -1,2 +1,2 @@
-export * from '@primeuix/themes/nora/breadcrumb';
-export { default } from '@primeuix/themes/nora/breadcrumb';
+export * from '@openng/optimus-ui-themes/nora/breadcrumb';
+export { default } from '@openng/optimus-ui-themes/nora/breadcrumb';

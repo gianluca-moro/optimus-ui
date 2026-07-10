@@ -1,2 +1,2 @@
-export * from '@primeuix/themes/lara/toggleswitch';
-export { default } from '@primeuix/themes/lara/toggleswitch';
+export * from '@openng/optimus-ui-themes/lara/toggleswitch';
+export { default } from '@openng/optimus-ui-themes/lara/toggleswitch';

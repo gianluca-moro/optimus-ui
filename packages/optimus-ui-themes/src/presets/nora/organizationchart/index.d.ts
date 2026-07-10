@@ -1,6 +1,6 @@
-import type { OrganizationChartTokenSections } from '@primeuix/themes/types/organizationchart';
+import type { OrganizationChartTokenSections } from '@openng/optimus-ui-themes/types/organizationchart';
 
-export * from '@primeuix/themes/types/organizationchart';
+export * from '@openng/optimus-ui-themes/types/organizationchart';
 
 declare const root: OrganizationChartTokenSections.Root;
 declare const node: OrganizationChartTokenSections.Node;

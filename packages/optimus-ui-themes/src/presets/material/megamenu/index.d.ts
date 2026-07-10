@@ -1,7 +1,7 @@
 import type { StyleOptions } from '@openng/optimus-ui-styled';
-import type { MegaMenuTokenSections } from '@primeuix/themes/types/megamenu';
+import type { MegaMenuTokenSections } from '@openng/optimus-ui-themes/types/megamenu';
 
-export * from '@primeuix/themes/types/megamenu';
+export * from '@openng/optimus-ui-themes/types/megamenu';
 
 declare const root: MegaMenuTokenSections.Root;
 declare const baseItem: MegaMenuTokenSections.BaseItem;

@@ -1,7 +1,7 @@
 import type { StyleOptions } from '@openng/optimus-ui-styled';
-import type { SelectTokenSections } from '@primeuix/themes/types/select';
+import type { SelectTokenSections } from '@openng/optimus-ui-themes/types/select';
 
-export * from '@primeuix/themes/types/select';
+export * from '@openng/optimus-ui-themes/types/select';
 
 declare const root: SelectTokenSections.Root;
 declare const dropdown: SelectTokenSections.Dropdown;

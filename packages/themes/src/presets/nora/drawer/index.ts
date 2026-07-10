@@ -1,2 +1,2 @@
-export * from '@primeuix/themes/nora/drawer';
-export { default } from '@primeuix/themes/nora/drawer';
+export * from '@openng/optimus-ui-themes/nora/drawer';
+export { default } from '@openng/optimus-ui-themes/nora/drawer';

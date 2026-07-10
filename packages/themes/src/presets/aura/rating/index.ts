@@ -1,2 +1,2 @@
-export * from '@primeuix/themes/aura/rating';
-export { default } from '@primeuix/themes/aura/rating';
+export * from '@openng/optimus-ui-themes/aura/rating';
+export { default } from '@openng/optimus-ui-themes/aura/rating';

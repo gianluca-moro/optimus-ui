@@ -1,2 +1,2 @@
-export * from '@primeuix/themes/nora/speeddial';
-export { default } from '@primeuix/themes/nora/speeddial';
+export * from '@openng/optimus-ui-themes/nora/speeddial';
+export { default } from '@openng/optimus-ui-themes/nora/speeddial';

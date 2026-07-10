@@ -1,2 +1,2 @@
-export * from '@primeuix/themes/lara/iconfield';
-export { default } from '@primeuix/themes/lara/iconfield';
+export * from '@openng/optimus-ui-themes/lara/iconfield';
+export { default } from '@openng/optimus-ui-themes/lara/iconfield';

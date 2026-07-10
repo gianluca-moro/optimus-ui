@@ -1,2 +1,2 @@
-export * from '@primeuix/themes/lara/select';
-export { default } from '@primeuix/themes/lara/select';
+export * from '@openng/optimus-ui-themes/lara/select';
+export { default } from '@openng/optimus-ui-themes/lara/select';

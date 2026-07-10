@@ -1,6 +1,6 @@
-import type { TreeTokenSections } from '@primeuix/themes/types/tree';
+import type { TreeTokenSections } from '@openng/optimus-ui-themes/types/tree';
 
-export * from '@primeuix/themes/types/tree';
+export * from '@openng/optimus-ui-themes/types/tree';
 
 declare const root: TreeTokenSections.Root;
 declare const node: TreeTokenSections.Node;

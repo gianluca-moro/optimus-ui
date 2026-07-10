@@ -1,6 +1,6 @@
-import type { TreeTableTokenSections } from '@primeuix/themes/types/treetable';
+import type { TreeTableTokenSections } from '@openng/optimus-ui-themes/types/treetable';
 
-export * from '@primeuix/themes/types/treetable';
+export * from '@openng/optimus-ui-themes/types/treetable';
 
 declare const root: TreeTableTokenSections.Root;
 declare const header: TreeTableTokenSections.Header;

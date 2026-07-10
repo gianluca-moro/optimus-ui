@@ -1,6 +1,6 @@
-import type { PickListTokenSections } from '@primeuix/themes/types/picklist';
+import type { PickListTokenSections } from '@openng/optimus-ui-themes/types/picklist';
 
-export * from '@primeuix/themes/types/picklist';
+export * from '@openng/optimus-ui-themes/types/picklist';
 
 declare const root: PickListTokenSections.Root;
 declare const controls: PickListTokenSections.Controls;

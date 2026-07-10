@@ -1,2 +1,2 @@
-export * from '@primeuix/themes/material/toolbar';
-export { default } from '@primeuix/themes/material/toolbar';
+export * from '@openng/optimus-ui-themes/material/toolbar';
+export { default } from '@openng/optimus-ui-themes/material/toolbar';

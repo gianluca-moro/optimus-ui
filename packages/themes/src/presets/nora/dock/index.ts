@@ -1,2 +1,2 @@
-export * from '@primeuix/themes/nora/dock';
-export { default } from '@primeuix/themes/nora/dock';
+export * from '@openng/optimus-ui-themes/nora/dock';
+export { default } from '@openng/optimus-ui-themes/nora/dock';

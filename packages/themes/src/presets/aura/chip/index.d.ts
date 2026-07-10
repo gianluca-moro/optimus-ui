@@ -1,2 +1,2 @@
-export * from '@primeuix/themes/aura/chip';
-export { default } from '@primeuix/themes/aura/chip';
+export * from '@openng/optimus-ui-themes/aura/chip';
+export { default } from '@openng/optimus-ui-themes/aura/chip';

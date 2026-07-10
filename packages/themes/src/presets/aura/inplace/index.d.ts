@@ -1,2 +1,2 @@
-export * from '@primeuix/themes/aura/inplace';
-export { default } from '@primeuix/themes/aura/inplace';
+export * from '@openng/optimus-ui-themes/aura/inplace';
+export { default } from '@openng/optimus-ui-themes/aura/inplace';

@@ -1,2 +1,2 @@
-export * from '@primeuix/themes/nora/inputgroup';
-export { default } from '@primeuix/themes/nora/inputgroup';
+export * from '@openng/optimus-ui-themes/nora/inputgroup';
+export { default } from '@openng/optimus-ui-themes/nora/inputgroup';

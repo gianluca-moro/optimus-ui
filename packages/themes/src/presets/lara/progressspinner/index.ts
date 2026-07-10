@@ -1,2 +1,2 @@
-export * from '@primeuix/themes/lara/progressspinner';
-export { default } from '@primeuix/themes/lara/progressspinner';
+export * from '@openng/optimus-ui-themes/lara/progressspinner';
+export { default } from '@openng/optimus-ui-themes/lara/progressspinner';

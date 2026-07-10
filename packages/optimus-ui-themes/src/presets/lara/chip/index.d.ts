@@ -1,6 +1,6 @@
-import type { ChipTokenSections } from '@primeuix/themes/types/chip';
+import type { ChipTokenSections } from '@openng/optimus-ui-themes/types/chip';
 
-export * from '@primeuix/themes/types/chip';
+export * from '@openng/optimus-ui-themes/types/chip';
 
 declare const root: ChipTokenSections.Root;
 declare const image: ChipTokenSections.Image;

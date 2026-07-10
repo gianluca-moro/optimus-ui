@@ -1,2 +1,2 @@
-export * from '@primeuix/themes/aura/floatlabel';
-export { default } from '@primeuix/themes/aura/floatlabel';
+export * from '@openng/optimus-ui-themes/aura/floatlabel';
+export { default } from '@openng/optimus-ui-themes/aura/floatlabel';

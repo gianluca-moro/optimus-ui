@@ -1,4 +1,4 @@
-import type { RadioButtonDesignTokens, RadioButtonTokenSections } from '@primeuix/themes/types/radiobutton';
+import type { RadioButtonDesignTokens, RadioButtonTokenSections } from '@openng/optimus-ui-themes/types/radiobutton';
 
 export const root: RadioButtonTokenSections.Root = {
     width: '20px',

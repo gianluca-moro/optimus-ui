@@ -1,2 +1,2 @@
-export * from '@primeuix/themes/nora/galleria';
-export { default } from '@primeuix/themes/nora/galleria';
+export * from '@openng/optimus-ui-themes/nora/galleria';
+export { default } from '@openng/optimus-ui-themes/nora/galleria';

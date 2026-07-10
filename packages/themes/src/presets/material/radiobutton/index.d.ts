@@ -1,2 +1,2 @@
-export * from '@primeuix/themes/material/radiobutton';
-export { default } from '@primeuix/themes/material/radiobutton';
+export * from '@openng/optimus-ui-themes/material/radiobutton';
+export { default } from '@openng/optimus-ui-themes/material/radiobutton';

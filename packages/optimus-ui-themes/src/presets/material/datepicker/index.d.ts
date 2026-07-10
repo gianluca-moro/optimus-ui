@@ -1,7 +1,7 @@
 import type { StyleOptions } from '@openng/optimus-ui-styled';
-import type { DatePickerTokenSections } from '@primeuix/themes/types/datepicker';
+import type { DatePickerTokenSections } from '@openng/optimus-ui-themes/types/datepicker';
 
-export * from '@primeuix/themes/types/datepicker';
+export * from '@openng/optimus-ui-themes/types/datepicker';
 
 declare const root: DatePickerTokenSections.Root;
 declare const panel: DatePickerTokenSections.Panel;

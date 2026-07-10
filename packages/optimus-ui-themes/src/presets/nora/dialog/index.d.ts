@@ -1,6 +1,6 @@
-import type { DialogTokenSections } from '@primeuix/themes/types/dialog';
+import type { DialogTokenSections } from '@openng/optimus-ui-themes/types/dialog';
 
-export * from '@primeuix/themes/types/dialog';
+export * from '@openng/optimus-ui-themes/types/dialog';
 
 declare const root: DialogTokenSections.Root;
 declare const header: DialogTokenSections.Header;

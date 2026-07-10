@@ -21,7 +21,7 @@ const dependencies = {
     '@angular/platform-browser': '^21.0.0',
     '@angular/platform-browser-dynamic': '^21.0.0',
     '@angular/router': '^21.0.0',
-    '@primeuix/themes': '^2.0.2',
+    '@openng/optimus-ui-themes': '^2.0.2',
     'chart.js': '4.4.2',
     primeicons: '^7.0.0',
     primeng: `${version}`,
@@ -386,11 +386,11 @@ const theme_switcher = `
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { Component, computed, effect, inject, PLATFORM_ID, signal } from '@angular/core';
-import { $t, updatePreset, updateSurfacePalette } from '@primeuix/themes';
-import Aura from '@primeuix/themes/aura';
-import Lara from '@primeuix/themes/lara';
-import Material from '@primeuix/themes/material';
-import Nora from '@primeuix/themes/nora';
+import { $t, updatePreset, updateSurfacePalette } from '@openng/optimus-ui-themes';
+import Aura from '@openng/optimus-ui-themes/aura';
+import Lara from '@openng/optimus-ui-themes/lara';
+import Material from '@openng/optimus-ui-themes/material';
+import Nora from '@openng/optimus-ui-themes/nora';
 import { PrimeNG } from 'primeng/config';
 import { SelectButtonModule } from 'primeng/selectbutton';
 import { StyleClassModule } from 'primeng/styleclass';
@@ -1014,7 +1014,7 @@ import { ${componentName} } from './app/${selector}';
 import { provideHttpClient, withFetch } from '@angular/common/http';
 import { ApplicationConfig } from '@angular/core';
 import { providePrimeNG } from 'primeng/config';
-import Aura from '@primeuix/themes/aura';
+import Aura from '@openng/optimus-ui-themes/aura';
 
   export const appConfig: ApplicationConfig = {
       providers: [

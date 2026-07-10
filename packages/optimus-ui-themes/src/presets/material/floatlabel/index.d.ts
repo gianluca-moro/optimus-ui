@@ -1,6 +1,6 @@
-import type { FloatLabelTokenSections } from '@primeuix/themes/types/floatlabel';
+import type { FloatLabelTokenSections } from '@openng/optimus-ui-themes/types/floatlabel';
 
-export * from '@primeuix/themes/types/floatlabel';
+export * from '@openng/optimus-ui-themes/types/floatlabel';
 
 declare const root: FloatLabelTokenSections.Root;
 declare const over: FloatLabelTokenSections.Over;

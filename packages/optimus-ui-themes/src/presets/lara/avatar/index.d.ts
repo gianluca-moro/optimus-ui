@@ -1,6 +1,6 @@
-import type { AvatarTokenSections } from '@primeuix/themes/types/avatar';
+import type { AvatarTokenSections } from '@openng/optimus-ui-themes/types/avatar';
 
-export * from '@primeuix/themes/types/avatar';
+export * from '@openng/optimus-ui-themes/types/avatar';
 
 declare const root: AvatarTokenSections.Root;
 declare const icon: AvatarTokenSections.Icon;
