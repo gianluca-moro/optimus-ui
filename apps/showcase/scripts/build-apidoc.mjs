@@ -25,7 +25,7 @@ async function main() {
         // typedoc options here
         name: 'PrimeNG',
         entryPointStrategy: 'expand',
-        entryPoints: ['../../packages/primeng/'],
+        entryPoints: ['../../packages/optimus-ui/'],
         hideGenerator: true,
         excludeExternals: false,
         includeVersion: true,

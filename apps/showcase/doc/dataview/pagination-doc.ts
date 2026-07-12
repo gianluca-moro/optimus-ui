@@ -5,9 +5,9 @@ import { ProductService } from '@/service/productservice';
 import { CommonModule } from '@angular/common';
 import { Component, signal } from '@angular/core';
 import { RouterModule } from '@angular/router';
-import { ButtonModule } from 'primeng/button';
-import { DataViewModule } from 'primeng/dataview';
-import { TagModule } from 'primeng/tag';
+import { ButtonModule } from '@openng/optimus-ui/button';
+import { DataViewModule } from '@openng/optimus-ui/dataview';
+import { TagModule } from '@openng/optimus-ui/tag';
 
 @Component({
     selector: 'pagination-doc',

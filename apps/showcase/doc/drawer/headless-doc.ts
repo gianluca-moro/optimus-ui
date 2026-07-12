@@ -1,13 +1,13 @@
 import { Component, ViewChild } from '@angular/core';
-import { Drawer } from 'primeng/drawer';
+import { Drawer } from '@openng/optimus-ui/drawer';
 import { AppCode } from '@/components/doc/app.code';
 import { AppDocSectionText } from '@/components/doc/app.docsectiontext';
-import { DrawerModule } from 'primeng/drawer';
-import { ButtonModule } from 'primeng/button';
+import { DrawerModule } from '@openng/optimus-ui/drawer';
+import { ButtonModule } from '@openng/optimus-ui/button';
 import { FormsModule } from '@angular/forms';
-import { AvatarModule } from 'primeng/avatar';
-import { RippleModule } from 'primeng/ripple';
-import { StyleClassModule } from 'primeng/styleclass';
+import { AvatarModule } from '@openng/optimus-ui/avatar';
+import { RippleModule } from '@openng/optimus-ui/ripple';
+import { StyleClassModule } from '@openng/optimus-ui/styleclass';
 
 @Component({
     selector: 'headless-doc',

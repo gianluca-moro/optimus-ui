@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { ButtonModule } from 'primeng/button';
-import { DialogService, DynamicDialog, DynamicDialogRef } from 'primeng/dynamicdialog';
+import { ButtonModule } from '@openng/optimus-ui/button';
+import { DialogService, DynamicDialog, DynamicDialogRef } from '@openng/optimus-ui/dynamicdialog';
 
 @Component({
     standalone: true,

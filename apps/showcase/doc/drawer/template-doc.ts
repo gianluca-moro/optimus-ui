@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
-import { DrawerModule } from 'primeng/drawer';
-import { ButtonModule } from 'primeng/button';
-import { AvatarModule } from 'primeng/avatar';
+import { DrawerModule } from '@openng/optimus-ui/drawer';
+import { ButtonModule } from '@openng/optimus-ui/button';
+import { AvatarModule } from '@openng/optimus-ui/avatar';
 import { AppCode } from '@/components/doc/app.code';
 import { AppDocSectionText } from '@/components/doc/app.docsectiontext';
 

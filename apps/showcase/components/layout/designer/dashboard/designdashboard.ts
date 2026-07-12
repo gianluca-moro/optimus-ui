@@ -4,10 +4,10 @@ import { CommonModule } from '@angular/common';
 import { ChangeDetectionStrategy, Component, computed, inject, model, OnInit, Renderer2, ViewChild } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
-import { ConfirmationService } from 'primeng/api';
-import { ConfirmPopupModule } from 'primeng/confirmpopup';
-import { Menu, MenuModule } from 'primeng/menu';
-import { ToastModule } from 'primeng/toast';
+import { ConfirmationService } from '@openng/optimus-ui/api';
+import { ConfirmPopupModule } from '@openng/optimus-ui/confirmpopup';
+import { Menu, MenuModule } from '@openng/optimus-ui/menu';
+import { ToastModule } from '@openng/optimus-ui/toast';
 
 @Component({
     selector: 'design-dashboard',

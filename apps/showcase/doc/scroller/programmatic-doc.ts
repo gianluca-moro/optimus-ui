@@ -1,6 +1,6 @@
 import { Component, OnInit, ViewChild } from '@angular/core';
-import { Scroller, ScrollerModule } from 'primeng/scroller';
-import { ButtonModule } from 'primeng/button';
+import { Scroller, ScrollerModule } from '@openng/optimus-ui/scroller';
+import { ButtonModule } from '@openng/optimus-ui/button';
 import { AppCode } from '@/components/doc/app.code';
 import { AppDocSectionText } from '@/components/doc/app.docsectiontext';
 import { CommonModule } from '@angular/common';

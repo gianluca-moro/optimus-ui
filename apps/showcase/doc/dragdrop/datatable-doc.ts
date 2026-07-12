@@ -4,9 +4,9 @@ import { Product } from '@/domain/product';
 import { ProductService } from '@/service/productservice';
 import { CommonModule } from '@angular/common';
 import { Component, OnInit } from '@angular/core';
-import { DragDropModule } from 'primeng/dragdrop';
-import { TableModule } from 'primeng/table';
-import { TagModule } from 'primeng/tag';
+import { DragDropModule } from '@openng/optimus-ui/dragdrop';
+import { TableModule } from '@openng/optimus-ui/table';
+import { TagModule } from '@openng/optimus-ui/tag';
 
 @Component({
     selector: 'datatable-doc',

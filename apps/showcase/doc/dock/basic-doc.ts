@@ -1,10 +1,10 @@
 import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
-import { MenuItem } from 'primeng/api';
-import { DockModule } from 'primeng/dock';
-import { RadioButtonModule } from 'primeng/radiobutton';
-import { TooltipModule } from 'primeng/tooltip';
+import { MenuItem } from '@openng/optimus-ui/api';
+import { DockModule } from '@openng/optimus-ui/dock';
+import { RadioButtonModule } from '@openng/optimus-ui/radiobutton';
+import { TooltipModule } from '@openng/optimus-ui/tooltip';
 import { AppCode } from '@/components/doc/app.code';
 import { AppDocSectionText } from '@/components/doc/app.docsectiontext';
 

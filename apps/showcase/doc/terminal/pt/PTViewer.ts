@@ -1,7 +1,7 @@
 import { AppDocPtViewer, getPTOptions } from '@/components/doc/app.docptviewer';
 import { CommonModule } from '@angular/common';
 import { Component, OnDestroy, OnInit } from '@angular/core';
-import { TerminalModule, TerminalService } from 'primeng/terminal';
+import { TerminalModule, TerminalService } from '@openng/optimus-ui/terminal';
 
 @Component({
     selector: 'terminal-pt-viewer',

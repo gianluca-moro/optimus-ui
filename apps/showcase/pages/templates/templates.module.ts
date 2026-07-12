@@ -3,7 +3,7 @@ import { CommonModule } from '@angular/common';
 
 import { TemplatesRoutingModule } from './templates-routing.module';
 import { TemplatesComponent } from './templates.component';
-import { ButtonModule } from 'primeng/button';
+import { ButtonModule } from '@openng/optimus-ui/button';
 
 @NgModule({
     declarations: [TemplatesComponent],

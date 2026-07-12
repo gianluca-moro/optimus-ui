@@ -1,16 +1,16 @@
 import { NodeService } from '@/service/nodeservice';
 import { PhotoService } from '@/service/photoservice';
 import { Component, OnDestroy, OnInit } from '@angular/core';
-import { MenuItem, MessageService } from 'primeng/api';
-import { TerminalModule, TerminalService } from 'primeng/terminal';
+import { MenuItem, MessageService } from '@openng/optimus-ui/api';
+import { TerminalModule, TerminalService } from '@openng/optimus-ui/terminal';
 import { Subscription } from 'rxjs';
-import { Dock } from 'primeng/dock';
-import { DialogModule } from 'primeng/dialog';
-import { GalleriaModule } from 'primeng/galleria';
-import { MenubarModule } from 'primeng/menubar';
-import { ToastModule } from 'primeng/toast';
-import { TooltipModule } from 'primeng/tooltip';
-import { TreeModule } from 'primeng/tree';
+import { Dock } from '@openng/optimus-ui/dock';
+import { DialogModule } from '@openng/optimus-ui/dialog';
+import { GalleriaModule } from '@openng/optimus-ui/galleria';
+import { MenubarModule } from '@openng/optimus-ui/menubar';
+import { ToastModule } from '@openng/optimus-ui/toast';
+import { TooltipModule } from '@openng/optimus-ui/tooltip';
+import { TreeModule } from '@openng/optimus-ui/tree';
 import { AppCode } from '@/components/doc/app.code';
 import { AppDocSectionText } from '@/components/doc/app.docsectiontext';
 

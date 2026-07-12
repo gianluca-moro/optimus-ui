@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { SelectItemGroup } from 'primeng/api';
-import { MultiSelectModule } from 'primeng/multiselect';
+import { SelectItemGroup } from '@openng/optimus-ui/api';
+import { MultiSelectModule } from '@openng/optimus-ui/multiselect';
 import { AppCodeModule } from '@/components/doc/app.code';
 import { AppDocSectionText } from '@/components/doc/app.docsectiontext';
 

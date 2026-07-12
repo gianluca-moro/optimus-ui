@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { SliderModule } from 'primeng/slider';
-import { SelectButtonModule } from 'primeng/selectbutton';
+import { SliderModule } from '@openng/optimus-ui/slider';
+import { SelectButtonModule } from '@openng/optimus-ui/selectbutton';
 import { AppDocSectionText } from '@/components/doc/app.docsectiontext';
 import { AppCode } from '@/components/doc/app.code';
 

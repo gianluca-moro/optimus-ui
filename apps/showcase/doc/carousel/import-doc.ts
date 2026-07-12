@@ -10,6 +10,6 @@ import { AppCode } from '@/components/doc/app.code';
 })
 export class ImportDoc {
     code: Code = {
-        typescript: `import { CarouselModule } from 'primeng/carousel';`
+        typescript: `import { CarouselModule } from '@openng/optimus-ui/carousel';`
     };
 }

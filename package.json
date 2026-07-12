@@ -23,7 +23,7 @@
         "build:check": "pnpm run format:check && pnpm run security:check",
         "build:packages": "pnpm run build:optimus-ui && pnpm run build:lib && pnpm run build:themes && pnpm run build:docs && pnpm run build:showcase",
         "build:optimus-ui": "pnpm --filter './packages/optimus-ui-*' build",
-        "build:lib": "pnpm --filter primeng build",
+        "build:lib": "pnpm --filter @openng/optimus-ui build",
         "build:themes": "pnpm --filter themes build",
         "build:showcase": "pnpm --filter showcase build",
         "build:docs": "pnpm --filter showcase build:docs",
@@ -34,8 +34,8 @@
         "format:check": "prettier --check \"packages/**/*.{js,mjs,ts,mts,d.ts,html}\" \"apps/**/*.{js,mjs,ts,mts,d.ts,html}\"",
         "lint": "eslint --ext \".js,.mjs,.ts,.mts\" --ignore-path .gitignore . --cache",
         "lint:fix": "eslint --fix --ext \".js,.mjs,.ts,.mts\" --ignore-path .gitignore .",
-        "test:unit": "pnpm run build:optimus-ui && pnpm --filter primeng test:unit",
-        "test:coverage": "pnpm run build:optimus-ui && pnpm --filter primeng test:unit --code-coverage"
+        "test:unit": "pnpm run build:optimus-ui && pnpm --filter @openng/optimus-ui test:unit",
+        "test:coverage": "pnpm run build:optimus-ui && pnpm --filter @openng/optimus-ui test:unit --code-coverage"
     },
     "devDependencies": {
         "@angular-devkit/build-angular": "catalog:angular21",

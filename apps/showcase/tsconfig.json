@@ -6,7 +6,7 @@
         "types": ["node"],
         "strict": false,
         "paths": {
-            "primeng/*": ["../../packages/primeng/src/*/public_api"],
+            "@openng/optimus-ui/*": ["../../packages/optimus-ui/src/*/public_api"],
             "@openng/optimus-ui-motion": ["../../packages/optimus-ui-motion/src/index"],
             "@openng/optimus-ui-styled": ["../../packages/optimus-ui-styled/src/index"],
             "@openng/optimus-ui-styles": ["../../packages/optimus-ui-styles/src/index"],
@@ -22,7 +22,7 @@
             "@/*": ["./*"]
         }
     },
-    "include": ["../../packages/primeng/src/**/*.d.ts"],
+    "include": ["../../packages/optimus-ui/src/**/*.d.ts"],
     "exclude": ["node_modules", "**/node_modules", "**/dist", "**/*.spec.ts", "**/*.test.ts"],
     "files": ["app/main.ts", "server/main.server.ts", "server/server.ts", "app/polyfills.ts"],
     "angularCompilerOptions": {

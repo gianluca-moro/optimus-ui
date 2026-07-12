@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { PaginatorState, PaginatorModule } from 'primeng/paginator';
+import { PaginatorState, PaginatorModule } from '@openng/optimus-ui/paginator';
 import { AppCode } from '@/components/doc/app.code';
 import { AppDocSectionText } from '@/components/doc/app.docsectiontext';
 

@@ -1,9 +1,9 @@
 import { Component } from '@angular/core';
-import { PaginatorState, PaginatorModule } from 'primeng/paginator';
-import { ButtonModule } from 'primeng/button';
-import { DividerModule } from 'primeng/divider';
-import { SelectModule } from 'primeng/select';
-import { SliderModule } from 'primeng/slider';
+import { PaginatorState, PaginatorModule } from '@openng/optimus-ui/paginator';
+import { ButtonModule } from '@openng/optimus-ui/button';
+import { DividerModule } from '@openng/optimus-ui/divider';
+import { SelectModule } from '@openng/optimus-ui/select';
+import { SliderModule } from '@openng/optimus-ui/slider';
 import { FormsModule } from '@angular/forms';
 import { AppCode } from '@/components/doc/app.code';
 import { AppDocSectionText } from '@/components/doc/app.docsectiontext';

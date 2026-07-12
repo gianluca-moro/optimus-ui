@@ -2,8 +2,8 @@ import { AppCode } from '@/components/doc/app.code';
 import { AppDocSectionText } from '@/components/doc/app.docsectiontext';
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { SelectItem } from 'primeng/api';
-import { SelectModule } from 'primeng/select';
+import { SelectItem } from '@openng/optimus-ui/api';
+import { SelectModule } from '@openng/optimus-ui/select';
 
 @Component({
     selector: 'virtualscroll-doc',

@@ -3,9 +3,9 @@ import { CommonModule } from '@angular/common';
 import { ChangeDetectionStrategy, Component, computed, EventEmitter, inject, input, Input, model, OnInit, Output } from '@angular/core';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { $dt } from '@openng/optimus-ui-themes';
-import { AutoCompleteModule } from 'primeng/autocomplete';
-import { TooltipModule } from 'primeng/tooltip';
-import { UniqueComponentId } from 'primeng/utils';
+import { AutoCompleteModule } from '@openng/optimus-ui/autocomplete';
+import { TooltipModule } from '@openng/optimus-ui/tooltip';
+import { UniqueComponentId } from '@openng/optimus-ui/utils';
 
 @Component({
     selector: 'design-token-field',

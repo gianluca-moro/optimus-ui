@@ -10,6 +10,6 @@ import { AppCode } from '@/components/doc/app.code';
 })
 export class ImportDoc {
     code: Code = {
-        typescript: `import { SkeletonModule } from 'primeng/skeleton';`
+        typescript: `import { SkeletonModule } from '@openng/optimus-ui/skeleton';`
     };
 }

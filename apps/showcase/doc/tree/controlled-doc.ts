@@ -2,9 +2,9 @@ import { AppCode } from '@/components/doc/app.code';
 import { AppDocSectionText } from '@/components/doc/app.docsectiontext';
 import { NodeService } from '@/service/nodeservice';
 import { Component, OnInit, signal } from '@angular/core';
-import { TreeNode } from 'primeng/api';
-import { ButtonModule } from 'primeng/button';
-import { TreeModule } from 'primeng/tree';
+import { TreeNode } from '@openng/optimus-ui/api';
+import { ButtonModule } from '@openng/optimus-ui/button';
+import { TreeModule } from '@openng/optimus-ui/tree';
 
 @Component({
     selector: 'controlled-doc',

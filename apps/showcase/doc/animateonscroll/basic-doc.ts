@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { AnimateOnScrollModule } from 'primeng/animateonscroll';
-import { AvatarModule } from 'primeng/avatar';
+import { AnimateOnScrollModule } from '@openng/optimus-ui/animateonscroll';
+import { AvatarModule } from '@openng/optimus-ui/avatar';
 import { AppCode } from '@/components/doc/app.code';
 import { AppDocSectionText } from '@/components/doc/app.docsectiontext';
 

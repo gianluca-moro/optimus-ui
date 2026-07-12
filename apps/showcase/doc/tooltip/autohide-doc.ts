@@ -1,8 +1,8 @@
 import { Component } from '@angular/core';
 import { AppCode } from '@/components/doc/app.code';
 import { AppDocSectionText } from '@/components/doc/app.docsectiontext';
-import { InputTextModule } from 'primeng/inputtext';
-import { TooltipModule } from 'primeng/tooltip';
+import { InputTextModule } from '@openng/optimus-ui/inputtext';
+import { TooltipModule } from '@openng/optimus-ui/tooltip';
 
 @Component({
     selector: 'autohide-doc',

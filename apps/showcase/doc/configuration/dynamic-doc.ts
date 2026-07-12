@@ -17,7 +17,7 @@ import { AppCode } from '@/components/doc/app.code';
 export class DynamicDoc {
     code: Code = {
         typescript: `import { Component, OnInit } from '@angular/core';
-import { PrimeNG } from 'primeng/config';
+import { PrimeNG } from '@openng/optimus-ui/config';
 
 @Component({
     selector: 'app-root',

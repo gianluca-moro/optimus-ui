@@ -1,12 +1,12 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { MessageService } from 'primeng/api';
-import { PrimeNG } from 'primeng/config';
-import { FileUploadModule } from 'primeng/fileupload';
-import { ToastModule } from 'primeng/toast';
-import { ButtonModule } from 'primeng/button';
-import { BadgeModule } from 'primeng/badge';
-import { ProgressBarModule } from 'primeng/progressbar';
+import { MessageService } from '@openng/optimus-ui/api';
+import { PrimeNG } from '@openng/optimus-ui/config';
+import { FileUploadModule } from '@openng/optimus-ui/fileupload';
+import { ToastModule } from '@openng/optimus-ui/toast';
+import { ButtonModule } from '@openng/optimus-ui/button';
+import { BadgeModule } from '@openng/optimus-ui/badge';
+import { ProgressBarModule } from '@openng/optimus-ui/progressbar';
 import { AppCode } from '@/components/doc/app.code';
 import { AppDocSectionText } from '@/components/doc/app.docsectiontext';
 

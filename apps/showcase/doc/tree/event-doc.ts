@@ -3,9 +3,9 @@ import { AppDocSectionText } from '@/components/doc/app.docsectiontext';
 import { NodeService } from '@/service/nodeservice';
 import { Component, OnInit, signal } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { MessageService, TreeNode } from 'primeng/api';
-import { ToastModule } from 'primeng/toast';
-import { TreeModule } from 'primeng/tree';
+import { MessageService, TreeNode } from '@openng/optimus-ui/api';
+import { ToastModule } from '@openng/optimus-ui/toast';
+import { TreeModule } from '@openng/optimus-ui/tree';
 
 @Component({
     selector: 'event-doc',

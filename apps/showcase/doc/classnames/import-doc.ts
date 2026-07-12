@@ -10,6 +10,6 @@ import { Component } from '@angular/core';
 })
 export class ImportDoc {
     code: Code = {
-        typescript: `import { ClassNamesModule } from 'primeng/classnames'`
+        typescript: `import { ClassNamesModule } from '@openng/optimus-ui/classnames'`
     };
 }

@@ -10,6 +10,6 @@ import { AppCode } from '@/components/doc/app.code';
 })
 export class ImportDoc {
     code: Code = {
-        typescript: `import { PickListModule } from 'primeng/picklist';`
+        typescript: `import { PickListModule } from '@openng/optimus-ui/picklist';`
     };
 }

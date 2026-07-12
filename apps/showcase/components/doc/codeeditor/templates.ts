@@ -24,7 +24,7 @@ const dependencies = {
     '@openng/optimus-ui-themes': '^2.0.2',
     'chart.js': '4.4.2',
     primeicons: '^7.0.0',
-    primeng: `${version}`,
+    '@openng/optimus-ui': `${version}`,
     quill: '2.0.2',
     rxjs: '~7.8.0',
     tailwindcss: '^3.4.10',
@@ -391,10 +391,10 @@ import Aura from '@openng/optimus-ui-themes/aura';
 import Lara from '@openng/optimus-ui-themes/lara';
 import Material from '@openng/optimus-ui-themes/material';
 import Nora from '@openng/optimus-ui-themes/nora';
-import { PrimeNG } from 'primeng/config';
-import { SelectButtonModule } from 'primeng/selectbutton';
-import { StyleClassModule } from 'primeng/styleclass';
-import { ToggleSwitchModule } from 'primeng/toggleswitch';
+import { PrimeNG } from '@openng/optimus-ui/config';
+import { SelectButtonModule } from '@openng/optimus-ui/selectbutton';
+import { StyleClassModule } from '@openng/optimus-ui/styleclass';
+import { ToggleSwitchModule } from '@openng/optimus-ui/toggleswitch';
 import { DOCUMENT, isPlatformBrowser } from '@angular/common';
 
 const presets = {
@@ -1013,7 +1013,7 @@ const getAngularApp = (props: Props = {}) => {
 import { ${componentName} } from './app/${selector}';
 import { provideHttpClient, withFetch } from '@angular/common/http';
 import { ApplicationConfig } from '@angular/core';
-import { providePrimeNG } from 'primeng/config';
+import { providePrimeNG } from '@openng/optimus-ui/config';
 import Aura from '@openng/optimus-ui-themes/aura';
 
   export const appConfig: ApplicationConfig = {
@@ -1048,7 +1048,7 @@ import Aura from '@openng/optimus-ui-themes/aura';
     const files = {
         'package.json': {
             content: {
-                name: `primeng-${selector}`,
+                name: `optimus-ui-${selector}`,
                 description: `PrimeNG ${componentName}`,
                 license: 'MIT',
                 keywords: [],

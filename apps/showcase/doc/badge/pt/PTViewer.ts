@@ -1,8 +1,8 @@
 import { AppDocPtViewer, getPTOptions } from '@/components/doc/app.docptviewer';
 import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
-import { BadgeModule } from 'primeng/badge';
-import { OverlayBadgeModule } from 'primeng/overlaybadge';
+import { BadgeModule } from '@openng/optimus-ui/badge';
+import { OverlayBadgeModule } from '@openng/optimus-ui/overlaybadge';
 
 @Component({
     selector: 'badge-pt-viewer',

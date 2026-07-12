@@ -140,8 +140,8 @@ function testStackBlitzFileGeneration(demos) {
             allPassed &= logTest('theme-switcher added to template', modified.includes('<theme-switcher />'));
 
             // Test: PrimeNG module imports removed
-            const hasNoDirectModuleImport = !modified.includes("from 'primeng/select';") || modified.includes('ImportsModule');
-            allPassed &= logTest('PrimeNG direct imports removed', !modified.match(/import\s+\{[^}]*Module[^}]*\}\s+from\s+'primeng\//));
+            const hasNoDirectModuleImport = !modified.includes("from '@openng/optimus-ui/select';") || modified.includes('ImportsModule');
+            allPassed &= logTest('PrimeNG direct imports removed', !modified.match(/import\s+\{[^}]*Module[^}]*\}\s+from\s+'@openng\/optimus-ui\//));
         }
 
         // Test: Metadata has services if needed
@@ -275,7 +275,7 @@ function testStackBlitzProjectStructure(demos) {
     allPassed &= logTest(`No separate ${selector}.html file`, true, 'Using inline template');
 
     // Test: package.json would have correct dependencies
-    const requiredDeps = ['primeng', '@angular/core', '@openng/optimus-ui-themes', 'tailwindcss'];
+    const requiredDeps = ['@openng/optimus-ui', '@angular/core', '@openng/optimus-ui-themes', 'tailwindcss'];
     allPassed &= logTest('Required dependencies present', true, requiredDeps.join(', '));
 
     return allPassed;

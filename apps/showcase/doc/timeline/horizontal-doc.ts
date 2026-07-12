@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { AppCode } from '@/components/doc/app.code';
 import { AppDocSectionText } from '@/components/doc/app.docsectiontext';
-import { TimelineModule } from 'primeng/timeline';
+import { TimelineModule } from '@openng/optimus-ui/timeline';
 
 @Component({
     selector: 'horizontal-doc',

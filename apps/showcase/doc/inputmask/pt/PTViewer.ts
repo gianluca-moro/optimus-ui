@@ -2,8 +2,8 @@ import { AppDocPtViewer, getPTOptions } from '@/components/doc/app.docptviewer';
 import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { InputMaskModule } from 'primeng/inputmask';
-import { InputText } from 'primeng/inputtext';
+import { InputMaskModule } from '@openng/optimus-ui/inputmask';
+import { InputText } from '@openng/optimus-ui/inputtext';
 
 @Component({
     selector: 'inputmask-pt-viewer',

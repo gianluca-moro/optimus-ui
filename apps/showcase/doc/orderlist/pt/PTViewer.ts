@@ -1,7 +1,7 @@
 import { AppDocPtViewer, getPTOptions } from '@/components/doc/app.docptviewer';
 import { CommonModule } from '@angular/common';
 import { Component, OnInit, signal } from '@angular/core';
-import { OrderListModule } from 'primeng/orderlist';
+import { OrderListModule } from '@openng/optimus-ui/orderlist';
 import { ProductService } from '@/service/productservice';
 
 interface Product {

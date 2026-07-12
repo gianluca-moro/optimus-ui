@@ -10,6 +10,6 @@ import { AppCode } from '@/components/doc/app.code';
 })
 export class ImportDoc {
     code: Code = {
-        typescript: `import { FieldsetModule } from 'primeng/fieldset';`
+        typescript: `import { FieldsetModule } from '@openng/optimus-ui/fieldset';`
     };
 }

@@ -1,8 +1,8 @@
 import { NodeService } from '@/service/nodeservice';
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { TreeSelectModule } from 'primeng/treeselect';
-import { ButtonModule } from 'primeng/button';
+import { TreeSelectModule } from '@openng/optimus-ui/treeselect';
+import { ButtonModule } from '@openng/optimus-ui/button';
 import { AppCode } from '@/components/doc/app.code';
 import { AppDocSectionText } from '@/components/doc/app.docsectiontext';
 

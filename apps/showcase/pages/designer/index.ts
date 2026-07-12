@@ -1,9 +1,9 @@
 import { AppConfigService } from '@/service/appconfigservice';
 import { Component, computed, inject, signal } from '@angular/core';
-import { AnimateOnScrollModule } from 'primeng/animateonscroll';
-import { ButtonModule } from 'primeng/button';
-import { DialogModule } from 'primeng/dialog';
-import { RippleModule } from 'primeng/ripple';
+import { AnimateOnScrollModule } from '@openng/optimus-ui/animateonscroll';
+import { ButtonModule } from '@openng/optimus-ui/button';
+import { DialogModule } from '@openng/optimus-ui/dialog';
+import { RippleModule } from '@openng/optimus-ui/ripple';
 
 @Component({
     standalone: true,

@@ -5,8 +5,8 @@ import { Car } from '@/domain/car';
 import { CarService } from '@/service/carservice';
 import { CommonModule } from '@angular/common';
 import { ChangeDetectionStrategy, Component } from '@angular/core';
-import { SkeletonModule } from 'primeng/skeleton';
-import { TableLazyLoadEvent, TableModule } from 'primeng/table';
+import { SkeletonModule } from '@openng/optimus-ui/skeleton';
+import { TableLazyLoadEvent, TableModule } from '@openng/optimus-ui/table';
 
 interface Column {
     field: string;

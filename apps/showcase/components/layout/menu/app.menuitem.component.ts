@@ -1,8 +1,8 @@
 import { CommonModule } from '@angular/common';
 import { booleanAttribute, Component, Input } from '@angular/core';
 import { Router, RouterModule } from '@angular/router';
-import { StyleClass } from 'primeng/styleclass';
-import { Tag } from 'primeng/tag';
+import { StyleClass } from '@openng/optimus-ui/styleclass';
+import { Tag } from '@openng/optimus-ui/tag';
 import { MenuItem } from './app.menu.component';
 
 @Component({

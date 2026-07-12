@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { AppCode } from '@/components/doc/app.code';
 import { AppDocSectionText } from '@/components/doc/app.docsectiontext';
-import { DividerModule } from 'primeng/divider';
+import { DividerModule } from '@openng/optimus-ui/divider';
 
 @Component({
     selector: 'vertical-doc',

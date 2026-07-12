@@ -4,7 +4,7 @@ import { AppDocSectionText } from '@/components/doc/app.docsectiontext';
 import { Product } from '@/domain/product';
 import { ProductService } from '@/service/productservice';
 import { ChangeDetectionStrategy, ChangeDetectorRef, Component } from '@angular/core';
-import { Table, TableModule, TablePassThrough } from 'primeng/table';
+import { Table, TableModule, TablePassThrough } from '@openng/optimus-ui/table';
 
 @Component({
     selector: 'basic-doc',

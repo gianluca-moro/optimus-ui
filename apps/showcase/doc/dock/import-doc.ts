@@ -10,6 +10,6 @@ import { AppCode } from '@/components/doc/app.code';
 })
 export class ImportDoc {
     code: Code = {
-        typescript: `import { DockModule } from 'primeng/dock';`
+        typescript: `import { DockModule } from '@openng/optimus-ui/dock';`
     };
 }

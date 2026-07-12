@@ -1,9 +1,9 @@
 import { Component, OnInit, ViewChild } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { MenuItem, MessageService } from 'primeng/api';
-import { ContextMenu, ContextMenuModule } from 'primeng/contextmenu';
-import { ToastModule } from 'primeng/toast';
-import { Tag } from 'primeng/tag';
+import { MenuItem, MessageService } from '@openng/optimus-ui/api';
+import { ContextMenu, ContextMenuModule } from '@openng/optimus-ui/contextmenu';
+import { ToastModule } from '@openng/optimus-ui/toast';
+import { Tag } from '@openng/optimus-ui/tag';
 import { AppCode } from '@/components/doc/app.code';
 import { AppDocSectionText } from '@/components/doc/app.docsectiontext';
 interface Users {

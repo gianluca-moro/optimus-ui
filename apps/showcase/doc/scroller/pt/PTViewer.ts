@@ -1,8 +1,8 @@
 import { AppDocPtViewer, getPTOptions } from '@/components/doc/app.docptviewer';
 import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
-import { ClassNamesModule } from 'primeng/classnames';
-import { ScrollerModule } from 'primeng/scroller';
+import { ClassNamesModule } from '@openng/optimus-ui/classnames';
+import { ScrollerModule } from '@openng/optimus-ui/scroller';
 
 @Component({
     selector: 'scroller-pt-viewer',

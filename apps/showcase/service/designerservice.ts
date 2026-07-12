@@ -3,7 +3,7 @@ import { HttpClient } from '@angular/common/http';
 import { computed, inject, Injectable, signal } from '@angular/core';
 import { $dt, usePreset } from '@openng/optimus-ui-styled';
 import Aura from '@openng/optimus-ui-themes/aura';
-import { MessageService } from 'primeng/api';
+import { MessageService } from '@openng/optimus-ui/api';
 
 export interface Theme {
     key: string;
