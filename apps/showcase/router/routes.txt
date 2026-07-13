@@ -126,7 +126,6 @@
 /tree
 /treeselect
 /treetable
-/uikit
 /designer
 /designer/overview
 /migration/v21
