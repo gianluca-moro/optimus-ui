@@ -19,9 +19,15 @@ describe('rewriteSource — module specifiers', () => {
     });
 
     it('preserves quote style and leaves unrelated modules untouched', () => {
-        const { text } = rw(`import { X } from "primeng/table";\nimport 'primeicons/primeicons.css';\n`);
+        const { text } = rw(`import { X } from "primeng/table";\nimport 'tailwindcss-primeui';\n`);
         expect(text).toContain(`from "@openng/optimus-ui/table"`);
-        expect(text).toContain(`import 'primeicons/primeicons.css';`);
+        expect(text).toContain(`import 'tailwindcss-primeui';`);
+    });
+
+    it('rewrites the primeicons stylesheet import to the renamed file', () => {
+        const { text, changed } = rw(`import 'primeicons/primeicons.css';\n`);
+        expect(changed).toBe(true);
+        expect(text).toContain(`import '@openng/icons/openng-icons.css';`);
     });
 
     it('reports changed: false for untouched files', () => {
@@ -57,6 +63,13 @@ describe('rewriteSource — identifier renames', () => {
         const { text, changed } = rw(`class PrimeNG {}\nconst x = new PrimeNG();\n`);
         expect(changed).toBe(false);
         expect(text).toContain('class PrimeNG {}');
+    });
+
+    it('renames the PrimeIcons constants class and its usages', () => {
+        const { text } = rw(`import { PrimeIcons } from 'primeng/api';\n` + `const item = { icon: PrimeIcons.PLUS };\n`);
+        expect(text).toContain(`import { OpenngIcons } from '@openng/optimus-ui/api'`);
+        expect(text).toContain(`icon: OpenngIcons.PLUS`);
+        expect(text).not.toContain('PrimeIcons');
     });
 
     it('does not touch strings, comments, or property names', () => {

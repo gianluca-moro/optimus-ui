@@ -7,7 +7,7 @@
             "schema": "./ng-add/schema.json"
         },
         "migrate-from-primeng": {
-            "description": "Migrate a PrimeNG v21 project to Optimus UI.",
+            "description": "Migrate a PrimeNG v21 project to Optimus UI (including PrimeIcons to @openng/icons).",
             "factory": "./migrate-from-primeng/index#migrateFromPrimeng",
             "schema": "./migrate-from-primeng/schema.json"
         }

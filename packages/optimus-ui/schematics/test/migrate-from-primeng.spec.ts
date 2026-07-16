@@ -89,6 +89,41 @@ describe('migrate-from-primeng', () => {
         expect(component).toContain(`inject(Optimus)`);
     });
 
+    it('migrates primeicons: dependency, stylesheet imports, and angular.json styles', async () => {
+        const runner = createRunner();
+        const tree = primengTree(
+            {
+                '/angular.json': JSON.stringify(
+                    {
+                        version: 1,
+                        projects: {
+                            app: {
+                                projectType: 'application',
+                                root: '',
+                                sourceRoot: 'src',
+                                architect: { build: { options: { styles: ['node_modules/primeicons/primeicons.css', 'src/styles.scss'] } } }
+                            }
+                        }
+                    },
+                    null,
+                    2
+                ),
+                '/src/styles.scss': `@import "primeicons/primeicons.css";\nbody { margin: 0; }\n`,
+                '/src/main.ts': `import 'primeicons/primeicons.css';\nimport { bootstrapApplication } from '@angular/platform-browser';\n`
+            },
+            { ...PRIMENG_PKG, dependencies: { ...PRIMENG_PKG.dependencies, primeicons: '^7.0.0' } }
+        );
+        const result = await runner.runSchematic('migrate-from-primeng', { skipInstall: true }, tree);
+
+        const pkg = JSON.parse(result.readContent('/package.json'));
+        expect(pkg.dependencies.primeicons).toBeUndefined();
+        expect(pkg.dependencies['@openng/icons']).toBe('^1.0.0');
+
+        expect(result.readContent('/angular.json')).toContain('node_modules/@openng/icons/openng-icons.css');
+        expect(result.readContent('/src/styles.scss')).toBe(`@import "@openng/icons/openng-icons.css";\nbody { margin: 0; }\n`);
+        expect(result.readContent('/src/main.ts')).toContain(`import '@openng/icons/openng-icons.css';`);
+    });
+
     it('does not touch node_modules or dist', async () => {
         const runner = createRunner();
         const content = `import { X } from 'primeng/button';\n`;

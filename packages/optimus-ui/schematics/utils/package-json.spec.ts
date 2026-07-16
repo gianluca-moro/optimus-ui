@@ -18,8 +18,13 @@ describe('mapModuleSpecifier', () => {
         expect(mapModuleSpecifier('@primeuix/motion')).toBe('@openng/optimus-ui-motion');
     });
 
+    it('maps primeicons, including the renamed stylesheet', () => {
+        expect(mapModuleSpecifier('primeicons')).toBe('@openng/icons');
+        expect(mapModuleSpecifier('primeicons/primeicons.css')).toBe('@openng/icons/openng-icons.css');
+        expect(mapModuleSpecifier('primeicons/raw-svg/check.svg')).toBe('@openng/icons/raw-svg/check.svg');
+    });
+
     it('leaves unrelated specifiers alone', () => {
-        expect(mapModuleSpecifier('primeicons/primeicons.css')).toBeNull();
         expect(mapModuleSpecifier('tailwindcss-primeui')).toBeNull();
         expect(mapModuleSpecifier('primeng-extensions')).toBeNull();
         expect(mapModuleSpecifier('@angular/core')).toBeNull();
@@ -44,8 +49,9 @@ describe('swapDependencies', () => {
         expect(pkg.dependencies['@openng/optimus-ui-themes']).toBe('^2.0.3');
         expect(pkg.dependencies['@openng/optimus-ui-styled']).toBeUndefined();
         expect(pkg.dependencies['tailwindcss-primeui']).toBe('^0.6.1');
-        expect(pkg.dependencies['primeicons']).toBe('^7.0.0');
-        expect(result.removed.sort()).toEqual(['@primeuix/themes', 'primeng']);
+        expect(pkg.dependencies['primeicons']).toBeUndefined();
+        expect(pkg.dependencies['@openng/icons']).toBe('^1.0.0');
+        expect(result.removed.sort()).toEqual(['@primeuix/themes', 'primeicons', 'primeng']);
     });
 
     it('handles devDependencies and reports no change when nothing matches', () => {
