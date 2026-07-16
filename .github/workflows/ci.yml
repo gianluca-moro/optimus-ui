@@ -1,8 +1,14 @@
 name: CI
 
 on:
+    push:
+        branches: [main]
     pull_request:
-        types: [edited, synchronize, opened, reopened]
+        types: [synchronize, opened, reopened]
+
+concurrency:
+    group: ${{ github.workflow }}-${{ github.ref }}
+    cancel-in-progress: true
 
 permissions:
     contents: read
@@ -44,3 +50,8 @@ jobs:
               id: unitTest
               run: |
                   pnpm run test:unit
+
+            - name: Build
+              id: build
+              run: |
+                  pnpm run build
