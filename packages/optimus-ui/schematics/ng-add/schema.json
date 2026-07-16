@@ -1,0 +1,20 @@
+{
+    "$schema": "http://json-schema.org/schema",
+    "$id": "OptimusUiNgAdd",
+    "title": "Optimus UI ng-add schematic",
+    "type": "object",
+    "properties": {
+        "project": {
+            "type": "string",
+            "description": "The name of the project to set up.",
+            "$default": {
+                "$source": "projectName"
+            }
+        },
+        "skipInstall": {
+            "type": "boolean",
+            "default": false,
+            "description": "Skip scheduling the package install task."
+        }
+    }
+}

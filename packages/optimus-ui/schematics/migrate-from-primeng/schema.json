@@ -1,0 +1,18 @@
+{
+    "$schema": "http://json-schema.org/schema",
+    "$id": "OptimusUiMigrateFromPrimeng",
+    "title": "Migrate a PrimeNG v21 project to Optimus UI",
+    "type": "object",
+    "properties": {
+        "skipInstall": {
+            "type": "boolean",
+            "default": false,
+            "description": "Skip scheduling the package install task."
+        },
+        "force": {
+            "type": "boolean",
+            "default": false,
+            "description": "Run the migration even if the installed primeng version is unsupported."
+        }
+    }
+}

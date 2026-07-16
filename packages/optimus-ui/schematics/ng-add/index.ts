@@ -1,0 +1,157 @@
+import { Rule, SchematicContext, SchematicsException, Tree, schematic } from '@angular-devkit/schematics';
+import { NodePackageInstallTask } from '@angular-devkit/schematics/tasks';
+import { addRootProvider, readWorkspace } from '@schematics/angular/utility';
+import { isObservable, lastValueFrom } from 'rxjs';
+import { addDefaultImport } from '../utils/app-config';
+import { VERSIONS } from '../utils/mappings';
+import { hasPrimeng, SKIP_DIRS } from '../utils/package-json';
+import { Schema } from './schema';
+
+const THEMES_PACKAGE = '@openng/optimus-ui-themes';
+const AURA_MODULE = '@openng/optimus-ui-themes/aura';
+
+const MANUAL_INSTRUCTIONS = `Could not find a providers array to update automatically. Finish the setup manually:
+  1. import { provideOptimus } from '@openng/optimus-ui/config';
+  2. import Aura from '@openng/optimus-ui-themes/aura';
+  3. add provideOptimus({ theme: { preset: Aura } }) to your root providers
+     (bootstrapApplication providers, or an NgModule's providers array).`;
+
+export function ngAdd(options: Schema): Rule {
+    return (tree: Tree, context: SchematicContext) => {
+        if (!tree.read('/package.json')) {
+            throw new SchematicsException('Could not read /package.json.');
+        }
+        if (hasPrimeng(tree)) {
+            context.logger.info('primeng detected — running the migrate-from-primeng schematic.');
+            return schematic('migrate-from-primeng', { skipInstall: options.skipInstall ?? false });
+        }
+        return freshSetup(options);
+    };
+}
+
+function freshSetup(options: Schema): Rule {
+    return async (tree: Tree, context: SchematicContext) => {
+        addThemesDependency(tree);
+        await wireProvideOptimus(tree, context, options);
+
+        if (!options.skipInstall) {
+            context.addTask(new NodePackageInstallTask());
+        }
+        return tree;
+    };
+}
+
+function addThemesDependency(tree: Tree): void {
+    const pkgBuffer = tree.read('/package.json');
+    if (!pkgBuffer) {
+        throw new SchematicsException('Could not read /package.json.');
+    }
+    const raw = pkgBuffer.toString();
+    const pkg = JSON.parse(raw);
+    pkg.dependencies = pkg.dependencies ?? {};
+    if (!pkg.dependencies[THEMES_PACKAGE]) {
+        pkg.dependencies[THEMES_PACKAGE] = VERSIONS[THEMES_PACKAGE];
+        const indent = raw.match(/^\{\r?\n(\s+)/)?.[1] ?? '    ';
+        tree.overwrite('/package.json', JSON.stringify(pkg, null, indent) + '\n');
+    }
+}
+
+/**
+ * Resolves the target project and wires `provideOptimus` into its root providers via the
+ * official `addRootProvider` utility (handles both standalone `app.config.ts` and NgModule
+ * apps). An explicit but nonexistent `--project` is a hard error; anything else unexpected about
+ * the app's shape (no application project, no `build` target, an app.config.ts/main.ts that
+ * addRootProvider can't statically analyze, …) degrades to the manual-instructions warning
+ * rather than aborting the rest of ng-add.
+ */
+async function wireProvideOptimus(tree: Tree, context: SchematicContext, options: Schema): Promise<void> {
+    let projectName: string;
+    let sourceRoot: string;
+    try {
+        const workspace = await readWorkspace(tree);
+
+        if (options.project) {
+            if (!workspace.projects.has(options.project)) {
+                throw new SchematicsException(`Project "${options.project}" was not found in the workspace.`);
+            }
+            projectName = options.project;
+        } else {
+            const application = [...workspace.projects].find(([, project]) => project.extensions['projectType'] === 'application');
+            if (!application) {
+                context.logger.warn(MANUAL_INSTRUCTIONS);
+                return;
+            }
+            projectName = application[0];
+        }
+
+        const project = workspace.projects.get(projectName)!;
+        sourceRoot = project.sourceRoot ?? (project.root ? `${project.root}/src` : 'src');
+    } catch (err) {
+        // An explicitly-requested project that doesn't exist is a hard error — everything else
+        // (missing angular.json, no application project, …) degrades to manual instructions.
+        if (err instanceof SchematicsException && options.project) {
+            throw err;
+        }
+        context.logger.warn(MANUAL_INSTRUCTIONS);
+        return;
+    }
+
+    if (findProvideOptimusFile(tree, sourceRoot)) {
+        context.logger.info(`provideOptimus already configured in ${projectName}.`);
+        return;
+    }
+
+    try {
+        const rule = addRootProvider(projectName, ({ code, external }) => code`${external('provideOptimus', '@openng/optimus-ui/config')}({ theme: { preset: Aura } })`);
+        await applyRule(rule, tree, context);
+
+        const wiredFile = findProvideOptimusFile(tree, sourceRoot);
+        if (!wiredFile) {
+            context.logger.warn(MANUAL_INSTRUCTIONS);
+            return;
+        }
+
+        // `external()` only emits named imports, and `@openng/optimus-ui-themes/aura` only has a
+        // default export — add it ourselves.
+        const original = tree.read(wiredFile)!.toString();
+        const updated = addDefaultImport(original, 'Aura', AURA_MODULE);
+        if (updated !== original) {
+            tree.overwrite(wiredFile, updated);
+        }
+        context.logger.info(`Added provideOptimus with the Aura preset to ${wiredFile}.`);
+    } catch {
+        context.logger.warn(MANUAL_INSTRUCTIONS);
+    }
+}
+
+/** Finds the first `.ts` file under `sourceRoot` (skipping node_modules/dist/…) containing a `provideOptimus(` call. */
+function findProvideOptimusFile(tree: Tree, sourceRoot: string): string | null {
+    const prefix = `/${sourceRoot}/`;
+    let found: string | null = null;
+    tree.visit((path) => {
+        if (found || SKIP_DIRS.test(path) || !path.startsWith(prefix) || !path.endsWith('.ts')) {
+            return;
+        }
+        const content = tree.read(path)?.toString();
+        if (content?.includes('provideOptimus(')) {
+            found = path;
+        }
+    });
+    return found;
+}
+
+/**
+ * Fully resolves a Rule to completion (including the async/nested-Rule/Observable chains that
+ * `@schematics/angular`'s standalone utilities return) so its effects — and any error it throws —
+ * are observed synchronously by the caller, rather than deferred until the schematics engine gets
+ * around to applying it.
+ */
+async function applyRule(rule: Rule, tree: Tree, context: SchematicContext): Promise<void> {
+    let result: unknown = await rule(tree, context);
+    while (typeof result === 'function') {
+        result = await (result as Rule)(tree, context);
+    }
+    if (result !== undefined && isObservable(result)) {
+        await lastValueFrom(result);
+    }
+}
