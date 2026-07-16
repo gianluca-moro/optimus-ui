@@ -524,6 +524,9 @@ describe('Breadcrumb', () => {
             const separators = fixture.debugElement.queryAll(By.css('[data-pc-section="separator"]'));
             // Should have separators between home-first and first-second
             expect(separators.length).toBeGreaterThan(0);
+            separators.forEach((separator) => {
+                expect(separator.nativeElement.getAttribute('aria-hidden')).toBe('true');
+            });
         });
 
         it('should handle HTML labels with escape=false', async () => {
