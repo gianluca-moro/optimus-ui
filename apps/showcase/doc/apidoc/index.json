@@ -1685,7 +1685,7 @@
                             "name": "type",
                             "optional": true,
                             "readonly": false,
-                            "type": "\"scroll\" | \"outside\" | \"resize\"",
+                            "type": "\"scroll\" | \"resize\" | \"outside\"",
                             "description": "The type of listener, which can be 'scroll', 'outside', 'resize', or undefined."
                         },
                         {
@@ -2474,14 +2474,14 @@
                             "name": "tooltipPosition",
                             "optional": true,
                             "readonly": false,
-                            "type": "\"right\" | \"left\" | \"top\" | \"bottom\"",
+                            "type": "\"top\" | \"bottom\" | \"left\" | \"right\"",
                             "description": "Position of tooltip."
                         },
                         {
                             "name": "tooltipEvent",
                             "optional": true,
                             "readonly": false,
-                            "type": "\"hover\" | \"focus\" | \"both\"",
+                            "type": "\"focus\" | \"hover\" | \"both\"",
                             "description": "Event to show the tooltip."
                         },
                         {
@@ -6102,7 +6102,7 @@
                                 "name": "itemIcon",
                                 "optional": true,
                                 "readonly": false,
-                                "type": "PassThroughOption<HTMLSpanElement | SVGElement, I>",
+                                "type": "PassThroughOption<SVGElement | HTMLSpanElement, I>",
                                 "description": "Used to pass attributes to the item icon's DOM element."
                             },
                             {
@@ -7649,7 +7649,7 @@
                             "readonly": false,
                             "type": "string",
                             "default": "'No available options'",
-                            "description": "Text to display when filtering does not return any results. Defaults to value from PrimeNG locale configuration."
+                            "description": "Text to display when filtering does not return any results. Defaults to value from Optimus locale configuration."
                         },
                         {
                             "name": "emptySelectionMessage",
@@ -9430,7 +9430,7 @@
                             "name": "format",
                             "optional": false,
                             "readonly": false,
-                            "type": "\"rgb\" | \"hex\" | \"hsb\"",
+                            "type": "\"hex\" | \"rgb\" | \"hsb\"",
                             "default": "hex",
                             "description": "Format to use in value binding."
                         },
@@ -9695,13 +9695,13 @@
             }
         }
     },
-    "primeng": {
+    "optimus": {
         "components": {},
         "types": {
             "components": {}
         }
     },
-    "provideOptimus": {
+    "provide-optimus": {
         "components": {}
     },
     "config": {
@@ -9961,7 +9961,7 @@
                             "name": "defaultFocus",
                             "optional": false,
                             "readonly": false,
-                            "type": "\"accept\" | \"reject\" | \"none\" | \"close\"",
+                            "type": "\"none\" | \"close\" | \"accept\" | \"reject\"",
                             "default": "accept",
                             "description": "Element to receive the focus when the dialog gets visible."
                         },
@@ -9991,7 +9991,7 @@
                             "name": "position",
                             "optional": false,
                             "readonly": false,
-                            "type": "\"right\" | \"left\" | \"top\" | \"bottom\" | \"center\" | \"topleft\" | \"bottomleft\" | \"topright\" | \"bottomright\"",
+                            "type": "\"top\" | \"bottom\" | \"center\" | \"left\" | \"right\" | \"topleft\" | \"bottomleft\" | \"topright\" | \"bottomright\"",
                             "default": "center",
                             "description": "Allows getting the position of the component."
                         },
@@ -11303,7 +11303,7 @@
                             "name": "layout",
                             "optional": false,
                             "readonly": false,
-                            "type": "\"list\" | \"grid\"",
+                            "type": "\"grid\" | \"list\"",
                             "default": "list",
                             "description": "Defines the layout mode."
                         }
@@ -11587,7 +11587,7 @@
                                 "name": "layout",
                                 "optional": false,
                                 "readonly": false,
-                                "type": "\"list\" | \"grid\"",
+                                "type": "\"grid\" | \"list\"",
                                 "description": "Layout of the component."
                             }
                         ]
@@ -14022,7 +14022,7 @@
                             "name": "position",
                             "optional": false,
                             "readonly": false,
-                            "type": "\"right\" | \"left\" | \"top\" | \"bottom\" | \"center\" | \"topleft\" | \"bottomleft\" | \"topright\" | \"bottomright\"",
+                            "type": "\"top\" | \"bottom\" | \"center\" | \"left\" | \"right\" | \"topleft\" | \"bottomleft\" | \"topright\" | \"bottomright\"",
                             "description": "Position of the dialog."
                         },
                         {
@@ -14466,7 +14466,7 @@
                             "name": "align",
                             "optional": false,
                             "readonly": false,
-                            "type": "\"right\" | \"left\" | \"top\" | \"bottom\" | \"center\"",
+                            "type": "\"top\" | \"bottom\" | \"center\" | \"left\" | \"right\"",
                             "description": "Alignment of the content."
                         }
                     ]
@@ -14583,7 +14583,7 @@
                             "name": "position",
                             "optional": false,
                             "readonly": false,
-                            "type": "\"right\" | \"left\" | \"top\" | \"bottom\"",
+                            "type": "\"top\" | \"bottom\" | \"left\" | \"right\"",
                             "default": "bottom",
                             "description": "Position of element."
                         },
@@ -14804,7 +14804,7 @@
                             "name": "dragEffect",
                             "optional": false,
                             "readonly": false,
-                            "type": "\"link\" | \"none\" | \"all\" | \"copy\" | \"move\" | \"copyLink\" | \"copyMove\" | \"linkMove\" | \"uninitialized\"",
+                            "type": "\"link\" | \"none\" | \"copy\" | \"all\" | \"move\" | \"copyLink\" | \"copyMove\" | \"linkMove\" | \"uninitialized\"",
                             "description": "Defines the cursor style."
                         },
                         {
@@ -15073,7 +15073,7 @@
                             "name": "position",
                             "optional": false,
                             "readonly": false,
-                            "type": "InputSignal<\"right\" | \"left\" | \"top\" | \"bottom\" | \"full\">",
+                            "type": "InputSignal<\"top\" | \"bottom\" | \"left\" | \"right\" | \"full\">",
                             "default": "'left'",
                             "description": "Specifies the position of the drawer, valid values are \"left\", \"right\", \"bottom\" and \"top\"."
                         },
@@ -16661,7 +16661,7 @@
                                 "name": "toggleIcon",
                                 "optional": true,
                                 "readonly": false,
-                                "type": "PassThroughOption<HTMLSpanElement | SVGElement, I>",
+                                "type": "PassThroughOption<SVGElement | HTMLSpanElement, I>",
                                 "description": "Used to pass attributes to the toggle icon's DOM element."
                             },
                             {
@@ -16887,21 +16887,21 @@
                             "optional": false,
                             "readonly": false,
                             "type": "string",
-                            "description": "Label of the choose button. Defaults to PrimeNG Locale configuration."
+                            "description": "Label of the choose button. Defaults to Optimus Locale configuration."
                         },
                         {
                             "name": "uploadLabel",
                             "optional": false,
                             "readonly": false,
                             "type": "string",
-                            "description": "Label of the upload button. Defaults to PrimeNG Locale configuration."
+                            "description": "Label of the upload button. Defaults to Optimus Locale configuration."
                         },
                         {
                             "name": "cancelLabel",
                             "optional": false,
                             "readonly": false,
                             "type": "string",
-                            "description": "Label of the cancel button. Defaults to PrimeNG Locale configuration."
+                            "description": "Label of the cancel button. Defaults to Optimus Locale configuration."
                         },
                         {
                             "name": "chooseIcon",
@@ -16944,7 +16944,7 @@
                             "name": "mode",
                             "optional": false,
                             "readonly": false,
-                            "type": "\"advanced\" | \"basic\"",
+                            "type": "\"basic\" | \"advanced\"",
                             "default": "advanced",
                             "description": "Defines the UI of the component."
                         },
@@ -16961,7 +16961,7 @@
                             "readonly": false,
                             "type": "boolean",
                             "default": "false",
-                            "description": "Whether to use the default upload or a manual implementation defined in uploadHandler callback. Defaults to PrimeNG Locale configuration."
+                            "description": "Whether to use the default upload or a manual implementation defined in uploadHandler callback. Defaults to Optimus Locale configuration."
                         },
                         {
                             "name": "fileLimit",
@@ -18278,7 +18278,7 @@
                             "name": "thumbnailsPosition",
                             "optional": false,
                             "readonly": false,
-                            "type": "\"right\" | \"left\" | \"top\" | \"bottom\"",
+                            "type": "\"top\" | \"bottom\" | \"left\" | \"right\"",
                             "default": "bottom",
                             "description": "Position of thumbnails."
                         },
@@ -18310,7 +18310,7 @@
                             "name": "indicatorsPosition",
                             "optional": false,
                             "readonly": false,
-                            "type": "\"right\" | \"left\" | \"top\" | \"bottom\"",
+                            "type": "\"top\" | \"bottom\" | \"left\" | \"right\"",
                             "default": "bottom",
                             "description": "Position of indicators."
                         },
@@ -19038,7 +19038,7 @@
                             "name": "iconPosition",
                             "optional": false,
                             "readonly": false,
-                            "type": "\"right\" | \"left\"",
+                            "type": "\"left\" | \"right\"",
                             "default": "left",
                             "description": "Position of the icon."
                         },
@@ -25354,7 +25354,7 @@
                             "name": "severity",
                             "optional": false,
                             "readonly": false,
-                            "type": "\"success\" | \"info\" | \"warn\" | \"secondary\" | \"contrast\" | \"error\"",
+                            "type": "\"error\" | \"success\" | \"info\" | \"warn\" | \"secondary\" | \"contrast\"",
                             "default": "'info'",
                             "description": "Severity level of the message."
                         },
@@ -25742,7 +25742,7 @@
                             "name": "labelPosition",
                             "optional": false,
                             "readonly": false,
-                            "type": "\"start\" | \"end\"",
+                            "type": "\"end\" | \"start\"",
                             "default": "end",
                             "description": "Specifies the label position of the component, valid values are 'start' and 'end'."
                         },
@@ -26280,7 +26280,7 @@
                             "name": "hideStrategy",
                             "optional": false,
                             "readonly": false,
-                            "type": "InputSignal<\"display\" | \"visibility\">",
+                            "type": "InputSignal<\"visibility\" | \"display\">",
                             "default": "...",
                             "description": "The hide strategy of the motion, valid values 'display' and 'visibility'."
                         },
@@ -26545,7 +26545,7 @@
                             "name": "hideStrategy",
                             "optional": false,
                             "readonly": false,
-                            "type": "InputSignal<\"display\" | \"visibility\">",
+                            "type": "InputSignal<\"visibility\" | \"display\">",
                             "default": "...",
                             "description": "The hide strategy of the motion, valid values 'display' and 'visibility'."
                         },
@@ -27124,7 +27124,7 @@
                             "name": "filterMatchMode",
                             "optional": false,
                             "readonly": false,
-                            "type": "\"startsWith\" | \"contains\" | \"endsWith\" | \"equals\" | \"notEquals\" | \"in\" | \"lt\" | \"lte\" | \"gt\" | \"gte\"",
+                            "type": "\"gt\" | \"lt\" | \"in\" | \"startsWith\" | \"contains\" | \"endsWith\" | \"equals\" | \"notEquals\" | \"lte\" | \"gte\"",
                             "default": "contains",
                             "description": "Defines how the items are filtered."
                         },
@@ -27140,7 +27140,7 @@
                             "name": "tooltipPosition",
                             "optional": false,
                             "readonly": false,
-                            "type": "\"right\" | \"left\" | \"top\" | \"bottom\"",
+                            "type": "\"top\" | \"bottom\" | \"left\" | \"right\"",
                             "default": "right",
                             "description": "Position of the tooltip."
                         },
@@ -28420,7 +28420,7 @@
                             "name": "controlsPosition",
                             "optional": false,
                             "readonly": false,
-                            "type": "\"right\" | \"left\"",
+                            "type": "\"left\" | \"right\"",
                             "default": "left",
                             "description": "Defines the location of the buttons with respect to the list."
                         },
@@ -28435,7 +28435,7 @@
                             "name": "filterMatchMode",
                             "optional": false,
                             "readonly": false,
-                            "type": "\"startsWith\" | \"contains\" | \"endsWith\" | \"equals\" | \"notEquals\" | \"in\" | \"lt\" | \"lte\" | \"gt\" | \"gte\"",
+                            "type": "\"gt\" | \"lt\" | \"in\" | \"startsWith\" | \"contains\" | \"endsWith\" | \"equals\" | \"notEquals\" | \"lte\" | \"gte\"",
                             "default": "contains",
                             "description": "Defines how the items are filtered."
                         },
@@ -29388,7 +29388,7 @@
     "overlay": {
         "components": {
             "Overlay": {
-                "description": "This API allows overlay components to be controlled from the PrimeNG. In this way, all overlay components in the application can have the same behavior.",
+                "description": "This API allows overlay components to be controlled from Optimus. In this way, all overlay components in the application can have the same behavior.",
                 "props": {
                     "description": "Defines the input properties of the component.",
                     "values": [
@@ -30553,7 +30553,7 @@
                             "name": "iconPos",
                             "optional": false,
                             "readonly": false,
-                            "type": "\"center\" | \"start\" | \"end\"",
+                            "type": "\"end\" | \"center\" | \"start\"",
                             "default": "end",
                             "description": "Position of the icons."
                         },
@@ -30569,7 +30569,7 @@
                             "name": "toggler",
                             "optional": false,
                             "readonly": false,
-                            "type": "\"icon\" | \"header\"",
+                            "type": "\"header\" | \"icon\"",
                             "default": "icon",
                             "description": "Specifies the toggler element to toggle the panel content."
                         },
@@ -31411,7 +31411,7 @@
                             "readonly": false,
                             "type": "string",
                             "default": "Enter a password",
-                            "description": "Text to prompt password entry. Defaults to PrimeNG I18N API configuration."
+                            "description": "Text to prompt password entry. Defaults to Optimus I18N API configuration."
                         },
                         {
                             "name": "weakLabel",
@@ -31419,7 +31419,7 @@
                             "readonly": false,
                             "type": "string",
                             "default": "Weak",
-                            "description": "Text for a weak password. Defaults to PrimeNG I18N API configuration."
+                            "description": "Text for a weak password. Defaults to PrOptimusimeNG I18N API configuration."
                         },
                         {
                             "name": "mediumLabel",
@@ -31427,7 +31427,7 @@
                             "readonly": false,
                             "type": "string",
                             "default": "Medium",
-                            "description": "Text for a medium password. Defaults to PrimeNG I18N API configuration."
+                            "description": "Text for a medium password. Defaults to Optimus I18N API configuration."
                         },
                         {
                             "name": "strongLabel",
@@ -31435,7 +31435,7 @@
                             "readonly": false,
                             "type": "string",
                             "default": "Strong",
-                            "description": "Text for a strong password. Defaults to PrimeNG I18N API configuration."
+                            "description": "Text for a strong password. Defaults to Optimus I18N API configuration."
                         },
                         {
                             "name": "feedback",
@@ -31654,7 +31654,7 @@
                             "optional": false,
                             "readonly": false,
                             "type": "string",
-                            "description": "Text to prompt password entry. Defaults to PrimeNG I18N API configuration."
+                            "description": "Text to prompt password entry. Defaults to Optimus I18N API configuration."
                         },
                         {
                             "name": "mediumRegex",
@@ -31677,14 +31677,14 @@
                             "optional": false,
                             "readonly": false,
                             "type": "string",
-                            "description": "Text for a weak password. Defaults to PrimeNG I18N API configuration."
+                            "description": "Text for a weak password. Defaults to Optimus I18N API configuration."
                         },
                         {
                             "name": "mediumLabel",
                             "optional": false,
                             "readonly": false,
                             "type": "string",
-                            "description": "Text for a medium password. Defaults to PrimeNG I18N API configuration."
+                            "description": "Text for a medium password. Defaults to Optimus I18N API configuration."
                         },
                         {
                             "name": "maxLength",
@@ -31699,7 +31699,7 @@
                             "optional": false,
                             "readonly": false,
                             "type": "string",
-                            "description": "Text for a strong password. Defaults to PrimeNG I18N API configuration."
+                            "description": "Text for a strong password. Defaults to Optimus I18N API configuration."
                         },
                         {
                             "name": "inputId",
@@ -36408,7 +36408,7 @@
                             "name": "filterMatchMode",
                             "optional": false,
                             "readonly": false,
-                            "type": "\"startsWith\" | \"contains\" | \"endsWith\" | \"equals\" | \"notEquals\" | \"in\" | \"lt\" | \"lte\" | \"gt\" | \"gte\"",
+                            "type": "\"gt\" | \"lt\" | \"in\" | \"startsWith\" | \"contains\" | \"endsWith\" | \"equals\" | \"notEquals\" | \"lte\" | \"gte\"",
                             "default": "contains",
                             "description": "Defines how the items are filtered."
                         },
@@ -36424,7 +36424,7 @@
                             "name": "tooltipPosition",
                             "optional": false,
                             "readonly": false,
-                            "type": "\"right\" | \"left\" | \"top\" | \"bottom\"",
+                            "type": "\"top\" | \"bottom\" | \"left\" | \"right\"",
                             "default": "right",
                             "description": "Position of the tooltip."
                         },
@@ -37036,7 +37036,7 @@
                                 "name": "label",
                                 "optional": true,
                                 "readonly": false,
-                                "type": "PassThroughOption<HTMLSpanElement | HTMLInputElement, I>",
+                                "type": "PassThroughOption<HTMLInputElement | HTMLSpanElement, I>",
                                 "description": "Used to pass attributes to the label's DOM element."
                             },
                             {
@@ -44883,7 +44883,7 @@
                             "name": "iconPos",
                             "optional": false,
                             "readonly": false,
-                            "type": "\"right\" | \"left\"",
+                            "type": "\"left\" | \"right\"",
                             "default": "left",
                             "description": "Position of the icon."
                         },
@@ -45640,7 +45640,7 @@
                             "name": "tooltipEvent",
                             "optional": false,
                             "readonly": false,
-                            "type": "\"hover\" | \"focus\" | \"both\"",
+                            "type": "\"focus\" | \"hover\" | \"both\"",
                             "default": "hover",
                             "description": "Event to show the tooltip."
                         },
@@ -45910,7 +45910,7 @@
                             "name": "loadingMode",
                             "optional": false,
                             "readonly": false,
-                            "type": "\"icon\" | \"mask\"",
+                            "type": "\"mask\" | \"icon\"",
                             "default": "mask",
                             "description": "Loading mode display."
                         },
@@ -47257,7 +47257,7 @@
                             "readonly": false,
                             "type": "string",
                             "default": "",
-                            "description": "Text to display when there are no options available. Defaults to value from PrimeNG locale configuration."
+                            "description": "Text to display when there are no options available. Defaults to value from Optimus locale configuration."
                         },
                         {
                             "name": "filter",
@@ -47386,7 +47386,7 @@
                             "name": "loadingMode",
                             "optional": false,
                             "readonly": false,
-                            "type": "\"icon\" | \"mask\"",
+                            "type": "\"mask\" | \"icon\"",
                             "default": "mask",
                             "description": "Loading mode display."
                         },

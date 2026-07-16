@@ -12,7 +12,7 @@ Components with the fluid option like InputText have the ability to span the ful
 
 ```typescript
 import { Component } from '@angular/core';
-import { InputTextModule } from 'primeng/inputtext';
+import { InputTextModule } from '@openng/optimus-ui/inputtext';
 
 @Component({
     template: `

@@ -13,7 +13,7 @@ Two-way value binding is defined using ngModel .
 ```typescript
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { RatingModule } from 'primeng/rating';
+import { RatingModule } from '@openng/optimus-ui/rating';
 
 @Component({
     template: `
@@ -36,7 +36,7 @@ When disabled is present, a visual hint is applied to indicate that the Knob can
 ```typescript
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { RatingModule } from 'primeng/rating';
+import { RatingModule } from '@openng/optimus-ui/rating';
 
 @Component({
     template: `
@@ -59,7 +59,7 @@ Number of stars to display is defined with stars property.
 ```typescript
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { RatingModule } from 'primeng/rating';
+import { RatingModule } from '@openng/optimus-ui/rating';
 
 @Component({
     template: `
@@ -82,11 +82,11 @@ Rating can also be used with reactive forms. In this case, the formControlName p
 ```typescript
 import { Component, inject } from '@angular/core';
 import { ReactiveFormsModule } from '@angular/forms';
-import { MessageModule } from 'primeng/message';
-import { RatingModule } from 'primeng/rating';
-import { ToastModule } from 'primeng/toast';
-import { ButtonModule } from 'primeng/button';
-import { MessageService } from 'primeng/api';
+import { MessageModule } from '@openng/optimus-ui/message';
+import { RatingModule } from '@openng/optimus-ui/rating';
+import { ToastModule } from '@openng/optimus-ui/toast';
+import { ButtonModule } from '@openng/optimus-ui/button';
+import { MessageService } from '@openng/optimus-ui/api';
 
 @Component({
     template: `
@@ -142,7 +142,7 @@ When readonly present, value cannot be edited.
 ```typescript
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { RatingModule } from 'primeng/rating';
+import { RatingModule } from '@openng/optimus-ui/rating';
 
 @Component({
     template: `
@@ -165,7 +165,7 @@ Templating allows customizing the content where the icon instance is available a
 ```typescript
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { RatingModule } from 'primeng/rating';
+import { RatingModule } from '@openng/optimus-ui/rating';
 
 @Component({
     template: `
@@ -193,11 +193,11 @@ export class RatingTemplateDemo {
 ```typescript
 import { Component, inject } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { MessageModule } from 'primeng/message';
-import { RatingModule } from 'primeng/rating';
-import { ToastModule } from 'primeng/toast';
-import { ButtonModule } from 'primeng/button';
-import { MessageService } from 'primeng/api';
+import { MessageModule } from '@openng/optimus-ui/message';
+import { RatingModule } from '@openng/optimus-ui/rating';
+import { ToastModule } from '@openng/optimus-ui/toast';
+import { ButtonModule } from '@openng/optimus-ui/button';
+import { MessageService } from '@openng/optimus-ui/api';
 
 @Component({
     template: `
@@ -239,7 +239,7 @@ A cancel icon is displayed to reset the value by default, set cancel as false to
 ```typescript
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { RatingModule } from 'primeng/rating';
+import { RatingModule } from '@openng/optimus-ui/rating';
 
 @Component({
     template: `

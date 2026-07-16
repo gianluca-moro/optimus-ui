@@ -13,7 +13,7 @@ Spinner buttons are enabled using the showButtons options and layout is defined 
 ```typescript
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { InputNumberModule } from 'primeng/inputnumber';
+import { InputNumberModule } from '@openng/optimus-ui/inputnumber';
 
 @Component({
     template: `
@@ -56,7 +56,7 @@ When showClear is enabled, a clear icon is displayed to clear the value.
 ```typescript
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { InputNumberModule } from 'primeng/inputnumber';
+import { InputNumberModule } from '@openng/optimus-ui/inputnumber';
 
 @Component({
     template: `
@@ -79,7 +79,7 @@ Currency formatting is specified by setting the mode option to currency and curr
 ```typescript
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { InputNumberModule } from 'primeng/inputnumber';
+import { InputNumberModule } from '@openng/optimus-ui/inputnumber';
 
 @Component({
     template: `
@@ -120,7 +120,7 @@ When disabled is present, the element cannot be edited and focused.
 ```typescript
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { InputNumberModule } from 'primeng/inputnumber';
+import { InputNumberModule } from '@openng/optimus-ui/inputnumber';
 
 @Component({
     template: `
@@ -143,7 +143,7 @@ Specify the variant property as filled to display the component with a higher vi
 ```typescript
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { InputNumberModule } from 'primeng/inputnumber';
+import { InputNumberModule } from '@openng/optimus-ui/inputnumber';
 
 @Component({
     template: `
@@ -166,8 +166,8 @@ A floating label appears on top of the input field when focused. Visit FloatLabe
 ```typescript
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { FloatLabelModule } from 'primeng/floatlabel';
-import { InputNumberModule } from 'primeng/inputnumber';
+import { FloatLabelModule } from '@openng/optimus-ui/floatlabel';
+import { InputNumberModule } from '@openng/optimus-ui/inputnumber';
 
 @Component({
     template: `
@@ -203,7 +203,7 @@ The fluid prop makes the component take up the full width of its container when 
 ```typescript
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { InputNumberModule } from 'primeng/inputnumber';
+import { InputNumberModule } from '@openng/optimus-ui/inputnumber';
 
 @Component({
     template: `
@@ -226,8 +226,8 @@ IftaLabel is used to create infield top aligned labels. Visit IftaLabel document
 ```typescript
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { IftaLabelModule } from 'primeng/iftalabel';
-import { InputNumberModule } from 'primeng/inputnumber';
+import { IftaLabelModule } from '@openng/optimus-ui/iftalabel';
+import { InputNumberModule } from '@openng/optimus-ui/inputnumber';
 
 @Component({
     template: `
@@ -253,7 +253,7 @@ The invalid state is applied using the ⁠invalid property to indicate failed va
 ```typescript
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { InputNumberModule } from 'primeng/inputnumber';
+import { InputNumberModule } from '@openng/optimus-ui/inputnumber';
 
 @Component({
     template: `
@@ -278,7 +278,7 @@ Localization information such as grouping and decimal symbols are defined with t
 ```typescript
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { InputNumberModule } from 'primeng/inputnumber';
+import { InputNumberModule } from '@openng/optimus-ui/inputnumber';
 
 @Component({
     template: `
@@ -319,7 +319,7 @@ InputNumber is used as a controlled input with ngModel property.
 ```typescript
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { InputNumberModule } from 'primeng/inputnumber';
+import { InputNumberModule } from '@openng/optimus-ui/inputnumber';
 
 @Component({
     template: `
@@ -360,7 +360,7 @@ Custom texts e.g. units can be placed before or after the input section with the
 ```typescript
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { InputNumberModule } from 'primeng/inputnumber';
+import { InputNumberModule } from '@openng/optimus-ui/inputnumber';
 
 @Component({
     template: `
@@ -401,11 +401,11 @@ InputNumber can also be used with reactive forms. In this case, the formControlN
 ```typescript
 import { Component, inject } from '@angular/core';
 import { ReactiveFormsModule } from '@angular/forms';
-import { InputNumberModule } from 'primeng/inputnumber';
-import { MessageModule } from 'primeng/message';
-import { ToastModule } from 'primeng/toast';
-import { ButtonModule } from 'primeng/button';
-import { MessageService } from 'primeng/api';
+import { InputNumberModule } from '@openng/optimus-ui/inputnumber';
+import { MessageModule } from '@openng/optimus-ui/message';
+import { ToastModule } from '@openng/optimus-ui/toast';
+import { ButtonModule } from '@openng/optimus-ui/button';
+import { MessageService } from '@openng/optimus-ui/api';
 
 @Component({
     template: `
@@ -459,7 +459,7 @@ InputNumber provides small and large sizes as alternatives to the base.
 ```typescript
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { InputNumberModule } from 'primeng/inputnumber';
+import { InputNumberModule } from '@openng/optimus-ui/inputnumber';
 
 @Component({
     template: `
@@ -484,11 +484,11 @@ export class InputnumberSizesDemo {
 ```typescript
 import { Component, inject } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { InputNumberModule } from 'primeng/inputnumber';
-import { MessageModule } from 'primeng/message';
-import { ToastModule } from 'primeng/toast';
-import { ButtonModule } from 'primeng/button';
-import { MessageService } from 'primeng/api';
+import { InputNumberModule } from '@openng/optimus-ui/inputnumber';
+import { MessageModule } from '@openng/optimus-ui/message';
+import { ToastModule } from '@openng/optimus-ui/toast';
+import { ButtonModule } from '@openng/optimus-ui/button';
+import { MessageService } from '@openng/optimus-ui/api';
 
 @Component({
     template: `
@@ -528,7 +528,7 @@ Buttons can also placed vertically by setting buttonLayout as vertical .
 ```typescript
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { InputNumberModule } from 'primeng/inputnumber';
+import { InputNumberModule } from '@openng/optimus-ui/inputnumber';
 
 @Component({
     template: `

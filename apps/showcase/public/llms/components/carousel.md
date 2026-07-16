@@ -12,9 +12,9 @@ Carousel requires a collection of items as its value along with a template to re
 
 ```typescript
 import { Component, OnInit, inject, signal } from '@angular/core';
-import { ButtonModule } from 'primeng/button';
-import { CarouselModule } from 'primeng/carousel';
-import { TagModule } from 'primeng/tag';
+import { ButtonModule } from '@openng/optimus-ui/button';
+import { CarouselModule } from '@openng/optimus-ui/carousel';
+import { TagModule } from '@openng/optimus-ui/tag';
 import { ProductService } from '@/service/productservice';
 import { Product } from '@/domain/product';
 
@@ -99,9 +99,9 @@ When autoplayInterval is defined in milliseconds, items are scrolled automatical
 
 ```typescript
 import { Component, OnInit, inject, signal } from '@angular/core';
-import { ButtonModule } from 'primeng/button';
-import { CarouselModule } from 'primeng/carousel';
-import { TagModule } from 'primeng/tag';
+import { ButtonModule } from '@openng/optimus-ui/button';
+import { CarouselModule } from '@openng/optimus-ui/carousel';
+import { TagModule } from '@openng/optimus-ui/tag';
 import { ProductService } from '@/service/productservice';
 import { Product } from '@/domain/product';
 
@@ -186,9 +186,9 @@ Carousel supports specific configuration per screen size with the responsiveOpti
 
 ```typescript
 import { Component, OnInit, inject, signal } from '@angular/core';
-import { ButtonModule } from 'primeng/button';
-import { CarouselModule } from 'primeng/carousel';
-import { TagModule } from 'primeng/tag';
+import { ButtonModule } from '@openng/optimus-ui/button';
+import { CarouselModule } from '@openng/optimus-ui/carousel';
+import { TagModule } from '@openng/optimus-ui/tag';
 import { ProductService } from '@/service/productservice';
 import { Product } from '@/domain/product';
 
@@ -273,9 +273,9 @@ To create a vertical Carousel, orientation needs to be set to vertical along wit
 
 ```typescript
 import { Component, OnInit, inject, signal } from '@angular/core';
-import { ButtonModule } from 'primeng/button';
-import { CarouselModule } from 'primeng/carousel';
-import { TagModule } from 'primeng/tag';
+import { ButtonModule } from '@openng/optimus-ui/button';
+import { CarouselModule } from '@openng/optimus-ui/carousel';
+import { TagModule } from '@openng/optimus-ui/tag';
 import { ProductService } from '@/service/productservice';
 import { Product } from '@/domain/product';
 

@@ -13,7 +13,7 @@ Two-way binding to a boolean property is defined using the standard ngModel dire
 ```typescript
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { ToggleButtonModule } from 'primeng/togglebutton';
+import { ToggleButtonModule } from '@openng/optimus-ui/togglebutton';
 
 @Component({
     template: `
@@ -36,7 +36,7 @@ Icons and Labels can be customized using onLabel , offLabel , onIcon and offIcon
 ```typescript
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { ToggleButtonModule } from 'primeng/togglebutton';
+import { ToggleButtonModule } from '@openng/optimus-ui/togglebutton';
 
 @Component({
     template: `
@@ -59,7 +59,7 @@ When disabled is present, the element cannot be edited and focused.
 ```typescript
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { ToggleButtonModule } from 'primeng/togglebutton';
+import { ToggleButtonModule } from '@openng/optimus-ui/togglebutton';
 
 @Component({
     template: `
@@ -82,7 +82,7 @@ The fluid prop makes the component take up the full width of its container when 
 ```typescript
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { ToggleButtonModule } from 'primeng/togglebutton';
+import { ToggleButtonModule } from '@openng/optimus-ui/togglebutton';
 
 @Component({
     template: `
@@ -105,7 +105,7 @@ The invalid state is applied using the ⁠invalid property to indicate failed va
 ```typescript
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { ToggleButtonModule } from 'primeng/togglebutton';
+import { ToggleButtonModule } from '@openng/optimus-ui/togglebutton';
 
 @Component({
     template: `
@@ -128,11 +128,11 @@ ToggleButton can also be used with reactive forms. In this case, the formControl
 ```typescript
 import { Component, inject } from '@angular/core';
 import { ReactiveFormsModule } from '@angular/forms';
-import { MessageModule } from 'primeng/message';
-import { ToastModule } from 'primeng/toast';
-import { ToggleButtonModule } from 'primeng/togglebutton';
-import { ButtonModule } from 'primeng/button';
-import { MessageService } from 'primeng/api';
+import { MessageModule } from '@openng/optimus-ui/message';
+import { ToastModule } from '@openng/optimus-ui/toast';
+import { ToggleButtonModule } from '@openng/optimus-ui/togglebutton';
+import { ButtonModule } from '@openng/optimus-ui/button';
+import { MessageService } from '@openng/optimus-ui/api';
 
 @Component({
     template: `
@@ -186,7 +186,7 @@ ToggleButton provides small and large sizes as alternatives to the base.
 ```typescript
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { ToggleButtonModule } from 'primeng/togglebutton';
+import { ToggleButtonModule } from '@openng/optimus-ui/togglebutton';
 
 @Component({
     template: `
@@ -211,11 +211,11 @@ export class TogglebuttonSizesDemo {
 ```typescript
 import { Component, inject } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { MessageModule } from 'primeng/message';
-import { ToastModule } from 'primeng/toast';
-import { ToggleButtonModule } from 'primeng/togglebutton';
-import { ButtonModule } from 'primeng/button';
-import { MessageService } from 'primeng/api';
+import { MessageModule } from '@openng/optimus-ui/message';
+import { ToastModule } from '@openng/optimus-ui/toast';
+import { ToggleButtonModule } from '@openng/optimus-ui/togglebutton';
+import { ButtonModule } from '@openng/optimus-ui/button';
+import { MessageService } from '@openng/optimus-ui/api';
 
 @Component({
     template: `
@@ -275,7 +275,7 @@ ToggleButton is used to select a boolean value using a button.
 | styleClass | string | - | Style class of the element. **(Deprecated)** |
 | inputId | string | - | Identifier of the focus input to match a label defined for the component. |
 | tabindex | number | 0 | Index of the element in tabbing order. |
-| iconPos | "right" \| "left" | left | Position of the icon. |
+| iconPos | "left" \| "right" | left | Position of the icon. |
 | autofocus | boolean | false | When present, it specifies that the component should automatically get focus on load. |
 | size | "small" \| "large" | - | Defines the size of the component. |
 | allowEmpty | boolean | false | Whether selection can not be cleared. |

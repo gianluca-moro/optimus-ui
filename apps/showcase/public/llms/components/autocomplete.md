@@ -13,7 +13,7 @@ This example demonstrates an advanced use case with templating, object handling,
 ```typescript
 import { Component, OnInit, inject, signal } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { AutoCompleteModule } from 'primeng/autocomplete';
+import { AutoCompleteModule } from '@openng/optimus-ui/autocomplete';
 import { ProductService } from '@/service/productservice';
 import { Product } from '@/domain/product';
 
@@ -110,7 +110,7 @@ With ⁠multiple enabled, the AutoComplete component behaves like a chips or tag
 ```typescript
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { AutoCompleteModule } from 'primeng/autocomplete';
+import { AutoCompleteModule } from '@openng/optimus-ui/autocomplete';
 
 @Component({
     template: `
@@ -143,7 +143,7 @@ AutoComplete uses ngModel for two-way binding, requires a list of suggestions an
 ```typescript
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { AutoCompleteModule } from 'primeng/autocomplete';
+import { AutoCompleteModule } from '@openng/optimus-ui/autocomplete';
 
 interface AutoCompleteCompleteEvent {
     originalEvent: Event;
@@ -176,7 +176,7 @@ When showClear is enabled, a clear icon is displayed to clear the value.
 ```typescript
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { AutoCompleteModule } from 'primeng/autocomplete';
+import { AutoCompleteModule } from '@openng/optimus-ui/autocomplete';
 
 interface AutoCompleteCompleteEvent {
     originalEvent: Event;
@@ -209,7 +209,7 @@ When disabled is present, the element cannot be edited and focused.
 ```typescript
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { AutoCompleteModule } from 'primeng/autocomplete';
+import { AutoCompleteModule } from '@openng/optimus-ui/autocomplete';
 
 interface AutoCompleteCompleteEvent {
     originalEvent: Event;
@@ -243,7 +243,7 @@ Enabling dropdown property displays a button next to the input field where click
 ```typescript
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { AutoCompleteModule } from 'primeng/autocomplete';
+import { AutoCompleteModule } from '@openng/optimus-ui/autocomplete';
 
 interface AutoCompleteCompleteEvent {
     originalEvent: Event;
@@ -278,7 +278,7 @@ Specify the variant property as filled to display the component with a higher vi
 ```typescript
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { AutoCompleteModule } from 'primeng/autocomplete';
+import { AutoCompleteModule } from '@openng/optimus-ui/autocomplete';
 
 interface AutoCompleteCompleteEvent {
     originalEvent: Event;
@@ -312,8 +312,8 @@ A floating label appears on top of the input field when focused. Visit FloatLabe
 ```typescript
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { AutoCompleteModule } from 'primeng/autocomplete';
-import { FloatLabelModule } from 'primeng/floatlabel';
+import { AutoCompleteModule } from '@openng/optimus-ui/autocomplete';
+import { FloatLabelModule } from '@openng/optimus-ui/floatlabel';
 
 interface AutoCompleteCompleteEvent {
     originalEvent: Event;
@@ -359,7 +359,7 @@ The fluid prop makes the component take up the full width of its container when 
 ```typescript
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { AutoCompleteModule } from 'primeng/autocomplete';
+import { AutoCompleteModule } from '@openng/optimus-ui/autocomplete';
 
 interface AutoCompleteCompleteEvent {
     originalEvent: Event;
@@ -392,7 +392,7 @@ ForceSelection mode validates the manual input to check whether it also exists i
 ```typescript
 import { Component, OnInit, inject } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { AutoCompleteModule } from 'primeng/autocomplete';
+import { AutoCompleteModule } from '@openng/optimus-ui/autocomplete';
 import { CountryService } from '@/service/countryservice';
 
 interface AutoCompleteCompleteEvent {
@@ -445,8 +445,8 @@ Option grouping is enabled when group property is set to true . group template i
 ```typescript
 import { Component, OnInit } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { AutoCompleteModule } from 'primeng/autocomplete';
-import { SelectItemGroup, FilterService } from 'primeng/api';
+import { AutoCompleteModule } from '@openng/optimus-ui/autocomplete';
+import { SelectItemGroup, FilterService } from '@openng/optimus-ui/api';
 
 interface AutoCompleteCompleteEvent {
     originalEvent: Event;
@@ -536,8 +536,8 @@ IftaLabel is used to create infield top aligned labels. Visit IftaLabel document
 ```typescript
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { AutoCompleteModule } from 'primeng/autocomplete';
-import { IftaLabelModule } from 'primeng/iftalabel';
+import { AutoCompleteModule } from '@openng/optimus-ui/autocomplete';
+import { IftaLabelModule } from '@openng/optimus-ui/iftalabel';
 
 interface AutoCompleteCompleteEvent {
     originalEvent: Event;
@@ -573,7 +573,7 @@ The invalid state is applied using the ⁠invalid property to indicate failed va
 ```typescript
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { AutoCompleteModule } from 'primeng/autocomplete';
+import { AutoCompleteModule } from '@openng/optimus-ui/autocomplete';
 
 interface AutoCompleteCompleteEvent {
     originalEvent: Event;
@@ -608,7 +608,7 @@ Enable multiple selection mode using the ⁠multiple property to allow users to 
 ```typescript
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { AutoCompleteModule } from 'primeng/autocomplete';
+import { AutoCompleteModule } from '@openng/optimus-ui/autocomplete';
 
 interface AutoCompleteCompleteEvent {
     originalEvent: Event;
@@ -645,7 +645,7 @@ AutoComplete can also work with objects using the optionLabel property that defi
 ```typescript
 import { Component, OnInit, inject } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { AutoCompleteModule } from 'primeng/autocomplete';
+import { AutoCompleteModule } from '@openng/optimus-ui/autocomplete';
 import { CountryService } from '@/service/countryservice';
 import { Country } from '@/domain/customer';
 
@@ -699,11 +699,11 @@ AutoComplete can also be used with reactive forms. In this case, the formControl
 ```typescript
 import { Component, inject } from '@angular/core';
 import { ReactiveFormsModule } from '@angular/forms';
-import { AutoCompleteModule } from 'primeng/autocomplete';
-import { MessageModule } from 'primeng/message';
-import { ToastModule } from 'primeng/toast';
-import { ButtonModule } from 'primeng/button';
-import { MessageService } from 'primeng/api';
+import { AutoCompleteModule } from '@openng/optimus-ui/autocomplete';
+import { MessageModule } from '@openng/optimus-ui/message';
+import { ToastModule } from '@openng/optimus-ui/toast';
+import { ButtonModule } from '@openng/optimus-ui/button';
+import { MessageService } from '@openng/optimus-ui/api';
 
 interface AutoCompleteCompleteEvent {
     originalEvent: Event;
@@ -767,7 +767,7 @@ AutoComplete provides small and large sizes as alternatives to the base.
 ```typescript
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { AutoCompleteModule } from 'primeng/autocomplete';
+import { AutoCompleteModule } from '@openng/optimus-ui/autocomplete';
 
 @Component({
     template: `
@@ -799,8 +799,8 @@ AutoComplete offers multiple templates for customization through templating.
 ```typescript
 import { Component, OnInit, inject } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { AutoCompleteModule } from 'primeng/autocomplete';
-import { ButtonModule } from 'primeng/button';
+import { AutoCompleteModule } from '@openng/optimus-ui/autocomplete';
+import { ButtonModule } from '@openng/optimus-ui/button';
 import { CountryService } from '@/service/countryservice';
 
 interface AutoCompleteCompleteEvent {
@@ -865,11 +865,11 @@ export class AutocompleteTemplateDemo implements OnInit {
 ```typescript
 import { Component, inject } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { AutoCompleteModule } from 'primeng/autocomplete';
-import { MessageModule } from 'primeng/message';
-import { ToastModule } from 'primeng/toast';
-import { ButtonModule } from 'primeng/button';
-import { MessageService } from 'primeng/api';
+import { AutoCompleteModule } from '@openng/optimus-ui/autocomplete';
+import { MessageModule } from '@openng/optimus-ui/message';
+import { ToastModule } from '@openng/optimus-ui/toast';
+import { ButtonModule } from '@openng/optimus-ui/button';
+import { MessageService } from '@openng/optimus-ui/api';
 
 @Component({
     template: `
@@ -914,7 +914,7 @@ Virtual scrolling is an efficient way of rendering the options by displaying a s
 ```typescript
 import { Component, OnInit } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { AutoCompleteModule } from 'primeng/autocomplete';
+import { AutoCompleteModule } from '@openng/optimus-ui/autocomplete';
 
 interface AutoCompleteCompleteEvent {
     originalEvent: Event;

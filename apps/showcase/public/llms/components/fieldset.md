@@ -12,7 +12,7 @@ A simple Fieldset is created with a legend property along with the content as ch
 
 ```typescript
 import { Component } from '@angular/core';
-import { FieldsetModule } from 'primeng/fieldset';
+import { FieldsetModule } from '@openng/optimus-ui/fieldset';
 
 @Component({
     template: `
@@ -37,8 +37,8 @@ Header section can also be defined with custom content instead of primitive valu
 
 ```typescript
 import { Component } from '@angular/core';
-import { AvatarModule } from 'primeng/avatar';
-import { FieldsetModule } from 'primeng/fieldset';
+import { AvatarModule } from '@openng/optimus-ui/avatar';
+import { FieldsetModule } from '@openng/optimus-ui/fieldset';
 
 @Component({
     template: `
@@ -69,7 +69,7 @@ Content of the fieldset can be expanded and collapsed using toggleable option, d
 
 ```typescript
 import { Component } from '@angular/core';
-import { FieldsetModule } from 'primeng/fieldset';
+import { FieldsetModule } from '@openng/optimus-ui/fieldset';
 
 @Component({
     template: `
@@ -132,7 +132,7 @@ Fieldset is a grouping component with the optional content toggle feature.
 | root | PassThroughOption<HTMLFieldSetElement, I> | Used to pass attributes to the root's DOM element. |
 | legend | PassThroughOption<HTMLLegendElement, I> | Used to pass attributes to the legend's DOM element. |
 | toggleButton | PassThroughOption<HTMLButtonElement, I> | Used to pass attributes to the toggle button's DOM element. |
-| toggleIcon | PassThroughOption<HTMLSpanElement \| SVGElement, I> | Used to pass attributes to the toggle icon's DOM element. |
+| toggleIcon | PassThroughOption<SVGElement \| HTMLSpanElement, I> | Used to pass attributes to the toggle icon's DOM element. |
 | legendLabel | PassThroughOption<HTMLSpanElement, I> | Used to pass attributes to the legend label's DOM element. |
 | contentContainer | PassThroughOption<HTMLDivElement, I> | Used to pass attributes to the content container's DOM element. |
 | contentWrapper | PassThroughOption<HTMLDivElement, I> | Used to pass attributes to the content wrapper DOM element. |

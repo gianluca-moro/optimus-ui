@@ -12,10 +12,10 @@ Popover is accessed via its reference and visibility is controlled using toggle 
 
 ```typescript
 import { Component } from '@angular/core';
-import { ButtonModule } from 'primeng/button';
-import { InputGroupModule } from 'primeng/inputgroup';
-import { PopoverModule } from 'primeng/popover';
-import { InputTextModule } from 'primeng/inputtext';
+import { ButtonModule } from '@openng/optimus-ui/button';
+import { InputGroupModule } from '@openng/optimus-ui/inputgroup';
+import { PopoverModule } from '@openng/optimus-ui/popover';
+import { InputTextModule } from '@openng/optimus-ui/inputtext';
 
 @Component({
     template: `
@@ -77,12 +77,12 @@ Place the Popover outside of the data iteration components to avoid rendering it
 
 ```typescript
 import { Component, OnInit, inject, signal } from '@angular/core';
-import { ButtonModule } from 'primeng/button';
-import { Popover, PopoverModule } from 'primeng/popover';
-import { TableModule } from 'primeng/table';
-import { TagModule } from 'primeng/tag';
+import { ButtonModule } from '@openng/optimus-ui/button';
+import { Popover, PopoverModule } from '@openng/optimus-ui/popover';
+import { TableModule } from '@openng/optimus-ui/table';
+import { TagModule } from '@openng/optimus-ui/tag';
 import { ProductService } from '@/service/productservice';
-import { MessageService } from 'primeng/api';
+import { MessageService } from '@openng/optimus-ui/api';
 import { Product } from '@/domain/product';
 
 @Component({
@@ -211,8 +211,8 @@ In this sample, data is retrieved from the content inside the popover.
 
 ```typescript
 import { Component } from '@angular/core';
-import { ButtonModule } from 'primeng/button';
-import { Popover, PopoverModule } from 'primeng/popover';
+import { ButtonModule } from '@openng/optimus-ui/button';
+import { Popover, PopoverModule } from '@openng/optimus-ui/popover';
 
 @Component({
     template: `
@@ -260,8 +260,8 @@ show method takes two parameters, first one is the event and it is mandatory. By
 
 ```typescript
 import { Component } from '@angular/core';
-import { ButtonModule } from 'primeng/button';
-import { PopoverModule } from 'primeng/popover';
+import { ButtonModule } from '@openng/optimus-ui/button';
+import { PopoverModule } from '@openng/optimus-ui/popover';
 
 @Component({
     template: `
@@ -287,9 +287,9 @@ Content of the OverlayPanel is defined by content template.
 
 ```typescript
 import { Component } from '@angular/core';
-import { ButtonModule } from 'primeng/button';
-import { PopoverModule } from 'primeng/popover';
-import { OverlayPanel } from 'primeng/overlaypanel';
+import { ButtonModule } from '@openng/optimus-ui/button';
+import { PopoverModule } from '@openng/optimus-ui/popover';
+import { OverlayPanel } from '@openng/optimus-ui/overlaypanel';
 
 @Component({
     template: `

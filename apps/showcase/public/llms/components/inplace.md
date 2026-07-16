@@ -12,7 +12,7 @@ Inplace component requires display and content templates to define the content o
 
 ```typescript
 import { Component } from '@angular/core';
-import { InplaceModule } from 'primeng/inplace';
+import { InplaceModule } from '@openng/optimus-ui/inplace';
 
 @Component({
     template: `
@@ -42,7 +42,7 @@ Any content such as an image can be placed inside an Inplace.
 
 ```typescript
 import { Component } from '@angular/core';
-import { InplaceModule } from 'primeng/inplace';
+import { InplaceModule } from '@openng/optimus-ui/inplace';
 import { Photo } from '@/domain/photo';
 
 @Component({
@@ -73,9 +73,9 @@ The closeCallback switches the state back to display mode when called from an ev
 
 ```typescript
 import { Component } from '@angular/core';
-import { InplaceModule } from 'primeng/inplace';
-import { ButtonModule } from 'primeng/button';
-import { InputTextModule } from 'primeng/inputtext';
+import { InplaceModule } from '@openng/optimus-ui/inplace';
+import { ButtonModule } from '@openng/optimus-ui/button';
+import { InputTextModule } from '@openng/optimus-ui/inputtext';
 
 @Component({
     template: `
@@ -107,8 +107,8 @@ Using the onActivate event, data can be loaded in a lazy manner before displayin
 
 ```typescript
 import { Component, OnInit, inject } from '@angular/core';
-import { InplaceModule } from 'primeng/inplace';
-import { TableModule } from 'primeng/table';
+import { InplaceModule } from '@openng/optimus-ui/inplace';
+import { TableModule } from '@openng/optimus-ui/table';
 import { ProductService } from '@/service/productservice';
 import { Product } from '@/domain/product';
 

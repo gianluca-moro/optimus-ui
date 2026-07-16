@@ -8,7 +8,7 @@ Classes to apply during enter and leave animations are specified using the enter
 
 ```typescript
 import { Component } from '@angular/core';
-import { ButtonModule } from 'primeng/button';
+import { ButtonModule } from '@openng/optimus-ui/button';
 
 @Component({
     template: `
@@ -49,7 +49,7 @@ When hideOnResize is enabled, the leave animation is triggered automatically whe
 
 ```typescript
 import { Component } from '@angular/core';
-import { ButtonModule } from 'primeng/button';
+import { ButtonModule } from '@openng/optimus-ui/button';
 
 @Component({
     template: `
@@ -108,8 +108,8 @@ StyleClass has two modes, toggleClass to simply add-remove a class and enter/lea
 
 ```typescript
 import { Component } from '@angular/core';
-import { ButtonModule } from 'primeng/button';
-import { InputTextModule } from 'primeng/inputtext';
+import { ButtonModule } from '@openng/optimus-ui/button';
+import { InputTextModule } from '@openng/optimus-ui/inputtext';
 
 @Component({
     template: `

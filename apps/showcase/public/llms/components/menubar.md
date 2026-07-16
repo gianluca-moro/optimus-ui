@@ -12,8 +12,8 @@ Menubar requires nested menuitems as its model.
 
 ```typescript
 import { Component, OnInit } from '@angular/core';
-import { MenubarModule } from 'primeng/menubar';
-import { MenuItem } from 'primeng/api';
+import { MenubarModule } from '@openng/optimus-ui/menubar';
+import { MenuItem } from '@openng/optimus-ui/api';
 
 @Component({
     template: `
@@ -84,9 +84,9 @@ The command property defines the callback to run when an item is activated by cl
 
 ```typescript
 import { Component, OnInit, inject } from '@angular/core';
-import { MenubarModule } from 'primeng/menubar';
-import { ToastModule } from 'primeng/toast';
-import { MenuItem, MessageService } from 'primeng/api';
+import { MenubarModule } from '@openng/optimus-ui/menubar';
+import { ToastModule } from '@openng/optimus-ui/toast';
+import { MenuItem, MessageService } from '@openng/optimus-ui/api';
 
 @Component({
     template: `
@@ -171,8 +171,8 @@ Menu items support navigation via routerLink, programmatic routing using command
 
 ```typescript
 import { Component, OnInit } from '@angular/core';
-import { MenubarModule } from 'primeng/menubar';
-import { MenuItem } from 'primeng/api';
+import { MenubarModule } from '@openng/optimus-ui/menubar';
+import { MenuItem } from '@openng/optimus-ui/api';
 
 @Component({
     template: `
@@ -234,12 +234,12 @@ Custom content can be placed inside the menubar using the start and end template
 
 ```typescript
 import { Component, OnInit } from '@angular/core';
-import { AvatarModule } from 'primeng/avatar';
-import { BadgeModule } from 'primeng/badge';
-import { MenubarModule } from 'primeng/menubar';
-import { InputTextModule } from 'primeng/inputtext';
-import { RippleModule } from 'primeng/ripple';
-import { MenuItem } from 'primeng/api';
+import { AvatarModule } from '@openng/optimus-ui/avatar';
+import { BadgeModule } from '@openng/optimus-ui/badge';
+import { MenubarModule } from '@openng/optimus-ui/menubar';
+import { InputTextModule } from '@openng/optimus-ui/inputtext';
+import { RippleModule } from '@openng/optimus-ui/ripple';
+import { MenuItem } from '@openng/optimus-ui/api';
 
 @Component({
     template: `

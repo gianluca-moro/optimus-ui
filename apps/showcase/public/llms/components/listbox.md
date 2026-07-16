@@ -13,7 +13,7 @@ Listbox is used as a controlled component with ngModel property along with an op
 ```typescript
 import { Component, OnInit } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { ListboxModule } from 'primeng/listbox';
+import { ListboxModule } from '@openng/optimus-ui/listbox';
 
 interface City {
     name: string;
@@ -52,7 +52,7 @@ Listbox allows item selection using checkboxes.
 ```typescript
 import { Component, OnInit } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { ListboxModule } from 'primeng/listbox';
+import { ListboxModule } from '@openng/optimus-ui/listbox';
 
 interface City {
     name: string;
@@ -91,7 +91,7 @@ An alternative way to highlight the selected option is displaying a checkmark in
 ```typescript
 import { Component, OnInit } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { ListboxModule } from 'primeng/listbox';
+import { ListboxModule } from '@openng/optimus-ui/listbox';
 
 interface City {
     name: string;
@@ -130,7 +130,7 @@ When disabled is present, the element cannot be edited and focused.
 ```typescript
 import { Component, OnInit } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { ListboxModule } from 'primeng/listbox';
+import { ListboxModule } from '@openng/optimus-ui/listbox';
 
 interface City {
     name: string;
@@ -169,7 +169,7 @@ Items can be reordered using drag and drop by enabling dragdrop property. Depend
 ```typescript
 import { Component, OnInit } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { ListboxModule } from 'primeng/listbox';
+import { ListboxModule } from '@openng/optimus-ui/listbox';
 
 @Component({
     template: `
@@ -203,7 +203,7 @@ ListBox provides built-in filtering that is enabled by adding the filter propert
 ```typescript
 import { Component, OnInit } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { ListboxModule } from 'primeng/listbox';
+import { ListboxModule } from '@openng/optimus-ui/listbox';
 
 interface City {
     name: string;
@@ -242,8 +242,8 @@ Options can be grouped when a nested data structures is provided.
 ```typescript
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { ListboxModule } from 'primeng/listbox';
-import { SelectItemGroup } from 'primeng/api';
+import { ListboxModule } from '@openng/optimus-ui/listbox';
+import { SelectItemGroup } from '@openng/optimus-ui/api';
 import { Country } from '@/domain/customer';
 
 interface Country {
@@ -315,7 +315,7 @@ The invalid state is applied using the ⁠invalid property to indicate failed va
 ```typescript
 import { Component, OnInit } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { ListboxModule } from 'primeng/listbox';
+import { ListboxModule } from '@openng/optimus-ui/listbox';
 
 interface City {
     name: string;
@@ -354,7 +354,7 @@ ListBox allows choosing a single item by default, enable multiple property to ch
 ```typescript
 import { Component, OnInit } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { ListboxModule } from 'primeng/listbox';
+import { ListboxModule } from '@openng/optimus-ui/listbox';
 
 interface City {
     name: string;
@@ -393,11 +393,11 @@ Listbox can also be used with reactive forms. In this case, the formControlName 
 ```typescript
 import { Component, inject } from '@angular/core';
 import { ReactiveFormsModule } from '@angular/forms';
-import { ListboxModule } from 'primeng/listbox';
-import { MessageModule } from 'primeng/message';
-import { ToastModule } from 'primeng/toast';
-import { ButtonModule } from 'primeng/button';
-import { MessageService } from 'primeng/api';
+import { ListboxModule } from '@openng/optimus-ui/listbox';
+import { MessageModule } from '@openng/optimus-ui/message';
+import { ToastModule } from '@openng/optimus-ui/toast';
+import { ButtonModule } from '@openng/optimus-ui/button';
+import { MessageService } from '@openng/optimus-ui/api';
 
 interface City {
     name: string;
@@ -464,7 +464,7 @@ For custom content support define a template named item where the default local 
 ```typescript
 import { Component, OnInit } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { ListboxModule } from 'primeng/listbox';
+import { ListboxModule } from '@openng/optimus-ui/listbox';
 import { Country } from '@/domain/customer';
 
 interface Country {
@@ -514,11 +514,11 @@ export class ListboxTemplateDemo implements OnInit {
 ```typescript
 import { Component, OnInit, inject } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { ListboxModule } from 'primeng/listbox';
-import { MessageModule } from 'primeng/message';
-import { ToastModule } from 'primeng/toast';
-import { ButtonModule } from 'primeng/button';
-import { MessageService } from 'primeng/api';
+import { ListboxModule } from '@openng/optimus-ui/listbox';
+import { MessageModule } from '@openng/optimus-ui/message';
+import { ToastModule } from '@openng/optimus-ui/toast';
+import { ButtonModule } from '@openng/optimus-ui/button';
+import { MessageService } from '@openng/optimus-ui/api';
 
 interface City {
     name: string;
@@ -574,7 +574,7 @@ VirtualScrolling is an efficient way of rendering the options by displaying a sm
 ```typescript
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { ListboxModule } from 'primeng/listbox';
+import { ListboxModule } from '@openng/optimus-ui/listbox';
 
 @Component({
     template: `

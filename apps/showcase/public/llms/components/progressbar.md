@@ -12,7 +12,7 @@ ProgressBar is used with the value property.
 
 ```typescript
 import { Component } from '@angular/core';
-import { ProgressBarModule } from 'primeng/progressbar';
+import { ProgressBarModule } from '@openng/optimus-ui/progressbar';
 
 @Component({
     template: `
@@ -32,9 +32,9 @@ Value is reactive so updating it dynamically changes the bar as well.
 
 ```typescript
 import { Component, OnInit, inject } from '@angular/core';
-import { ProgressBarModule } from 'primeng/progressbar';
-import { ToastModule } from 'primeng/toast';
-import { MessageService } from 'primeng/api';
+import { ProgressBarModule } from '@openng/optimus-ui/progressbar';
+import { ToastModule } from '@openng/optimus-ui/toast';
+import { MessageService } from '@openng/optimus-ui/api';
 
 @Component({
     template: `
@@ -81,8 +81,8 @@ For progresses with no value to track, set the mode property to indeterminate .
 
 ```typescript
 import { Component, inject } from '@angular/core';
-import { ProgressBarModule } from 'primeng/progressbar';
-import { MessageService } from 'primeng/api';
+import { ProgressBarModule } from '@openng/optimus-ui/progressbar';
+import { MessageService } from '@openng/optimus-ui/api';
 
 @Component({
     template: `
@@ -105,7 +105,7 @@ content template allows displaying custom content inside the progressbar.
 
 ```typescript
 import { Component } from '@angular/core';
-import { ProgressBarModule } from 'primeng/progressbar';
+import { ProgressBarModule } from '@openng/optimus-ui/progressbar';
 
 @Component({
     template: `

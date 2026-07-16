@@ -12,7 +12,7 @@ Sample Card implementation using different Skeleton components and Tailwind CSS 
 
 ```typescript
 import { Component } from '@angular/core';
-import { SkeletonModule } from 'primeng/skeleton';
+import { SkeletonModule } from '@openng/optimus-ui/skeleton';
 
 @Component({
     template: `
@@ -46,8 +46,8 @@ Sample DataTable implementation using different Skeleton components and Tailwind
 
 ```typescript
 import { Component, OnInit } from '@angular/core';
-import { SkeletonModule } from 'primeng/skeleton';
-import { TableModule } from 'primeng/table';
+import { SkeletonModule } from '@openng/optimus-ui/skeleton';
+import { TableModule } from '@openng/optimus-ui/table';
 
 @Component({
     template: `
@@ -90,7 +90,7 @@ Sample List implementation using different Skeleton components and Tailwind CSS 
 
 ```typescript
 import { Component } from '@angular/core';
-import { SkeletonModule } from 'primeng/skeleton';
+import { SkeletonModule } from '@openng/optimus-ui/skeleton';
 
 @Component({
     template: `
@@ -149,7 +149,7 @@ Various shapes and sizes can be created using styling properties like shape , wi
 
 ```typescript
 import { Component } from '@angular/core';
-import { SkeletonModule } from 'primeng/skeleton';
+import { SkeletonModule } from '@openng/optimus-ui/skeleton';
 
 @Component({
     template: `

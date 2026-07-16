@@ -13,7 +13,7 @@ Two-way value binding is defined using ngModel . The number of characters is def
 ```typescript
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { InputOtpModule } from 'primeng/inputotp';
+import { InputOtpModule } from '@openng/optimus-ui/inputotp';
 
 @Component({
     template: `
@@ -36,7 +36,7 @@ When integerOnly is present, only integers can be accepted as input.
 ```typescript
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { InputOtpModule } from 'primeng/inputotp';
+import { InputOtpModule } from '@openng/optimus-ui/inputotp';
 
 @Component({
     template: `
@@ -59,7 +59,7 @@ Enable the mask option to hide the values in the input fields.
 ```typescript
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { InputOtpModule } from 'primeng/inputotp';
+import { InputOtpModule } from '@openng/optimus-ui/inputotp';
 
 @Component({
     template: `
@@ -82,11 +82,11 @@ InputOtp can also be used with reactive forms. In this case, the formControlName
 ```typescript
 import { Component, inject } from '@angular/core';
 import { ReactiveFormsModule } from '@angular/forms';
-import { InputOtpModule } from 'primeng/inputotp';
-import { MessageModule } from 'primeng/message';
-import { ToastModule } from 'primeng/toast';
-import { ButtonModule } from 'primeng/button';
-import { MessageService } from 'primeng/api';
+import { InputOtpModule } from '@openng/optimus-ui/inputotp';
+import { MessageModule } from '@openng/optimus-ui/message';
+import { ToastModule } from '@openng/optimus-ui/toast';
+import { ButtonModule } from '@openng/optimus-ui/button';
+import { MessageService } from '@openng/optimus-ui/api';
 
 @Component({
     template: `
@@ -140,8 +140,8 @@ A sample UI implementation with templating and additional elements.
 ```typescript
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { ButtonModule } from 'primeng/button';
-import { InputOtpModule } from 'primeng/inputotp';
+import { ButtonModule } from '@openng/optimus-ui/button';
+import { InputOtpModule } from '@openng/optimus-ui/inputotp';
 
 @Component({
     template: `
@@ -179,7 +179,7 @@ InputOtp provides small and large sizes as alternatives to the base.
 ```typescript
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { InputOtpModule } from 'primeng/inputotp';
+import { InputOtpModule } from '@openng/optimus-ui/inputotp';
 
 @Component({
     template: `
@@ -206,7 +206,7 @@ Define a template with your own UI elements with bindings to the provided events
 ```typescript
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { InputOtpModule } from 'primeng/inputotp';
+import { InputOtpModule } from '@openng/optimus-ui/inputotp';
 
 @Component({
     template: `
@@ -231,11 +231,11 @@ export class InputotpTemplateDemo {
 ```typescript
 import { Component, inject } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { InputOtpModule } from 'primeng/inputotp';
-import { MessageModule } from 'primeng/message';
-import { ToastModule } from 'primeng/toast';
-import { ButtonModule } from 'primeng/button';
-import { MessageService } from 'primeng/api';
+import { InputOtpModule } from '@openng/optimus-ui/inputotp';
+import { MessageModule } from '@openng/optimus-ui/message';
+import { ToastModule } from '@openng/optimus-ui/toast';
+import { ButtonModule } from '@openng/optimus-ui/button';
+import { MessageService } from '@openng/optimus-ui/api';
 
 @Component({
     template: `

@@ -12,8 +12,8 @@ Tooltip is hidden when mouse leaves the target element, in cases where tooltip n
 
 ```typescript
 import { Component } from '@angular/core';
-import { InputTextModule } from 'primeng/inputtext';
-import { TooltipModule } from 'primeng/tooltip';
+import { InputTextModule } from '@openng/optimus-ui/inputtext';
+import { TooltipModule } from '@openng/optimus-ui/tooltip';
 
 @Component({
     template: `
@@ -34,8 +34,8 @@ Tooltip can use either a string or a TemplateRef .
 
 ```typescript
 import { Component } from '@angular/core';
-import { ButtonModule } from 'primeng/button';
-import { TooltipModule } from 'primeng/tooltip';
+import { ButtonModule } from '@openng/optimus-ui/button';
+import { TooltipModule } from '@openng/optimus-ui/tooltip';
 
 @Component({
     template: `
@@ -89,8 +89,8 @@ Adding delays to the show and hide events are defined with showDelay and hideDel
 
 ```typescript
 import { Component } from '@angular/core';
-import { ButtonModule } from 'primeng/button';
-import { TooltipModule } from 'primeng/tooltip';
+import { ButtonModule } from '@openng/optimus-ui/button';
+import { TooltipModule } from '@openng/optimus-ui/tooltip';
 
 @Component({
     template: `
@@ -110,8 +110,8 @@ Tooltip gets displayed on hover event of its target by default, other option is 
 
 ```typescript
 import { Component } from '@angular/core';
-import { InputTextModule } from 'primeng/inputtext';
-import { TooltipModule } from 'primeng/tooltip';
+import { InputTextModule } from '@openng/optimus-ui/inputtext';
+import { TooltipModule } from '@openng/optimus-ui/tooltip';
 
 @Component({
     template: `
@@ -131,8 +131,8 @@ Tooltip is also configurable by using tooltipOptions property.
 
 ```typescript
 import { Component } from '@angular/core';
-import { InputTextModule } from 'primeng/inputtext';
-import { TooltipModule } from 'primeng/tooltip';
+import { InputTextModule } from '@openng/optimus-ui/inputtext';
+import { TooltipModule } from '@openng/optimus-ui/tooltip';
 
 @Component({
     template: `
@@ -154,8 +154,8 @@ Position of the tooltip is specified using tooltipPosition attribute. Valid valu
 
 ```typescript
 import { Component } from '@angular/core';
-import { InputTextModule } from 'primeng/inputtext';
-import { TooltipModule } from 'primeng/tooltip';
+import { InputTextModule } from '@openng/optimus-ui/inputtext';
+import { TooltipModule } from '@openng/optimus-ui/tooltip';
 
 @Component({
     template: `
@@ -185,7 +185,7 @@ Tooltip directive provides advisory information for a component.
 | pt | InputSignal<TooltipPassThroughOptions<unknown>> | undefined | Used to pass attributes to DOM elements inside the component. |
 | ptOptions | InputSignal<PassThroughOptions> | undefined | Used to configure passthrough(pt) options of the component. |
 | tooltipPosition | string | - | Position of the tooltip. |
-| tooltipEvent | "hover" \| "focus" \| "both" | hover | Event to show the tooltip. |
+| tooltipEvent | "focus" \| "hover" \| "both" | hover | Event to show the tooltip. |
 | positionStyle | string | - | Type of CSS position. |
 | tooltipStyleClass | string | - | Style class of the tooltip. |
 | tooltipZIndex | string | - | Whether the z-index should be managed automatically to always go on top or have a fixed value. |

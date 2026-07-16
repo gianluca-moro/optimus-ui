@@ -13,7 +13,7 @@ A model can be bound using the standard ngModel directive.
 ```typescript
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { EditorModule } from 'primeng/editor';
+import { EditorModule } from '@openng/optimus-ui/editor';
 
 @Component({
     template: `
@@ -36,7 +36,7 @@ Editor provides a default toolbar with common options, to customize it define yo
 ```typescript
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { EditorModule } from 'primeng/editor';
+import { EditorModule } from '@openng/optimus-ui/editor';
 
 @Component({
     template: `
@@ -71,11 +71,11 @@ Editor can also be used with reactive forms. In this case, the formControlName p
 ```typescript
 import { Component, inject } from '@angular/core';
 import { ReactiveFormsModule } from '@angular/forms';
-import { EditorModule } from 'primeng/editor';
-import { MessageModule } from 'primeng/message';
-import { ToastModule } from 'primeng/toast';
-import { ButtonModule } from 'primeng/button';
-import { MessageService } from 'primeng/api';
+import { EditorModule } from '@openng/optimus-ui/editor';
+import { MessageModule } from '@openng/optimus-ui/message';
+import { ToastModule } from '@openng/optimus-ui/toast';
+import { ButtonModule } from '@openng/optimus-ui/button';
+import { MessageService } from '@openng/optimus-ui/api';
 
 @Component({
     template: `
@@ -130,7 +130,7 @@ When readonly is present, the value cannot be edited.
 ```typescript
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { EditorModule } from 'primeng/editor';
+import { EditorModule } from '@openng/optimus-ui/editor';
 
 @Component({
     template: `
@@ -151,11 +151,11 @@ export class EditorReadonlyDemo {
 ```typescript
 import { Component, inject } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { EditorModule } from 'primeng/editor';
-import { MessageModule } from 'primeng/message';
-import { ToastModule } from 'primeng/toast';
-import { ButtonModule } from 'primeng/button';
-import { MessageService } from 'primeng/api';
+import { EditorModule } from '@openng/optimus-ui/editor';
+import { MessageModule } from '@openng/optimus-ui/message';
+import { ToastModule } from '@openng/optimus-ui/toast';
+import { ButtonModule } from '@openng/optimus-ui/button';
+import { MessageService } from '@openng/optimus-ui/api';
 
 @Component({
     template: `

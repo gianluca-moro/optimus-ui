@@ -12,8 +12,8 @@ TieredMenu requires a collection of menuitems as its model .
 
 ```typescript
 import { Component, OnInit } from '@angular/core';
-import { TieredMenuModule } from 'primeng/tieredmenu';
-import { MenuItem } from 'primeng/api';
+import { TieredMenuModule } from '@openng/optimus-ui/tieredmenu';
+import { MenuItem } from '@openng/optimus-ui/api';
 
 @Component({
     template: `
@@ -107,9 +107,9 @@ The command property defines the callback to run when an item is activated by cl
 
 ```typescript
 import { Component, OnInit, inject } from '@angular/core';
-import { TieredMenuModule } from 'primeng/tieredmenu';
-import { ToastModule } from 'primeng/toast';
-import { MenuItem, MessageService } from 'primeng/api';
+import { TieredMenuModule } from '@openng/optimus-ui/tieredmenu';
+import { ToastModule } from '@openng/optimus-ui/toast';
+import { MenuItem, MessageService } from '@openng/optimus-ui/api';
 
 @Component({
     template: `
@@ -194,9 +194,9 @@ Popup mode is enabled by adding popup property and calling toggle method with an
 
 ```typescript
 import { Component, OnInit } from '@angular/core';
-import { ButtonModule } from 'primeng/button';
-import { TieredMenuModule } from 'primeng/tieredmenu';
-import { MenuItem } from 'primeng/api';
+import { ButtonModule } from '@openng/optimus-ui/button';
+import { TieredMenuModule } from '@openng/optimus-ui/tieredmenu';
+import { MenuItem } from '@openng/optimus-ui/api';
 
 @Component({
     template: `
@@ -291,8 +291,8 @@ Menu items support navigation via routerLink, programmatic routing using command
 
 ```typescript
 import { Component, OnInit } from '@angular/core';
-import { TieredMenuModule } from 'primeng/tieredmenu';
-import { MenuItem } from 'primeng/api';
+import { TieredMenuModule } from '@openng/optimus-ui/tieredmenu';
+import { MenuItem } from '@openng/optimus-ui/api';
 
 @Component({
     template: `
@@ -315,10 +315,6 @@ export class TieredmenuRouterDemo implements OnInit {
                     {
                         label: 'Theming',
                         routerLink: '/theming'
-                    },
-                    {
-                        label: 'UI Kit',
-                        routerLink: '/uikit'
                     }
                 ]
             },
@@ -354,10 +350,10 @@ TieredMenu offers item customization with the item template that receives the me
 
 ```typescript
 import { Component, OnInit } from '@angular/core';
-import { BadgeModule } from 'primeng/badge';
-import { TieredMenuModule } from 'primeng/tieredmenu';
-import { RippleModule } from 'primeng/ripple';
-import { MenuItem } from 'primeng/api';
+import { BadgeModule } from '@openng/optimus-ui/badge';
+import { TieredMenuModule } from '@openng/optimus-ui/tieredmenu';
+import { RippleModule } from '@openng/optimus-ui/ripple';
+import { MenuItem } from '@openng/optimus-ui/api';
 
 @Component({
     template: `

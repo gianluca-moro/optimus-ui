@@ -13,7 +13,7 @@ Select is used as a controlled component with ngModel property along with an opt
 ```typescript
 import { Component, OnInit } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { SelectModule } from 'primeng/select';
+import { SelectModule } from '@openng/optimus-ui/select';
 
 interface City {
     name: string;
@@ -52,7 +52,7 @@ An alternative way to highlight the selected option is displaying a checkmark in
 ```typescript
 import { Component, OnInit } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { SelectModule } from 'primeng/select';
+import { SelectModule } from '@openng/optimus-ui/select';
 
 interface City {
     name: string;
@@ -91,7 +91,7 @@ When showClear is enabled, a clear icon is displayed to clear the value.
 ```typescript
 import { Component, OnInit } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { SelectModule } from 'primeng/select';
+import { SelectModule } from '@openng/optimus-ui/select';
 
 interface City {
     name: string;
@@ -130,10 +130,10 @@ Custom filter can be applied with the filterTemplate .
 ```typescript
 import { Component, OnInit } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { ButtonModule } from 'primeng/button';
-import { SelectModule } from 'primeng/select';
-import { InputGroupModule } from 'primeng/inputgroup';
-import { InputTextModule } from 'primeng/inputtext';
+import { ButtonModule } from '@openng/optimus-ui/button';
+import { SelectModule } from '@openng/optimus-ui/select';
+import { InputGroupModule } from '@openng/optimus-ui/inputgroup';
+import { InputTextModule } from '@openng/optimus-ui/inputtext';
 import { Country } from '@/domain/customer';
 
 interface City {
@@ -210,7 +210,7 @@ When disabled is present, the element cannot be edited and focused.
 ```typescript
 import { Component, OnInit } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { SelectModule } from 'primeng/select';
+import { SelectModule } from '@openng/optimus-ui/select';
 
 interface City {
     name: string;
@@ -249,7 +249,7 @@ When editable is present, the input can also be entered with typing.
 ```typescript
 import { Component, OnInit } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { SelectModule } from 'primeng/select';
+import { SelectModule } from '@openng/optimus-ui/select';
 
 interface City {
     name: string;
@@ -288,7 +288,7 @@ Specify the variant property as filled to display the component with a higher vi
 ```typescript
 import { Component, OnInit } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { SelectModule } from 'primeng/select';
+import { SelectModule } from '@openng/optimus-ui/select';
 
 interface City {
     name: string;
@@ -327,7 +327,7 @@ Select provides built-in filtering that is enabled by adding the filter property
 ```typescript
 import { Component, OnInit } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { SelectModule } from 'primeng/select';
+import { SelectModule } from '@openng/optimus-ui/select';
 import { Country } from '@/domain/customer';
 
 @Component({
@@ -380,8 +380,8 @@ A floating label appears on top of the input field when focused. Visit FloatLabe
 ```typescript
 import { Component, OnInit } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { SelectModule } from 'primeng/select';
-import { FloatLabelModule } from 'primeng/floatlabel';
+import { SelectModule } from '@openng/optimus-ui/select';
+import { FloatLabelModule } from '@openng/optimus-ui/floatlabel';
 
 interface City {
     name: string;
@@ -433,7 +433,7 @@ The fluid prop makes the component take up the full width of its container when 
 ```typescript
 import { Component, OnInit } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { SelectModule } from 'primeng/select';
+import { SelectModule } from '@openng/optimus-ui/select';
 
 interface City {
     name: string;
@@ -472,8 +472,8 @@ Options can be grouped when a nested data structures is provided.
 ```typescript
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { SelectModule } from 'primeng/select';
-import { SelectItemGroup } from 'primeng/api';
+import { SelectModule } from '@openng/optimus-ui/select';
+import { SelectItemGroup } from '@openng/optimus-ui/api';
 
 @Component({
     template: `
@@ -539,8 +539,8 @@ IftaLabel is used to create infield top aligned labels. Visit IftaLabel document
 ```typescript
 import { Component, OnInit } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { SelectModule } from 'primeng/select';
-import { IftaLabelModule } from 'primeng/iftalabel';
+import { SelectModule } from '@openng/optimus-ui/select';
+import { IftaLabelModule } from '@openng/optimus-ui/iftalabel';
 
 interface City {
     name: string;
@@ -582,7 +582,7 @@ The invalid state is applied using the ⁠invalid property to indicate failed va
 ```typescript
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { SelectModule } from 'primeng/select';
+import { SelectModule } from '@openng/optimus-ui/select';
 
 interface City {
     name: string;
@@ -613,8 +613,8 @@ export class SelectInvalidDemo {
 ```typescript
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { SelectModule } from 'primeng/select';
-import { SelectItem } from 'primeng/api';
+import { SelectModule } from '@openng/optimus-ui/select';
+import { SelectItem } from '@openng/optimus-ui/api';
 
 @Component({
     template: `
@@ -672,7 +672,7 @@ Loading state can be used loading property.
 ```typescript
 import { Component, OnInit } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { SelectModule } from 'primeng/select';
+import { SelectModule } from '@openng/optimus-ui/select';
 
 interface City {
     name: string;
@@ -711,11 +711,11 @@ Select can also be used with reactive forms. In this case, the formControlName p
 ```typescript
 import { Component, inject } from '@angular/core';
 import { ReactiveFormsModule } from '@angular/forms';
-import { SelectModule } from 'primeng/select';
-import { MessageModule } from 'primeng/message';
-import { ToastModule } from 'primeng/toast';
-import { ButtonModule } from 'primeng/button';
-import { MessageService } from 'primeng/api';
+import { SelectModule } from '@openng/optimus-ui/select';
+import { MessageModule } from '@openng/optimus-ui/message';
+import { ToastModule } from '@openng/optimus-ui/toast';
+import { ButtonModule } from '@openng/optimus-ui/button';
+import { MessageService } from '@openng/optimus-ui/api';
 
 interface City {
     name: string;
@@ -775,7 +775,7 @@ Select provides small and large sizes as alternatives to the base.
 ```typescript
 import { Component, OnInit } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { SelectModule } from 'primeng/select';
+import { SelectModule } from '@openng/optimus-ui/select';
 
 interface City {
     name: string;
@@ -818,8 +818,8 @@ Both the selected option and the options list can be templated to provide custom
 ```typescript
 import { Component, OnInit } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { ButtonModule } from 'primeng/button';
-import { SelectModule } from 'primeng/select';
+import { ButtonModule } from '@openng/optimus-ui/button';
+import { SelectModule } from '@openng/optimus-ui/select';
 
 @Component({
     template: `
@@ -880,11 +880,11 @@ export class SelectTemplateDemo implements OnInit {
 ```typescript
 import { Component, inject } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { SelectModule } from 'primeng/select';
-import { MessageModule } from 'primeng/message';
-import { ToastModule } from 'primeng/toast';
-import { ButtonModule } from 'primeng/button';
-import { MessageService } from 'primeng/api';
+import { SelectModule } from '@openng/optimus-ui/select';
+import { MessageModule } from '@openng/optimus-ui/message';
+import { ToastModule } from '@openng/optimus-ui/toast';
+import { ButtonModule } from '@openng/optimus-ui/button';
+import { MessageService } from '@openng/optimus-ui/api';
 
 interface City {
     name: string;
@@ -940,8 +940,8 @@ VirtualScrolling is an efficient way of rendering the options by displaying a sm
 ```typescript
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { SelectModule } from 'primeng/select';
-import { SelectItem } from 'primeng/api';
+import { SelectModule } from '@openng/optimus-ui/select';
+import { SelectItem } from '@openng/optimus-ui/api';
 
 @Component({
     template: `
@@ -1030,9 +1030,9 @@ Select is used to choose an item from a collection of options.
 | ariaFilterLabel | string | - | Defines a string that labels the filter input. |
 | ariaLabel | string | - | Used to define a aria label attribute the current element. |
 | ariaLabelledBy | string | - | Establishes relationships between the component and label(s) where its value should be one or more element IDs. |
-| filterMatchMode | "startsWith" \| "contains" \| "endsWith" \| "equals" \| "notEquals" \| "in" \| "lt" \| "lte" \| "gt" \| "gte" | contains | Defines how the items are filtered. |
+| filterMatchMode | "gt" \| "lt" \| "in" \| "startsWith" \| "contains" \| "endsWith" \| "equals" \| "notEquals" \| "lte" \| "gte" | contains | Defines how the items are filtered. |
 | tooltip | string | - | Advisory information to display in a tooltip on hover. |
-| tooltipPosition | "right" \| "left" \| "top" \| "bottom" | right | Position of the tooltip. |
+| tooltipPosition | "top" \| "bottom" \| "left" \| "right" | right | Position of the tooltip. |
 | tooltipPositionStyle | string | absolute | Type of CSS position. |
 | tooltipStyleClass | string | - | Style class of the tooltip. |
 | focusOnHover | boolean | true | Fields used when filtering the options, defaults to optionLabel. |
@@ -1094,7 +1094,7 @@ Select is used to choose an item from a collection of options.
 | Name | Type | Description |
 |------|------|-------------|
 | root | PassThroughOption<HTMLSpanElement, I> | Used to pass attributes to the root's DOM element. |
-| label | PassThroughOption<HTMLSpanElement \| HTMLInputElement, I> | Used to pass attributes to the label's DOM element. |
+| label | PassThroughOption<HTMLInputElement \| HTMLSpanElement, I> | Used to pass attributes to the label's DOM element. |
 | clearIcon | PassThroughOption<HTMLElement, I> | Used to pass attributes to the clear icon's DOM element. |
 | dropdown | PassThroughOption<HTMLDivElement, I> | Used to pass attributes to the dropdown's DOM element. |
 | loadingIcon | PassThroughOption<HTMLSpanElement, I> | Used to pass attributes to the loading icon's DOM element. |

@@ -13,7 +13,7 @@ Two-way binding is defined using the standard ngModel directive.
 ```typescript
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { SliderModule } from 'primeng/slider';
+import { SliderModule } from '@openng/optimus-ui/slider';
 
 @Component({
     template: `
@@ -36,8 +36,8 @@ Image filter implementation using multiple sliders.
 ```typescript
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { SelectButtonModule } from 'primeng/selectbutton';
-import { SliderModule } from 'primeng/slider';
+import { SelectButtonModule } from '@openng/optimus-ui/selectbutton';
+import { SliderModule } from '@openng/optimus-ui/slider';
 
 @Component({
     template: `
@@ -66,8 +66,8 @@ Slider is connected to an input field using two-way binding.
 ```typescript
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { SliderModule } from 'primeng/slider';
-import { InputTextModule } from 'primeng/inputtext';
+import { SliderModule } from '@openng/optimus-ui/slider';
+import { InputTextModule } from '@openng/optimus-ui/inputtext';
 
 @Component({
     template: `
@@ -93,7 +93,7 @@ When range property is present, slider provides two handles to define two values
 ```typescript
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { SliderModule } from 'primeng/slider';
+import { SliderModule } from '@openng/optimus-ui/slider';
 
 @Component({
     template: `
@@ -116,11 +116,11 @@ Slider can also be used with reactive forms. In this case, the formControlName p
 ```typescript
 import { Component, inject } from '@angular/core';
 import { ReactiveFormsModule } from '@angular/forms';
-import { MessageModule } from 'primeng/message';
-import { SliderModule } from 'primeng/slider';
-import { ToastModule } from 'primeng/toast';
-import { ButtonModule } from 'primeng/button';
-import { MessageService } from 'primeng/api';
+import { MessageModule } from '@openng/optimus-ui/message';
+import { SliderModule } from '@openng/optimus-ui/slider';
+import { ToastModule } from '@openng/optimus-ui/toast';
+import { ButtonModule } from '@openng/optimus-ui/button';
+import { MessageService } from '@openng/optimus-ui/api';
 
 @Component({
     template: `
@@ -174,7 +174,7 @@ Size of each movement is defined with the step property.
 ```typescript
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { SliderModule } from 'primeng/slider';
+import { SliderModule } from '@openng/optimus-ui/slider';
 
 @Component({
     template: `
@@ -195,11 +195,11 @@ export class SliderStepDemo {
 ```typescript
 import { Component, inject } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { MessageModule } from 'primeng/message';
-import { SliderModule } from 'primeng/slider';
-import { ToastModule } from 'primeng/toast';
-import { ButtonModule } from 'primeng/button';
-import { MessageService } from 'primeng/api';
+import { MessageModule } from '@openng/optimus-ui/message';
+import { SliderModule } from '@openng/optimus-ui/slider';
+import { ToastModule } from '@openng/optimus-ui/toast';
+import { ButtonModule } from '@openng/optimus-ui/button';
+import { MessageService } from '@openng/optimus-ui/api';
 
 @Component({
     template: `
@@ -239,7 +239,7 @@ Default layout of slider is horizontal , use orientation property for the altern
 ```typescript
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { SliderModule } from 'primeng/slider';
+import { SliderModule } from '@openng/optimus-ui/slider';
 
 @Component({
     template: `

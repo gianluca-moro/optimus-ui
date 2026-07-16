@@ -12,7 +12,7 @@ A chart is configured with 3 properties; type , data and options . Chart type is
 
 ```typescript
 import { Component, OnInit, inject } from '@angular/core';
-import { ChartModule } from 'primeng/chart';
+import { ChartModule } from '@openng/optimus-ui/chart';
 
 @Component({
     template: `
@@ -28,7 +28,6 @@ export class ChartBasicDemo implements OnInit {
     basicOptions: any;
     platformId = inject(PLATFORM_ID);
     configService = inject(AppConfigService);
-    designerService = inject(DesignerService);
 
     ngOnInit() {
         this.initChart();
@@ -100,7 +99,7 @@ Different chart types can be combined in the same graph using the type option of
 
 ```typescript
 import { Component, OnInit, inject } from '@angular/core';
-import { ChartModule } from 'primeng/chart';
+import { ChartModule } from '@openng/optimus-ui/chart';
 
 @Component({
     template: `
@@ -116,7 +115,6 @@ export class ChartComboDemo implements OnInit {
     options: any;
     platformId = inject(PLATFORM_ID);
     configService = inject(AppConfigService);
-    designerService = inject(DesignerService);
 
     ngOnInit() {
         this.initChart();
@@ -199,7 +197,7 @@ A doughnut chart is a variant of the pie chart, with a blank center allowing for
 
 ```typescript
 import { Component, OnInit, inject } from '@angular/core';
-import { ChartModule } from 'primeng/chart';
+import { ChartModule } from '@openng/optimus-ui/chart';
 
 @Component({
     template: `
@@ -215,7 +213,6 @@ export class ChartDoughnutDemo implements OnInit {
     options: any;
     platformId = inject(PLATFORM_ID);
     configService = inject(AppConfigService);
-    designerService = inject(DesignerService);
 
     ngOnInit() {
         this.initChart();
@@ -259,7 +256,7 @@ A bar chart is rendered horizontally when indexAxis option is set as y .
 
 ```typescript
 import { Component, OnInit, inject } from '@angular/core';
-import { ChartModule } from 'primeng/chart';
+import { ChartModule } from '@openng/optimus-ui/chart';
 
 @Component({
     template: `
@@ -275,7 +272,6 @@ export class ChartHorizontalbarDemo implements OnInit {
     options: any;
     platformId = inject(PLATFORM_ID);
     configService = inject(AppConfigService);
-    designerService = inject(DesignerService);
 
     ngOnInit() {
         this.initChart();
@@ -353,7 +349,7 @@ A line chart or line graph is a type of chart which displays information as a se
 
 ```typescript
 import { Component, OnInit, inject } from '@angular/core';
-import { ChartModule } from 'primeng/chart';
+import { ChartModule } from '@openng/optimus-ui/chart';
 
 @Component({
     template: `
@@ -369,7 +365,6 @@ export class ChartLineDemo implements OnInit {
     options: any;
     platformId = inject(PLATFORM_ID);
     configService = inject(AppConfigService);
-    designerService = inject(DesignerService);
 
     ngOnInit() {
         this.initChart();
@@ -445,7 +440,7 @@ Various styles of a line series can be customized to display customizations like
 
 ```typescript
 import { Component, OnInit, inject } from '@angular/core';
-import { ChartModule } from 'primeng/chart';
+import { ChartModule } from '@openng/optimus-ui/chart';
 
 @Component({
     template: `
@@ -461,7 +456,6 @@ export class ChartLinestyleDemo implements OnInit {
     options: any;
     platformId = inject(PLATFORM_ID);
     configService = inject(AppConfigService);
-    designerService = inject(DesignerService);
 
     ngOnInit() {
         this.initChart();
@@ -586,7 +580,7 @@ Multiple axes can be added using the scales option.
 
 ```typescript
 import { Component, OnInit, inject } from '@angular/core';
-import { ChartModule } from 'primeng/chart';
+import { ChartModule } from '@openng/optimus-ui/chart';
 
 @Component({
     template: `
@@ -602,7 +596,6 @@ export class ChartMultiaxisDemo implements OnInit {
     options: any;
     platformId = inject(PLATFORM_ID);
     configService = inject(AppConfigService);
-    designerService = inject(DesignerService);
 
     ngOnInit() {
         this.initChart();
@@ -694,7 +687,7 @@ A pie chart is a circular statistical graphic which is divided into slices to il
 
 ```typescript
 import { Component, OnInit, inject } from '@angular/core';
-import { ChartModule } from 'primeng/chart';
+import { ChartModule } from '@openng/optimus-ui/chart';
 
 @Component({
     template: `
@@ -710,7 +703,6 @@ export class ChartPieDemo implements OnInit {
     options: any;
     platformId = inject(PLATFORM_ID);
     configService = inject(AppConfigService);
-    designerService = inject(DesignerService);
 
     ngOnInit() {
         this.initChart();
@@ -754,7 +746,7 @@ Polar area charts are similar to pie charts, but each segment has the same angle
 
 ```typescript
 import { Component, OnInit, inject } from '@angular/core';
-import { ChartModule } from 'primeng/chart';
+import { ChartModule } from '@openng/optimus-ui/chart';
 
 @Component({
     template: `
@@ -770,7 +762,6 @@ export class ChartPolarareaDemo implements OnInit {
     options: any;
     platformId = inject(PLATFORM_ID);
     configService = inject(AppConfigService);
-    designerService = inject(DesignerService);
 
     ngOnInit() {
         this.initChart();
@@ -903,7 +894,7 @@ A radar chart is a graphical method of displaying multivariate data in the form 
 
 ```typescript
 import { Component, OnInit, inject } from '@angular/core';
-import { ChartModule } from 'primeng/chart';
+import { ChartModule } from '@openng/optimus-ui/chart';
 
 @Component({
     template: `
@@ -919,7 +910,6 @@ export class ChartRadarDemo implements OnInit {
     options: any;
     platformId = inject(PLATFORM_ID);
     configService = inject(AppConfigService);
-    designerService = inject(DesignerService);
 
     ngOnInit() {
         this.initChart();
@@ -983,7 +973,7 @@ Bars can be stacked on top of each other when stacked option of a scale is enabl
 
 ```typescript
 import { Component, OnInit, inject } from '@angular/core';
-import { ChartModule } from 'primeng/chart';
+import { ChartModule } from '@openng/optimus-ui/chart';
 
 @Component({
     template: `
@@ -999,7 +989,6 @@ export class ChartStackedbarDemo implements OnInit {
     options: any;
     platformId = inject(PLATFORM_ID);
     configService = inject(AppConfigService);
-    designerService = inject(DesignerService);
 
     ngOnInit() {
         this.initChart();
@@ -1085,7 +1074,7 @@ A bar chart or bar graph is a chart that presents grouped data with rectangular 
 
 ```typescript
 import { Component, OnInit, inject } from '@angular/core';
-import { ChartModule } from 'primeng/chart';
+import { ChartModule } from '@openng/optimus-ui/chart';
 
 @Component({
     template: `
@@ -1101,7 +1090,6 @@ export class ChartVerticalbarDemo implements OnInit {
     options: any;
     platformId = inject(PLATFORM_ID);
     configService = inject(AppConfigService);
-    designerService = inject(DesignerService);
 
     ngOnInit() {
         this.initChart();

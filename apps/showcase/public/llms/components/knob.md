@@ -13,7 +13,7 @@ Knob is an input component and used with the standard ngModel directive.
 ```typescript
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { KnobModule } from 'primeng/knob';
+import { KnobModule } from '@openng/optimus-ui/knob';
 
 @Component({
     template: `
@@ -36,7 +36,7 @@ Colors are customized with the textColor , rangeColor and valueColor properties.
 ```typescript
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { KnobModule } from 'primeng/knob';
+import { KnobModule } from '@openng/optimus-ui/knob';
 
 @Component({
     template: `
@@ -59,7 +59,7 @@ When disabled is present, a visual hint is applied to indicate that the Knob can
 ```typescript
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { KnobModule } from 'primeng/knob';
+import { KnobModule } from '@openng/optimus-ui/knob';
 
 @Component({
     template: `
@@ -82,7 +82,7 @@ Boundaries are configured with the min and max properties whose defaults are 0 a
 ```typescript
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { KnobModule } from 'primeng/knob';
+import { KnobModule } from '@openng/optimus-ui/knob';
 
 @Component({
     template: `
@@ -105,8 +105,8 @@ Knob can be controlled with custom controls as well.
 ```typescript
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { ButtonModule } from 'primeng/button';
-import { KnobModule } from 'primeng/knob';
+import { ButtonModule } from '@openng/optimus-ui/button';
+import { KnobModule } from '@openng/optimus-ui/knob';
 
 @Component({
     template: `
@@ -133,11 +133,11 @@ Knob can also be used with reactive forms. In this case, the formControlName pro
 ```typescript
 import { Component, inject } from '@angular/core';
 import { ReactiveFormsModule } from '@angular/forms';
-import { KnobModule } from 'primeng/knob';
-import { MessageModule } from 'primeng/message';
-import { ToastModule } from 'primeng/toast';
-import { ButtonModule } from 'primeng/button';
-import { MessageService } from 'primeng/api';
+import { KnobModule } from '@openng/optimus-ui/knob';
+import { MessageModule } from '@openng/optimus-ui/message';
+import { ToastModule } from '@openng/optimus-ui/toast';
+import { ButtonModule } from '@openng/optimus-ui/button';
+import { MessageService } from '@openng/optimus-ui/api';
 
 @Component({
     template: `
@@ -211,7 +211,7 @@ When readonly present, value cannot be edited.
 ```typescript
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { KnobModule } from 'primeng/knob';
+import { KnobModule } from '@openng/optimus-ui/knob';
 
 @Component({
     template: `
@@ -234,7 +234,7 @@ Diameter of the knob is defined in pixels using the size property.
 ```typescript
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { KnobModule } from 'primeng/knob';
+import { KnobModule } from '@openng/optimus-ui/knob';
 
 @Component({
     template: `
@@ -257,7 +257,7 @@ Size of each movement is defined with the step property.
 ```typescript
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { KnobModule } from 'primeng/knob';
+import { KnobModule } from '@openng/optimus-ui/knob';
 
 @Component({
     template: `
@@ -280,7 +280,7 @@ The border size is specified with the strokeWidth property as a number in pixels
 ```typescript
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { KnobModule } from 'primeng/knob';
+import { KnobModule } from '@openng/optimus-ui/knob';
 
 @Component({
     template: `
@@ -303,7 +303,7 @@ Label is a string template that can be customized with the valueTemplate propert
 ```typescript
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { KnobModule } from 'primeng/knob';
+import { KnobModule } from '@openng/optimus-ui/knob';
 
 @Component({
     template: `
@@ -324,11 +324,11 @@ export class KnobTemplateDemo {
 ```typescript
 import { Component, inject } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { KnobModule } from 'primeng/knob';
-import { MessageModule } from 'primeng/message';
-import { ToastModule } from 'primeng/toast';
-import { ButtonModule } from 'primeng/button';
-import { MessageService } from 'primeng/api';
+import { KnobModule } from '@openng/optimus-ui/knob';
+import { MessageModule } from '@openng/optimus-ui/message';
+import { ToastModule } from '@openng/optimus-ui/toast';
+import { ButtonModule } from '@openng/optimus-ui/button';
+import { MessageService } from '@openng/optimus-ui/api';
 
 @Component({
     template: `

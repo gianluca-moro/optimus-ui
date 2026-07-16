@@ -12,7 +12,7 @@ Images are defined using templating with left and right templates. Use the style
 
 ```typescript
 import { Component } from '@angular/core';
-import { ImageCompareModule } from 'primeng/imagecompare';
+import { ImageCompareModule } from '@openng/optimus-ui/imagecompare';
 
 @Component({
     template: `
@@ -39,7 +39,7 @@ Apply responsive styles to the container element to optimize display per screen 
 
 ```typescript
 import { Component } from '@angular/core';
-import { ImageCompareModule } from 'primeng/imagecompare';
+import { ImageCompareModule } from '@openng/optimus-ui/imagecompare';
 
 @Component({
     template: `

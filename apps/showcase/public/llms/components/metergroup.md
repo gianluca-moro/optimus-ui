@@ -12,7 +12,7 @@ MeterGroup requires a value as the data to display where each item in the collec
 
 ```typescript
 import { Component } from '@angular/core';
-import { MeterGroupModule } from 'primeng/metergroup';
+import { MeterGroupModule } from '@openng/optimus-ui/metergroup';
 
 @Component({
     template: `
@@ -34,7 +34,7 @@ Icons can be displayed next to the labels instead of the default marker.
 
 ```typescript
 import { Component } from '@angular/core';
-import { MeterGroupModule } from 'primeng/metergroup';
+import { MeterGroupModule } from '@openng/optimus-ui/metergroup';
 
 @Component({
     template: `
@@ -56,7 +56,7 @@ The position of the labels relative to the meters is defined using the labelPosi
 
 ```typescript
 import { Component } from '@angular/core';
-import { MeterGroupModule } from 'primeng/metergroup';
+import { MeterGroupModule } from '@openng/optimus-ui/metergroup';
 
 @Component({
     template: `
@@ -78,7 +78,7 @@ Boundaries are configured with the min and max values whose defaults are 0 and 1
 
 ```typescript
 import { Component } from '@angular/core';
-import { MeterGroupModule } from 'primeng/metergroup';
+import { MeterGroupModule } from '@openng/optimus-ui/metergroup';
 
 @Component({
     template: `
@@ -100,7 +100,7 @@ Adding more items to the array displays the meters in a group.
 
 ```typescript
 import { Component } from '@angular/core';
-import { MeterGroupModule } from 'primeng/metergroup';
+import { MeterGroupModule } from '@openng/optimus-ui/metergroup';
 
 @Component({
     template: `
@@ -122,9 +122,9 @@ MeterGroup provides templating support for labels, meter items, and content arou
 
 ```typescript
 import { Component } from '@angular/core';
-import { ButtonModule } from 'primeng/button';
-import { CardModule } from 'primeng/card';
-import { MeterGroupModule } from 'primeng/metergroup';
+import { ButtonModule } from '@openng/optimus-ui/button';
+import { CardModule } from '@openng/optimus-ui/card';
+import { MeterGroupModule } from '@openng/optimus-ui/metergroup';
 
 @Component({
     template: `
@@ -180,7 +180,7 @@ Layout of the MeterGroup is configured with the orientation property that accept
 
 ```typescript
 import { Component } from '@angular/core';
-import { MeterGroupModule } from 'primeng/metergroup';
+import { MeterGroupModule } from '@openng/optimus-ui/metergroup';
 
 @Component({
     template: `

@@ -12,7 +12,7 @@ A simple Panel is created with a header property along with the content as child
 
 ```typescript
 import { Component } from '@angular/core';
-import { PanelModule } from 'primeng/panel';
+import { PanelModule } from '@openng/optimus-ui/panel';
 
 @Component({
     template: `
@@ -37,10 +37,10 @@ Header and Footers sections can be customized using header and footer templates.
 
 ```typescript
 import { Component, OnInit } from '@angular/core';
-import { AvatarModule } from 'primeng/avatar';
-import { ButtonModule } from 'primeng/button';
-import { MenuModule } from 'primeng/menu';
-import { PanelModule } from 'primeng/panel';
+import { AvatarModule } from '@openng/optimus-ui/avatar';
+import { ButtonModule } from '@openng/optimus-ui/button';
+import { MenuModule } from '@openng/optimus-ui/menu';
+import { PanelModule } from '@openng/optimus-ui/panel';
 
 @Component({
     template: `
@@ -104,7 +104,7 @@ Content of the panel can be expanded and collapsed using toggleable option, defa
 
 ```typescript
 import { Component } from '@angular/core';
-import { PanelModule } from 'primeng/panel';
+import { PanelModule } from '@openng/optimus-ui/panel';
 
 @Component({
     template: `
@@ -139,9 +139,9 @@ Panel is a container with the optional content toggle feature.
 | _header | string | - | Header text of the panel. |
 | collapsed | boolean | - | Defines the initial state of panel content, supports one or two-way binding as well. |
 | styleClass | string | - | Style class of the component. **(Deprecated)** |
-| iconPos | "center" \| "start" \| "end" | end | Position of the icons. |
+| iconPos | "end" \| "center" \| "start" | end | Position of the icons. |
 | showHeader | boolean | true | Specifies if header of panel cannot be displayed. |
-| toggler | "icon" \| "header" | icon | Specifies the toggler element to toggle the panel content. |
+| toggler | "header" \| "icon" | icon | Specifies the toggler element to toggle the panel content. |
 | transitionOptions | string | 400ms cubic-bezier(0.86, 0, 0.07, 1) | Transition options of the animation. **(Deprecated)** |
 | toggleButtonProps | any | - | Used to pass all properties of the ButtonProps to the Button component. |
 | motionOptions | InputSignal<MotionOptions> | ... | The motion options. |

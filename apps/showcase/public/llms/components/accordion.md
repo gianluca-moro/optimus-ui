@@ -12,7 +12,7 @@ Accordion is defined using AccordionPanel , AccordionHeader and AccordionContent
 
 ```typescript
 import { Component } from '@angular/core';
-import { AccordionModule } from 'primeng/accordion';
+import { AccordionModule } from '@openng/optimus-ui/accordion';
 
 @Component({
     template: `
@@ -61,8 +61,8 @@ Panels can be controlled programmatically using value property as a model.
 
 ```typescript
 import { Component } from '@angular/core';
-import { AccordionModule } from 'primeng/accordion';
-import { ButtonModule } from 'primeng/button';
+import { AccordionModule } from '@openng/optimus-ui/accordion';
+import { ButtonModule } from '@openng/optimus-ui/button';
 
 @Component({
     template: `
@@ -118,7 +118,7 @@ Enabling disabled property of an AccordionTab prevents user interaction.
 
 ```typescript
 import { Component } from '@angular/core';
-import { AccordionModule } from 'primeng/accordion';
+import { AccordionModule } from '@openng/optimus-ui/accordion';
 
 @Component({
     template: `
@@ -170,7 +170,7 @@ AccordionPanel can be generated dynamically using the standard &#64;for block.
 
 ```typescript
 import { Component } from '@angular/core';
-import { AccordionModule } from 'primeng/accordion';
+import { AccordionModule } from '@openng/optimus-ui/accordion';
 
 @Component({
     template: `
@@ -201,7 +201,7 @@ Only one tab at a time can be active by default, enabling multiple property chan
 
 ```typescript
 import { Component } from '@angular/core';
-import { AccordionModule } from 'primeng/accordion';
+import { AccordionModule } from '@openng/optimus-ui/accordion';
 
 @Component({
     template: `
@@ -250,9 +250,9 @@ Accordion is customized with toggleicon template.
 
 ```typescript
 import { Component } from '@angular/core';
-import { AccordionModule } from 'primeng/accordion';
-import { AvatarModule } from 'primeng/avatar';
-import { BadgeModule } from 'primeng/badge';
+import { AccordionModule } from '@openng/optimus-ui/accordion';
+import { AvatarModule } from '@openng/optimus-ui/avatar';
+import { BadgeModule } from '@openng/optimus-ui/badge';
 
 @Component({
     template: `

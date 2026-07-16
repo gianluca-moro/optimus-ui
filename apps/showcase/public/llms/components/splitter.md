@@ -12,7 +12,7 @@ Splitter requires two SplitterPanel components as children which are displayed h
 
 ```typescript
 import { Component } from '@angular/core';
-import { SplitterModule } from 'primeng/splitter';
+import { SplitterModule } from '@openng/optimus-ui/splitter';
 
 @Component({
     template: `
@@ -39,7 +39,7 @@ Splitters can be combined to create advanced layouts.
 
 ```typescript
 import { Component } from '@angular/core';
-import { SplitterModule } from 'primeng/splitter';
+import { SplitterModule } from '@openng/optimus-ui/splitter';
 
 @Component({
     template: `
@@ -80,7 +80,7 @@ When no panelSizes are defined, panels are split 50/50, use the panelSizes prope
 
 ```typescript
 import { Component } from '@angular/core';
-import { SplitterModule } from 'primeng/splitter';
+import { SplitterModule } from '@openng/optimus-ui/splitter';
 
 @Component({
     template: `
@@ -107,7 +107,7 @@ Panels are displayed as stacked by setting the layout to vertical .
 
 ```typescript
 import { Component } from '@angular/core';
-import { SplitterModule } from 'primeng/splitter';
+import { SplitterModule } from '@openng/optimus-ui/splitter';
 
 @Component({
     template: `

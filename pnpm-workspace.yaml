@@ -1,29 +1,42 @@
 packages:
-    - 'packages/*'
-    - 'apps/*'
+  - 'packages/*'
+  - 'apps/*'
+
+shamefullyHoist: true
+
+allowBuilds:
+  '@parcel/watcher': true
+  core-js: true
+  esbuild: true
+  lmdb: true
+  msgpackr-extract: true
 
 catalog:
-    'tailwindcss-primeui': ^0.6.1
-    'primeicons': ^7.0.0
+  'tailwindcss-primeui': ^0.6.1
+  'primeicons': ^7.0.0
 
 catalogs:
-    angular21:
-        "@angular-devkit/build-angular": ^21.0.0
-        "@angular/cdk": ^21.0.0
-        "@angular/cli": ^21.0.0
-        "@angular/common": ^21.0.0
-        "@angular/compiler": ^21.0.7
-        "@angular/compiler-cli": ^21.0.0
-        "@angular/core": ^21.0.7
-        "@angular/forms": ^21.0.0
-        "@angular/platform-browser": ^21.0.0
-        "@angular/platform-browser-dynamic": ^21.0.0
-        "@angular/platform-server": ^21.0.0
-        "@angular/router": ^21.0.0
-        "@angular/ssr": ^21.0.0
-        "@angular-eslint/eslint-plugin": ^20.6.0
-        "@angular-eslint/eslint-plugin-template": ^20.6.0
-        "@angular-eslint/schematics": ^20.6.0
-        "@angular-eslint/template-parser": ^20.6.0
-        "ng-packagr": 21.0.0
-        "typescript": 5.9.3
+  angular21:
+    "@angular-devkit/build-angular": ^21.0.0
+    "@angular/animations": ^21.0.0
+    "@angular/cdk": ^21.0.0
+    "@angular/cli": ^21.0.0
+    "@angular/common": ^21.0.0
+    "@angular/compiler": ^21.0.0
+    "@angular/compiler-cli": ^21.0.0
+    "@angular/core": ^21.0.0
+    "@angular/forms": ^21.0.0
+    "@angular/platform-browser": ^21.0.0
+    "@angular/platform-browser-dynamic": ^21.0.0
+    "@angular/platform-server": ^21.0.0
+    "@angular/router": ^21.0.0
+    "@angular/ssr": ^21.0.0
+    "@angular-eslint/eslint-plugin": ^20.6.0
+    "@angular-eslint/eslint-plugin-template": ^20.6.0
+    "@angular-eslint/schematics": ^20.6.0
+    "@angular-eslint/template-parser": ^20.6.0
+    "ng-packagr": 21.0.0
+    "typescript": 5.9.3
+
+minimumReleaseAgeExclude:
+  - pnpm@11.13.1

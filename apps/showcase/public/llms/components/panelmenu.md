@@ -12,9 +12,9 @@ PanelMenu requires a collection of menuitems as its model .
 
 ```typescript
 import { Component, OnInit } from '@angular/core';
-import { PanelMenu, PanelMenuModule } from 'primeng/panelmenu';
-import { MenuItem } from 'primeng/api';
-import { PanelMenu } from 'primeng/panelmenu';
+import { PanelMenu, PanelMenuModule } from '@openng/optimus-ui/panelmenu';
+import { MenuItem } from '@openng/optimus-ui/api';
+import { PanelMenu } from '@openng/optimus-ui/panelmenu';
 
 @Component({
     template: `
@@ -117,10 +117,10 @@ The command property defines the callback to run when an item is activated by cl
 
 ```typescript
 import { Component, OnInit, inject } from '@angular/core';
-import { PanelMenu, PanelMenuModule } from 'primeng/panelmenu';
-import { ToastModule } from 'primeng/toast';
-import { MenuItem, MessageService } from 'primeng/api';
-import { PanelMenu } from 'primeng/panelmenu';
+import { PanelMenu, PanelMenuModule } from '@openng/optimus-ui/panelmenu';
+import { ToastModule } from '@openng/optimus-ui/toast';
+import { MenuItem, MessageService } from '@openng/optimus-ui/api';
+import { PanelMenu } from '@openng/optimus-ui/panelmenu';
 
 @Component({
     template: `
@@ -214,10 +214,10 @@ Menu items can be controlled programmatically.
 
 ```typescript
 import { Component, OnInit } from '@angular/core';
-import { ButtonModule } from 'primeng/button';
-import { PanelMenu, PanelMenuModule } from 'primeng/panelmenu';
-import { MenuItem } from 'primeng/api';
-import { PanelMenu } from 'primeng/panelmenu';
+import { ButtonModule } from '@openng/optimus-ui/button';
+import { PanelMenu, PanelMenuModule } from '@openng/optimus-ui/panelmenu';
+import { MenuItem } from '@openng/optimus-ui/api';
+import { PanelMenu } from '@openng/optimus-ui/panelmenu';
 
 @Component({
     template: `
@@ -313,9 +313,9 @@ Only one single root menuitem can be active by default, enable multiple property
 
 ```typescript
 import { Component, OnInit } from '@angular/core';
-import { PanelMenu, PanelMenuModule } from 'primeng/panelmenu';
-import { MenuItem } from 'primeng/api';
-import { PanelMenu } from 'primeng/panelmenu';
+import { PanelMenu, PanelMenuModule } from '@openng/optimus-ui/panelmenu';
+import { MenuItem } from '@openng/optimus-ui/api';
+import { PanelMenu } from '@openng/optimus-ui/panelmenu';
 
 @Component({
     template: `
@@ -418,9 +418,9 @@ Menu items support navigation via routerLink, programmatic routing using command
 
 ```typescript
 import { Component, OnInit, inject } from '@angular/core';
-import { PanelMenu, PanelMenuModule } from 'primeng/panelmenu';
-import { MenuItem, MessageService } from 'primeng/api';
-import { PanelMenu } from 'primeng/panelmenu';
+import { PanelMenu, PanelMenuModule } from '@openng/optimus-ui/panelmenu';
+import { MenuItem, MessageService } from '@openng/optimus-ui/api';
+import { PanelMenu } from '@openng/optimus-ui/panelmenu';
 
 @Component({
     template: `
@@ -488,11 +488,11 @@ PanelMenu requires a collection of menuitems as its model .
 
 ```typescript
 import { Component, OnInit } from '@angular/core';
-import { BadgeModule } from 'primeng/badge';
-import { PanelMenu, PanelMenuModule } from 'primeng/panelmenu';
-import { RippleModule } from 'primeng/ripple';
-import { MenuItem } from 'primeng/api';
-import { PanelMenu } from 'primeng/panelmenu';
+import { BadgeModule } from '@openng/optimus-ui/badge';
+import { PanelMenu, PanelMenuModule } from '@openng/optimus-ui/panelmenu';
+import { RippleModule } from '@openng/optimus-ui/ripple';
+import { MenuItem } from '@openng/optimus-ui/api';
+import { PanelMenu } from '@openng/optimus-ui/panelmenu';
 
 @Component({
     template: `

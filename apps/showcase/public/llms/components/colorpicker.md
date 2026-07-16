@@ -13,7 +13,7 @@ ColorPicker is used as a controlled input with ngModel property.
 ```typescript
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { ColorPickerModule } from 'primeng/colorpicker';
+import { ColorPickerModule } from '@openng/optimus-ui/colorpicker';
 
 @Component({
     template: `
@@ -36,7 +36,7 @@ When disabled is present, the element cannot be edited and focused.
 ```typescript
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { ColorPickerModule } from 'primeng/colorpicker';
+import { ColorPickerModule } from '@openng/optimus-ui/colorpicker';
 
 @Component({
     template: `
@@ -59,7 +59,7 @@ Default color format to use in value binding is hex and other possible values ca
 ```typescript
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { ColorPickerModule } from 'primeng/colorpicker';
+import { ColorPickerModule } from '@openng/optimus-ui/colorpicker';
 
 @Component({
     template: `
@@ -98,7 +98,7 @@ ColorPicker is displayed as a popup by default, add inline property to customize
 ```typescript
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { ColorPickerModule } from 'primeng/colorpicker';
+import { ColorPickerModule } from '@openng/optimus-ui/colorpicker';
 
 @Component({
     template: `
@@ -121,11 +121,11 @@ ColorPicker can also be used with reactive forms. In this case, the formControlN
 ```typescript
 import { Component, inject } from '@angular/core';
 import { ReactiveFormsModule } from '@angular/forms';
-import { ColorPickerModule } from 'primeng/colorpicker';
-import { MessageModule } from 'primeng/message';
-import { ToastModule } from 'primeng/toast';
-import { ButtonModule } from 'primeng/button';
-import { MessageService } from 'primeng/api';
+import { ColorPickerModule } from '@openng/optimus-ui/colorpicker';
+import { MessageModule } from '@openng/optimus-ui/message';
+import { ToastModule } from '@openng/optimus-ui/toast';
+import { ButtonModule } from '@openng/optimus-ui/button';
+import { MessageService } from '@openng/optimus-ui/api';
 
 @Component({
     template: `
@@ -177,11 +177,11 @@ export class ColorpickerReactiveformsDemo {
 ```typescript
 import { Component, inject } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { ColorPickerModule } from 'primeng/colorpicker';
-import { MessageModule } from 'primeng/message';
-import { ToastModule } from 'primeng/toast';
-import { ButtonModule } from 'primeng/button';
-import { MessageService } from 'primeng/api';
+import { ColorPickerModule } from '@openng/optimus-ui/colorpicker';
+import { MessageModule } from '@openng/optimus-ui/message';
+import { ToastModule } from '@openng/optimus-ui/toast';
+import { ButtonModule } from '@openng/optimus-ui/button';
+import { MessageService } from '@openng/optimus-ui/api';
 
 @Component({
     template: `
@@ -234,7 +234,7 @@ ColorPicker groups a collection of contents in tabs.
 | showTransitionOptions | string | .12s cubic-bezier(0, 0, 0.2, 1) | Transition options of the show animation. **(Deprecated)** |
 | hideTransitionOptions | string | .1s linear | Transition options of the hide animation. **(Deprecated)** |
 | inline | boolean | false | Whether to display as an overlay or not. |
-| format | "rgb" \| "hex" \| "hsb" | hex | Format to use in value binding. |
+| format | "hex" \| "rgb" \| "hsb" | hex | Format to use in value binding. |
 | tabindex | string | - | Index of the element in tabbing order. |
 | inputId | string | - | Identifier of the focus input to match a label defined for the dropdown. |
 | autoZIndex | boolean | true | Whether to automatically manage layering. |

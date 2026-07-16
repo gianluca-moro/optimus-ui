@@ -12,8 +12,8 @@ Menu requires a collection of menuitems as its model .
 
 ```typescript
 import { Component, OnInit } from '@angular/core';
-import { MenuModule } from 'primeng/menu';
-import { MenuItem } from 'primeng/api';
+import { MenuModule } from '@openng/optimus-ui/menu';
+import { MenuItem } from '@openng/optimus-ui/api';
 
 @Component({
     template: `
@@ -42,9 +42,9 @@ The function to invoke when an item is clicked is defined using the command prop
 
 ```typescript
 import { Component, OnInit, inject } from '@angular/core';
-import { MenuModule } from 'primeng/menu';
-import { ToastModule } from 'primeng/toast';
-import { MenuItem, MessageService } from 'primeng/api';
+import { MenuModule } from '@openng/optimus-ui/menu';
+import { ToastModule } from '@openng/optimus-ui/toast';
+import { MenuItem, MessageService } from '@openng/optimus-ui/api';
 
 @Component({
     template: `
@@ -96,8 +96,8 @@ Menu supports one level of nesting by defining children with items property.
 
 ```typescript
 import { Component, OnInit, inject } from '@angular/core';
-import { MenuModule } from 'primeng/menu';
-import { MenuItem, MessageService } from 'primeng/api';
+import { MenuModule } from '@openng/optimus-ui/menu';
+import { MenuItem, MessageService } from '@openng/optimus-ui/api';
 
 @Component({
     template: `
@@ -152,9 +152,9 @@ Popup mode is enabled by setting popup property to true and calling toggle metho
 
 ```typescript
 import { Component, OnInit, inject } from '@angular/core';
-import { ButtonModule } from 'primeng/button';
-import { MenuModule } from 'primeng/menu';
-import { MenuItem, MessageService } from 'primeng/api';
+import { ButtonModule } from '@openng/optimus-ui/button';
+import { MenuModule } from '@openng/optimus-ui/menu';
+import { MenuItem, MessageService } from '@openng/optimus-ui/api';
 
 @Component({
     template: `
@@ -197,8 +197,8 @@ Menu items support navigation via routerLink, programmatic routing using command
 
 ```typescript
 import { Component, OnInit } from '@angular/core';
-import { MenuModule } from 'primeng/menu';
-import { MenuItem } from 'primeng/api';
+import { MenuModule } from '@openng/optimus-ui/menu';
+import { MenuItem } from '@openng/optimus-ui/api';
 
 @Component({
     template: `
@@ -247,11 +247,11 @@ Menu offers item customization with the item template that receives the menuitem
 
 ```typescript
 import { Component, OnInit } from '@angular/core';
-import { AvatarModule } from 'primeng/avatar';
-import { BadgeModule } from 'primeng/badge';
-import { Menu, MenuModule } from 'primeng/menu';
-import { RippleModule } from 'primeng/ripple';
-import { MenuItem } from 'primeng/api';
+import { AvatarModule } from '@openng/optimus-ui/avatar';
+import { BadgeModule } from '@openng/optimus-ui/badge';
+import { Menu, MenuModule } from '@openng/optimus-ui/menu';
+import { RippleModule } from '@openng/optimus-ui/ripple';
+import { MenuItem } from '@openng/optimus-ui/api';
 
 @Component({
     template: `

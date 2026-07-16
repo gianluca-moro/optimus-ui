@@ -13,7 +13,7 @@ SelectButton requires a value to bind and a collection of options.
 ```typescript
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { SelectButtonModule } from 'primeng/selectbutton';
+import { SelectButtonModule } from '@openng/optimus-ui/selectbutton';
 
 @Component({
     template: `
@@ -37,7 +37,7 @@ When disabled is present, the element cannot be edited and focused entirely. Cer
 ```typescript
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { SelectButtonModule } from 'primeng/selectbutton';
+import { SelectButtonModule } from '@openng/optimus-ui/selectbutton';
 
 @Component({
     template: `
@@ -64,7 +64,7 @@ The fluid prop makes the component take up the full width of its container when 
 ```typescript
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { SelectButtonModule } from 'primeng/selectbutton';
+import { SelectButtonModule } from '@openng/optimus-ui/selectbutton';
 
 @Component({
     template: `
@@ -88,7 +88,7 @@ The invalid state is applied using the ⁠invalid property to indicate failed va
 ```typescript
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { SelectButtonModule } from 'primeng/selectbutton';
+import { SelectButtonModule } from '@openng/optimus-ui/selectbutton';
 
 @Component({
     template: `
@@ -112,7 +112,7 @@ SelectButton allows selecting only one item by default and setting multiple opti
 ```typescript
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { SelectButtonModule } from 'primeng/selectbutton';
+import { SelectButtonModule } from '@openng/optimus-ui/selectbutton';
 
 @Component({
     template: `
@@ -136,11 +136,11 @@ SelectButton can also be used with reactive forms. In this case, the formControl
 ```typescript
 import { Component, inject } from '@angular/core';
 import { ReactiveFormsModule } from '@angular/forms';
-import { MessageModule } from 'primeng/message';
-import { SelectButtonModule } from 'primeng/selectbutton';
-import { ToastModule } from 'primeng/toast';
-import { ButtonModule } from 'primeng/button';
-import { MessageService } from 'primeng/api';
+import { MessageModule } from '@openng/optimus-ui/message';
+import { SelectButtonModule } from '@openng/optimus-ui/selectbutton';
+import { ToastModule } from '@openng/optimus-ui/toast';
+import { ButtonModule } from '@openng/optimus-ui/button';
+import { MessageService } from '@openng/optimus-ui/api';
 
 @Component({
     template: `
@@ -195,7 +195,7 @@ SelectButton provides small and large sizes as alternatives to the base.
 ```typescript
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { SelectButtonModule } from 'primeng/selectbutton';
+import { SelectButtonModule } from '@openng/optimus-ui/selectbutton';
 
 @Component({
     template: `
@@ -223,7 +223,7 @@ For custom content support define a template named item where the default local 
 ```typescript
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { SelectButtonModule } from 'primeng/selectbutton';
+import { SelectButtonModule } from '@openng/optimus-ui/selectbutton';
 
 @Component({
     template: `
@@ -249,11 +249,11 @@ export class SelectbuttonTemplateDemo {
 ```typescript
 import { Component, inject } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { MessageModule } from 'primeng/message';
-import { SelectButtonModule } from 'primeng/selectbutton';
-import { ToastModule } from 'primeng/toast';
-import { ButtonModule } from 'primeng/button';
-import { MessageService } from 'primeng/api';
+import { MessageModule } from '@openng/optimus-ui/message';
+import { SelectButtonModule } from '@openng/optimus-ui/selectbutton';
+import { ToastModule } from '@openng/optimus-ui/toast';
+import { ButtonModule } from '@openng/optimus-ui/button';
+import { MessageService } from '@openng/optimus-ui/api';
 
 @Component({
     template: `

@@ -952,7 +952,7 @@ function generateExtFilesFromDomainTypes(content) {
 // Detect services from component file
 function detectServices(content) {
     const services = [];
-    const OptimusServices = [];
+    const optimusServices = [];
 
     // Method 1: Look for imports from @/service/*
     const serviceImportMatches = content.matchAll(/import\s*\{\s*([^}]+)\s*\}\s*from\s*['"`]@\/service\/[^'"`]+['"`]/g);
@@ -1295,7 +1295,7 @@ function parseDocFile(filePath, componentDir) {
             services,
             optimusServices, // Add Optimus UI API services to metadata
             extFiles,
-            imports: detectoptimusModules(demoContent)
+            imports: detectOptimusModules(demoContent)
         }
     };
 }

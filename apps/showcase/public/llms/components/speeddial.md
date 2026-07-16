@@ -12,9 +12,9 @@ Items can be displayed around the button when type is set to circle . Additional
 
 ```typescript
 import { Component, OnInit, inject } from '@angular/core';
-import { SpeedDialModule } from 'primeng/speeddial';
-import { ToastModule } from 'primeng/toast';
-import { MenuItem, MessageService } from 'primeng/api';
+import { SpeedDialModule } from '@openng/optimus-ui/speeddial';
+import { ToastModule } from '@openng/optimus-ui/toast';
+import { MenuItem, MessageService } from '@openng/optimus-ui/api';
 
 @Component({
     template: `
@@ -73,9 +73,9 @@ SpeedDial items are defined with the model property based on MenuModel API. Defa
 
 ```typescript
 import { Component, OnInit, inject } from '@angular/core';
-import { SpeedDialModule } from 'primeng/speeddial';
-import { ToastModule } from 'primeng/toast';
-import { MenuItem, MessageService } from 'primeng/api';
+import { SpeedDialModule } from '@openng/optimus-ui/speeddial';
+import { ToastModule } from '@openng/optimus-ui/toast';
+import { MenuItem, MessageService } from '@openng/optimus-ui/api';
 
 @Component({
     template: `
@@ -137,9 +137,9 @@ Adding mask property displays a modal layer behind the popup items.
 
 ```typescript
 import { Component, OnInit, inject } from '@angular/core';
-import { SpeedDialModule } from 'primeng/speeddial';
-import { ToastModule } from 'primeng/toast';
-import { MenuItem, MessageService } from 'primeng/api';
+import { SpeedDialModule } from '@openng/optimus-ui/speeddial';
+import { ToastModule } from '@openng/optimus-ui/toast';
+import { MenuItem, MessageService } from '@openng/optimus-ui/api';
 
 @Component({
     template: `
@@ -198,9 +198,9 @@ When type is defined as quarter-circle , items are displayed in a half-circle ar
 
 ```typescript
 import { Component, OnInit, inject } from '@angular/core';
-import { SpeedDialModule } from 'primeng/speeddial';
-import { ToastModule } from 'primeng/toast';
-import { MenuItem, MessageService } from 'primeng/api';
+import { SpeedDialModule } from '@openng/optimus-ui/speeddial';
+import { ToastModule } from '@openng/optimus-ui/toast';
+import { MenuItem, MessageService } from '@openng/optimus-ui/api';
 
 @Component({
     template: `
@@ -262,9 +262,9 @@ When type is defined as semi-circle , items are displayed in a half-circle aroun
 
 ```typescript
 import { Component, OnInit, inject } from '@angular/core';
-import { SpeedDialModule } from 'primeng/speeddial';
-import { ToastModule } from 'primeng/toast';
-import { MenuItem, MessageService } from 'primeng/api';
+import { SpeedDialModule } from '@openng/optimus-ui/speeddial';
+import { ToastModule } from '@openng/optimus-ui/toast';
+import { MenuItem, MessageService } from '@openng/optimus-ui/api';
 
 @Component({
     template: `
@@ -326,10 +326,10 @@ SpeedDial offers item customization with the item template that receives the men
 
 ```typescript
 import { Component, OnInit, inject } from '@angular/core';
-import { ButtonModule } from 'primeng/button';
-import { SpeedDialModule } from 'primeng/speeddial';
-import { ToastModule } from 'primeng/toast';
-import { MenuItem, MessageService } from 'primeng/api';
+import { ButtonModule } from '@openng/optimus-ui/button';
+import { SpeedDialModule } from '@openng/optimus-ui/speeddial';
+import { ToastModule } from '@openng/optimus-ui/toast';
+import { MenuItem, MessageService } from '@openng/optimus-ui/api';
 
 @Component({
     template: `
@@ -438,9 +438,9 @@ Items display a tooltip on hover when a standalone Tooltip is present with a tar
 
 ```typescript
 import { Component, OnInit, inject } from '@angular/core';
-import { SpeedDialModule } from 'primeng/speeddial';
-import { ToastModule } from 'primeng/toast';
-import { MenuItem, MessageService } from 'primeng/api';
+import { SpeedDialModule } from '@openng/optimus-ui/speeddial';
+import { ToastModule } from '@openng/optimus-ui/toast';
+import { MenuItem, MessageService } from '@openng/optimus-ui/api';
 
 @Component({
     template: `

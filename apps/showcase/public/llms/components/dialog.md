@@ -12,9 +12,9 @@ Dialog is used as a container and visibility is controlled with visible property
 
 ```typescript
 import { Component } from '@angular/core';
-import { ButtonModule } from 'primeng/button';
-import { DialogModule } from 'primeng/dialog';
-import { InputTextModule } from 'primeng/inputtext';
+import { ButtonModule } from '@openng/optimus-ui/button';
+import { DialogModule } from '@openng/optimus-ui/dialog';
+import { InputTextModule } from '@openng/optimus-ui/inputtext';
 
 @Component({
     template: `
@@ -55,9 +55,9 @@ Headless mode allows you to customize the entire user interface instead of the d
 
 ```typescript
 import { Component } from '@angular/core';
-import { ButtonModule } from 'primeng/button';
-import { DialogModule } from 'primeng/dialog';
-import { InputTextModule } from 'primeng/inputtext';
+import { ButtonModule } from '@openng/optimus-ui/button';
+import { DialogModule } from '@openng/optimus-ui/dialog';
+import { InputTextModule } from '@openng/optimus-ui/inputtext';
 
 @Component({
     template: `
@@ -134,8 +134,8 @@ Dialog automatically displays a scroller when content exceeds viewport.
 
 ```typescript
 import { Component } from '@angular/core';
-import { ButtonModule } from 'primeng/button';
-import { DialogModule } from 'primeng/dialog';
+import { ButtonModule } from '@openng/optimus-ui/button';
+import { DialogModule } from '@openng/optimus-ui/dialog';
 
 @Component({
     template: `
@@ -195,8 +195,8 @@ Setting maximizable property to true enables the full screen mode.
 
 ```typescript
 import { Component } from '@angular/core';
-import { ButtonModule } from 'primeng/button';
-import { DialogModule } from 'primeng/dialog';
+import { ButtonModule } from '@openng/optimus-ui/button';
+import { DialogModule } from '@openng/optimus-ui/dialog';
 
 @Component({
     template: `
@@ -228,8 +228,8 @@ Mask layer behind the Dialog can be turned on by setting the modal property to t
 
 ```typescript
 import { Component } from '@angular/core';
-import { ButtonModule } from 'primeng/button';
-import { Dialog, DialogModule } from 'primeng/dialog';
+import { ButtonModule } from '@openng/optimus-ui/button';
+import { Dialog, DialogModule } from '@openng/optimus-ui/dialog';
 
 @Component({
     template: `
@@ -262,9 +262,9 @@ When dialog includes other components with overlays such as dropdown, the overla
 ```typescript
 import { Component, OnInit } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { ButtonModule } from 'primeng/button';
-import { DialogModule } from 'primeng/dialog';
-import { SelectModule } from 'primeng/select';
+import { ButtonModule } from '@openng/optimus-ui/button';
+import { DialogModule } from '@openng/optimus-ui/dialog';
+import { SelectModule } from '@openng/optimus-ui/select';
 
 interface City {
     name: string;
@@ -312,9 +312,9 @@ The position property is used to display a Dialog at all edges and corners of th
 
 ```typescript
 import { Component } from '@angular/core';
-import { ButtonModule } from 'primeng/button';
-import { Dialog, DialogModule } from 'primeng/dialog';
-import { InputTextModule } from 'primeng/inputtext';
+import { ButtonModule } from '@openng/optimus-ui/button';
+import { Dialog, DialogModule } from '@openng/optimus-ui/dialog';
+import { InputTextModule } from '@openng/optimus-ui/inputtext';
 
 @Component({
     template: `
@@ -369,8 +369,8 @@ Dialog width can be adjusted per screen size with the breakpoints option where a
 
 ```typescript
 import { Component } from '@angular/core';
-import { ButtonModule } from 'primeng/button';
-import { Dialog, DialogModule } from 'primeng/dialog';
+import { ButtonModule } from '@openng/optimus-ui/button';
+import { Dialog, DialogModule } from '@openng/optimus-ui/dialog';
 
 @Component({
     template: `
@@ -402,10 +402,10 @@ Dialog can be customized using header and footer templates.
 
 ```typescript
 import { Component } from '@angular/core';
-import { AvatarModule } from 'primeng/avatar';
-import { ButtonModule } from 'primeng/button';
-import { DialogModule } from 'primeng/dialog';
-import { InputTextModule } from 'primeng/inputtext';
+import { AvatarModule } from '@openng/optimus-ui/avatar';
+import { ButtonModule } from '@openng/optimus-ui/button';
+import { DialogModule } from '@openng/optimus-ui/dialog';
+import { InputTextModule } from '@openng/optimus-ui/inputtext';
 
 @Component({
     template: `
@@ -452,9 +452,9 @@ Mask layer behind the Dialog is configured with the modal property. By default, 
 
 ```typescript
 import { Component } from '@angular/core';
-import { ButtonModule } from 'primeng/button';
-import { Dialog, DialogModule } from 'primeng/dialog';
-import { InputTextModule } from 'primeng/inputtext';
+import { ButtonModule } from '@openng/optimus-ui/button';
+import { Dialog, DialogModule } from '@openng/optimus-ui/dialog';
+import { InputTextModule } from '@openng/optimus-ui/inputtext';
 
 @Component({
     template: `
@@ -537,7 +537,7 @@ Dialog is a container to display content in an overlay window.
 | maximizeButtonProps | ButtonProps | ... | Used to pass all properties of the ButtonProps to the Button component. |
 | visible | boolean | - | Specifies the visibility of the dialog. |
 | style | any | - | Inline style of the component. |
-| position | "right" \| "left" \| "top" \| "bottom" \| "center" \| "topleft" \| "bottomleft" \| "topright" \| "bottomright" | - | Position of the dialog. |
+| position | "top" \| "bottom" \| "center" \| "left" \| "right" \| "topleft" \| "bottomleft" \| "topright" \| "bottomright" | - | Position of the dialog. |
 | appendTo | InputSignal<any> | 'self' | Target element to attach the overlay, valid values are "body" or a local ng-template variable of another element (note: use binding with brackets for template variables, e.g. [appendTo]="mydiv" for a div element having #mydiv as variable name). |
 
 ### Emits

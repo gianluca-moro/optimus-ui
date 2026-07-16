@@ -12,8 +12,8 @@ Drawer is used as a container and visibility is controlled with a binding to vis
 
 ```typescript
 import { Component } from '@angular/core';
-import { ButtonModule } from 'primeng/button';
-import { DrawerModule } from 'primeng/drawer';
+import { ButtonModule } from '@openng/optimus-ui/button';
+import { DrawerModule } from '@openng/optimus-ui/drawer';
 
 @Component({
     template: `
@@ -41,8 +41,8 @@ Drawer can cover the whole page when fullScreen property is enabled.
 
 ```typescript
 import { Component } from '@angular/core';
-import { ButtonModule } from 'primeng/button';
-import { DrawerModule } from 'primeng/drawer';
+import { ButtonModule } from '@openng/optimus-ui/button';
+import { DrawerModule } from '@openng/optimus-ui/drawer';
 
 @Component({
     template: `
@@ -70,10 +70,10 @@ Headless mode allows you to customize the entire user interface instead of the d
 
 ```typescript
 import { Component } from '@angular/core';
-import { AvatarModule } from 'primeng/avatar';
-import { ButtonModule } from 'primeng/button';
-import { Drawer, DrawerModule } from 'primeng/drawer';
-import { RippleModule } from 'primeng/ripple';
+import { AvatarModule } from '@openng/optimus-ui/avatar';
+import { ButtonModule } from '@openng/optimus-ui/button';
+import { Drawer, DrawerModule } from '@openng/optimus-ui/drawer';
+import { RippleModule } from '@openng/optimus-ui/ripple';
 
 @Component({
     template: `
@@ -300,8 +300,8 @@ Drawer location is configured with the position property that can take left , ri
 
 ```typescript
 import { Component } from '@angular/core';
-import { ButtonModule } from 'primeng/button';
-import { Drawer, DrawerModule } from 'primeng/drawer';
+import { ButtonModule } from '@openng/optimus-ui/button';
+import { Drawer, DrawerModule } from '@openng/optimus-ui/drawer';
 
 @Component({
     template: `
@@ -355,8 +355,8 @@ Drawer dimension can be defined with style or class properties, this responsive 
 
 ```typescript
 import { Component } from '@angular/core';
-import { ButtonModule } from 'primeng/button';
-import { DrawerModule } from 'primeng/drawer';
+import { ButtonModule } from '@openng/optimus-ui/button';
+import { DrawerModule } from '@openng/optimus-ui/drawer';
 
 @Component({
     template: `
@@ -384,9 +384,9 @@ Drawer is customizable by header , content , footer templates.
 
 ```typescript
 import { Component } from '@angular/core';
-import { AvatarModule } from 'primeng/avatar';
-import { DrawerModule } from 'primeng/drawer';
-import { ButtonModule } from 'primeng/button';
+import { AvatarModule } from '@openng/optimus-ui/avatar';
+import { DrawerModule } from '@openng/optimus-ui/drawer';
+import { ButtonModule } from '@openng/optimus-ui/button';
 
 @Component({
     template: `
@@ -447,7 +447,7 @@ Sidebar is a panel component displayed as an overlay at the edges of the screen.
 | closeOnEscape | boolean | true | Specifies if pressing escape key should hide the drawer. |
 | transitionOptions | string | 150ms cubic-bezier(0, 0, 0.2, 1) | Transition options of the animation. **(Deprecated)** |
 | visible | boolean | - | The visible property is an input that determines the visibility of the component. |
-| position | InputSignal<"right" \| "left" \| "top" \| "bottom" \| "full"> | 'left' | Specifies the position of the drawer, valid values are "left", "right", "bottom" and "top". |
+| position | InputSignal<"top" \| "bottom" \| "left" \| "right" \| "full"> | 'left' | Specifies the position of the drawer, valid values are "left", "right", "bottom" and "top". |
 | fullScreen | InputSignal<boolean> | false | Adds a close icon to the header to hide the dialog. |
 | header | string | - | Title content of the dialog. |
 | maskStyle | { [klass: string]: any } | - | Style of the mask. |

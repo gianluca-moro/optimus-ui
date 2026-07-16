@@ -12,7 +12,7 @@ OrganizationChart requires a collection of TreeNode instances as a value .
 
 ```typescript
 import { Component } from '@angular/core';
-import { TreeNode } from 'primeng/api';
+import { TreeNode } from '@openng/optimus-ui/api';
 
 @Component({
     template: `
@@ -32,7 +32,7 @@ export class OrganizationchartBasicDemo {
 
 ```typescript
 import { Component } from '@angular/core';
-import { TreeNode } from 'primeng/api';
+import { TreeNode } from '@openng/optimus-ui/api';
 
 @Component({
     template: `
@@ -65,7 +65,7 @@ export class OrganizationchartColored.Demo {
 
 ```typescript
 import { Component } from '@angular/core';
-import { TreeNode } from 'primeng/api';
+import { TreeNode } from '@openng/optimus-ui/api';
 
 @Component({
     template: `
@@ -103,7 +103,7 @@ Custom content instead of a node label is defined using the pTemplate property.
 
 ```typescript
 import { Component } from '@angular/core';
-import { TreeNode } from 'primeng/api';
+import { TreeNode } from '@openng/optimus-ui/api';
 
 @Component({
     template: `

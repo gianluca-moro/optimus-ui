@@ -12,7 +12,7 @@ Animation classes are defined with the enterClass and leaveClass properties. Thi
 
 ```typescript
 import { Component } from '@angular/core';
-import { AvatarModule } from 'primeng/avatar';
+import { AvatarModule } from '@openng/optimus-ui/avatar';
 
 @Component({
     template: `

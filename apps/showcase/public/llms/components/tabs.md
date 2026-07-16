@@ -12,7 +12,7 @@ Tabs is defined using TabList , Tab , TabPanels and TabPanel components. Tab and
 
 ```typescript
 import { Component } from '@angular/core';
-import { TabsModule } from 'primeng/tabs';
+import { TabsModule } from '@openng/optimus-ui/tabs';
 
 @Component({
     template: `
@@ -59,8 +59,8 @@ Tabs can be controlled programmatically using value property as a model.
 
 ```typescript
 import { Component } from '@angular/core';
-import { ButtonModule } from 'primeng/button';
-import { TabsModule } from 'primeng/tabs';
+import { ButtonModule } from '@openng/optimus-ui/button';
+import { TabsModule } from '@openng/optimus-ui/tabs';
 
 @Component({
     template: `
@@ -114,9 +114,9 @@ Custom content for a tab is defined with the default ng-content.
 
 ```typescript
 import { Component } from '@angular/core';
-import { AvatarModule } from 'primeng/avatar';
-import { BadgeModule } from 'primeng/badge';
-import { TabsModule } from 'primeng/tabs';
+import { AvatarModule } from '@openng/optimus-ui/avatar';
+import { BadgeModule } from '@openng/optimus-ui/badge';
+import { TabsModule } from '@openng/optimus-ui/tabs';
 
 @Component({
     template: `
@@ -179,7 +179,7 @@ Enabling disabled property of a Tab prevents user interaction.
 
 ```typescript
 import { Component } from '@angular/core';
-import { TabsModule } from 'primeng/tabs';
+import { TabsModule } from '@openng/optimus-ui/tabs';
 
 @Component({
     template: `
@@ -227,7 +227,7 @@ Tabs can be generated dynamically using the standard &#64;for block.
 
 ```typescript
 import { Component, OnInit } from '@angular/core';
-import { TabsModule } from 'primeng/tabs';
+import { TabsModule } from '@openng/optimus-ui/tabs';
 
 @Component({
     template: `
@@ -268,7 +268,7 @@ By default, inactive tab's content is rendered (but hidden). You can use the laz
 
 ```typescript
 import { Component } from '@angular/core';
-import { TabsModule } from 'primeng/tabs';
+import { TabsModule } from '@openng/optimus-ui/tabs';
 
 @Component({
     template: `
@@ -312,7 +312,7 @@ Adding scrollable property displays navigational buttons at each side to scroll 
 
 ```typescript
 import { Component } from '@angular/core';
-import { TabsModule } from 'primeng/tabs';
+import { TabsModule } from '@openng/optimus-ui/tabs';
 
 @Component({
     template: `
@@ -349,7 +349,7 @@ A navigation menu is implemented using tabs without the panels where the content
 
 ```typescript
 import { Component } from '@angular/core';
-import { TabsModule } from 'primeng/tabs';
+import { TabsModule } from '@openng/optimus-ui/tabs';
 
 @Component({
     template: `

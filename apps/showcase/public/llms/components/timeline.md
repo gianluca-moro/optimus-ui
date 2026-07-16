@@ -12,7 +12,7 @@ Content location relative the line is defined with the align property.
 
 ```typescript
 import { Component } from '@angular/core';
-import { TimelineModule } from 'primeng/timeline';
+import { TimelineModule } from '@openng/optimus-ui/timeline';
 
 interface EventItem {
     status?: string;
@@ -65,7 +65,7 @@ Timeline receives the events with the value property as a collection of arbitrar
 
 ```typescript
 import { Component } from '@angular/core';
-import { TimelineModule } from 'primeng/timeline';
+import { TimelineModule } from '@openng/optimus-ui/timeline';
 
 @Component({
     template: `
@@ -100,7 +100,7 @@ TimeLine orientation is controlled with the layout property, default is vertical
 
 ```typescript
 import { Component } from '@angular/core';
-import { TimelineModule } from 'primeng/timeline';
+import { TimelineModule } from '@openng/optimus-ui/timeline';
 
 @Component({
     template: `
@@ -141,7 +141,7 @@ Additional content at the other side of the line can be provided with the opposi
 
 ```typescript
 import { Component } from '@angular/core';
-import { TimelineModule } from 'primeng/timeline';
+import { TimelineModule } from '@openng/optimus-ui/timeline';
 
 interface EventItem {
     status?: string;
@@ -187,9 +187,9 @@ Sample implementation with custom content and styled markers.
 
 ```typescript
 import { Component } from '@angular/core';
-import { ButtonModule } from 'primeng/button';
-import { CardModule } from 'primeng/card';
-import { TimelineModule } from 'primeng/timeline';
+import { ButtonModule } from '@openng/optimus-ui/button';
+import { CardModule } from '@openng/optimus-ui/card';
+import { TimelineModule } from '@openng/optimus-ui/timeline';
 
 interface EventItem {
     status?: string;

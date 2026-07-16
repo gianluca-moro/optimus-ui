@@ -12,7 +12,7 @@ Label of the tag is defined with the value property.
 
 ```typescript
 import { Component } from '@angular/core';
-import { TagModule } from 'primeng/tag';
+import { TagModule } from '@openng/optimus-ui/tag';
 
 @Component({
     template: `
@@ -32,7 +32,7 @@ A font icon next to the value can be displayed with the icon property.
 
 ```typescript
 import { Component } from '@angular/core';
-import { TagModule } from 'primeng/tag';
+import { TagModule } from '@openng/optimus-ui/tag';
 
 @Component({
     template: `
@@ -58,7 +58,7 @@ Enabling rounded , displays a tag as a pill.
 
 ```typescript
 import { Component } from '@angular/core';
-import { TagModule } from 'primeng/tag';
+import { TagModule } from '@openng/optimus-ui/tag';
 
 @Component({
     template: `
@@ -84,7 +84,7 @@ Severity defines the color of the tag, possible values are success , info , warn
 
 ```typescript
 import { Component } from '@angular/core';
-import { TagModule } from 'primeng/tag';
+import { TagModule } from '@openng/optimus-ui/tag';
 
 @Component({
     template: `
@@ -110,7 +110,7 @@ Children of the component are passed as the content for templating.
 
 ```typescript
 import { Component } from '@angular/core';
-import { TagModule } from 'primeng/tag';
+import { TagModule } from '@openng/optimus-ui/tag';
 import { Country } from '@/domain/customer';
 
 @Component({

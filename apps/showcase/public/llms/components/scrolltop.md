@@ -12,7 +12,7 @@ ScrollTop listens window scroll by default.
 
 ```typescript
 import { Component } from '@angular/core';
-import { ScrollTopModule } from 'primeng/scrolltop';
+import { ScrollTopModule } from '@openng/optimus-ui/scrolltop';
 
 @Component({
     template: `
@@ -34,7 +34,7 @@ Setting the target property to parent binds ScrollTop to its parent element that
 
 ```typescript
 import { Component } from '@angular/core';
-import { ScrollTopModule } from 'primeng/scrolltop';
+import { ScrollTopModule } from '@openng/optimus-ui/scrolltop';
 
 @Component({
     template: `

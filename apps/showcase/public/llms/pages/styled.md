@@ -100,12 +100,12 @@ The theme property is used to customize the initial theme.
 
 ```typescript
 import { ApplicationConfig } from '@angular/core';
-import { providePrimeNG } from 'primeng/config';
+import { provideOptimus } from '@openng/optimus-ui/config';
 import Aura from '@openng/optimus-ui-themes/aura';
 
 export const appConfig: ApplicationConfig = {
     providers: [
-        providePrimeNG({
+        provideOptimus({
             theme: {
                 preset: Aura
             }

@@ -12,7 +12,7 @@ ScrollPanel is defined using dimensions for the scrollable viewport.
 
 ```typescript
 import { Component } from '@angular/core';
-import { ScrollPanelModule } from 'primeng/scrollpanel';
+import { ScrollPanelModule } from '@openng/optimus-ui/scrollpanel';
 
 @Component({
     template: `
@@ -45,7 +45,7 @@ Scrollbar visuals can be styled for a unified look across different platforms.
 
 ```typescript
 import { Component } from '@angular/core';
-import { ScrollPanelModule } from 'primeng/scrollpanel';
+import { ScrollPanelModule } from '@openng/optimus-ui/scrollpanel';
 
 @Component({
     template: `

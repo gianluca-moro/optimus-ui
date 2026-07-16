@@ -16,11 +16,11 @@ Dynamic dialogs require an instance of a DialogService that is responsible for d
 
 ```typescript
 import { Component, inject } from '@angular/core';
-import { ButtonModule } from 'primeng/button';
-import { ToastModule } from 'primeng/toast';
-import { MessageService, DialogService } from 'primeng/api';
+import { ButtonModule } from '@openng/optimus-ui/button';
+import { ToastModule } from '@openng/optimus-ui/toast';
+import { MessageService, DialogService } from '@openng/optimus-ui/api';
 import { Product } from '@/domain/product';
-import { Dialog } from 'primeng/dialog';
+import { Dialog } from '@openng/optimus-ui/dialog';
 
 @Component({
     template: `

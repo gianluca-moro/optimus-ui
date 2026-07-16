@@ -12,8 +12,8 @@ Galleria can be extended further to implement complex requirements.
 
 ```typescript
 import { Component, OnInit, inject, signal } from '@angular/core';
-import { GalleriaModule } from 'primeng/galleria';
-import { ButtonModule } from 'primeng/button';
+import { GalleriaModule } from '@openng/optimus-ui/galleria';
+import { ButtonModule } from '@openng/optimus-ui/button';
 import { PhotoService } from '@/service/photoservice';
 
 @Component({
@@ -185,7 +185,7 @@ A slideshow implementation is defined by adding circular and autoPlay properties
 
 ```typescript
 import { Component, OnInit, inject } from '@angular/core';
-import { GalleriaModule } from 'primeng/galleria';
+import { GalleriaModule } from '@openng/optimus-ui/galleria';
 import { PhotoService } from '@/service/photoservice';
 
 @Component({
@@ -222,7 +222,7 @@ Galleria requires a value as a collection of images, item template for the highe
 
 ```typescript
 import { Component, OnInit, inject } from '@angular/core';
-import { GalleriaModule } from 'primeng/galleria';
+import { GalleriaModule } from '@openng/optimus-ui/galleria';
 import { PhotoService } from '@/service/photoservice';
 
 @Component({
@@ -259,7 +259,7 @@ Description of an image is specified with the caption template.
 
 ```typescript
 import { Component, OnInit, inject } from '@angular/core';
-import { GalleriaModule } from 'primeng/galleria';
+import { GalleriaModule } from '@openng/optimus-ui/galleria';
 import { PhotoService } from '@/service/photoservice';
 
 @Component({
@@ -300,8 +300,8 @@ Galleria can be controlled programmatically using the activeIndex property.
 
 ```typescript
 import { Component, OnInit, inject } from '@angular/core';
-import { ButtonModule } from 'primeng/button';
-import { GalleriaModule } from 'primeng/galleria';
+import { ButtonModule } from '@openng/optimus-ui/button';
+import { GalleriaModule } from '@openng/optimus-ui/galleria';
 import { PhotoService } from '@/service/photoservice';
 
 @Component({
@@ -351,7 +351,7 @@ Galleria responsiveness is defined with the responsiveOptions property.
 
 ```typescript
 import { Component, OnInit, inject } from '@angular/core';
-import { GalleriaModule } from 'primeng/galleria';
+import { GalleriaModule } from '@openng/optimus-ui/galleria';
 import { PhotoService } from '@/service/photoservice';
 
 @Component({
@@ -389,8 +389,8 @@ Galleria can be controlled programmatically using the activeIndex property.
 ```typescript
 import { Component, OnInit, inject, signal } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { GalleriaModule } from 'primeng/galleria';
-import { RadioButtonModule } from 'primeng/radiobutton';
+import { GalleriaModule } from '@openng/optimus-ui/galleria';
+import { RadioButtonModule } from '@openng/optimus-ui/radiobutton';
 import { PhotoService } from '@/service/photoservice';
 
 @Component({
@@ -457,11 +457,11 @@ Galleria is an advanced content gallery component.
 | shouldStopAutoplayByClick | boolean | true | When enabled, autorun should stop by click. |
 | transitionInterval | number | 4000 | Time in milliseconds to scroll items. |
 | showThumbnails | boolean | true | Whether to display thumbnail container. |
-| thumbnailsPosition | "right" \| "left" \| "top" \| "bottom" | bottom | Position of thumbnails. |
+| thumbnailsPosition | "top" \| "bottom" \| "left" \| "right" | bottom | Position of thumbnails. |
 | verticalThumbnailViewPortHeight | string | 300px | Height of the viewport in vertical thumbnail. |
 | showIndicators | boolean | false | Whether to display indicator container. |
 | showIndicatorsOnItem | boolean | false | When enabled, indicator container is displayed on item container. |
-| indicatorsPosition | "right" \| "left" \| "top" \| "bottom" | bottom | Position of indicators. |
+| indicatorsPosition | "top" \| "bottom" \| "left" \| "right" | bottom | Position of indicators. |
 | baseZIndex | number | 0 | Base zIndex value to use in layering. |
 | maskClass | string | - | Style class of the mask on fullscreen mode. |
 | containerClass | string | - | Style class of the component on fullscreen mode. Otherwise, the 'class' property can be used. |

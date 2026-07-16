@@ -13,9 +13,9 @@ TreeSelect is used as a controlled component with ng-model directive along with 
 ```typescript
 import { Component, OnInit, inject } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { TreeSelectModule } from 'primeng/treeselect';
+import { TreeSelectModule } from '@openng/optimus-ui/treeselect';
 import { NodeService } from '@/service/nodeservice';
-import { TreeNode } from 'primeng/api';
+import { TreeNode } from '@openng/optimus-ui/api';
 
 @Component({
     template: `
@@ -48,7 +48,7 @@ Selection of multiple nodes via checkboxes is enabled by configuring selectionMo
 ```typescript
 import { Component, OnInit, inject } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { TreeSelectModule } from 'primeng/treeselect';
+import { TreeSelectModule } from '@openng/optimus-ui/treeselect';
 import { NodeService } from '@/service/nodeservice';
 
 @Component({
@@ -82,7 +82,7 @@ When showClear is enabled, a clear icon is displayed to clear the value.
 ```typescript
 import { Component, OnInit, inject } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { TreeSelectModule } from 'primeng/treeselect';
+import { TreeSelectModule } from '@openng/optimus-ui/treeselect';
 import { NodeService } from '@/service/nodeservice';
 
 @Component({
@@ -116,7 +116,7 @@ When disabled is present, the element cannot be edited and focused.
 ```typescript
 import { Component, OnInit, inject } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { TreeSelectModule } from 'primeng/treeselect';
+import { TreeSelectModule } from '@openng/optimus-ui/treeselect';
 import { NodeService } from '@/service/nodeservice';
 
 @Component({
@@ -150,7 +150,7 @@ Specify the variant property as filled to display the component with a higher vi
 ```typescript
 import { Component, OnInit, inject } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { TreeSelectModule } from 'primeng/treeselect';
+import { TreeSelectModule } from '@openng/optimus-ui/treeselect';
 import { NodeService } from '@/service/nodeservice';
 
 @Component({
@@ -184,7 +184,7 @@ Filtering is enabled by adding the filter property, by default label property of
 ```typescript
 import { Component, OnInit, inject } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { TreeSelectModule } from 'primeng/treeselect';
+import { TreeSelectModule } from '@openng/optimus-ui/treeselect';
 import { NodeService } from '@/service/nodeservice';
 
 @Component({
@@ -218,8 +218,8 @@ A floating label appears on top of the input field when focused. Visit FloatLabe
 ```typescript
 import { Component, OnInit, inject } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { FloatLabelModule } from 'primeng/floatlabel';
-import { TreeSelectModule } from 'primeng/treeselect';
+import { FloatLabelModule } from '@openng/optimus-ui/floatlabel';
+import { TreeSelectModule } from '@openng/optimus-ui/treeselect';
 import { NodeService } from '@/service/nodeservice';
 
 @Component({
@@ -266,7 +266,7 @@ The fluid prop makes the component take up the full width of its container when 
 ```typescript
 import { Component, OnInit, inject } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { TreeSelectModule } from 'primeng/treeselect';
+import { TreeSelectModule } from '@openng/optimus-ui/treeselect';
 import { NodeService } from '@/service/nodeservice';
 
 @Component({
@@ -300,8 +300,8 @@ IftaLabel is used to create infield top aligned labels. Visit IftaLabel document
 ```typescript
 import { Component, OnInit, inject } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { IftaLabelModule } from 'primeng/iftalabel';
-import { TreeSelectModule } from 'primeng/treeselect';
+import { IftaLabelModule } from '@openng/optimus-ui/iftalabel';
+import { TreeSelectModule } from '@openng/optimus-ui/treeselect';
 import { NodeService } from '@/service/nodeservice';
 
 @Component({
@@ -338,7 +338,7 @@ The invalid state is applied using the ⁠invalid property to indicate failed va
 ```typescript
 import { Component, OnInit, inject } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { TreeSelectModule } from 'primeng/treeselect';
+import { TreeSelectModule } from '@openng/optimus-ui/treeselect';
 import { NodeService } from '@/service/nodeservice';
 
 @Component({
@@ -374,8 +374,8 @@ Lazy loading is useful when dealing with huge datasets, in this example nodes ar
 ```typescript
 import { Component, OnInit, signal } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { TreeSelectModule } from 'primeng/treeselect';
-import { TreeNode } from 'primeng/api';
+import { TreeSelectModule } from '@openng/optimus-ui/treeselect';
+import { TreeNode } from '@openng/optimus-ui/api';
 
 @Component({
     template: `
@@ -462,7 +462,7 @@ More than one node is selectable by setting selectionMode to multiple . By defau
 ```typescript
 import { Component, OnInit, inject } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { TreeSelectModule } from 'primeng/treeselect';
+import { TreeSelectModule } from '@openng/optimus-ui/treeselect';
 import { NodeService } from '@/service/nodeservice';
 
 @Component({
@@ -496,12 +496,12 @@ TreeSelect can also be used with reactive forms. In this case, the formControlNa
 ```typescript
 import { Component, OnInit, inject } from '@angular/core';
 import { ReactiveFormsModule } from '@angular/forms';
-import { MessageModule } from 'primeng/message';
-import { ToastModule } from 'primeng/toast';
-import { TreeSelectModule } from 'primeng/treeselect';
-import { ButtonModule } from 'primeng/button';
+import { MessageModule } from '@openng/optimus-ui/message';
+import { ToastModule } from '@openng/optimus-ui/toast';
+import { TreeSelectModule } from '@openng/optimus-ui/treeselect';
+import { ButtonModule } from '@openng/optimus-ui/button';
 import { NodeService } from '@/service/nodeservice';
-import { MessageService } from 'primeng/api';
+import { MessageService } from '@openng/optimus-ui/api';
 
 @Component({
     template: `
@@ -562,7 +562,7 @@ TreeSelect provides small and large sizes as alternatives to the base.
 ```typescript
 import { Component, OnInit, inject } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { TreeSelectModule } from 'primeng/treeselect';
+import { TreeSelectModule } from '@openng/optimus-ui/treeselect';
 import { NodeService } from '@/service/nodeservice';
 
 @Component({
@@ -600,8 +600,8 @@ TreeSelect offers multiple templates for customization through templating.
 ```typescript
 import { Component, OnInit, inject } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { ButtonModule } from 'primeng/button';
-import { TreeSelectModule } from 'primeng/treeselect';
+import { ButtonModule } from '@openng/optimus-ui/button';
+import { TreeSelectModule } from '@openng/optimus-ui/treeselect';
 import { NodeService } from '@/service/nodeservice';
 
 @Component({
@@ -646,12 +646,12 @@ export class TreeselectTemplateDemo implements OnInit {
 ```typescript
 import { Component, OnInit, inject } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { MessageModule } from 'primeng/message';
-import { ToastModule } from 'primeng/toast';
-import { TreeSelectModule } from 'primeng/treeselect';
-import { ButtonModule } from 'primeng/button';
+import { MessageModule } from '@openng/optimus-ui/message';
+import { ToastModule } from '@openng/optimus-ui/toast';
+import { TreeSelectModule } from '@openng/optimus-ui/treeselect';
+import { ButtonModule } from '@openng/optimus-ui/button';
 import { NodeService } from '@/service/nodeservice';
-import { MessageService } from 'primeng/api';
+import { MessageService } from '@openng/optimus-ui/api';
 
 @Component({
     template: `
@@ -701,7 +701,7 @@ VirtualScrolling is an efficient way of rendering the options by displaying a sm
 ```typescript
 import { Component, OnInit, inject } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { TreeSelectModule } from 'primeng/treeselect';
+import { TreeSelectModule } from '@openng/optimus-ui/treeselect';
 import { NodeService } from '@/service/nodeservice';
 
 @Component({
@@ -772,7 +772,7 @@ TreeSelect is a form component to choose from hierarchical data.
 | labelStyle | { [klass: string]: any } | - | Inline style of the label element. |
 | labelStyleClass | string | - | Style class of the label element. |
 | overlayOptions | OverlayOptions | - | Specifies the options for the overlay. |
-| emptyMessage | string | - | Text to display when there are no options available. Defaults to value from PrimeNG locale configuration. |
+| emptyMessage | string | - | Text to display when there are no options available. Defaults to value from Optimus locale configuration. |
 | filter | boolean | false | When specified, displays an input field to filter the items. |
 | filterBy | string | label | When filtering is enabled, filterBy decides which field or fields (comma separated) to search against. |
 | filterMode | string | lenient | Mode for filtering valid values are "lenient" and "strict". Default is lenient. |
@@ -789,7 +789,7 @@ TreeSelect is a form component to choose from hierarchical data.
 | autofocus | boolean | false | When present, it specifies that the component should automatically get focus on load. |
 | options | TreeNode<any>[] | - | An array of treenodes. |
 | loading | boolean | false | Displays a loader to indicate data load is in progress. |
-| loadingMode | "icon" \| "mask" | mask | Loading mode display. |
+| loadingMode | "mask" \| "icon" | mask | Loading mode display. |
 | size | InputSignal<"small" \| "large"> | undefined | Specifies the size of the component. |
 | variant | InputSignal<"outlined" \| "filled"> | undefined | Specifies the input variant of the component. |
 | fluid | InputSignalWithTransform<boolean, unknown> | undefined | Spans 100% width of the container when enabled. |

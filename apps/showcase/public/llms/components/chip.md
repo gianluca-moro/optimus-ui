@@ -12,7 +12,7 @@ A basic chip with a text is created with the label property. In addition when re
 
 ```typescript
 import { Component } from '@angular/core';
-import { ChipModule } from 'primeng/chip';
+import { ChipModule } from '@openng/optimus-ui/chip';
 
 @Component({
     template: `
@@ -35,7 +35,7 @@ A font icon next to the label can be displayed with the icon property.
 
 ```typescript
 import { Component } from '@angular/core';
-import { ChipModule } from 'primeng/chip';
+import { ChipModule } from '@openng/optimus-ui/chip';
 
 @Component({
     template: `
@@ -58,7 +58,7 @@ The image property is used to display an image like an avatar.
 
 ```typescript
 import { Component } from '@angular/core';
-import { ChipModule } from 'primeng/chip';
+import { ChipModule } from '@openng/optimus-ui/chip';
 
 @Component({
     template: `
@@ -81,7 +81,7 @@ Content can easily be customized with the dynamic content instead of using the b
 
 ```typescript
 import { Component } from '@angular/core';
-import { ChipModule } from 'primeng/chip';
+import { ChipModule } from '@openng/optimus-ui/chip';
 
 @Component({
     template: `

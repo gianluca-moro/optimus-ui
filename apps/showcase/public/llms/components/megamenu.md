@@ -12,9 +12,9 @@ MegaMenu requires a collection of menuitems as its model .
 
 ```typescript
 import { Component, OnInit } from '@angular/core';
-import { MegaMenuModule } from 'primeng/megamenu';
-import { MegaMenuItem } from 'primeng/api';
-import { Table } from 'primeng/table';
+import { MegaMenuModule } from '@openng/optimus-ui/megamenu';
+import { MegaMenuItem } from '@openng/optimus-ui/api';
+import { Table } from '@openng/optimus-ui/table';
 
 @Component({
     template: `
@@ -139,8 +139,8 @@ Menu items support navigation via routerLink, programmatic routing using command
 
 ```typescript
 import { Component, OnInit } from '@angular/core';
-import { MegaMenuModule } from 'primeng/megamenu';
-import { MegaMenuItem } from 'primeng/api';
+import { MegaMenuModule } from '@openng/optimus-ui/megamenu';
+import { MegaMenuItem } from '@openng/optimus-ui/api';
 
 @Component({
     template: `
@@ -163,10 +163,7 @@ export class MegamenuRouterDemo implements OnInit {
                     [
                         {
                             label: 'RouterLink',
-                            items: [
-                                { label: 'Theming', routerLink: '/theming' },
-                                { label: 'UI Kit', routerLink: '/uikit' }
-                            ]
+                            items: [{ label: 'Theming', routerLink: '/theming' }]
                         }
                     ]
                 ]
@@ -207,11 +204,11 @@ Custom content can be placed between p-megamenu tags. Megamenu should be horizon
 
 ```typescript
 import { Component, OnInit } from '@angular/core';
-import { AvatarModule } from 'primeng/avatar';
-import { ButtonModule } from 'primeng/button';
-import { MegaMenuModule } from 'primeng/megamenu';
-import { RippleModule } from 'primeng/ripple';
-import { MegaMenuItem } from 'primeng/api';
+import { AvatarModule } from '@openng/optimus-ui/avatar';
+import { ButtonModule } from '@openng/optimus-ui/button';
+import { MegaMenuModule } from '@openng/optimus-ui/megamenu';
+import { RippleModule } from '@openng/optimus-ui/ripple';
+import { MegaMenuItem } from '@openng/optimus-ui/api';
 
 @Component({
     template: `
@@ -312,17 +309,6 @@ export class MegamenuTemplateDemo implements OnInit {
                                 { label: 'Investors', icon: 'pi pi-globe', subtext: 'Subtext of item' }
                             ]
                         }
-                    ],
-                    [
-                        {
-                            items: [
-                                {
-                                    image: 'https://primefaces.org/cdn/primeng/images/uikit/uikit-system.png',
-                                    label: 'GET STARTED',
-                                    subtext: 'Build spectacular apps in no time.'
-                                }
-                            ]
-                        }
                     ]
                 ]
             },
@@ -345,10 +331,10 @@ Layout of the MegaMenu is changed with the orientation property that accepts hor
 
 ```typescript
 import { Component, OnInit } from '@angular/core';
-import { MegaMenu, MegaMenuModule } from 'primeng/megamenu';
-import { MegaMenuItem } from 'primeng/api';
-import { Table } from 'primeng/table';
-import { MegaMenu } from 'primeng/megamenu';
+import { MegaMenu, MegaMenuModule } from '@openng/optimus-ui/megamenu';
+import { MegaMenuItem } from '@openng/optimus-ui/api';
+import { Table } from '@openng/optimus-ui/table';
+import { MegaMenu } from '@openng/optimus-ui/megamenu';
 
 @Component({
     template: `

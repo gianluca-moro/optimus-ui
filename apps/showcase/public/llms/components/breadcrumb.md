@@ -12,8 +12,8 @@ Breadcrumb provides contextual information about page hierarchy.
 
 ```typescript
 import { Component, OnInit } from '@angular/core';
-import { BreadcrumbModule } from 'primeng/breadcrumb';
-import { MenuItem } from 'primeng/api';
+import { BreadcrumbModule } from '@openng/optimus-ui/breadcrumb';
+import { MenuItem } from '@openng/optimus-ui/api';
 
 @Component({
     template: `
@@ -41,8 +41,8 @@ Menu items support navigation via routerLink, programmatic routing using command
 
 ```typescript
 import { Component } from '@angular/core';
-import { BreadcrumbModule } from 'primeng/breadcrumb';
-import { MenuItem } from 'primeng/api';
+import { BreadcrumbModule } from '@openng/optimus-ui/breadcrumb';
+import { MenuItem } from '@openng/optimus-ui/api';
 
 @Component({
     template: `
@@ -65,8 +65,8 @@ Custom content can be placed inside the items using the item template. The divid
 
 ```typescript
 import { Component, OnInit } from '@angular/core';
-import { BreadcrumbModule } from 'primeng/breadcrumb';
-import { MenuItem } from 'primeng/api';
+import { BreadcrumbModule } from '@openng/optimus-ui/breadcrumb';
+import { MenuItem } from '@openng/optimus-ui/api';
 
 @Component({
     template: `
@@ -135,7 +135,7 @@ Breadcrumb provides contextual information about page hierarchy.
 | homeItem | PassThroughOption<HTMLLIElement, I> | Used to pass attributes to the home item's DOM element. |
 | item | PassThroughOption<HTMLLIElement, I> | Used to pass attributes to the item's DOM element. |
 | itemLink | PassThroughOption<HTMLAnchorElement, I> | Used to pass attributes to the item link's DOM element. |
-| itemIcon | PassThroughOption<HTMLSpanElement \| SVGElement, I> | Used to pass attributes to the item icon's DOM element. |
+| itemIcon | PassThroughOption<SVGElement \| HTMLSpanElement, I> | Used to pass attributes to the item icon's DOM element. |
 | itemLabel | PassThroughOption<HTMLSpanElement, I> | Used to pass attributes to the item label's DOM element. |
 | separator | PassThroughOption<HTMLLIElement, I> | Used to pass attributes to the separator's DOM element. |
 | separatorIcon | PassThroughOption<SVGElement, I> | Used to pass attributes to the separator icon's DOM element. |

@@ -8,7 +8,7 @@ AutoFocus is applied to any focusable input element with the pAutoFocus directiv
 
 ```typescript
 import { Component } from '@angular/core';
-import { InputTextModule } from 'primeng/inputtext';
+import { InputTextModule } from '@openng/optimus-ui/inputtext';
 
 @Component({
     template: `

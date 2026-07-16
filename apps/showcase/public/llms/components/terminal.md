@@ -12,7 +12,7 @@ Commands are processed using observables via the TerminalService . Import this s
 
 ```typescript
 import { Component } from '@angular/core';
-import { TerminalModule } from 'primeng/terminal';
+import { TerminalModule } from '@openng/optimus-ui/terminal';
 
 @Component({
     template: `

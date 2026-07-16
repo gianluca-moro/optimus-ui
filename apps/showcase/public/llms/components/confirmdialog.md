@@ -12,10 +12,10 @@ ConfirmDialog is defined using p-confirmdialog tag and an instance of Confirmati
 
 ```typescript
 import { Component, inject } from '@angular/core';
-import { ButtonModule } from 'primeng/button';
-import { ConfirmDialogModule } from 'primeng/confirmdialog';
-import { ToastModule } from 'primeng/toast';
-import { MessageService, ConfirmationService } from 'primeng/api';
+import { ButtonModule } from '@openng/optimus-ui/button';
+import { ConfirmDialogModule } from '@openng/optimus-ui/confirmdialog';
+import { ToastModule } from '@openng/optimus-ui/toast';
+import { MessageService, ConfirmationService } from '@openng/optimus-ui/api';
 
 @Component({
     template: `
@@ -68,10 +68,10 @@ Headless mode allows you to customize the entire user interface instead of the d
 
 ```typescript
 import { Component, inject } from '@angular/core';
-import { ButtonModule } from 'primeng/button';
-import { ConfirmDialogModule } from 'primeng/confirmdialog';
-import { ToastModule } from 'primeng/toast';
-import { MessageService, ConfirmationService } from 'primeng/api';
+import { ButtonModule } from '@openng/optimus-ui/button';
+import { ConfirmDialogModule } from '@openng/optimus-ui/confirmdialog';
+import { ToastModule } from '@openng/optimus-ui/toast';
+import { MessageService, ConfirmationService } from '@openng/optimus-ui/api';
 
 @Component({
     template: `
@@ -113,11 +113,11 @@ The position property of the confirm options is used to display a Dialog at all 
 
 ```typescript
 import { Component, inject } from '@angular/core';
-import { ButtonModule } from 'primeng/button';
-import { ConfirmDialogModule } from 'primeng/confirmdialog';
-import { ToastModule } from 'primeng/toast';
-import { MessageService, ConfirmationService } from 'primeng/api';
-import { Dialog } from 'primeng/dialog';
+import { ButtonModule } from '@openng/optimus-ui/button';
+import { ConfirmDialogModule } from '@openng/optimus-ui/confirmdialog';
+import { ToastModule } from '@openng/optimus-ui/toast';
+import { MessageService, ConfirmationService } from '@openng/optimus-ui/api';
+import { Dialog } from '@openng/optimus-ui/dialog';
 
 @Component({
     template: `
@@ -156,10 +156,10 @@ Properties of the dialog are defined in two ways, message , icon , header proper
 
 ```typescript
 import { Component, inject } from '@angular/core';
-import { ButtonModule } from 'primeng/button';
-import { ConfirmDialogModule } from 'primeng/confirmdialog';
-import { ToastModule } from 'primeng/toast';
-import { MessageService, ConfirmationService } from 'primeng/api';
+import { ButtonModule } from '@openng/optimus-ui/button';
+import { ConfirmDialogModule } from '@openng/optimus-ui/confirmdialog';
+import { ToastModule } from '@openng/optimus-ui/toast';
+import { MessageService, ConfirmationService } from '@openng/optimus-ui/api';
 
 @Component({
     template: `
@@ -228,11 +228,11 @@ ConfirmDialog uses a Dialog UI that is integrated with the Confirmation API.
 | baseZIndex | number | 0 | Base zIndex value to use in layering. |
 | transitionOptions | string | 150ms cubic-bezier(0, 0, 0.2, 1) | Transition options of the animation. |
 | focusTrap | boolean | true | When enabled, can only focus on elements inside the confirm dialog. |
-| defaultFocus | "accept" \| "reject" \| "none" \| "close" | accept | Element to receive the focus when the dialog gets visible. |
+| defaultFocus | "none" \| "close" \| "accept" \| "reject" | accept | Element to receive the focus when the dialog gets visible. |
 | breakpoints | any | - | Object literal to define widths per screen size. |
 | modal | boolean | true | Defines if background should be blocked when dialog is displayed. |
 | visible | any | - | Current visible state as a boolean. |
-| position | "right" \| "left" \| "top" \| "bottom" \| "center" \| "topleft" \| "bottomleft" \| "topright" \| "bottomright" | center | Allows getting the position of the component. |
+| position | "top" \| "bottom" \| "center" \| "left" \| "right" \| "topleft" \| "bottomleft" \| "topright" \| "bottomright" | center | Allows getting the position of the component. |
 | draggable | boolean | true | Enables dragging to change the position using header. |
 
 ### Emits

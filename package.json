@@ -1,15 +1,15 @@
 {
-    "name": "@primeng/monorepo",
+    "name": "@openng/optimus-ui-monorepo",
     "version": "21.1.9",
-    "author": "PrimeTek Informatics",
-    "homepage": "https://primeng.org/",
+    "author": "OpenNg",
+    "homepage": "https://www.openng.org/",
     "repository": {
         "type": "git",
-        "url": "https://github.com/primefaces/primeng.git"
+        "url": "https://github.com/openng-org/optimus-ui.git"
     },
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/primefaces/primeng/issues"
+        "url": "https://github.com/openng-org/optimus-ui/issues"
     },
     "scripts": {
         "setup": "pnpm run clean && pnpm run init",
@@ -43,7 +43,7 @@
         "@angular-eslint/eslint-plugin-template": "catalog:angular21",
         "@angular-eslint/schematics": "catalog:angular21",
         "@angular-eslint/template-parser": "catalog:angular21",
-        "@angular/animations": "21.0.0",
+        "@angular/animations": "catalog:angular21",
         "@angular/cdk": "catalog:angular21",
         "@angular/cli": "catalog:angular21",
         "@angular/common": "catalog:angular21",
@@ -75,7 +75,7 @@
         "husky": "^9.1.6",
         "lint-staged": "^12.0.0",
         "ng-packagr": "catalog:angular21",
-        "pnpm": "^10.28.2",
+        "pnpm": "^11.13.1",
         "prettier": "^3.0.0",
         "tsup": "^8.1.0",
         "typescript": "catalog:angular21"
@@ -83,7 +83,7 @@
     "publishConfig": {
         "access": "public"
     },
-    "packageManager": "pnpm@9.6.0",
+    "packageManager": "pnpm@11.13.1",
     "lint-staged": {
         "packages/**/*.{js,mjs,ts,mts,d.ts,html}": [
             "prettier --write"

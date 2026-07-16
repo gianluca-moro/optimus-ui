@@ -12,7 +12,7 @@ PickList is used as a controlled input with source and target properties. Conten
 
 ```typescript
 import { Component, OnInit, inject, signal } from '@angular/core';
-import { PickListModule } from 'primeng/picklist';
+import { PickListModule } from '@openng/optimus-ui/picklist';
 import { ProductService } from '@/service/productservice';
 import { Product } from '@/domain/product';
 
@@ -49,7 +49,7 @@ Filter value is checked against the property of an object configured with the fi
 
 ```typescript
 import { Component, OnInit, inject, signal } from '@angular/core';
-import { PickListModule } from 'primeng/picklist';
+import { PickListModule } from '@openng/optimus-ui/picklist';
 import { ProductService } from '@/service/productservice';
 import { Product } from '@/domain/product';
 
@@ -110,7 +110,7 @@ For custom content support define an item template that gets the item instance a
 
 ```typescript
 import { Component, OnInit, inject, signal } from '@angular/core';
-import { PickListModule } from 'primeng/picklist';
+import { PickListModule } from '@openng/optimus-ui/picklist';
 import { ProductService } from '@/service/productservice';
 import { Product } from '@/domain/product';
 

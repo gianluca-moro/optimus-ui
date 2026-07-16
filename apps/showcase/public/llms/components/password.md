@@ -13,7 +13,7 @@ Two-way value binding is defined using ngModel .
 ```typescript
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { PasswordModule } from 'primeng/password';
+import { PasswordModule } from '@openng/optimus-ui/password';
 
 @Component({
     template: `
@@ -36,7 +36,7 @@ When showClear is enabled, a clear icon is displayed to clear the value.
 ```typescript
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { PasswordModule } from 'primeng/password';
+import { PasswordModule } from '@openng/optimus-ui/password';
 
 @Component({
     template: `
@@ -59,7 +59,7 @@ When disabled is present, the element cannot be edited and focused.
 ```typescript
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { PasswordModule } from 'primeng/password';
+import { PasswordModule } from '@openng/optimus-ui/password';
 
 @Component({
     template: `
@@ -82,7 +82,7 @@ Specify the variant property as filled to display the component with a higher vi
 ```typescript
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { PasswordModule } from 'primeng/password';
+import { PasswordModule } from '@openng/optimus-ui/password';
 
 @Component({
     template: `
@@ -105,8 +105,8 @@ A floating label appears on top of the input field when focused. Visit FloatLabe
 ```typescript
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { FloatLabelModule } from 'primeng/floatlabel';
-import { PasswordModule } from 'primeng/password';
+import { FloatLabelModule } from '@openng/optimus-ui/floatlabel';
+import { PasswordModule } from '@openng/optimus-ui/password';
 
 @Component({
     template: `
@@ -142,7 +142,7 @@ The fluid prop makes the component take up the full width of its container when 
 ```typescript
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { PasswordModule } from 'primeng/password';
+import { PasswordModule } from '@openng/optimus-ui/password';
 
 @Component({
     template: `
@@ -165,8 +165,8 @@ IftaLabel is used to create infield top aligned labels. Visit IftaLabel document
 ```typescript
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { IftaLabelModule } from 'primeng/iftalabel';
-import { PasswordModule } from 'primeng/password';
+import { IftaLabelModule } from '@openng/optimus-ui/iftalabel';
+import { PasswordModule } from '@openng/optimus-ui/password';
 
 @Component({
     template: `
@@ -192,7 +192,7 @@ The invalid state is applied using the ⁠invalid property to indicate failed va
 ```typescript
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { PasswordModule } from 'primeng/password';
+import { PasswordModule } from '@openng/optimus-ui/password';
 
 @Component({
     template: `
@@ -217,7 +217,7 @@ Labels are translated at component level by promptLabel , weakLabel , mediumLabe
 ```typescript
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { PasswordModule } from 'primeng/password';
+import { PasswordModule } from '@openng/optimus-ui/password';
 
 @Component({
     template: `
@@ -240,7 +240,7 @@ Strength meter is displayed as a popup while a value is being entered.
 ```typescript
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { PasswordModule } from 'primeng/password';
+import { PasswordModule } from '@openng/optimus-ui/password';
 
 @Component({
     template: `
@@ -263,11 +263,11 @@ Password can also be used with reactive forms. In this case, the formControlName
 ```typescript
 import { Component, inject } from '@angular/core';
 import { ReactiveFormsModule } from '@angular/forms';
-import { MessageModule } from 'primeng/message';
-import { PasswordModule } from 'primeng/password';
-import { ToastModule } from 'primeng/toast';
-import { ButtonModule } from 'primeng/button';
-import { MessageService } from 'primeng/api';
+import { MessageModule } from '@openng/optimus-ui/message';
+import { PasswordModule } from '@openng/optimus-ui/password';
+import { ToastModule } from '@openng/optimus-ui/toast';
+import { ButtonModule } from '@openng/optimus-ui/button';
+import { MessageService } from '@openng/optimus-ui/api';
 
 @Component({
     template: `
@@ -323,7 +323,7 @@ Password provides small and large sizes as alternatives to the base.
 ```typescript
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { PasswordModule } from 'primeng/password';
+import { PasswordModule } from '@openng/optimus-ui/password';
 
 @Component({
     template: `
@@ -350,8 +350,8 @@ export class PasswordSizesDemo {
 ```typescript
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { DividerModule } from 'primeng/divider';
-import { PasswordModule } from 'primeng/password';
+import { DividerModule } from '@openng/optimus-ui/divider';
+import { PasswordModule } from '@openng/optimus-ui/password';
 
 @Component({
     template: `
@@ -385,11 +385,11 @@ export class PasswordTemplateDemo {
 ```typescript
 import { Component, inject } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { MessageModule } from 'primeng/message';
-import { PasswordModule } from 'primeng/password';
-import { ToastModule } from 'primeng/toast';
-import { ButtonModule } from 'primeng/button';
-import { MessageService } from 'primeng/api';
+import { MessageModule } from '@openng/optimus-ui/message';
+import { PasswordModule } from '@openng/optimus-ui/password';
+import { ToastModule } from '@openng/optimus-ui/toast';
+import { ButtonModule } from '@openng/optimus-ui/button';
+import { MessageService } from '@openng/optimus-ui/api';
 
 @Component({
     template: `
@@ -431,7 +431,7 @@ When toggleMask is present, an icon is displayed to show the value as plain text
 ```typescript
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { PasswordModule } from 'primeng/password';
+import { PasswordModule } from '@openng/optimus-ui/password';
 
 @Component({
     template: `
@@ -476,13 +476,13 @@ Password displays strength indicator for password fields.
 | ariaLabel | string | - | Defines a string that labels the input for accessibility. |
 | ariaLabelledBy | string | - | Specifies one or more IDs in the DOM that labels the input field. |
 | label | string | - | Label of the input for accessibility. |
-| promptLabel | string | - | Text to prompt password entry. Defaults to PrimeNG I18N API configuration. |
+| promptLabel | string | - | Text to prompt password entry. Defaults to Optimus I18N API configuration. |
 | mediumRegex | string | ^(((?=.*[a-z])(?=.*[A-Z]))|((?=.*[a-z])(?=.*[0-9]))|((?=.*[A-Z])(?=.*[0-9])))(?=.{6,}) | Regex value for medium regex. |
 | strongRegex | string | ^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.{8,}) | Regex value for strong regex. |
-| weakLabel | string | - | Text for a weak password. Defaults to PrimeNG I18N API configuration. |
-| mediumLabel | string | - | Text for a medium password. Defaults to PrimeNG I18N API configuration. |
+| weakLabel | string | - | Text for a weak password. Defaults to Optimus I18N API configuration. |
+| mediumLabel | string | - | Text for a medium password. Defaults to Optimus I18N API configuration. |
 | maxLength | number | - | specifies the maximum number of characters allowed in the input element. **(Deprecated)** |
-| strongLabel | string | - | Text for a strong password. Defaults to PrimeNG I18N API configuration. |
+| strongLabel | string | - | Text for a strong password. Defaults to Optimus I18N API configuration. |
 | inputId | string | - | Identifier of the accessible input element. |
 | feedback | boolean | true | Whether to show the strength indicator or not. |
 | toggleMask | boolean | false | Whether to show an icon to display the password as plain text. |

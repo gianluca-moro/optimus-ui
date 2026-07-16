@@ -12,9 +12,9 @@ A group is created by wrapping the input and icon with the IconField component. 
 
 ```typescript
 import { Component } from '@angular/core';
-import { IconFieldModule } from 'primeng/iconfield';
-import { InputIconModule } from 'primeng/inputicon';
-import { InputTextModule } from 'primeng/inputtext';
+import { IconFieldModule } from '@openng/optimus-ui/iconfield';
+import { InputIconModule } from '@openng/optimus-ui/inputicon';
+import { InputTextModule } from '@openng/optimus-ui/inputtext';
 
 @Component({
     template: `
@@ -42,10 +42,10 @@ FloatLabel visually integrates a label with its form element. Visit FloatLabel d
 ```typescript
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { FloatLabelModule } from 'primeng/floatlabel';
-import { IconFieldModule } from 'primeng/iconfield';
-import { InputIconModule } from 'primeng/inputicon';
-import { InputTextModule } from 'primeng/inputtext';
+import { FloatLabelModule } from '@openng/optimus-ui/floatlabel';
+import { IconFieldModule } from '@openng/optimus-ui/iconfield';
+import { InputIconModule } from '@openng/optimus-ui/inputicon';
+import { InputTextModule } from '@openng/optimus-ui/inputtext';
 
 @Component({
     template: `
@@ -90,10 +90,10 @@ IftaLabel is used to create infield top aligned labels. Visit IftaLabel document
 ```typescript
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { IconFieldModule } from 'primeng/iconfield';
-import { IftaLabelModule } from 'primeng/iftalabel';
-import { InputIconModule } from 'primeng/inputicon';
-import { InputTextModule } from 'primeng/inputtext';
+import { IconFieldModule } from '@openng/optimus-ui/iconfield';
+import { IftaLabelModule } from '@openng/optimus-ui/iftalabel';
+import { InputIconModule } from '@openng/optimus-ui/inputicon';
+import { InputTextModule } from '@openng/optimus-ui/inputtext';
 
 @Component({
     template: `
@@ -122,9 +122,9 @@ IconField is compatible with the pSize setting of the input field.
 ```typescript
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { IconFieldModule } from 'primeng/iconfield';
-import { InputIconModule } from 'primeng/inputicon';
-import { InputTextModule } from 'primeng/inputtext';
+import { IconFieldModule } from '@openng/optimus-ui/iconfield';
+import { InputIconModule } from '@openng/optimus-ui/inputicon';
+import { InputTextModule } from '@openng/optimus-ui/inputtext';
 
 @Component({
     template: `
@@ -160,9 +160,9 @@ An eye icon is displayed by default when the image is hovered in preview mode. U
 
 ```typescript
 import { Component } from '@angular/core';
-import { IconFieldModule } from 'primeng/iconfield';
-import { InputIconModule } from 'primeng/inputicon';
-import { InputTextModule } from 'primeng/inputtext';
+import { IconFieldModule } from '@openng/optimus-ui/iconfield';
+import { InputIconModule } from '@openng/optimus-ui/inputicon';
+import { InputTextModule } from '@openng/optimus-ui/inputtext';
 
 @Component({
     template: `
@@ -221,7 +221,7 @@ IconField wraps an input and an icon.
 | unstyled | InputSignal<boolean> | undefined | Indicates whether the component should be rendered without styles. |
 | pt | InputSignal<IconFieldPassThrough> | undefined | Used to pass attributes to DOM elements inside the component. |
 | ptOptions | InputSignal<PassThroughOptions> | undefined | Used to configure passthrough(pt) options of the component. |
-| iconPosition | "right" \| "left" | left | Position of the icon. |
+| iconPosition | "left" \| "right" | left | Position of the icon. |
 | styleClass | string | - | Style class of the component. **(Deprecated)** |
 
 ## Pass Through Options

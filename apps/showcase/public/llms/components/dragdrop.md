@@ -82,8 +82,8 @@ Drag and Drop to Table
 
 ```typescript
 import { Component, OnInit, inject } from '@angular/core';
-import { Table, TableModule } from 'primeng/table';
-import { TagModule } from 'primeng/tag';
+import { Table, TableModule } from '@openng/optimus-ui/table';
+import { TagModule } from '@openng/optimus-ui/tag';
 import { ProductService } from '@/service/productservice';
 import { Product } from '@/domain/product';
 
@@ -192,7 +192,7 @@ dragHandle is used to restrict dragging unless mousedown occurs on the specified
 
 ```typescript
 import { Component } from '@angular/core';
-import { PanelModule } from 'primeng/panel';
+import { PanelModule } from '@openng/optimus-ui/panel';
 import { Product } from '@/domain/product';
 
 @Component({

@@ -12,8 +12,8 @@ Card content can be customized further with subHeader , header and footer proper
 
 ```typescript
 import { Component } from '@angular/core';
-import { ButtonModule } from 'primeng/button';
-import { CardModule } from 'primeng/card';
+import { ButtonModule } from '@openng/optimus-ui/button';
+import { CardModule } from '@openng/optimus-ui/card';
 
 @Component({
     template: `
@@ -49,7 +49,7 @@ A simple Card is created with a header property along with the content as childr
 
 ```typescript
 import { Component } from '@angular/core';
-import { CardModule } from 'primeng/card';
+import { CardModule } from '@openng/optimus-ui/card';
 
 @Component({
     template: `

@@ -12,17 +12,17 @@ A mock desktop UI implemented with various components in addition to Dock.
 
 ```typescript
 import { Component, OnInit, inject } from '@angular/core';
-import { DialogModule } from 'primeng/dialog';
-import { DockModule } from 'primeng/dock';
-import { GalleriaModule } from 'primeng/galleria';
-import { MenubarModule } from 'primeng/menubar';
-import { TerminalModule } from 'primeng/terminal';
-import { ToastModule } from 'primeng/toast';
-import { TreeModule } from 'primeng/tree';
-import { TooltipModule } from 'primeng/tooltip';
+import { DialogModule } from '@openng/optimus-ui/dialog';
+import { DockModule } from '@openng/optimus-ui/dock';
+import { GalleriaModule } from '@openng/optimus-ui/galleria';
+import { MenubarModule } from '@openng/optimus-ui/menubar';
+import { TerminalModule } from '@openng/optimus-ui/terminal';
+import { ToastModule } from '@openng/optimus-ui/toast';
+import { TreeModule } from '@openng/optimus-ui/tree';
+import { TooltipModule } from '@openng/optimus-ui/tooltip';
 import { NodeService } from '@/service/nodeservice';
 import { PhotoService } from '@/service/photoservice';
-import { MenuItem, MessageService } from 'primeng/api';
+import { MenuItem, MessageService } from '@openng/optimus-ui/api';
 
 @Component({
     template: `
@@ -370,10 +370,10 @@ Dock requires a collection of menuitems as its model . Default location is botto
 ```typescript
 import { Component, OnInit } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { DockModule } from 'primeng/dock';
-import { RadioButtonModule } from 'primeng/radiobutton';
-import { TooltipModule } from 'primeng/tooltip';
-import { MenuItem } from 'primeng/api';
+import { DockModule } from '@openng/optimus-ui/dock';
+import { RadioButtonModule } from '@openng/optimus-ui/radiobutton';
+import { TooltipModule } from '@openng/optimus-ui/tooltip';
+import { MenuItem } from '@openng/optimus-ui/api';
 
 @Component({
     template: `
@@ -438,7 +438,7 @@ Dock is a navigation component consisting of menuitems.
 | id | string | - | Current id state as a string. |
 | styleClass | string | - | Class of the element. **(Deprecated)** |
 | model | MenuItem[] | null | MenuModel instance to define the action items. |
-| position | "right" \| "left" \| "top" \| "bottom" | bottom | Position of element. |
+| position | "top" \| "bottom" \| "left" \| "right" | bottom | Position of element. |
 | ariaLabel | string | - | Defines a string that labels the input for accessibility. |
 | breakpoint | string | 960px | The breakpoint to define the maximum width boundary. |
 | ariaLabelledBy | string | - | Defines a string that labels the dropdown button for accessibility. |

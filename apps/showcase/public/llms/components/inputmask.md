@@ -13,8 +13,8 @@ InputMask is used as a controlled input with ngModel properties.
 ```typescript
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { InputTextModule } from 'primeng/inputtext';
-import { InputMaskModule } from 'primeng/inputmask';
+import { InputTextModule } from '@openng/optimus-ui/inputtext';
+import { InputMaskModule } from '@openng/optimus-ui/inputmask';
 
 @Component({
     template: `
@@ -37,7 +37,7 @@ When showClear is enabled, a clear icon is displayed to clear the value.
 ```typescript
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { InputMaskModule } from 'primeng/inputmask';
+import { InputMaskModule } from '@openng/optimus-ui/inputmask';
 
 @Component({
     template: `
@@ -60,8 +60,8 @@ When disabled is present, the element cannot be edited and focused.
 ```typescript
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { InputTextModule } from 'primeng/inputtext';
-import { InputMaskModule } from 'primeng/inputmask';
+import { InputTextModule } from '@openng/optimus-ui/inputtext';
+import { InputMaskModule } from '@openng/optimus-ui/inputmask';
 
 @Component({
     template: `
@@ -84,8 +84,8 @@ Specify the variant property as filled to display the component with a higher vi
 ```typescript
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { InputTextModule } from 'primeng/inputtext';
-import { InputMaskModule } from 'primeng/inputmask';
+import { InputTextModule } from '@openng/optimus-ui/inputtext';
+import { InputMaskModule } from '@openng/optimus-ui/inputmask';
 
 @Component({
     template: `
@@ -108,9 +108,9 @@ FloatLabel visually integrates a label with its form element. Visit FloatLabel d
 ```typescript
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { FloatLabelModule } from 'primeng/floatlabel';
-import { InputTextModule } from 'primeng/inputtext';
-import { InputMaskModule } from 'primeng/inputmask';
+import { FloatLabelModule } from '@openng/optimus-ui/floatlabel';
+import { InputTextModule } from '@openng/optimus-ui/inputtext';
+import { InputMaskModule } from '@openng/optimus-ui/inputmask';
 
 @Component({
     template: `
@@ -146,8 +146,8 @@ The fluid prop makes the component take up the full width of its container when 
 ```typescript
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { InputTextModule } from 'primeng/inputtext';
-import { InputMaskModule } from 'primeng/inputmask';
+import { InputTextModule } from '@openng/optimus-ui/inputtext';
+import { InputMaskModule } from '@openng/optimus-ui/inputmask';
 
 @Component({
     template: `
@@ -170,9 +170,9 @@ IftaLabel is used to create infield top aligned labels. Visit IftaLabel document
 ```typescript
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { IftaLabelModule } from 'primeng/iftalabel';
-import { InputTextModule } from 'primeng/inputtext';
-import { InputMaskModule } from 'primeng/inputmask';
+import { IftaLabelModule } from '@openng/optimus-ui/iftalabel';
+import { InputTextModule } from '@openng/optimus-ui/inputtext';
+import { InputMaskModule } from '@openng/optimus-ui/inputmask';
 
 @Component({
     template: `
@@ -198,8 +198,8 @@ The invalid state is applied using the ⁠invalid property to indicate failed va
 ```typescript
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { InputTextModule } from 'primeng/inputtext';
-import { InputMaskModule } from 'primeng/inputmask';
+import { InputTextModule } from '@openng/optimus-ui/inputtext';
+import { InputMaskModule } from '@openng/optimus-ui/inputmask';
 
 @Component({
     template: `
@@ -224,8 +224,8 @@ Mask format can be a combination of the following definitions; a for alphabetic 
 ```typescript
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { InputTextModule } from 'primeng/inputtext';
-import { InputMaskModule } from 'primeng/inputmask';
+import { InputTextModule } from '@openng/optimus-ui/inputtext';
+import { InputMaskModule } from '@openng/optimus-ui/inputmask';
 
 @Component({
     template: `
@@ -261,8 +261,8 @@ When the input does not complete the mask definition, it is cleared by default. 
 ```typescript
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { InputTextModule } from 'primeng/inputtext';
-import { InputMaskModule } from 'primeng/inputmask';
+import { InputTextModule } from '@openng/optimus-ui/inputtext';
+import { InputMaskModule } from '@openng/optimus-ui/inputmask';
 
 @Component({
     template: `
@@ -285,12 +285,12 @@ InputMask can also be used with reactive forms. In this case, the formControlNam
 ```typescript
 import { Component, inject } from '@angular/core';
 import { ReactiveFormsModule } from '@angular/forms';
-import { MessageModule } from 'primeng/message';
-import { ToastModule } from 'primeng/toast';
-import { ButtonModule } from 'primeng/button';
-import { InputTextModule } from 'primeng/inputtext';
-import { InputMaskModule } from 'primeng/inputmask';
-import { MessageService } from 'primeng/api';
+import { MessageModule } from '@openng/optimus-ui/message';
+import { ToastModule } from '@openng/optimus-ui/toast';
+import { ButtonModule } from '@openng/optimus-ui/button';
+import { InputTextModule } from '@openng/optimus-ui/inputtext';
+import { InputMaskModule } from '@openng/optimus-ui/inputmask';
+import { MessageService } from '@openng/optimus-ui/api';
 
 @Component({
     template: `
@@ -345,8 +345,8 @@ InputMask provides small and large sizes as alternatives to the base.
 ```typescript
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { InputTextModule } from 'primeng/inputtext';
-import { InputMaskModule } from 'primeng/inputmask';
+import { InputTextModule } from '@openng/optimus-ui/inputtext';
+import { InputMaskModule } from '@openng/optimus-ui/inputmask';
 
 @Component({
     template: `
@@ -373,8 +373,8 @@ Default placeholder for a mask is underscore that can be customized using slotCh
 ```typescript
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { InputTextModule } from 'primeng/inputtext';
-import { InputMaskModule } from 'primeng/inputmask';
+import { InputTextModule } from '@openng/optimus-ui/inputtext';
+import { InputMaskModule } from '@openng/optimus-ui/inputmask';
 
 @Component({
     template: `
@@ -395,12 +395,12 @@ export class InputmaskSlotcharDemo {
 ```typescript
 import { Component, inject } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { MessageModule } from 'primeng/message';
-import { ToastModule } from 'primeng/toast';
-import { ButtonModule } from 'primeng/button';
-import { InputTextModule } from 'primeng/inputtext';
-import { InputMaskModule } from 'primeng/inputmask';
-import { MessageService } from 'primeng/api';
+import { MessageModule } from '@openng/optimus-ui/message';
+import { ToastModule } from '@openng/optimus-ui/toast';
+import { ButtonModule } from '@openng/optimus-ui/button';
+import { InputTextModule } from '@openng/optimus-ui/inputtext';
+import { InputMaskModule } from '@openng/optimus-ui/inputmask';
+import { MessageService } from '@openng/optimus-ui/api';
 
 @Component({
     template: `

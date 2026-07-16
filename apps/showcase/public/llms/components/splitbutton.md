@@ -12,9 +12,9 @@ SplitButton has a default action button and a collection of additional options d
 
 ```typescript
 import { Component, inject } from '@angular/core';
-import { SplitButtonModule } from 'primeng/splitbutton';
-import { ToastModule } from 'primeng/toast';
-import { MenuItem, MessageService } from 'primeng/api';
+import { SplitButtonModule } from '@openng/optimus-ui/splitbutton';
+import { ToastModule } from '@openng/optimus-ui/toast';
+import { MenuItem, MessageService } from '@openng/optimus-ui/api';
 
 @Component({
     template: `
@@ -70,9 +70,9 @@ When the disabled attribute is present, the element is uneditable and unfocused.
 
 ```typescript
 import { Component, inject } from '@angular/core';
-import { SplitButtonModule } from 'primeng/splitbutton';
-import { ToastModule } from 'primeng/toast';
-import { MenuItem, MessageService } from 'primeng/api';
+import { SplitButtonModule } from '@openng/optimus-ui/splitbutton';
+import { ToastModule } from '@openng/optimus-ui/toast';
+import { MenuItem, MessageService } from '@openng/optimus-ui/api';
 
 @Component({
     template: `
@@ -128,9 +128,9 @@ The buttons and menuitems have support to display icons.
 
 ```typescript
 import { Component, inject } from '@angular/core';
-import { SplitButtonModule } from 'primeng/splitbutton';
-import { ToastModule } from 'primeng/toast';
-import { MenuItem, MessageService } from 'primeng/api';
+import { SplitButtonModule } from '@openng/optimus-ui/splitbutton';
+import { ToastModule } from '@openng/optimus-ui/toast';
+import { MenuItem, MessageService } from '@openng/optimus-ui/api';
 
 @Component({
     template: `
@@ -184,9 +184,9 @@ SplitButton has a default action button and a collection of additional options d
 
 ```typescript
 import { Component, inject } from '@angular/core';
-import { SplitButtonModule } from 'primeng/splitbutton';
-import { ToastModule } from 'primeng/toast';
-import { MenuItem, MessageService } from 'primeng/api';
+import { SplitButtonModule } from '@openng/optimus-ui/splitbutton';
+import { ToastModule } from '@openng/optimus-ui/toast';
+import { MenuItem, MessageService } from '@openng/optimus-ui/api';
 
 @Component({
     template: `
@@ -344,9 +344,9 @@ Outlined buttons display a border without a background initially.
 
 ```typescript
 import { Component, inject } from '@angular/core';
-import { SplitButtonModule } from 'primeng/splitbutton';
-import { ToastModule } from 'primeng/toast';
-import { MenuItem, MessageService } from 'primeng/api';
+import { SplitButtonModule } from '@openng/optimus-ui/splitbutton';
+import { ToastModule } from '@openng/optimus-ui/toast';
+import { MenuItem, MessageService } from '@openng/optimus-ui/api';
 
 @Component({
     template: `
@@ -410,9 +410,9 @@ Raised buttons display a shadow to indicate elevation.
 
 ```typescript
 import { Component, inject } from '@angular/core';
-import { SplitButtonModule } from 'primeng/splitbutton';
-import { ToastModule } from 'primeng/toast';
-import { MenuItem, MessageService } from 'primeng/api';
+import { SplitButtonModule } from '@openng/optimus-ui/splitbutton';
+import { ToastModule } from '@openng/optimus-ui/toast';
+import { MenuItem, MessageService } from '@openng/optimus-ui/api';
 
 @Component({
     template: `
@@ -476,9 +476,9 @@ Text buttons can be displayed as raised as well for elevation.
 
 ```typescript
 import { Component, inject } from '@angular/core';
-import { SplitButtonModule } from 'primeng/splitbutton';
-import { ToastModule } from 'primeng/toast';
-import { MenuItem, MessageService } from 'primeng/api';
+import { SplitButtonModule } from '@openng/optimus-ui/splitbutton';
+import { ToastModule } from '@openng/optimus-ui/toast';
+import { MenuItem, MessageService } from '@openng/optimus-ui/api';
 
 @Component({
     template: `
@@ -546,9 +546,9 @@ Rounded buttons have a circular border radius.
 
 ```typescript
 import { Component, inject } from '@angular/core';
-import { SplitButtonModule } from 'primeng/splitbutton';
-import { ToastModule } from 'primeng/toast';
-import { MenuItem, MessageService } from 'primeng/api';
+import { SplitButtonModule } from '@openng/optimus-ui/splitbutton';
+import { ToastModule } from '@openng/optimus-ui/toast';
+import { MenuItem, MessageService } from '@openng/optimus-ui/api';
 
 @Component({
     template: `
@@ -612,9 +612,9 @@ The severity property defines the type of button.
 
 ```typescript
 import { Component, inject } from '@angular/core';
-import { SplitButtonModule } from 'primeng/splitbutton';
-import { ToastModule } from 'primeng/toast';
-import { MenuItem, MessageService } from 'primeng/api';
+import { SplitButtonModule } from '@openng/optimus-ui/splitbutton';
+import { ToastModule } from '@openng/optimus-ui/toast';
+import { MenuItem, MessageService } from '@openng/optimus-ui/api';
 
 @Component({
     template: `
@@ -678,9 +678,9 @@ SplitButton provides small and large sizes as alternatives to the standard.
 
 ```typescript
 import { Component, inject } from '@angular/core';
-import { SplitButtonModule } from 'primeng/splitbutton';
-import { ToastModule } from 'primeng/toast';
-import { MenuItem, MessageService } from 'primeng/api';
+import { SplitButtonModule } from '@openng/optimus-ui/splitbutton';
+import { ToastModule } from '@openng/optimus-ui/toast';
+import { MenuItem, MessageService } from '@openng/optimus-ui/api';
 
 @Component({
     template: `
@@ -738,9 +738,9 @@ SplitButton has a default action button and a collection of additional options d
 
 ```typescript
 import { Component, inject } from '@angular/core';
-import { SplitButtonModule } from 'primeng/splitbutton';
-import { ToastModule } from 'primeng/toast';
-import { MenuItem, MessageService } from 'primeng/api';
+import { SplitButtonModule } from '@openng/optimus-ui/splitbutton';
+import { ToastModule } from '@openng/optimus-ui/toast';
+import { MenuItem, MessageService } from '@openng/optimus-ui/api';
 
 @Component({
     template: `
@@ -804,9 +804,9 @@ Text buttons are displayed as textual elements.
 
 ```typescript
 import { Component, inject } from '@angular/core';
-import { SplitButtonModule } from 'primeng/splitbutton';
-import { ToastModule } from 'primeng/toast';
-import { MenuItem, MessageService } from 'primeng/api';
+import { SplitButtonModule } from '@openng/optimus-ui/splitbutton';
+import { ToastModule } from '@openng/optimus-ui/toast';
+import { MenuItem, MessageService } from '@openng/optimus-ui/api';
 
 @Component({
     template: `

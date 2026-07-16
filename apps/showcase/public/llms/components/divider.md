@@ -12,7 +12,7 @@ Divider is basically placed between the items to separate.
 
 ```typescript
 import { Component } from '@angular/core';
-import { DividerModule } from 'primeng/divider';
+import { DividerModule } from '@openng/optimus-ui/divider';
 
 @Component({
     template: `
@@ -50,7 +50,7 @@ Children are rendered within the boundaries of the divider where location of the
 
 ```typescript
 import { Component } from '@angular/core';
-import { DividerModule } from 'primeng/divider';
+import { DividerModule } from '@openng/optimus-ui/divider';
 
 @Component({
     template: `
@@ -94,9 +94,9 @@ Sample implementation of a login form using a divider with content.
 
 ```typescript
 import { Component } from '@angular/core';
-import { ButtonModule } from 'primeng/button';
-import { DividerModule } from 'primeng/divider';
-import { InputTextModule } from 'primeng/inputtext';
+import { ButtonModule } from '@openng/optimus-ui/button';
+import { DividerModule } from '@openng/optimus-ui/divider';
+import { InputTextModule } from '@openng/optimus-ui/inputtext';
 
 @Component({
     template: `
@@ -137,7 +137,7 @@ Style of the border is configured with the type property that can either be soli
 
 ```typescript
 import { Component } from '@angular/core';
-import { DividerModule } from 'primeng/divider';
+import { DividerModule } from '@openng/optimus-ui/divider';
 
 @Component({
     template: `
@@ -175,7 +175,7 @@ Vertical divider is enabled by setting the layout property as vertical .
 
 ```typescript
 import { Component } from '@angular/core';
-import { DividerModule } from 'primeng/divider';
+import { DividerModule } from '@openng/optimus-ui/divider';
 
 @Component({
     template: `
@@ -217,7 +217,7 @@ Divider is used to separate contents.
 | styleClass | string | - | Style class of the component. **(Deprecated)** |
 | layout | "vertical" \| "horizontal" | horizontal | Specifies the orientation. |
 | type | "solid" \| "dashed" \| "dotted" | solid | Border style type. |
-| align | "right" \| "left" \| "top" \| "bottom" \| "center" | - | Alignment of the content. |
+| align | "top" \| "bottom" \| "center" \| "left" \| "right" | - | Alignment of the content. |
 
 ## Pass Through Options
 

@@ -12,8 +12,8 @@ Stepper consists of a combination of StepList , Step , StepPanels and StepPanel 
 
 ```typescript
 import { Component } from '@angular/core';
-import { ButtonModule } from 'primeng/button';
-import { StepperModule } from 'primeng/stepper';
+import { ButtonModule } from '@openng/optimus-ui/button';
+import { StepperModule } from '@openng/optimus-ui/stepper';
 
 @Component({
     template: `
@@ -72,8 +72,8 @@ When linear property is set to true, current step must be completed in order to 
 
 ```typescript
 import { Component } from '@angular/core';
-import { ButtonModule } from 'primeng/button';
-import { StepperModule } from 'primeng/stepper';
+import { ButtonModule } from '@openng/optimus-ui/button';
+import { StepperModule } from '@openng/optimus-ui/stepper';
 
 @Component({
     template: `
@@ -137,11 +137,11 @@ Stepper provides various templating options to customize the default UI design.
 ```typescript
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { ButtonModule } from 'primeng/button';
-import { PasswordModule } from 'primeng/password';
-import { StepperModule } from 'primeng/stepper';
-import { ToggleButtonModule } from 'primeng/togglebutton';
-import { InputTextModule } from 'primeng/inputtext';
+import { ButtonModule } from '@openng/optimus-ui/button';
+import { PasswordModule } from '@openng/optimus-ui/password';
+import { StepperModule } from '@openng/optimus-ui/stepper';
+import { ToggleButtonModule } from '@openng/optimus-ui/togglebutton';
+import { InputTextModule } from '@openng/optimus-ui/inputtext';
 
 @Component({
     template: `
@@ -281,8 +281,8 @@ Vertical layout requires StepItem as a wrapper of Step and StepPanel components.
 
 ```typescript
 import { Component } from '@angular/core';
-import { ButtonModule } from 'primeng/button';
-import { StepperModule } from 'primeng/stepper';
+import { ButtonModule } from '@openng/optimus-ui/button';
+import { StepperModule } from '@openng/optimus-ui/stepper';
 
 @Component({
     template: `

@@ -12,7 +12,7 @@ Content of the badge is specified using the value property.
 
 ```typescript
 import { Component } from '@angular/core';
-import { BadgeModule } from 'primeng/badge';
+import { BadgeModule } from '@openng/optimus-ui/badge';
 
 @Component({
     template: `
@@ -32,7 +32,7 @@ Buttons have built-in support for badges to display a badge inline.
 
 ```typescript
 import { Component } from '@angular/core';
-import { ButtonModule } from 'primeng/button';
+import { ButtonModule } from '@openng/optimus-ui/button';
 
 @Component({
     template: `
@@ -72,7 +72,7 @@ A badge can be added to any element by encapsulating the content with the Overla
 
 ```typescript
 import { Component } from '@angular/core';
-import { OverlayBadgeModule } from 'primeng/overlaybadge';
+import { OverlayBadgeModule } from '@openng/optimus-ui/overlaybadge';
 
 @Component({
     template: `
@@ -121,7 +121,7 @@ Severity defines the color of the badge, possible values are success , info , wa
 
 ```typescript
 import { Component } from '@angular/core';
-import { BadgeModule } from 'primeng/badge';
+import { BadgeModule } from '@openng/optimus-ui/badge';
 
 @Component({
     template: `
@@ -147,7 +147,7 @@ Badge sizes are adjusted with the badgeSize property that accepts small , large 
 
 ```typescript
 import { Component } from '@angular/core';
-import { BadgeModule } from 'primeng/badge';
+import { BadgeModule } from '@openng/optimus-ui/badge';
 
 @Component({
     template: `

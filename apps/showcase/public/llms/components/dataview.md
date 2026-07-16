@@ -12,9 +12,9 @@ DataView requires a value to display along with a list template that receives an
 
 ```typescript
 import { Component, OnInit, inject, signal } from '@angular/core';
-import { ButtonModule } from 'primeng/button';
-import { DataViewModule } from 'primeng/dataview';
-import { TagModule } from 'primeng/tag';
+import { ButtonModule } from '@openng/optimus-ui/button';
+import { DataViewModule } from '@openng/optimus-ui/dataview';
+import { TagModule } from '@openng/optimus-ui/tag';
 import { ProductService } from '@/service/productservice';
 import { Product } from '@/domain/product';
 
@@ -102,10 +102,10 @@ DataView supports list and grid display modes defined with the layout property. 
 ```typescript
 import { Component, OnInit, inject, signal } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { DataViewModule } from 'primeng/dataview';
-import { SelectButtonModule } from 'primeng/selectbutton';
-import { TagModule } from 'primeng/tag';
-import { ButtonModule } from 'primeng/button';
+import { DataViewModule } from '@openng/optimus-ui/dataview';
+import { SelectButtonModule } from '@openng/optimus-ui/selectbutton';
+import { TagModule } from '@openng/optimus-ui/tag';
+import { ButtonModule } from '@openng/optimus-ui/button';
 import { ProductService } from '@/service/productservice';
 import { Product } from '@/domain/product';
 
@@ -215,9 +215,9 @@ While data is being loaded. Skeleton component may be used to indicate the busy 
 ```typescript
 import { Component, OnInit, inject, signal } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { DataViewModule } from 'primeng/dataview';
-import { SelectButtonModule } from 'primeng/selectbutton';
-import { SkeletonModule } from 'primeng/skeleton';
+import { DataViewModule } from '@openng/optimus-ui/dataview';
+import { SelectButtonModule } from '@openng/optimus-ui/selectbutton';
+import { SkeletonModule } from '@openng/optimus-ui/skeleton';
 import { ProductService } from '@/service/productservice';
 import { Product } from '@/domain/product';
 
@@ -306,9 +306,9 @@ Pagination is enabled with the paginator and rows properties. Refer to the Pagin
 
 ```typescript
 import { Component, OnInit, inject, signal } from '@angular/core';
-import { ButtonModule } from 'primeng/button';
-import { DataViewModule } from 'primeng/dataview';
-import { TagModule } from 'primeng/tag';
+import { ButtonModule } from '@openng/optimus-ui/button';
+import { DataViewModule } from '@openng/optimus-ui/dataview';
+import { TagModule } from '@openng/optimus-ui/tag';
 import { ProductService } from '@/service/productservice';
 import { Product } from '@/domain/product';
 
@@ -378,12 +378,12 @@ Built-in sorting is controlled by bindings sortField and sortOrder properties fr
 ```typescript
 import { Component, OnInit, inject, signal } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { ButtonModule } from 'primeng/button';
-import { DataViewModule } from 'primeng/dataview';
-import { SelectModule } from 'primeng/select';
-import { TagModule } from 'primeng/tag';
+import { ButtonModule } from '@openng/optimus-ui/button';
+import { DataViewModule } from '@openng/optimus-ui/dataview';
+import { SelectModule } from '@openng/optimus-ui/select';
+import { TagModule } from '@openng/optimus-ui/tag';
 import { ProductService } from '@/service/productservice';
-import { SelectItem } from 'primeng/api';
+import { SelectItem } from '@openng/optimus-ui/api';
 import { Product } from '@/domain/product';
 
 @Component({
@@ -512,7 +512,7 @@ DataView displays data in grid or list layout with pagination and sorting featur
 | sortField | string | - | Property name of data to use in sorting by default. |
 | sortOrder | number | - | Order to sort the data by default. |
 | value | any[] | - | An array of objects to display. |
-| layout | "list" \| "grid" | list | Defines the layout mode. |
+| layout | "grid" \| "list" | list | Defines the layout mode. |
 
 ### Emits
 

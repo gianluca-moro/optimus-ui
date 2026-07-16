@@ -12,7 +12,7 @@ Buttons have built-in badge support with badge and badgeClass properties.
 
 ```typescript
 import { Component } from '@angular/core';
-import { ButtonModule } from 'primeng/button';
+import { ButtonModule } from '@openng/optimus-ui/button';
 
 @Component({
     template: `
@@ -33,7 +33,7 @@ Text to display on a button is defined with the label property.
 
 ```typescript
 import { Component } from '@angular/core';
-import { ButtonModule } from 'primeng/button';
+import { ButtonModule } from '@openng/optimus-ui/button';
 
 @Component({
     template: `
@@ -53,7 +53,7 @@ Multiple buttons are grouped when wrapped inside an element with ButtonGroup com
 
 ```typescript
 import { Component } from '@angular/core';
-import { ButtonModule } from 'primeng/button';
+import { ButtonModule } from '@openng/optimus-ui/button';
 
 @Component({
     template: `
@@ -77,8 +77,8 @@ Multiple buttons are grouped when wrapped inside an element with p-buttonset cla
 
 ```typescript
 import { Component } from '@angular/core';
-import { ButtonModule } from 'primeng/button';
-import { RippleModule } from 'primeng/ripple';
+import { ButtonModule } from '@openng/optimus-ui/button';
+import { RippleModule } from '@openng/optimus-ui/ripple';
 
 @Component({
     template: `
@@ -102,7 +102,7 @@ Button can also be used as directive using pButton along with pButtonLabel and p
 
 ```typescript
 import { Component } from '@angular/core';
-import { ButtonModule } from 'primeng/button';
+import { ButtonModule } from '@openng/optimus-ui/button';
 
 @Component({
     template: `
@@ -125,7 +125,7 @@ When disabled is present, the element cannot be edited and focused.
 
 ```typescript
 import { Component } from '@angular/core';
-import { ButtonModule } from 'primeng/button';
+import { ButtonModule } from '@openng/optimus-ui/button';
 
 @Component({
     template: `
@@ -145,7 +145,7 @@ Icon of a button is specified with icon property and position is configured usin
 
 ```typescript
 import { Component } from '@angular/core';
-import { ButtonModule } from 'primeng/button';
+import { ButtonModule } from '@openng/optimus-ui/button';
 
 @Component({
     template: `
@@ -173,7 +173,7 @@ Buttons can have icons without labels.
 
 ```typescript
 import { Component } from '@angular/core';
-import { ButtonModule } from 'primeng/button';
+import { ButtonModule } from '@openng/optimus-ui/button';
 
 @Component({
     template: `
@@ -237,7 +237,7 @@ A button can be rendered as a link when link property is present, while the pBut
 
 ```typescript
 import { Component } from '@angular/core';
-import { ButtonModule } from 'primeng/button';
+import { ButtonModule } from '@openng/optimus-ui/button';
 
 @Component({
     template: `
@@ -263,7 +263,7 @@ Busy state is controlled with the loading property.
 
 ```typescript
 import { Component, signal } from '@angular/core';
-import { ButtonModule } from 'primeng/button';
+import { ButtonModule } from '@openng/optimus-ui/button';
 
 @Component({
     template: `
@@ -293,7 +293,7 @@ Outlined buttons display a border without a background initially.
 
 ```typescript
 import { Component } from '@angular/core';
-import { ButtonModule } from 'primeng/button';
+import { ButtonModule } from '@openng/optimus-ui/button';
 
 @Component({
     template: `
@@ -320,7 +320,7 @@ Raised buttons display a shadow to indicate elevation.
 
 ```typescript
 import { Component } from '@angular/core';
-import { ButtonModule } from 'primeng/button';
+import { ButtonModule } from '@openng/optimus-ui/button';
 
 @Component({
     template: `
@@ -347,7 +347,7 @@ Text buttons can be displayed as raised for elevation.
 
 ```typescript
 import { Component } from '@angular/core';
-import { ButtonModule } from 'primeng/button';
+import { ButtonModule } from '@openng/optimus-ui/button';
 
 @Component({
     template: `
@@ -374,7 +374,7 @@ Rounded buttons have a circular border radius.
 
 ```typescript
 import { Component } from '@angular/core';
-import { ButtonModule } from 'primeng/button';
+import { ButtonModule } from '@openng/optimus-ui/button';
 
 @Component({
     template: `
@@ -401,7 +401,7 @@ Severity defines the type of button.
 
 ```typescript
 import { Component } from '@angular/core';
-import { ButtonModule } from 'primeng/button';
+import { ButtonModule } from '@openng/optimus-ui/button';
 
 @Component({
     template: `
@@ -428,7 +428,7 @@ Button provides small and large sizes as alternatives to the standard.
 
 ```typescript
 import { Component } from '@angular/core';
-import { ButtonModule } from 'primeng/button';
+import { ButtonModule } from '@openng/optimus-ui/button';
 
 @Component({
     template: `
@@ -450,7 +450,7 @@ Custom content inside a button is defined as children.
 
 ```typescript
 import { Component } from '@angular/core';
-import { ButtonModule } from 'primeng/button';
+import { ButtonModule } from '@openng/optimus-ui/button';
 
 @Component({
     template: `
@@ -495,7 +495,7 @@ Text buttons are displayed as textual elements.
 
 ```typescript
 import { Component } from '@angular/core';
-import { ButtonModule } from 'primeng/button';
+import { ButtonModule } from '@openng/optimus-ui/button';
 
 @Component({
     template: `

@@ -13,10 +13,10 @@ A group is created by wrapping the input and add-ons with the p-inputgroup compo
 ```typescript
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { SelectModule } from 'primeng/select';
-import { InputGroupModule } from 'primeng/inputgroup';
-import { InputNumberModule } from 'primeng/inputnumber';
-import { InputTextModule } from 'primeng/inputtext';
+import { SelectModule } from '@openng/optimus-ui/select';
+import { InputGroupModule } from '@openng/optimus-ui/inputgroup';
+import { InputNumberModule } from '@openng/optimus-ui/inputnumber';
+import { InputTextModule } from '@openng/optimus-ui/inputtext';
 
 interface City {
     name: string;
@@ -67,11 +67,11 @@ Buttons can be placed at either side of an input element.
 
 ```typescript
 import { Component, OnInit } from '@angular/core';
-import { ButtonModule } from 'primeng/button';
-import { InputGroupModule } from 'primeng/inputgroup';
-import { MenuModule } from 'primeng/menu';
-import { InputTextModule } from 'primeng/inputtext';
-import { MenuItem } from 'primeng/api';
+import { ButtonModule } from '@openng/optimus-ui/button';
+import { InputGroupModule } from '@openng/optimus-ui/inputgroup';
+import { MenuModule } from '@openng/optimus-ui/menu';
+import { InputTextModule } from '@openng/optimus-ui/inputtext';
+import { MenuItem } from '@openng/optimus-ui/api';
 
 @Component({
     template: `
@@ -117,10 +117,10 @@ Checkbox and RadioButton components can be combined with an input element under 
 ```typescript
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { CheckboxModule } from 'primeng/checkbox';
-import { InputGroupModule } from 'primeng/inputgroup';
-import { RadioButtonModule } from 'primeng/radiobutton';
-import { InputTextModule } from 'primeng/inputtext';
+import { CheckboxModule } from '@openng/optimus-ui/checkbox';
+import { InputGroupModule } from '@openng/optimus-ui/inputgroup';
+import { RadioButtonModule } from '@openng/optimus-ui/radiobutton';
+import { InputTextModule } from '@openng/optimus-ui/inputtext';
 
 @Component({
     template: `
@@ -158,9 +158,9 @@ FloatLabel visually integrates a label with its form element. Visit FloatLabel d
 ```typescript
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { FloatLabelModule } from 'primeng/floatlabel';
-import { InputGroupModule } from 'primeng/inputgroup';
-import { InputTextModule } from 'primeng/inputtext';
+import { FloatLabelModule } from '@openng/optimus-ui/floatlabel';
+import { InputGroupModule } from '@openng/optimus-ui/inputgroup';
+import { InputTextModule } from '@openng/optimus-ui/inputtext';
 
 @Component({
     template: `
@@ -208,9 +208,9 @@ IftaLabel is used to create infield top aligned labels. Visit IftaLabel document
 ```typescript
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { IftaLabelModule } from 'primeng/iftalabel';
-import { InputGroupModule } from 'primeng/inputgroup';
-import { InputNumberModule } from 'primeng/inputnumber';
+import { IftaLabelModule } from '@openng/optimus-ui/iftalabel';
+import { InputGroupModule } from '@openng/optimus-ui/inputgroup';
+import { InputNumberModule } from '@openng/optimus-ui/inputnumber';
 
 @Component({
     template: `
@@ -240,8 +240,8 @@ Multiple add-ons can be placed inside the same group.
 
 ```typescript
 import { Component } from '@angular/core';
-import { InputGroupModule } from 'primeng/inputgroup';
-import { InputTextModule } from 'primeng/inputtext';
+import { InputGroupModule } from '@openng/optimus-ui/inputgroup';
+import { InputTextModule } from '@openng/optimus-ui/inputtext';
 
 @Component({
     template: `

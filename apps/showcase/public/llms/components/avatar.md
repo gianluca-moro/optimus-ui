@@ -12,7 +12,7 @@ Grouping is available by wrapping multiple Avatar components inside an AvatarGro
 
 ```typescript
 import { Component } from '@angular/core';
-import { AvatarModule } from 'primeng/avatar';
+import { AvatarModule } from '@openng/optimus-ui/avatar';
 
 @Component({
     template: `
@@ -125,7 +125,7 @@ A badge can be added to an Avatar with the Badge directive.
 
 ```typescript
 import { Component } from '@angular/core';
-import { AvatarModule } from 'primeng/avatar';
+import { AvatarModule } from '@openng/optimus-ui/avatar';
 
 @Component({
     template: `
@@ -145,7 +145,7 @@ A font icon is displayed as an Avatar with the icon property.
 
 ```typescript
 import { Component } from '@angular/core';
-import { AvatarModule } from 'primeng/avatar';
+import { AvatarModule } from '@openng/optimus-ui/avatar';
 
 @Component({
     template: `
@@ -184,7 +184,7 @@ Use the image property to display an image as an Avatar.
 
 ```typescript
 import { Component } from '@angular/core';
-import { AvatarModule } from 'primeng/avatar';
+import { AvatarModule } from '@openng/optimus-ui/avatar';
 
 @Component({
     template: `
@@ -221,7 +221,7 @@ A letter Avatar is defined with the label property.
 
 ```typescript
 import { Component } from '@angular/core';
-import { AvatarModule } from 'primeng/avatar';
+import { AvatarModule } from '@openng/optimus-ui/avatar';
 
 @Component({
     template: `
@@ -260,7 +260,7 @@ Avatar comes in two different styles specified with the shape property, square i
 
 ```typescript
 import { Component } from '@angular/core';
-import { AvatarModule } from 'primeng/avatar';
+import { AvatarModule } from '@openng/optimus-ui/avatar';
 
 @Component({
     template: `
@@ -281,7 +281,7 @@ size property defines the size of the Avatar with large and xlarge as possible v
 
 ```typescript
 import { Component } from '@angular/core';
-import { AvatarModule } from 'primeng/avatar';
+import { AvatarModule } from '@openng/optimus-ui/avatar';
 
 @Component({
     template: `
@@ -302,7 +302,7 @@ Content can easily be customized with the dynamic content instead of using the b
 
 ```typescript
 import { Component } from '@angular/core';
-import { AvatarModule } from 'primeng/avatar';
+import { AvatarModule } from '@openng/optimus-ui/avatar';
 
 @Component({
     template: `

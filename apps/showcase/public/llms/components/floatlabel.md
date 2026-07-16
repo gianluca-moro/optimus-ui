@@ -13,8 +13,8 @@ FloatLabel is used by wrapping the input and its label.
 ```typescript
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { FloatLabelModule } from 'primeng/floatlabel';
-import { InputTextModule } from 'primeng/inputtext';
+import { FloatLabelModule } from '@openng/optimus-ui/floatlabel';
+import { InputTextModule } from '@openng/optimus-ui/inputtext';
 
 @Component({
     template: `
@@ -40,8 +40,8 @@ When the form element is invalid, the label is also highlighted.
 ```typescript
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { FloatLabelModule } from 'primeng/floatlabel';
-import { InputTextModule } from 'primeng/inputtext';
+import { FloatLabelModule } from '@openng/optimus-ui/floatlabel';
+import { InputTextModule } from '@openng/optimus-ui/inputtext';
 
 @Component({
     template: `
@@ -77,8 +77,8 @@ The variant property defines the position of the label. Default value is over , 
 ```typescript
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { FloatLabelModule } from 'primeng/floatlabel';
-import { InputTextModule } from 'primeng/inputtext';
+import { FloatLabelModule } from '@openng/optimus-ui/floatlabel';
+import { InputTextModule } from '@openng/optimus-ui/inputtext';
 
 @Component({
     template: `

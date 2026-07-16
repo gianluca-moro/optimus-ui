@@ -24,7 +24,7 @@ Overlay is a container to display content in an overlay window. All the options 
 
 ```typescript
 import { Component } from '@angular/core';
-import { ButtonModule } from 'primeng/button';
+import { ButtonModule } from '@openng/optimus-ui/button';
 
 @Component({
     template: `
@@ -135,7 +135,7 @@ Content can be customized with the content template.
 
 ```typescript
 import { Component } from '@angular/core';
-import { ButtonModule } from 'primeng/button';
+import { ButtonModule } from '@openng/optimus-ui/button';
 
 @Component({
     template: `
@@ -164,7 +164,7 @@ Transition options of the show or hide animation. The default value of showTrans
 
 ## Overlay
 
-This API allows overlay components to be controlled from the PrimeNG. In this way, all overlay components in the application can have the same behavior.
+This API allows overlay components to be controlled from Optimus. In this way, all overlay components in the application can have the same behavior.
 
 ### Props
 

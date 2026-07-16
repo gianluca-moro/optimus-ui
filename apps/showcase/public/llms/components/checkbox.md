@@ -13,7 +13,7 @@ Binary checkbox is used as a controlled input with ngModel and binary properties
 ```typescript
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { CheckboxModule } from 'primeng/checkbox';
+import { CheckboxModule } from '@openng/optimus-ui/checkbox';
 
 @Component({
     template: `
@@ -36,7 +36,7 @@ When disabled is present, the element cannot be edited and focused.
 ```typescript
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { CheckboxModule } from 'primeng/checkbox';
+import { CheckboxModule } from '@openng/optimus-ui/checkbox';
 
 @Component({
     template: `
@@ -61,7 +61,7 @@ Checkboxes can be generated using a list of values.
 ```typescript
 import { Component, OnInit } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { CheckboxModule } from 'primeng/checkbox';
+import { CheckboxModule } from '@openng/optimus-ui/checkbox';
 
 @Component({
     template: `
@@ -94,7 +94,7 @@ Specify the variant property as filled to display the component with a higher vi
 ```typescript
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { CheckboxModule } from 'primeng/checkbox';
+import { CheckboxModule } from '@openng/optimus-ui/checkbox';
 
 @Component({
     template: `
@@ -117,7 +117,7 @@ The indeterminate state indicates that a checkbox is neither "on" or "off".
 ```typescript
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { CheckboxModule } from 'primeng/checkbox';
+import { CheckboxModule } from '@openng/optimus-ui/checkbox';
 
 @Component({
     template: `
@@ -140,7 +140,7 @@ The invalid state is applied using the ⁠invalid property to indicate failed va
 ```typescript
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { CheckboxModule } from 'primeng/checkbox';
+import { CheckboxModule } from '@openng/optimus-ui/checkbox';
 
 @Component({
     template: `
@@ -163,7 +163,7 @@ The label attribute provides a label text for the checkbox. This label is also c
 ```typescript
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { CheckboxModule } from 'primeng/checkbox';
+import { CheckboxModule } from '@openng/optimus-ui/checkbox';
 
 @Component({
     template: `
@@ -187,7 +187,7 @@ Multiple checkboxes can be grouped together.
 ```typescript
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { CheckboxModule } from 'primeng/checkbox';
+import { CheckboxModule } from '@openng/optimus-ui/checkbox';
 
 @Component({
     template: `
@@ -225,11 +225,11 @@ Checkbox can also be used with reactive forms. In this case, the formControlName
 ```typescript
 import { Component, inject } from '@angular/core';
 import { ReactiveFormsModule } from '@angular/forms';
-import { CheckboxModule } from 'primeng/checkbox';
-import { MessageModule } from 'primeng/message';
-import { ToastModule } from 'primeng/toast';
-import { ButtonModule } from 'primeng/button';
-import { MessageService } from 'primeng/api';
+import { CheckboxModule } from '@openng/optimus-ui/checkbox';
+import { MessageModule } from '@openng/optimus-ui/message';
+import { ToastModule } from '@openng/optimus-ui/toast';
+import { ButtonModule } from '@openng/optimus-ui/button';
+import { MessageService } from '@openng/optimus-ui/api';
 
 @Component({
     template: `
@@ -319,7 +319,7 @@ Checkbox provides small and large sizes as alternatives to the base.
 ```typescript
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { CheckboxModule } from 'primeng/checkbox';
+import { CheckboxModule } from '@openng/optimus-ui/checkbox';
 
 @Component({
     template: `
@@ -351,11 +351,11 @@ export class CheckboxSizesDemo {
 ```typescript
 import { Component, inject } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { CheckboxModule } from 'primeng/checkbox';
-import { MessageModule } from 'primeng/message';
-import { ToastModule } from 'primeng/toast';
-import { ButtonModule } from 'primeng/button';
-import { MessageService } from 'primeng/api';
+import { CheckboxModule } from '@openng/optimus-ui/checkbox';
+import { MessageModule } from '@openng/optimus-ui/message';
+import { ToastModule } from '@openng/optimus-ui/toast';
+import { ButtonModule } from '@openng/optimus-ui/button';
+import { MessageService } from '@openng/optimus-ui/api';
 
 @Component({
     template: `

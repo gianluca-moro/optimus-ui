@@ -13,7 +13,7 @@ When disabled is present, the element cannot be edited and focused.
 ```typescript
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { RadioButtonModule } from 'primeng/radiobutton';
+import { RadioButtonModule } from '@openng/optimus-ui/radiobutton';
 
 @Component({
     template: `
@@ -37,7 +37,7 @@ RadioButtons can be generated using a list of values.
 ```typescript
 import { Component, OnInit } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { RadioButtonModule } from 'primeng/radiobutton';
+import { RadioButtonModule } from '@openng/optimus-ui/radiobutton';
 
 @Component({
     template: `
@@ -70,7 +70,7 @@ Specify the variant property as filled to display the component with a higher vi
 ```typescript
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { RadioButtonModule } from 'primeng/radiobutton';
+import { RadioButtonModule } from '@openng/optimus-ui/radiobutton';
 
 @Component({
     template: `
@@ -93,7 +93,7 @@ RadioButton is used as a controlled input with value and ngModel properties.
 ```typescript
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { RadioButtonModule } from 'primeng/radiobutton';
+import { RadioButtonModule } from '@openng/optimus-ui/radiobutton';
 
 @Component({
     template: `
@@ -133,7 +133,7 @@ The invalid state is applied using the ⁠invalid property to indicate failed va
 ```typescript
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { RadioButtonModule } from 'primeng/radiobutton';
+import { RadioButtonModule } from '@openng/optimus-ui/radiobutton';
 
 @Component({
     template: `
@@ -156,11 +156,11 @@ RadioButton can also be used with reactive forms. In this case, the formControlN
 ```typescript
 import { Component, inject } from '@angular/core';
 import { ReactiveFormsModule } from '@angular/forms';
-import { MessageModule } from 'primeng/message';
-import { RadioButtonModule } from 'primeng/radiobutton';
-import { ToastModule } from 'primeng/toast';
-import { ButtonModule } from 'primeng/button';
-import { MessageService } from 'primeng/api';
+import { MessageModule } from '@openng/optimus-ui/message';
+import { RadioButtonModule } from '@openng/optimus-ui/radiobutton';
+import { ToastModule } from '@openng/optimus-ui/toast';
+import { ButtonModule } from '@openng/optimus-ui/button';
+import { MessageService } from '@openng/optimus-ui/api';
 
 @Component({
     template: `
@@ -232,7 +232,7 @@ RadioButton provides small and large sizes as alternatives to the base.
 ```typescript
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { RadioButtonModule } from 'primeng/radiobutton';
+import { RadioButtonModule } from '@openng/optimus-ui/radiobutton';
 
 @Component({
     template: `
@@ -266,11 +266,11 @@ export class RadiobuttonSizesDemo {
 ```typescript
 import { Component, inject } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { MessageModule } from 'primeng/message';
-import { RadioButtonModule } from 'primeng/radiobutton';
-import { ToastModule } from 'primeng/toast';
-import { ButtonModule } from 'primeng/button';
-import { MessageService } from 'primeng/api';
+import { MessageModule } from '@openng/optimus-ui/message';
+import { RadioButtonModule } from '@openng/optimus-ui/radiobutton';
+import { ToastModule } from '@openng/optimus-ui/toast';
+import { ButtonModule } from '@openng/optimus-ui/button';
+import { MessageService } from '@openng/optimus-ui/api';
 
 @Component({
     template: `

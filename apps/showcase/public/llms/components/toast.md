@@ -12,9 +12,9 @@ Toasts are displayed by calling the add and addAll method provided by the messag
 
 ```typescript
 import { Component, inject } from '@angular/core';
-import { ButtonModule } from 'primeng/button';
-import { ToastModule } from 'primeng/toast';
-import { MessageService } from 'primeng/api';
+import { ButtonModule } from '@openng/optimus-ui/button';
+import { ToastModule } from '@openng/optimus-ui/toast';
+import { MessageService } from '@openng/optimus-ui/api';
 
 @Component({
     template: `
@@ -38,9 +38,9 @@ Clicking the close icon on the toast, removes it manually. Same can also be achi
 
 ```typescript
 import { Component, inject } from '@angular/core';
-import { ButtonModule } from 'primeng/button';
-import { ToastModule } from 'primeng/toast';
-import { MessageService } from 'primeng/api';
+import { ButtonModule } from '@openng/optimus-ui/button';
+import { ToastModule } from '@openng/optimus-ui/toast';
+import { MessageService } from '@openng/optimus-ui/api';
 
 @Component({
     template: `
@@ -69,10 +69,10 @@ Headless mode allows you to customize the entire user interface instead of the d
 
 ```typescript
 import { Component, inject, signal } from '@angular/core';
-import { ButtonModule } from 'primeng/button';
-import { ProgressBarModule } from 'primeng/progressbar';
-import { ToastModule } from 'primeng/toast';
-import { MessageService } from 'primeng/api';
+import { ButtonModule } from '@openng/optimus-ui/button';
+import { ProgressBarModule } from '@openng/optimus-ui/progressbar';
+import { ToastModule } from '@openng/optimus-ui/toast';
+import { MessageService } from '@openng/optimus-ui/api';
 
 @Component({
     template: `
@@ -149,9 +149,9 @@ A toast disappears after 3000ms by default, set the life option on either the me
 
 ```typescript
 import { Component, inject } from '@angular/core';
-import { ButtonModule } from 'primeng/button';
-import { ToastModule } from 'primeng/toast';
-import { MessageService } from 'primeng/api';
+import { ButtonModule } from '@openng/optimus-ui/button';
+import { ToastModule } from '@openng/optimus-ui/toast';
+import { MessageService } from '@openng/optimus-ui/api';
 
 @Component({
     template: `
@@ -180,10 +180,10 @@ Multiple toasts are displayed by passing an array to the showAll method of the m
 
 ```typescript
 import { Component, inject } from '@angular/core';
-import { ButtonModule } from 'primeng/button';
-import { ToastModule } from 'primeng/toast';
-import { RippleModule } from 'primeng/ripple';
-import { MessageService } from 'primeng/api';
+import { ButtonModule } from '@openng/optimus-ui/button';
+import { ToastModule } from '@openng/optimus-ui/toast';
+import { RippleModule } from '@openng/optimus-ui/ripple';
+import { MessageService } from '@openng/optimus-ui/api';
 
 @Component({
     template: `
@@ -207,10 +207,10 @@ Location of the toast is customized with the position property. Valid values are
 
 ```typescript
 import { Component, inject } from '@angular/core';
-import { ButtonModule } from 'primeng/button';
-import { ToastModule } from 'primeng/toast';
-import { RippleModule } from 'primeng/ripple';
-import { MessageService } from 'primeng/api';
+import { ButtonModule } from '@openng/optimus-ui/button';
+import { ToastModule } from '@openng/optimus-ui/toast';
+import { RippleModule } from '@openng/optimus-ui/ripple';
+import { MessageService } from '@openng/optimus-ui/api';
 
 @Component({
     template: `
@@ -260,9 +260,9 @@ Toast styling can be adjusted per screen size with the breakpoints option. The v
 
 ```typescript
 import { Component, inject } from '@angular/core';
-import { ButtonModule } from 'primeng/button';
-import { ToastModule } from 'primeng/toast';
-import { MessageService } from 'primeng/api';
+import { ButtonModule } from '@openng/optimus-ui/button';
+import { ToastModule } from '@openng/optimus-ui/toast';
+import { MessageService } from '@openng/optimus-ui/api';
 
 @Component({
     template: `
@@ -286,10 +286,10 @@ The severity option specifies the type of the message. There are four types of m
 
 ```typescript
 import { Component, inject } from '@angular/core';
-import { ButtonModule } from 'primeng/button';
-import { ToastModule } from 'primeng/toast';
-import { RippleModule } from 'primeng/ripple';
-import { MessageService } from 'primeng/api';
+import { ButtonModule } from '@openng/optimus-ui/button';
+import { ToastModule } from '@openng/optimus-ui/toast';
+import { RippleModule } from '@openng/optimus-ui/ripple';
+import { MessageService } from '@openng/optimus-ui/api';
 
 @Component({
     template: `
@@ -338,10 +338,10 @@ A toast disappears after the time defined by the life option, set sticky option 
 
 ```typescript
 import { Component, inject } from '@angular/core';
-import { ButtonModule } from 'primeng/button';
-import { ToastModule } from 'primeng/toast';
-import { RippleModule } from 'primeng/ripple';
-import { MessageService } from 'primeng/api';
+import { ButtonModule } from '@openng/optimus-ui/button';
+import { ToastModule } from '@openng/optimus-ui/toast';
+import { RippleModule } from '@openng/optimus-ui/ripple';
+import { MessageService } from '@openng/optimus-ui/api';
 
 @Component({
     template: `
@@ -372,9 +372,9 @@ A page may have multiple toast components, in case you'd like to target a specif
 
 ```typescript
 import { Component, inject } from '@angular/core';
-import { ButtonModule } from 'primeng/button';
-import { ToastModule } from 'primeng/toast';
-import { MessageService } from 'primeng/api';
+import { ButtonModule } from '@openng/optimus-ui/button';
+import { ToastModule } from '@openng/optimus-ui/toast';
+import { MessageService } from '@openng/optimus-ui/api';
 
 @Component({
     template: `
@@ -405,10 +405,10 @@ Templating allows customizing the content where the message instance is availabl
 
 ```typescript
 import { Component, inject } from '@angular/core';
-import { AvatarModule } from 'primeng/avatar';
-import { ButtonModule } from 'primeng/button';
-import { ToastModule } from 'primeng/toast';
-import { MessageService } from 'primeng/api';
+import { AvatarModule } from '@openng/optimus-ui/avatar';
+import { ButtonModule } from '@openng/optimus-ui/button';
+import { ToastModule } from '@openng/optimus-ui/toast';
+import { MessageService } from '@openng/optimus-ui/api';
 
 @Component({
     template: `

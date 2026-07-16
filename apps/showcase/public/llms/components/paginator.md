@@ -12,7 +12,7 @@ Paginator is used as a controlled component with first , rows and onPageChange p
 
 ```typescript
 import { Component } from '@angular/core';
-import { Paginator, PaginatorModule } from 'primeng/paginator';
+import { Paginator, PaginatorModule } from '@openng/optimus-ui/paginator';
 
 @Component({
     template: `
@@ -40,7 +40,7 @@ Current page report item in the template displays information about the paginati
 
 ```typescript
 import { Component } from '@angular/core';
-import { PaginatorModule } from 'primeng/paginator';
+import { PaginatorModule } from '@openng/optimus-ui/paginator';
 
 @Component({
     template: `
@@ -77,7 +77,7 @@ Sample image gallery implementation using paginator.
 
 ```typescript
 import { Component } from '@angular/core';
-import { PaginatorModule } from 'primeng/paginator';
+import { PaginatorModule } from '@openng/optimus-ui/paginator';
 
 @Component({
     template: `
@@ -107,11 +107,11 @@ Templating allows overriding the default content of the UI elements by defining 
 ```typescript
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { ButtonModule } from 'primeng/button';
-import { DividerModule } from 'primeng/divider';
-import { SelectModule } from 'primeng/select';
-import { PaginatorModule } from 'primeng/paginator';
-import { SliderModule } from 'primeng/slider';
+import { ButtonModule } from '@openng/optimus-ui/button';
+import { DividerModule } from '@openng/optimus-ui/divider';
+import { SelectModule } from '@openng/optimus-ui/select';
+import { PaginatorModule } from '@openng/optimus-ui/paginator';
+import { SliderModule } from '@openng/optimus-ui/slider';
 
 @Component({
     template: `
