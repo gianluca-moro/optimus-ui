@@ -106,7 +106,7 @@ function generateStackBlitzProject(demo, selector) {
             '@angular/platform-browser-dynamic': '^21.0.0',
             '@angular/router': '^21.0.0',
             '@openng/optimus-ui-themes': '^2.0.2',
-            primeicons: '^7.0.0',
+            '@openng/icons': '^1.0.0',
             '@openng/optimus-ui': '21.0.0',
             rxjs: '~7.8.0',
             tailwindcss: '^3.4.10',

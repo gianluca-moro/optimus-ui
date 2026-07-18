@@ -67,9 +67,9 @@ catalogs:
       specifier: 5.9.3
       version: 5.9.3
   default:
-    primeicons:
-      specifier: ^7.0.0
-      version: 7.0.0
+    '@openng/icons':
+      specifier: ^1.0.0
+      version: 1.0.0
     tailwindcss-primeui:
       specifier: ^0.6.1
       version: 0.6.1
@@ -232,6 +232,9 @@ importers:
       '@docsearch/js':
         specifier: ^3.3.4
         version: 3.9.0(@algolia/client-search@4.27.0)(@types/react@18.3.28)(search-insights@2.17.3)
+      '@openng/icons':
+        specifier: 'catalog:'
+        version: 1.0.0
       '@openng/optimus-ui':
         specifier: workspace:*
         version: link:../../packages/optimus-ui
@@ -283,9 +286,6 @@ importers:
       jspdf-autotable:
         specifier: ^3.5.28
         version: 3.8.4(jspdf@4.2.1)
-      primeicons:
-        specifier: 'catalog:'
-        version: 7.0.0
       prismjs:
         specifier: ^1.29.0
         version: 1.30.0
@@ -2579,6 +2579,9 @@ packages:
   '@npmcli/run-script@10.0.4':
     resolution: {integrity: sha512-mGUWr1uMnf0le2TwfOZY4SFxZGXGfm4Jtay/nwAa2FLNAKXUoUwaGwBMNH36UHPtinWfTSJ3nqFQr0091CxVGg==}
     engines: {node: ^20.17.0 || >=22.9.0}
+
+  '@openng/icons@1.0.0':
+    resolution: {integrity: sha512-BdTSHu74S3WRfbmfoT2WfmvaM3Ei32K3WiZBJTw7nVTlCvQbpCNsBqzrD5rAe4nb5IoTPjeuRb5WTG2gzrTQtw==}
 
   '@oxc-project/types@0.113.0':
     resolution: {integrity: sha512-Tp3XmgxwNQ9pEN9vxgJBAqdRamHibi76iowQ38O2I4PMpcvNRQNVsU2n1x1nv9yh0XoTrGFzf7cZSGxmixxrhA==}
@@ -6160,9 +6163,6 @@ packages:
     resolution: {integrity: sha512-Pdlw/oPxN+aXdmM9R00JVC9WVFoCLTKJvDVLgmJ+qAffBMxsV85l/Lu7sNx4zSzPyoL2euImuEwHhOXdEgNFZQ==}
     engines: {node: ^14.15.0 || ^16.10.0 || >=18.0.0}
 
-  primeicons@7.0.0:
-    resolution: {integrity: sha512-jK3Et9UzwzTsd6tzl2RmwrVY/b8raJ3QZLzoDACj+oTJ0oX7L9Hy+XnVwgo4QVKlKpnP/Ur13SXV/pVh4LzaDw==}
-
   prismjs@1.30.0:
     resolution: {integrity: sha512-DEvV2ZF2r2/63V+tK8hQvrR2ZGn10srHbXviTlcv7Kpzw8jWiNTqbVgjO3IY8RxrrOUF8VPMQQFysYYYv0YZxw==}
     engines: {node: '>=6'}
@@ -9734,6 +9734,8 @@ snapshots:
       '@npmcli/promise-spawn': 9.0.1
       node-gyp: 12.3.0
       proc-log: 6.1.0
+
+  '@openng/icons@1.0.0': {}
 
   '@oxc-project/types@0.113.0': {}
 
@@ -13750,8 +13752,6 @@ snapshots:
       '@jest/schemas': 29.6.3
       ansi-styles: 5.2.0
       react-is: 18.3.1
-
-  primeicons@7.0.0: {}
 
   prismjs@1.30.0: {}
 

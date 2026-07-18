@@ -42,10 +42,10 @@ export class PrimeIconsConstantsDemo {
 
 ## Download-
 
-PrimeIcons is available at npm, run the following command to download it to your project.
+The icon library is available at npm, run the following command to download it to your project.
 
 ```bash
-npm install primeicons
+npm install @openng/icons
 ```
 
 ## Figma-
@@ -58,7 +58,7 @@ CSS file of the icon library needs to be imported in styles.scss of your applica
 
 ## List-
 
-Here is the full list of PrimeIcons. More icons will be added periodically and you may also request new icons at the issue tracker.
+Here is the full list of icons. More icons will be added periodically and you may also request new icons at the issue tracker.
 
 ## Size-
 

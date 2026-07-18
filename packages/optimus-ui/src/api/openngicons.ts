@@ -1,4 +1,4 @@
-export class PrimeIcons {
+export class OpenngIcons {
     public static readonly ADDRESS_BOOK = 'pi pi-address-book';
     public static readonly ALIGN_CENTER = 'pi pi-align-center';
     public static readonly ALIGN_JUSTIFY = 'pi pi-align-justify';
@@ -311,3 +311,9 @@ export class PrimeIcons {
     public static readonly WRENCH = 'pi pi-wrench';
     public static readonly YOUTUBE = 'pi pi-youtube';
 }
+
+/**
+ * @deprecated Use `OpenngIcons` instead. This alias is kept for backward compatibility
+ * with PrimeIcons and will be removed in a future major version.
+ */
+export const PrimeIcons = OpenngIcons;

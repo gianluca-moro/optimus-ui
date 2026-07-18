@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "generatedAt": "2026-07-16",
+  "generatedAt": "2026-07-18",
   "components": [
     {
       "name": "accordion",
@@ -44306,9 +44306,9 @@
         {
           "id": "download-",
           "label": "Download-",
-          "description": "PrimeIcons is available at npm, run the following command to download it to your project.",
+          "description": "The icon library is available at npm, run the following command to download it to your project.",
           "examples": {
-            "command": "npm install primeicons"
+            "command": "npm install @openng/icons"
           }
         },
         {
@@ -44322,13 +44322,13 @@
           "label": "Import-",
           "description": "CSS file of the icon library needs to be imported in styles.scss of your application.",
           "examples": {
-            "scss": "@import \"primeicons/primeicons.css\";"
+            "scss": "@import \"@openng/icons/openng-icons.css\";"
           }
         },
         {
           "id": "list-",
           "label": "List-",
-          "description": "Here is the full list of PrimeIcons. More icons will be added periodically and you may also request new icons at the issue tracker.",
+          "description": "Here is the full list of icons. More icons will be added periodically and you may also request new icons at the issue tracker.",
           "examples": null
         },
         {

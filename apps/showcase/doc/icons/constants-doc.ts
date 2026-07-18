@@ -1,6 +1,6 @@
 import { Code } from '@/domain/code';
 import { Component, OnInit } from '@angular/core';
-import { MenuItem, PrimeIcons } from '@openng/optimus-ui/api';
+import { MenuItem, OpenngIcons } from '@openng/optimus-ui/api';
 import { AppDocSectionText } from '@/components/doc/app.docsectiontext';
 import { AppCode } from '@/components/doc/app.code';
 import { MenuModule } from '@openng/optimus-ui/menu';
@@ -26,11 +26,11 @@ export class ConstantsDoc implements OnInit {
         this.items = [
             {
                 label: 'New',
-                icon: PrimeIcons.PLUS
+                icon: OpenngIcons.PLUS
             },
             {
                 label: 'Delete',
-                icon: PrimeIcons.TRASH
+                icon: OpenngIcons.TRASH
             }
         ];
     }
@@ -38,24 +38,24 @@ export class ConstantsDoc implements OnInit {
     code: Code = {
         typescript: `
 import { Component } from '@angular/core';
-import { PrimeIcons, MenuItem } from '@openng/optimus-ui/api';
+import { OpenngIcons, MenuItem } from '@openng/optimus-ui/api';
 
 @Component({
-    selector: 'prime-icons-constants-demo',
-    templateUrl: './prime-icons-constants-demo.html'
+    selector: 'openng-icons-constants-demo',
+    templateUrl: './openng-icons-constants-demo.html'
 })
-export class PrimeIconsConstantsDemo {
+export class OpenngIconsConstantsDemo {
     items: MenuItem[];
 
     ngOnInit() {
         this.items = [
             {
                 label: 'New',
-                icon: PrimeIcons.PLUS,
+                icon: OpenngIcons.PLUS,
             },
             {
                 label: 'Delete',
-                icon: PrimeIcons.TRASH
+                icon: OpenngIcons.TRASH
             }
         ];
     }
