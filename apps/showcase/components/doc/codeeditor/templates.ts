@@ -23,7 +23,7 @@ const dependencies = {
     '@angular/router': '^21.0.0',
     '@openng/optimus-ui-themes': '^2.0.2',
     'chart.js': '4.4.2',
-    primeicons: '^7.0.0',
+    '@openng/icons': '^1.0.0',
     '@openng/optimus-ui': `${version}`,
     quill: '2.0.2',
     rxjs: '~7.8.0',
@@ -75,7 +75,7 @@ const staticStyles = {
     global: `@tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import "primeicons/primeicons.css";
+@import "@openng/icons/openng-icons.css";
 
 :root {
   --body-bg: var(--p-surface-50);
@@ -1000,7 +1000,7 @@ const getAngularApp = (props: Props = {}) => {
         <base href="/">
 
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link href="https://unpkg.com/primeicons/primeicons.css" rel="stylesheet" />
+        <link href="https://unpkg.com/@openng/icons/openng-icons.css" rel="stylesheet" />
         <link href="https://unpkg.com/quill@1.3.7/dist/quill.snow.css" rel="stylesheet" />
         <link rel="icon" type="image/x-icon" href="https://primefaces.org/cdn/primeng/images/favicon.png">
     </head>

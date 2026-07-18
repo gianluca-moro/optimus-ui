@@ -43,7 +43,7 @@
         "jasmine-core": "~4.6.0",
         "jspdf": "^4.0.0",
         "jspdf-autotable": "^3.5.28",
-        "primeicons": "catalog:",
+        "@openng/icons": "catalog:",
         "@openng/optimus-ui": "workspace:*",
         "prismjs": "^1.29.0",
         "quill": "2.0.2",

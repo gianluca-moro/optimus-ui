@@ -13,7 +13,7 @@ allowBuilds:
 
 catalog:
   'tailwindcss-primeui': ^0.6.1
-  'primeicons': ^7.0.0
+  '@openng/icons': ^1.0.0
 
 catalogs:
   angular21:
@@ -40,3 +40,4 @@ catalogs:
 
 minimumReleaseAgeExclude:
   - pnpm@11.13.1
+  - '@openng/icons@1.0.0'
