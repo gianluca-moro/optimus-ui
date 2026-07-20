@@ -15,9 +15,8 @@ import { Panel, PanelModule, PanelPassThrough } from '@openng/optimus-ui/panel';
                 the API, the component author needs to develop and publish it with a new release.
             </p>
             <p>
-                Vision of PrimeTek is <i>"Your Components, Not Ours"</i>. The pass through feature is a key element to implement this vision by exposing the component internals in order to apply arbitrary attributes and listeners to the DOM elements.
-                The primary advantage of this approach is that it frees you from being restricted by the main component API. We recommend considering the pass-through feature whenever you need to tailor a component that lacks a built-in feature for
-                your specific requirement.
+                The pass through feature is a key element to implement this vision by exposing the component internals in order to apply arbitrary attributes and listeners to the DOM elements. The primary advantage of this approach is that it frees
+                you from being restricted by the main component API. We recommend considering the pass-through feature whenever you need to tailor a component that lacks a built-in feature for your specific requirement.
             </p>
             <p>
                 Each component has a special <i>pt</i> property to define an object with keys corresponding to the available DOM elements. A value of a key can either be a string, an object or a function to define the arbitrary properties such as
@@ -31,7 +30,7 @@ import { Panel, PanelModule, PanelPassThrough } from '@openng/optimus-ui/panel';
             <p>
                 In this example, a Panel is customized with various options through <i>pt</i>. The styling is overriden with Tailwind CSS and header receives custom attributes along with a click event. The attributes passed to the header are not
                 available in the component API, thanks to PassThrough feature, this is no longer an issue as you are not limited to the component api. Note that, you may avoid the <i>!</i> based overrides in Tailwind classes if you setup CSS Layers
-                with PrimeNG. Visit the <a [routerLink]="'/tailwind'">Override</a> section at Tailwind integration for examples.
+                with Optimus UI. Visit the <a [routerLink]="'/tailwind'">Override</a> section at Tailwind integration for examples.
             </p>
         </app-docsectiontext>
         <div class="card">

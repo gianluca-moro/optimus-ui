@@ -1,18 +1,18 @@
+import { AppCode } from '@/components/doc/app.code';
+import { AppDocSectionText } from '@/components/doc/app.docsectiontext';
 import { NodeService } from '@/service/nodeservice';
 import { PhotoService } from '@/service/photoservice';
 import { Component, OnDestroy, OnInit } from '@angular/core';
 import { MenuItem, MessageService } from '@openng/optimus-ui/api';
-import { TerminalModule, TerminalService } from '@openng/optimus-ui/terminal';
-import { Subscription } from 'rxjs';
-import { Dock } from '@openng/optimus-ui/dock';
 import { DialogModule } from '@openng/optimus-ui/dialog';
+import { Dock } from '@openng/optimus-ui/dock';
 import { GalleriaModule } from '@openng/optimus-ui/galleria';
 import { MenubarModule } from '@openng/optimus-ui/menubar';
+import { TerminalModule, TerminalService } from '@openng/optimus-ui/terminal';
 import { ToastModule } from '@openng/optimus-ui/toast';
 import { TooltipModule } from '@openng/optimus-ui/tooltip';
 import { TreeModule } from '@openng/optimus-ui/tree';
-import { AppCode } from '@/components/doc/app.code';
-import { AppDocSectionText } from '@/components/doc/app.docsectiontext';
+import { Subscription } from 'rxjs';
 
 @Component({
     selector: 'advanced-doc',
@@ -52,7 +52,7 @@ import { AppDocSectionText } from '@/components/doc/app.docsectiontext';
                 </p-dialog>
 
                 <p-dialog [maximizable]="true" [(visible)]="displayTerminal" [breakpoints]="{ '960px': '50vw' }" [style]="{ width: '30vw' }" [draggable]="false" [resizable]="false" header="Terminal">
-                    <p-terminal welcomeMessage="Welcome to PrimeNG (cmd: 'date', 'greet {0}', 'random')" prompt="primeng $" />
+                    <p-terminal welcomeMessage="Welcome to Optimus UI (cmd: 'date', 'greet {0}', 'random')" prompt="optimus $" />
                 </p-dialog>
 
                 <p-galleria

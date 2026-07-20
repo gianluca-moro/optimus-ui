@@ -147,7 +147,7 @@ bootstrapApplication(${componentName}, appConfig).catch((err) =>
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>PrimeNG ${componentName}</title>
+    <title>Optimus UI ${componentName}</title>
     <base href="/">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" type="image/x-icon" href="favicon.ico">
@@ -201,7 +201,7 @@ function validateTypeScript(tsContent, filePath, selector) {
         // Should not have direct optimus-ui imports when using ImportsModule
         const directImports = tsContent.match(/import\s+\{[^}]*Module[^}]*\}\s+from\s+'@openng\/optimus-ui\/[^']+'/g);
         if (directImports) {
-            errors.push('Has direct PrimeNG module imports alongside ImportsModule');
+            errors.push('Has direct Optimus UI module imports alongside ImportsModule');
         }
     }
 
