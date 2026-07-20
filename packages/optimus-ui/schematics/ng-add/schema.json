@@ -11,6 +11,17 @@
                 "$source": "projectName"
             }
         },
+        "theme": {
+            "type": "string",
+            "description": "The theme preset to configure.",
+            "enum": ["Aura", "Lara", "Material", "Nora"],
+            "default": "Aura",
+            "x-prompt": {
+                "message": "Which theme preset would you like to use?",
+                "type": "list",
+                "items": ["Aura", "Lara", "Material", "Nora"]
+            }
+        },
         "skipInstall": {
             "type": "boolean",
             "default": false,

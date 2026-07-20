@@ -5,16 +5,24 @@ import { isObservable, lastValueFrom } from 'rxjs';
 import { addDefaultImport } from '../utils/app-config';
 import { VERSIONS } from '../utils/mappings';
 import { hasPrimeng, SKIP_DIRS } from '../utils/package-json';
-import { Schema } from './schema';
+import { Schema, Theme } from './schema';
 
 const THEMES_PACKAGE = '@openng/optimus-ui-themes';
-const AURA_MODULE = '@openng/optimus-ui-themes/aura';
+const DEFAULT_THEME: Theme = 'Aura';
 
-const MANUAL_INSTRUCTIONS = `Could not find a providers array to update automatically. Finish the setup manually:
+/** The preset import name and its subpath module for the chosen theme (e.g. `Aura` → `@openng/optimus-ui-themes/aura`). */
+function themeImport(theme: Theme): { preset: string; module: string } {
+    return { preset: theme, module: `${THEMES_PACKAGE}/${theme.toLowerCase()}` };
+}
+
+function manualInstructions(theme: Theme): string {
+    const { preset, module } = themeImport(theme);
+    return `Could not find a providers array to update automatically. Finish the setup manually:
   1. import { provideOptimus } from '@openng/optimus-ui/config';
-  2. import Aura from '@openng/optimus-ui-themes/aura';
-  3. add provideOptimus({ theme: { preset: Aura } }) to your root providers
+  2. import ${preset} from '${module}';
+  3. add provideOptimus({ theme: { preset: ${preset} } }) to your root providers
      (bootstrapApplication providers, or an NgModule's providers array).`;
+}
 
 export function ngAdd(options: Schema): Rule {
     return (tree: Tree, context: SchematicContext) => {
@@ -65,6 +73,10 @@ function addThemesDependency(tree: Tree): void {
  * rather than aborting the rest of ng-add.
  */
 async function wireProvideOptimus(tree: Tree, context: SchematicContext, options: Schema): Promise<void> {
+    const theme = options.theme ?? DEFAULT_THEME;
+    const { preset, module } = themeImport(theme);
+    const instructions = manualInstructions(theme);
+
     let projectName: string;
     let sourceRoot: string;
     try {
@@ -78,7 +90,7 @@ async function wireProvideOptimus(tree: Tree, context: SchematicContext, options
         } else {
             const application = [...workspace.projects].find(([, project]) => project.extensions['projectType'] === 'application');
             if (!application) {
-                context.logger.warn(MANUAL_INSTRUCTIONS);
+                context.logger.warn(instructions);
                 return;
             }
             projectName = application[0];
@@ -92,7 +104,7 @@ async function wireProvideOptimus(tree: Tree, context: SchematicContext, options
         if (err instanceof SchematicsException && options.project) {
             throw err;
         }
-        context.logger.warn(MANUAL_INSTRUCTIONS);
+        context.logger.warn(instructions);
         return;
     }
 
@@ -102,25 +114,25 @@ async function wireProvideOptimus(tree: Tree, context: SchematicContext, options
     }
 
     try {
-        const rule = addRootProvider(projectName, ({ code, external }) => code`${external('provideOptimus', '@openng/optimus-ui/config')}({ theme: { preset: Aura } })`);
+        const rule = addRootProvider(projectName, ({ code, external }) => code`${external('provideOptimus', '@openng/optimus-ui/config')}({ theme: { preset: ${preset} } })`);
         await applyRule(rule, tree, context);
 
         const wiredFile = findProvideOptimusFile(tree, sourceRoot);
         if (!wiredFile) {
-            context.logger.warn(MANUAL_INSTRUCTIONS);
+            context.logger.warn(instructions);
             return;
         }
 
         // `external()` only emits named imports, and `@openng/optimus-ui-themes/aura` only has a
         // default export — add it ourselves.
         const original = tree.read(wiredFile)!.toString();
-        const updated = addDefaultImport(original, 'Aura', AURA_MODULE);
+        const updated = addDefaultImport(original, preset, module);
         if (updated !== original) {
             tree.overwrite(wiredFile, updated);
         }
-        context.logger.info(`Added provideOptimus with the Aura preset to ${wiredFile}.`);
+        context.logger.info(`Added provideOptimus with the ${preset} preset to ${wiredFile}.`);
     } catch {
-        context.logger.warn(MANUAL_INSTRUCTIONS);
+        context.logger.warn(instructions);
     }
 }
 

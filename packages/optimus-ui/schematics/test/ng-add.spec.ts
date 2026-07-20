@@ -28,6 +28,21 @@ describe('ng-add', () => {
         expect(appConfig).toContain(`provideOptimus({ theme: { preset: Aura } })`);
     });
 
+    it.each([
+        ['Lara', 'lara'],
+        ['Material', 'material'],
+        ['Nora', 'nora']
+    ] as const)('fresh standalone project with --theme %s: wires the chosen preset', async (theme, module) => {
+        const runner = createRunner();
+        const appTree = await createRealAppTree(runner, { standalone: true });
+        const result = await runner.runSchematic('ng-add', { skipInstall: true, theme }, appTree);
+
+        const appConfig = result.readContent('/src/app/app.config.ts');
+        expect(appConfig).toContain(`import ${theme} from '@openng/optimus-ui-themes/${module}';`);
+        expect(appConfig).toContain(`provideOptimus({ theme: { preset: ${theme} } })`);
+        expect(appConfig).not.toContain('Aura');
+    });
+
     it('fresh NgModule project (real CLI tree, standalone: false): wires provideOptimus into the AppModule providers', async () => {
         const runner = createRunner();
         const appTree = await createRealAppTree(runner, { standalone: false });
