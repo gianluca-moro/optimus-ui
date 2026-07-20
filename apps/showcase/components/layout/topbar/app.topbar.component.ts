@@ -9,11 +9,12 @@ import { RouterModule } from '@angular/router';
 import docsearch from '@docsearch/js';
 import { DomHandler } from '@openng/optimus-ui/dom';
 import { StyleClass } from '@openng/optimus-ui/styleclass';
+import { SelectModule } from '@openng/optimus-ui/select';
 
 @Component({
     selector: 'app-topbar',
     standalone: true,
-    imports: [CommonModule, FormsModule, StyleClass, RouterModule, AppConfiguratorComponent, NgOptimizedImage],
+    imports: [CommonModule, FormsModule, StyleClass, RouterModule, AppConfiguratorComponent, SelectModule, NgOptimizedImage],
     template: `<div class="layout-topbar">
         <div class="layout-topbar-inner">
             <div class="layout-topbar-logo-container">
@@ -65,28 +66,18 @@ import { StyleClass } from '@openng/optimus-ui/styleclass';
                     <app-configurator />
                 </li>
                 <li>
-                    <button
-                        pStyleClass="@next"
-                        enterFromClass="hidden"
-                        enterActiveClass="px-overlay-enter-active"
-                        leaveToClass="hidden"
-                        leaveActiveClass="px-overlay-leave-active"
-                        [hideOnOutsideClick]="true"
-                        type="button"
-                        class="topbar-item version-item"
+                    <p-select
+                        [(ngModel)]="selectedVersion"
+                        [options]="versions"
+                        [group]="true"
+                        (onChange)="onVersionChange($event)"
+                        [pt]="{
+                            optionGroup: {
+                                class: 'version-group'
+                            }
+                        }"
                     >
-                        <span class="version-text">{{ versions ? versions[0].name : 'Latest' }}</span>
-                        <span class="version-icon pi pi-angle-down"></span>
-                    </button>
-                    <div class="versions-panel hidden">
-                        <ul>
-                            <li role="none" *ngFor="let v of versions">
-                                <a [href]="v.url">
-                                    <span>{{ v.version }}</span>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
+                    </p-select>
                 </li>
                 <li *ngIf="showMenuButton" class="menu-button">
                     <button type="button" class="topbar-item menu-button" (click)="toggleMenu()" aria-label="Menu">
@@ -107,6 +98,7 @@ export class AppTopBarComponent implements OnDestroy {
     @Input({ transform: booleanAttribute }) showMenuButton = true;
 
     versions: any[] = Versions;
+    selectedVersion = this.versions[0].items[0].value;
 
     scrollListener: VoidFunction | null;
 
@@ -174,5 +166,11 @@ export class AppTopBarComponent implements OnDestroy {
 
     ngOnDestroy() {
         this.unbindScrollListener();
+    }
+
+    onVersionChange(event: any) {
+        if (event?.value && event.value.startsWith('http')) {
+            window.location.href = event.value;
+        }
     }
 }
