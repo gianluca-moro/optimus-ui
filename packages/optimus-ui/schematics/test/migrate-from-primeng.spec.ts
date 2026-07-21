@@ -1,4 +1,5 @@
 import { describe, expect, it } from 'vitest';
+import { VERSIONS } from '../utils/mappings';
 import { createAppTree, createRunner, DEFAULT_PKG } from './helpers';
 
 const PRIMENG_PKG = {
@@ -40,7 +41,7 @@ describe('migrate-from-primeng', () => {
         const runner = createRunner();
         const tree = primengTree({}, { ...PRIMENG_PKG, dependencies: { ...PRIMENG_PKG.dependencies, primeng: '^19.0.0' } });
         const result = await runner.runSchematic('migrate-from-primeng', { skipInstall: true, force: true }, tree);
-        expect(JSON.parse(result.readContent('/package.json')).dependencies['@openng/optimus-ui']).toBe('^21.1.9');
+        expect(JSON.parse(result.readContent('/package.json')).dependencies['@openng/optimus-ui']).toBe(VERSIONS['@openng/optimus-ui']);
     });
 
     it('succeeds when primeng is only present in a workspace sub-package (not the root)', async () => {
@@ -51,7 +52,7 @@ describe('migrate-from-primeng', () => {
         const result = await runner.runSchematic('migrate-from-primeng', { skipInstall: true }, tree);
         const libPkg = JSON.parse(result.readContent('/libs/app/package.json'));
         expect(libPkg.dependencies.primeng).toBeUndefined();
-        expect(libPkg.dependencies['@openng/optimus-ui']).toBe('^21.1.9');
+        expect(libPkg.dependencies['@openng/optimus-ui']).toBe(VERSIONS['@openng/optimus-ui']);
     });
 
     it('swaps dependencies in every workspace package.json', async () => {
@@ -63,12 +64,12 @@ describe('migrate-from-primeng', () => {
 
         const rootPkg = JSON.parse(result.readContent('/package.json'));
         expect(rootPkg.dependencies.primeng).toBeUndefined();
-        expect(rootPkg.dependencies['@openng/optimus-ui']).toBe('^21.1.9');
-        expect(rootPkg.dependencies['@openng/optimus-ui-themes']).toBe('^2.0.3');
+        expect(rootPkg.dependencies['@openng/optimus-ui']).toBe(VERSIONS['@openng/optimus-ui']);
+        expect(rootPkg.dependencies['@openng/optimus-ui-themes']).toBe(VERSIONS['@openng/optimus-ui-themes']);
         expect(rootPkg.dependencies['tailwindcss-primeui']).toBe('^0.6.1');
 
         const libPkg = JSON.parse(result.readContent('/libs/ui/package.json'));
-        expect(libPkg.dependencies['@openng/optimus-ui-styled']).toBe('^0.7.4');
+        expect(libPkg.dependencies['@openng/optimus-ui-styled']).toBe(VERSIONS['@openng/optimus-ui-styled']);
     });
 
     it('rewrites TypeScript sources', async () => {
@@ -117,7 +118,7 @@ describe('migrate-from-primeng', () => {
 
         const pkg = JSON.parse(result.readContent('/package.json'));
         expect(pkg.dependencies.primeicons).toBeUndefined();
-        expect(pkg.dependencies['@openng/icons']).toBe('^1.0.0');
+        expect(pkg.dependencies['@openng/icons']).toBe(VERSIONS['@openng/icons']);
 
         expect(result.readContent('/angular.json')).toContain('node_modules/@openng/icons/openng-icons.css');
         expect(result.readContent('/src/styles.scss')).toBe(`@import "@openng/icons/openng-icons.css";\nbody { margin: 0; }\n`);

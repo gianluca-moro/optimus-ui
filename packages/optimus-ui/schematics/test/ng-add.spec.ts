@@ -1,6 +1,7 @@
 import { SchematicsException } from '@angular-devkit/schematics';
 import { UnitTestTree } from '@angular-devkit/schematics/testing';
 import { describe, expect, it } from 'vitest';
+import { VERSIONS } from '../utils/mappings';
 import { createAppTree, createRealAppTree, createRunner, DEFAULT_PKG } from './helpers';
 
 function findFileContaining(tree: UnitTestTree, substring: string): string {
@@ -18,7 +19,7 @@ describe('ng-add', () => {
         const result = await runner.runSchematic('ng-add', { skipInstall: true }, appTree);
 
         const pkg = JSON.parse(result.readContent('/package.json'));
-        expect(pkg.dependencies['@openng/optimus-ui-themes']).toBe('^2.0.3');
+        expect(pkg.dependencies['@openng/optimus-ui-themes']).toBe(VERSIONS['@openng/optimus-ui-themes']);
 
         const appConfigPath = findFileContaining(result, 'provideOptimus');
         expect(appConfigPath).toBe('/src/app/app.config.ts');
@@ -49,7 +50,7 @@ describe('ng-add', () => {
         const result = await runner.runSchematic('ng-add', { skipInstall: true }, appTree);
 
         const pkg = JSON.parse(result.readContent('/package.json'));
-        expect(pkg.dependencies['@openng/optimus-ui-themes']).toBe('^2.0.3');
+        expect(pkg.dependencies['@openng/optimus-ui-themes']).toBe(VERSIONS['@openng/optimus-ui-themes']);
 
         const modulePath = findFileContaining(result, 'provideOptimus');
         expect(modulePath).toBe('/src/app/app-module.ts');
@@ -89,7 +90,7 @@ describe('ng-add', () => {
 
         const result = await runner.runSchematic('ng-add', { skipInstall: true }, tree);
         expect(logs.join('\n')).toContain('provideOptimus');
-        expect(JSON.parse(result.readContent('/package.json')).dependencies['@openng/optimus-ui-themes']).toBe('^2.0.3');
+        expect(JSON.parse(result.readContent('/package.json')).dependencies['@openng/optimus-ui-themes']).toBe(VERSIONS['@openng/optimus-ui-themes']);
         expect(result.readContent('/src/app/app.config.ts')).not.toContain('provideOptimus');
     });
 
@@ -103,7 +104,7 @@ describe('ng-add', () => {
 
         const pkg = JSON.parse(result.readContent('/package.json'));
         expect(pkg.dependencies.primeng).toBeUndefined();
-        expect(pkg.dependencies['@openng/optimus-ui']).toBe('^21.1.9');
+        expect(pkg.dependencies['@openng/optimus-ui']).toBe(VERSIONS['@openng/optimus-ui']);
         expect(result.readContent('/src/app/app.config.ts')).toContain('provideOptimus()');
     });
 
@@ -125,7 +126,7 @@ describe('ng-add', () => {
         expect(logs.join('\n')).toContain('primeng detected');
         const libPkg = JSON.parse(result.readContent('/libs/app/package.json'));
         expect(libPkg.dependencies.primeng).toBeUndefined();
-        expect(libPkg.dependencies['@openng/optimus-ui']).toBe('^21.1.9');
+        expect(libPkg.dependencies['@openng/optimus-ui']).toBe(VERSIONS['@openng/optimus-ui']);
     });
 
     it('primeng pinned to "latest" in a workspace sub-package: still chains to the migration, which rejects on the unparseable version', async () => {
