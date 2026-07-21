@@ -1,6 +1,6 @@
 {
     "name": "@openng/optimus-ui",
-    "version": "1.0.0-rc.0",
+    "version": "1.0.0-rc.1",
     "author": "OpenNg",
     "description": "OptimusUI is an open source UI library for Angular featuring a rich set of 80+ components, a theme designer, various theme alternatives such as Material, Bootstrap and Tailwind",
     "homepage": "https://www.openng.org/",
