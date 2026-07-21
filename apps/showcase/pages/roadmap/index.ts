@@ -54,6 +54,10 @@ export class RoadmapDemo {
             {
                 title: 'Catchup step',
                 features: ['Triage and address existing 900+ open issues', 'Modernize the library to Angular modern APIs']
+            },
+            {
+                title: 'Enhancement step',
+                features: ['Feature requests', 'Libraries code modernization', 'Documentation code modernization']
             }
         ];
     }
