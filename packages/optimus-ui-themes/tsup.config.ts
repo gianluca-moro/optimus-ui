@@ -4,7 +4,7 @@ import { defineConfig, type Options } from 'tsup';
 const isProduction = process.env.NODE_ENV === 'production';
 const themes: string[] = [];
 
-const entry = globSync('src/**/index.ts').reduce((acc: Record<string, string>, file: string) => {
+const entry = globSync('src/**/index.ts', { posix: true }).reduce((acc: Record<string, string>, file: string) => {
     const name = file.replace(/^src\//, '').replace(/\.ts$/, '');
     const themeName: string | undefined = name.startsWith('presets/') ? name.split('/')?.[1] : undefined;
 
