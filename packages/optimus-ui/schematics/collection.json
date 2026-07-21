@@ -1,0 +1,15 @@
+{
+    "$schema": "../node_modules/@angular-devkit/schematics/collection-schema.json",
+    "schematics": {
+        "ng-add": {
+            "description": "Add Optimus UI to a project, or migrate an existing PrimeNG project.",
+            "factory": "./ng-add/index#ngAdd",
+            "schema": "./ng-add/schema.json"
+        },
+        "migrate-from-primeng": {
+            "description": "Migrate a PrimeNG v21 project to Optimus UI (including PrimeIcons to @openng/icons).",
+            "factory": "./migrate-from-primeng/index#migrateFromPrimeng",
+            "schema": "./migrate-from-primeng/schema.json"
+        }
+    }
+}

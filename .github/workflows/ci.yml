@@ -77,6 +77,11 @@ jobs:
               run: |
                   pnpm run test:unit
 
+            - name: Schematic Tests
+              id: schematicTest
+              run: |
+                  pnpm --filter @openng/optimus-ui test:schematics
+
             - name: Build
               id: build
               run: |

@@ -23,11 +23,33 @@ Optimus UI is a comprehensive library of open-source UI Components for Angular a
 
 Optimus UI provides an Angular CLI schematic for quick and easy installation. This will automatically install the package and configure your project.
 
-Please note that Optimus UI requires **Angular 21+**.
+Please note that Optimus UI requires **Angular 21+**. 
+
+Projects on PrimeNG v20 or older: upgrade to PrimeNG v21 first, then migrate.
+
+## Migrating from PrimeNG
+
+Optimus UI is API-compatible with PrimeNG v21. On a PrimeNG v21 workspace, run:
 
 ```bash
 ng add @openng/optimus-ui
 ```
+
+This replaces `primeng` and `@primeuix/*` dependencies with their `@openng` counterparts, rewrites
+TypeScript imports (`primeng/button` → `@openng/optimus-ui/button`, `@primeuix/themes/aura` →
+`@openng/optimus-ui-themes/aura`), and renames the config API (`providePrimeNG` → `provideOptimus`,
+`PrimeNG` → `Optimus`, `PrimeNGConfigType` → `OptimusConfigType`). Anything it cannot migrate is
+listed as a warning for manual review.
+
+On a project without PrimeNG, `ng add` installs the library and wires
+`provideOptimus({ theme: { preset: Aura } })` into your application config.
+
+The migration can also be run directly:
+
+```bash
+ng generate @openng/optimus-ui:migrate-from-primeng            # options: --skip-install, --force
+```
+
 
 ## 🚀 Quick Start
 

@@ -1,0 +1,31 @@
+{
+    "$schema": "http://json-schema.org/schema",
+    "$id": "OptimusUiNgAdd",
+    "title": "Optimus UI ng-add schematic",
+    "type": "object",
+    "properties": {
+        "project": {
+            "type": "string",
+            "description": "The name of the project to set up.",
+            "$default": {
+                "$source": "projectName"
+            }
+        },
+        "theme": {
+            "type": "string",
+            "description": "The theme preset to configure.",
+            "enum": ["Aura", "Lara", "Material", "Nora"],
+            "default": "Aura",
+            "x-prompt": {
+                "message": "Which theme preset would you like to use?",
+                "type": "list",
+                "items": ["Aura", "Lara", "Material", "Nora"]
+            }
+        },
+        "skipInstall": {
+            "type": "boolean",
+            "default": false,
+            "description": "Skip scheduling the package install task."
+        }
+    }
+}
