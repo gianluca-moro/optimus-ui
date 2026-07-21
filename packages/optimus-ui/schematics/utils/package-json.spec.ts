@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { mapModuleSpecifier } from './mappings';
+import { mapModuleSpecifier, VERSIONS } from './mappings';
 import { getPrimengMajor, swapDependencies } from './package-json';
 
 describe('mapModuleSpecifier', () => {
@@ -45,12 +45,12 @@ describe('swapDependencies', () => {
         expect(result.changed).toBe(true);
         expect(pkg.dependencies.primeng).toBeUndefined();
         expect(pkg.dependencies['@primeuix/themes']).toBeUndefined();
-        expect(pkg.dependencies['@openng/optimus-ui']).toBe('^21.1.9');
-        expect(pkg.dependencies['@openng/optimus-ui-themes']).toBe('^2.0.3');
+        expect(pkg.dependencies['@openng/optimus-ui']).toBe(VERSIONS['@openng/optimus-ui']);
+        expect(pkg.dependencies['@openng/optimus-ui-themes']).toBe(VERSIONS['@openng/optimus-ui-themes']);
         expect(pkg.dependencies['@openng/optimus-ui-styled']).toBeUndefined();
         expect(pkg.dependencies['tailwindcss-primeui']).toBe('^0.6.1');
         expect(pkg.dependencies['primeicons']).toBeUndefined();
-        expect(pkg.dependencies['@openng/icons']).toBe('^1.0.0');
+        expect(pkg.dependencies['@openng/icons']).toBe(VERSIONS['@openng/icons']);
         expect(result.removed.sort()).toEqual(['@primeuix/themes', 'primeicons', 'primeng']);
     });
 
@@ -61,7 +61,7 @@ describe('swapDependencies', () => {
         };
         const result = swapDependencies(pkg);
         expect(result.changed).toBe(true);
-        expect(pkg.devDependencies['@openng/optimus-ui-utils']).toBe('^0.7.2');
+        expect(pkg.devDependencies['@openng/optimus-ui-utils']).toBe(VERSIONS['@openng/optimus-ui-utils']);
 
         const clean: Record<string, any> = { dependencies: { '@angular/core': '^21.0.0' } };
         expect(swapDependencies(clean).changed).toBe(false);
