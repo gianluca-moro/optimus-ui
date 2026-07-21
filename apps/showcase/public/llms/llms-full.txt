@@ -1,6 +1,6 @@
 # Optimus UI Documentation
 
-Generated: 2026-07-20
+Generated: 2026-07-21
 
 ---
 
@@ -346,7 +346,7 @@ Returns shades and tints of a given color from 50 to 950 as an array.
 
 ## Presets-
 
-Aura, Material, Lara and Nora are the available built-in options, created to demonstrate the power of the design-agnostic theming. Aura is an unique design system, Material follows Google Material Design v2, Lara is based on Bootstrap and Nora is inspired by enterprise applications. Visit the source code to learn more about the structure of presets. You may use them out of the box with modifications or utilize them as reference in case you need to build your own presets from scratch.
+Aura, Material, Lara and Nora are the available built-in options, created to demonstrate the power of the design-agnostic theming. Aura is PrimeTek's own vision, Material follows Google Material Design v2, Lara is based on Bootstrap and Nora is inspired by enterprise applications. Visit the source code to learn more about the structure of presets. You may use them out of the box with modifications or utilize them as reference in case you need to build your own presets from scratch.
 
 ## Primary-
 
@@ -613,7 +613,7 @@ Tailwind CSS is a popular CSS framework based on a utility-first design. The cor
 
 ## Plugin-
 
-The tailwindcss-primeui is a plugin to provide first class integration between Optimus UI and Tailwind CSS. It is designed to work both in styled and unstyled modes. In styled mode, for instance the semantic colors such as primary and surfaces are provided as Tailwind utilities e.g. bg-primary , text-surface-500 , text-muted-color . If you haven't already done so, start by integrating Tailwind into your project. Detailed steps for this process can be found in the Tailwind documentation . After successfully installing Tailwind, proceed with the installation of the PrimeUI plugin. This single npm package comes with two libraries: the CSS version is compatible with Tailwind v4, while the JS version is designed for Tailwind v3. Tailwind v4 In the CSS file that contains the tailwindcss import, add the tailwindcss-primeui import as well. For a comprehensive starter guide, review the primeng-quickstart-tailwind repository which demonstrates the integration. Tailwind v3 Use the plugins option in your Tailwind config file to configure the plugin.
+The tailwindcss-primeui is a plugin to provide first class integration between Optimus UI and Tailwind CSS. It is designed to work both in styled and unstyled modes. In styled mode, for instance the semantic colors such as primary and surfaces are provided as Tailwind utilities e.g. bg-primary , text-surface-500 , text-muted-color . If you haven't already done so, start by integrating Tailwind into your project. Detailed steps for this process can be found in the Tailwind documentation . After successfully installing Tailwind, proceed with the installation of the PrimeUI plugin. This single npm package comes with two libraries: the CSS version is compatible with Tailwind v4, while the JS version is designed for Tailwind v3. Tailwind v4 In the CSS file that contains the tailwindcss import, add the tailwindcss-primeui import as well. For a comprehensive starter guide, review the Optimus UI repository which demonstrates the integration. Tailwind v3 Use the plugins option in your Tailwind config file to configure the plugin.
 
 ---
 
@@ -13040,7 +13040,7 @@ import { MenuItem, MessageService } from '@openng/optimus-ui/api';
                     <p-tree [value]="nodes" />
                 </p-dialog>
                 <p-dialog [maximizable]="true" [(visible)]="displayTerminal" [breakpoints]="{ '960px': '50vw' }" [style]="{ width: '30vw' }" [draggable]="false" [resizable]="false" header="Terminal">
-                    <p-terminal welcomeMessage="Welcome to PrimeNG (cmd: 'date', 'greet {0}', 'random')" prompt="primeng $" />
+                    <p-terminal welcomeMessage="Welcome to Optimus UI (cmd: 'date', 'greet {0}', 'random')" prompt="optimus $" />
                 </p-dialog>
                 <p-galleria
                     [(value)]="images"
@@ -14525,7 +14525,7 @@ import { EditorModule } from '@openng/optimus-ui/editor';
     imports: [EditorModule, FormsModule]
 })
 export class EditorCustomtoolbarDemo {
-    text: string = '<div>Hello World!</div><div>PrimeNG <b>Editor</b> Rocks</div><div><br></div>';
+    text: string = '<div>Hello World!</div><div>Optimus UI <b>Editor</b> Rocks</div><div><br></div>';
 }
 ```
 
@@ -39657,7 +39657,7 @@ import { TerminalModule } from '@openng/optimus-ui/terminal';
     template: `
         <div class="card">
             <p>Enter "<strong>date</strong>" to display the current date, "<strong>greet &#123;0&#125;</strong>" for a message and "<strong>random</strong>" to get a random number.</p>
-            <p-terminal welcomeMessage="Welcome to PrimeNG" prompt="primeng $" />
+            <p-terminal welcomeMessage="Welcome to Optimus UI" prompt="optimus $" />
         </div>
     `,
     standalone: true,
@@ -42723,7 +42723,7 @@ import { TooltipModule } from '@openng/optimus-ui/tooltip';
                         <path d="M18.8321 8.27235L22.2245 7.94938L19.9629 5.68861H17.7013L18.8321 8.27235Z" fill="var(--ground-background)" />
                         <path d="M11.4013 8.27235L8.00893 7.94938L10.2705 5.68861H12.5321L11.4013 8.27235Z" fill="var(--ground-background)" />
                     </svg>
-                    <span> <b>PrimeNG</b> rocks! </span>
+                    <span> <b>Optimus UI</b> rocks! </span>
                 </div>
             </ng-template>
         </div>

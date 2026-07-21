@@ -53,7 +53,7 @@ import { MenuItem, MessageService } from '@openng/optimus-ui/api';
                     <p-tree [value]="nodes" />
                 </p-dialog>
                 <p-dialog [maximizable]="true" [(visible)]="displayTerminal" [breakpoints]="{ '960px': '50vw' }" [style]="{ width: '30vw' }" [draggable]="false" [resizable]="false" header="Terminal">
-                    <p-terminal welcomeMessage="Welcome to PrimeNG (cmd: 'date', 'greet {0}', 'random')" prompt="primeng $" />
+                    <p-terminal welcomeMessage="Welcome to Optimus UI (cmd: 'date', 'greet {0}', 'random')" prompt="optimus $" />
                 </p-dialog>
                 <p-galleria
                     [(value)]="images"

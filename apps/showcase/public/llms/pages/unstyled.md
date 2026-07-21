@@ -36,3 +36,4 @@ export const appConfig: ApplicationConfig = {
 ## Setup-
 
 Unstyled mode is enabled for the whole suite by enabling unstyled option during Optimus UI installation. Alternatively even in the default styled mode, a particular component can still be used as unstyled by adding the unstyled prop of the component.
+

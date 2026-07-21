@@ -18,7 +18,7 @@ import { TerminalModule } from '@openng/optimus-ui/terminal';
     template: `
         <div class="card">
             <p>Enter "<strong>date</strong>" to display the current date, "<strong>greet &#123;0&#125;</strong>" for a message and "<strong>random</strong>" to get a random number.</p>
-            <p-terminal welcomeMessage="Welcome to PrimeNG" prompt="primeng $" />
+            <p-terminal welcomeMessage="Welcome to Optimus UI" prompt="optimus $" />
         </div>
     `,
     standalone: true,

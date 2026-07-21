@@ -56,7 +56,7 @@ import { EditorModule } from '@openng/optimus-ui/editor';
     imports: [EditorModule, FormsModule]
 })
 export class EditorCustomtoolbarDemo {
-    text: string = '<div>Hello World!</div><div>PrimeNG <b>Editor</b> Rocks</div><div><br></div>';
+    text: string = '<div>Hello World!</div><div>Optimus UI <b>Editor</b> Rocks</div><div><br></div>';
 }
 ```
 

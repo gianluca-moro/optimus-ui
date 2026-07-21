@@ -1,6 +1,6 @@
 {
     "name": "showcase",
-    "version": "21.1.9",
+    "version": "1.0.0-rc.0",
     "license": "MIT",
     "type": "module",
     "scripts": {
