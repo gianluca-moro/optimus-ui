@@ -1,6 +1,6 @@
 # Optimus UI Documentation
 
-Generated: 2026-07-21
+Generated: 2026-07-23
 
 ---
 
@@ -420,7 +420,7 @@ The term unstyled is used to define an alternative styling approach instead of t
 
 ## Example-
 
-Unstyled components require styling using your preferred approach. We recommend using Tailwind CSS with PassThrough attributes, a combination that works seamlessly together. The tailwindcss-primeui even provides special variants such as p-outlined: , p-vertical for the Optimus UI components. The example below demonstrates how to style a button component with Tailwind CSS using PassThrough attributes. Before you begin, refer to the pass through section in the button documentation to familiarize yourself with the component's internal structure and PassThrough attributes. In this example, we'll target the root , label and icon elements to apply custom styles.
+Unstyled components require styling using your preferred approach. We recommend using Tailwind CSS with PassThrough attributes, a combination that works seamlessly together. The @openng/optimus-ui-tailwindcss even provides special variants such as p-outlined: , p-vertical for the Optimus UI components. The example below demonstrates how to style a button component with Tailwind CSS using PassThrough attributes. Before you begin, refer to the pass through section in the button documentation to familiarize yourself with the component's internal structure and PassThrough attributes. In this example, we'll target the root , label and icon elements to apply custom styles.
 
 ## Global-
 
@@ -609,7 +609,7 @@ Tailwind CSS is a popular CSS framework based on a utility-first design. The cor
 
 ## Plugin-
 
-The tailwindcss-primeui is a plugin to provide first class integration between Optimus UI and Tailwind CSS. It is designed to work both in styled and unstyled modes. In styled mode, for instance the semantic colors such as primary and surfaces are provided as Tailwind utilities e.g. bg-primary , text-surface-500 , text-muted-color . If you haven't already done so, start by integrating Tailwind into your project. Detailed steps for this process can be found in the Tailwind documentation . After successfully installing Tailwind, proceed with the installation of the PrimeUI plugin. This single npm package comes with two libraries: the CSS version is compatible with Tailwind v4, while the JS version is designed for Tailwind v3. Tailwind v4 In the CSS file that contains the tailwindcss import, add the tailwindcss-primeui import as well. For a comprehensive starter guide, review the Optimus UI repository which demonstrates the integration. Tailwind v3 Use the plugins option in your Tailwind config file to configure the plugin.
+The @openng/optimus-ui-tailwindcss is a plugin to provide first class integration between Optimus UI and Tailwind CSS. It is designed to work both in styled and unstyled modes. In styled mode, for instance the semantic colors such as primary and surfaces are provided as Tailwind utilities e.g. bg-primary , text-surface-500 , text-muted-color . If you haven't already done so, start by integrating Tailwind into your project. Detailed steps for this process can be found in the Tailwind documentation . After successfully installing Tailwind, proceed with the installation of the OptimusUiTailwind plugin. This single npm package comes with two libraries: the CSS version is compatible with Tailwind v4, while the JS version is designed for Tailwind v3. Tailwind v4 In the CSS file that contains the tailwindcss import, add the @openng/optimus-ui-tailwindcss import as well. For a comprehensive starter guide, review the Optimus UI repository which demonstrates the integration. Tailwind v3 Use the plugins option in your Tailwind config file to configure the plugin.
 
 ---
 
@@ -1188,7 +1188,7 @@ Screen Reader AnimateOnScroll does not require any roles and attributes. Keyboar
 
 ## Basic
 
-Animation classes are defined with the enterClass and leaveClass properties. This example utilizes tailwindcss-primeui plugin animations however any valid CSS animation is supported.
+Animation classes are defined with the enterClass and leaveClass properties. This example utilizes @openng/optimus-ui-tailwindcss plugin animations however any valid CSS animation is supported.
 
 **Example:**
 

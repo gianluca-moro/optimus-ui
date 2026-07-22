@@ -64,6 +64,8 @@ export function rewriteSource(fileName: string, text: string): { text: string; c
             }
         } else if (ts.isCallExpression(node) && node.expression.kind === ts.SyntaxKind.ImportKeyword && node.arguments.length > 0 && ts.isStringLiteralLike(node.arguments[0])) {
             editSpecifier(node.arguments[0] as ts.StringLiteralLike);
+        } else if (ts.isCallExpression(node) && ts.isIdentifier(node.expression) && node.expression.text === 'require' && node.arguments.length > 0 && ts.isStringLiteralLike(node.arguments[0])) {
+            editSpecifier(node.arguments[0] as ts.StringLiteralLike);
         }
         ts.forEachChild(node, visitImports);
     };

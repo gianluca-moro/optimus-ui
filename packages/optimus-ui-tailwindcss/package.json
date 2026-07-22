@@ -1,0 +1,65 @@
+{
+    "name": "@openng/optimus-ui-tailwindcss",
+    "version": "1.0.0-rc.1",
+    "author": "OpenNg",
+    "description": "Tailwind CSS utilities for Optimus UI Libraries",
+    "homepage": "https://www.openng.org/",
+    "license": "MIT",
+    "type": "module",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/openng-org/optimus-ui.git",
+        "directory": "packages/optimus-ui-tailwindcss"
+    },
+    "bugs": {
+        "url": "https://github.com/openng-org/optimus-ui/issues"
+    },
+    "keywords": [
+        "tailwindcss",
+        "tailwind",
+        "plugin",
+        "optimus-ui",
+        "angular"
+    ],
+    "main": "./src/v3/index.ts",
+    "module": "./src/v3/index.ts",
+    "types": "./src/v3/index.ts",
+    "exports": {
+        ".": {
+            "types": "./src/v3/index.ts",
+            "style": "./src/v4/index.css",
+            "import": "./src/v3/index.ts",
+            "require": "./src/v3/index.ts"
+        }
+    },
+    "publishConfig": {
+        "main": "./v3/index.js",
+        "module": "./v3/index.js",
+        "unpkg": "./v3/index.global.js",
+        "types": "./v3/index.d.ts",
+        "exports": {
+            ".": {
+                "types": "./v3/index.d.ts",
+                "style": "./v4/index.css",
+                "import": "./v3/index.js",
+                "require": "./v3/index.cjs"
+            }
+        },
+        "directory": "dist",
+        "linkDirectory": false,
+        "access": "public"
+    },
+    "scripts": {
+        "build": "cross-env NODE_ENV=production INPUT_DIR=src/ OUTPUT_DIR=dist/ pnpm run build:package",
+        "build:package": "pnpm run build:prebuild && tsup && pnpm run build:postbuild",
+        "build:prebuild": "node ./scripts/prebuild.mjs",
+        "build:postbuild": "node ./scripts/postbuild.mjs",
+        "dev:link": "pnpm link --global && npm link"
+    },
+    "peerDependencies": {
+        "tailwindcss": ">=3.1.0"
+    },
+    "devDependencies": {
+        "tailwindcss": "^3.4.10"
+    }
+}

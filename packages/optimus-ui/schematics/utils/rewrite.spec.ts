@@ -19,9 +19,9 @@ describe('rewriteSource — module specifiers', () => {
     });
 
     it('preserves quote style and leaves unrelated modules untouched', () => {
-        const { text } = rw(`import { X } from "primeng/table";\nimport 'tailwindcss-primeui';\n`);
+        const { text } = rw(`import { X } from "primeng/table";\nimport 'chart.js';\n`);
         expect(text).toContain(`from "@openng/optimus-ui/table"`);
-        expect(text).toContain(`import 'tailwindcss-primeui';`);
+        expect(text).toContain(`import 'chart.js';`);
     });
 
     it('rewrites the primeicons stylesheet import to the renamed file', () => {

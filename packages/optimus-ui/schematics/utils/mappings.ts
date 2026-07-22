@@ -7,7 +7,8 @@ export const MODULE_MAP: ReadonlyMap<string, string> = new Map([
     ['@primeuix/styled', '@openng/optimus-ui-styled'],
     ['@primeuix/styles', '@openng/optimus-ui-styles'],
     ['@primeuix/utils', '@openng/optimus-ui-utils'],
-    ['@primeuix/motion', '@openng/optimus-ui-motion']
+    ['@primeuix/motion', '@openng/optimus-ui-motion'],
+    ['tailwindcss-primeui', '@openng/optimus-ui-tailwindcss']
 ]);
 
 // Files that were renamed inside a package, so the prefix mapping alone would produce a

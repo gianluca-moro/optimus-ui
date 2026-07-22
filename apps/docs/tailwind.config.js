@@ -1,9 +1,9 @@
-import PrimeUI from 'tailwindcss-primeui';
+import OptimusUiTailwind from '@openng/optimus-ui-tailwindcss';
 
 export default {
     darkMode: ['selector', '[class="p-dark"]'],
     content: ['./components/**/*.{html,ts,scss,css}', './doc/**/*.{html,ts,scss,css}', './pages/**/*.{html,ts,scss,css}', './index.html'],
-    plugins: [PrimeUI],
+    plugins: [OptimusUiTailwind],
     theme: {
         screens: {
             sm: '576px',

@@ -60,7 +60,7 @@ export class OverrideDoc {
 
     code4 = {
         typescript: `@import "tailwindcss";
-@import "tailwindcss-primeui";`
+@import "@openng/optimus-ui-tailwindcss";`
     };
 
     code5 = {

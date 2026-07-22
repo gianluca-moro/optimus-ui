@@ -11,7 +11,7 @@ import { AppDocSectionText } from '@/components/doc/app.docsectiontext';
     imports: [CommonModule, AnimateOnScrollModule, AvatarModule, AppCode, AppDocSectionText],
     template: `
         <app-docsectiontext>
-            <p>Animation classes are defined with the <i>enterClass</i> and <i>leaveClass</i> properties. This example utilizes tailwindcss-primeui plugin animations however any valid CSS animation is supported.</p>
+            <p>Animation classes are defined with the <i>enterClass</i> and <i>leaveClass</i> properties. This example utilizes @openng/optimus-ui-tailwindcss plugin animations however any valid CSS animation is supported.</p>
         </app-docsectiontext>
         <div class="card flex flex-col items-center overflow-hidden">
             <div class="flex flex-col items-center gap-2">
