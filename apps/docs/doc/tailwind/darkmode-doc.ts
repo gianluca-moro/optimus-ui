@@ -37,17 +37,17 @@ export class DarkModeDoc {
 
     code2 = {
         typescript: `@import "tailwindcss";
-@import "tailwindcss-primeui";
+@import "@openng/optimus-ui-tailwindcss";
 @custom-variant dark (&:where(.my-app-dark, .my-app-dark *));     //dark mode configuration`
     };
 
     code3 = {
         typescript: `// tailwind.config.js
-import PrimeUI from 'tailwindcss-primeui';
+import OptimusUiTailwind from '@openng/optimus-ui-tailwindcss';
 
 export default {
     darkMode: ['selector', '[class~="my-app-dark"]'],           //dark mode configuration
-    plugins: [PrimeUI]
+    plugins: [OptimusUiTailwind]
 };`
     };
 }

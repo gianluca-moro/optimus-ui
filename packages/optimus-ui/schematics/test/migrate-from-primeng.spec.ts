@@ -66,7 +66,8 @@ describe('migrate-from-primeng', () => {
         expect(rootPkg.dependencies.primeng).toBeUndefined();
         expect(rootPkg.dependencies['@openng/optimus-ui']).toBe(VERSIONS['@openng/optimus-ui']);
         expect(rootPkg.dependencies['@openng/optimus-ui-themes']).toBe(VERSIONS['@openng/optimus-ui-themes']);
-        expect(rootPkg.dependencies['tailwindcss-primeui']).toBe('^0.6.1');
+        expect(rootPkg.dependencies['tailwindcss-primeui']).toBeUndefined();
+        expect(rootPkg.dependencies['@openng/optimus-ui-tailwindcss']).toBe(VERSIONS['@openng/optimus-ui-tailwindcss']);
 
         const libPkg = JSON.parse(result.readContent('/libs/ui/package.json'));
         expect(libPkg.dependencies['@openng/optimus-ui-styled']).toBe(VERSIONS['@openng/optimus-ui-styled']);
@@ -186,5 +187,23 @@ describe('migrate-from-primeng', () => {
         const combined = warnings.join('\n');
         expect(combined).not.toContain('package-lock.json');
         expect(combined).toContain('/src/styles.scss:1');
+    });
+
+    it('rewrites the import in an ESM tailwind config', async () => {
+        const runner = createRunner();
+        const tree = primengTree({
+            '/tailwind.config.js': "import PrimeUI from 'tailwindcss-primeui';\n\nexport default {\n    plugins: [PrimeUI]\n};\n"
+        });
+        const result = await runner.runSchematic('migrate-from-primeng', { skipInstall: true }, tree);
+        expect(result.readContent('/tailwind.config.js')).toContain("from '@openng/optimus-ui-tailwindcss'");
+    });
+
+    it('rewrites require() in a CommonJS tailwind config', async () => {
+        const runner = createRunner();
+        const tree = primengTree({
+            '/tailwind.config.cjs': "const PrimeUI = require('tailwindcss-primeui');\n\nmodule.exports = {\n    plugins: [PrimeUI]\n};\n"
+        });
+        const result = await runner.runSchematic('migrate-from-primeng', { skipInstall: true }, tree);
+        expect(result.readContent('/tailwind.config.cjs')).toContain("require('@openng/optimus-ui-tailwindcss')");
     });
 });

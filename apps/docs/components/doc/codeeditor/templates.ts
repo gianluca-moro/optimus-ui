@@ -28,7 +28,7 @@ const dependencies = {
     quill: '2.0.2',
     rxjs: '~7.8.0',
     tailwindcss: '^3.4.10',
-    'tailwindcss-primeui': '^0.6.1',
+    '@openng/optimus-ui-tailwindcss': '^1.0.0-rc.1',
     tslib: '^2.3.0',
     'zone.js': '~0.15.0'
 };
@@ -363,12 +363,12 @@ const tsconfig_spec_json = `{
 
 const tailwind_config = `
 /** @type {import('tailwindcss').Config} */
-import PrimeUI from 'tailwindcss-primeui';
+import OptimusUiTailwind from '@openng/optimus-ui-tailwindcss';
 
 export default {
     darkMode: ['selector', '[class="p-dark"]'],
     content: ['./src/**/*.{html,ts}'],
-    plugins: [PrimeUI],
+    plugins: [OptimusUiTailwind],
     theme: {
         screens: {
             sm: '576px',

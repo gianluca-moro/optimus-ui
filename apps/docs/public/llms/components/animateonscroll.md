@@ -8,7 +8,7 @@ Screen Reader AnimateOnScroll does not require any roles and attributes. Keyboar
 
 ## Basic
 
-Animation classes are defined with the enterClass and leaveClass properties. This example utilizes tailwindcss-primeui plugin animations however any valid CSS animation is supported.
+Animation classes are defined with the enterClass and leaveClass properties. This example utilizes @openng/optimus-ui-tailwindcss plugin animations however any valid CSS animation is supported.
 
 ```typescript
 import { Component } from '@angular/core';

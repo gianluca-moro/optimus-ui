@@ -53,9 +53,9 @@
         "typedoc": "0.28.5"
     },
     "dependencies": {
+        "@openng/optimus-ui-tailwindcss": "workspace:*",
         "autoprefixer": "^10.4.20",
         "postcss": "^8.4.41",
-        "tailwindcss": "^3.4.10",
-        "tailwindcss-primeui": "catalog:"
+        "tailwindcss": "^3.4.10"
     }
 }

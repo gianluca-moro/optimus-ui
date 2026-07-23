@@ -1,6 +1,7 @@
 packages:
   - 'packages/*'
   - 'apps/*'
+  - 'apps/tailwind-playgrounds/*'
 
 shamefullyHoist: true
 
@@ -12,7 +13,6 @@ allowBuilds:
   msgpackr-extract: true
 
 catalog:
-  'tailwindcss-primeui': ^0.6.1
   '@openng/icons': ^1.0.0
 
 catalogs:

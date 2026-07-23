@@ -24,8 +24,12 @@ describe('mapModuleSpecifier', () => {
         expect(mapModuleSpecifier('primeicons/raw-svg/check.svg')).toBe('@openng/icons/raw-svg/check.svg');
     });
 
+    it('maps tailwindcss-primeui including subpaths', () => {
+        expect(mapModuleSpecifier('tailwindcss-primeui')).toBe('@openng/optimus-ui-tailwindcss');
+        expect(mapModuleSpecifier('tailwindcss-primeui/v4/index.css')).toBe('@openng/optimus-ui-tailwindcss/v4/index.css');
+    });
+
     it('leaves unrelated specifiers alone', () => {
-        expect(mapModuleSpecifier('tailwindcss-primeui')).toBeNull();
         expect(mapModuleSpecifier('primeng-extensions')).toBeNull();
         expect(mapModuleSpecifier('@angular/core')).toBeNull();
     });
@@ -48,10 +52,11 @@ describe('swapDependencies', () => {
         expect(pkg.dependencies['@openng/optimus-ui']).toBe(VERSIONS['@openng/optimus-ui']);
         expect(pkg.dependencies['@openng/optimus-ui-themes']).toBe(VERSIONS['@openng/optimus-ui-themes']);
         expect(pkg.dependencies['@openng/optimus-ui-styled']).toBeUndefined();
-        expect(pkg.dependencies['tailwindcss-primeui']).toBe('^0.6.1');
+        expect(pkg.dependencies['tailwindcss-primeui']).toBeUndefined();
+        expect(pkg.dependencies['@openng/optimus-ui-tailwindcss']).toBe(VERSIONS['@openng/optimus-ui-tailwindcss']);
         expect(pkg.dependencies['primeicons']).toBeUndefined();
         expect(pkg.dependencies['@openng/icons']).toBe(VERSIONS['@openng/icons']);
-        expect(result.removed.sort()).toEqual(['@primeuix/themes', 'primeicons', 'primeng']);
+        expect(result.removed.sort()).toEqual(['@primeuix/themes', 'primeicons', 'primeng', 'tailwindcss-primeui']);
     });
 
     it('handles devDependencies and reports no change when nothing matches', () => {
